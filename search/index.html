@@ -278,6 +278,12 @@
             }
         }
 
+        // Verified correct images
+        const verifiedImages = new Set([
+            'monstera-deliciosa', 'boston-fern', 'pothos-golden', 'aloe-vera',
+            'jade-plant', 'bunny-ears-cactus', 'areca-palm', 'haworthia-zebra', 'peace-lily'
+        ]);
+
         // Render plant card
         function renderPlantCard(plant) {
             const difficultyColors = {
@@ -296,10 +302,15 @@
                 ? '<span class="tag bg-emerald-100 text-emerald-700">🐾 Pet Safe</span>'
                 : '<span class="tag bg-rose-100 text-rose-700">⚠️ Toxic</span>';
 
+            const hasImage = verifiedImages.has(plant.id);
+            const imageHtml = hasImage
+                ? `<img src="/images/plants/${plant.id}.png" alt="${plant.name}" class="w-full h-full object-cover" loading="lazy">`
+                : `<span class="text-7xl">🪴</span>`;
+
             return `
                 <a href="/plants/${plant.id}/" class="plant-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
                     <div class="aspect-square bg-gradient-to-br from-emerald-50 to-teal-50 relative overflow-hidden flex items-center justify-center">
-                        <span class="text-7xl">🪴</span>
+                        ${imageHtml}
                         <span class="absolute top-2 right-2 tag ${difficultyColors[plant.difficulty] || 'bg-slate-100 text-slate-600'}">
                             ${plant.difficulty}
                         </span>
