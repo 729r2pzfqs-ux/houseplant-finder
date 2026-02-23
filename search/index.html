@@ -293,7 +293,7 @@
                 hard: 'bg-rose-100 text-rose-700'
             };
 
-            const lightIcons = {
+            const lightIcons = { 1: "🌙", 2: "🌙", 3: "⛅", 4: "☀️", 5: "☀️",
                 low: '🌙',
                 medium: '⛅',
                 bright: '☀️'
@@ -303,9 +303,9 @@
                 ? '<span class="tag bg-emerald-100 text-emerald-700">🐾 Pet Safe</span>'
                 : '<span class="tag bg-rose-100 text-rose-700">⚠️ Toxic</span>';
 
-            const hasImage = verifiedImages.has(plant.id);
+            const hasImage = true;
             const imageHtml = hasImage
-                ? `<img src="/images/plants/${plant.id}.png" alt="${plant.name}" class="w-full h-full object-cover" loading="lazy">`
+                ? `<img src="/images/plants/${plant.id}.webp" alt="${plant.name}" class="w-full h-full object-cover" loading="lazy">`
                 : `<span class="text-7xl">🪴</span>`;
 
             return `
@@ -321,20 +321,20 @@
                         <p class="text-slate-600 text-sm mb-3">${plant.category} · ${plant.size}</p>
                         <div class="flex flex-wrap gap-1 mb-3">
                             ${petBadge}
-                            <span class="tag bg-slate-100 text-slate-600">${lightIcons[plant.light]} ${plant.light} light</span>
+                            <span class="tag bg-slate-100 text-slate-600">${lightIcons[plant.light]} ${plant.light <= 2 ? "Low" : plant.light <= 3 ? "Medium" : "Bright"} Light</span>
                         </div>
                         <div class="grid grid-cols-3 gap-2 text-center text-xs">
                             <div class="bg-slate-50 rounded-lg py-2">
                                 <div class="text-slate-600">Light</div>
-                                <div class="font-semibold text-slate-700">${'●'.repeat(plant.ratings.light_needs)}${'○'.repeat(5-plant.ratings.light_needs)}</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(plant.light)}${'○'.repeat(5-plant.light)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
                                 <div class="text-slate-600">Water</div>
-                                <div class="font-semibold text-slate-700">${'●'.repeat(plant.ratings.water_needs)}${'○'.repeat(5-plant.ratings.water_needs)}</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(plant.water)}${'○'.repeat(5-plant.water)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
                                 <div class="text-slate-600">Care</div>
-                                <div class="font-semibold text-slate-700">${'●'.repeat(plant.ratings.maintenance)}${'○'.repeat(5-plant.ratings.maintenance)}</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(plant.humidity)}${'○'.repeat(5-plant.humidity)}</div>
                             </div>
                         </div>
                     </div>
