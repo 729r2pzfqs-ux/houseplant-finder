@@ -99,7 +99,7 @@
         <div id="empty-state" class="text-center py-20">
             <div class="text-6xl mb-4">🪴</div>
             <h3 class="text-xl font-bold text-slate-700 mb-2">Select plants to compare</h3>
-            <p class="text-slate-300">Choose at least 2 plants from the dropdowns above</p>
+            <p class="text-slate-600">Choose at least 2 plants from the dropdowns above</p>
         </div>
 
         <!-- Popular Comparisons -->
@@ -108,27 +108,27 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <button onclick="setPlants('pothos', 'philodendron')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
                     <span class="font-semibold">Pothos vs Philodendron</span>
-                    <p class="text-sm text-slate-300">Similar looks, different care</p>
+                    <p class="text-sm text-slate-600">Similar looks, different care</p>
                 </button>
                 <button onclick="setPlants('snake-plant', 'zz-plant')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
                     <span class="font-semibold">Snake Plant vs ZZ Plant</span>
-                    <p class="text-sm text-slate-300">Low maintenance champions</p>
+                    <p class="text-sm text-slate-600">Low maintenance champions</p>
                 </button>
                 <button onclick="setPlants('monstera-deliciosa', 'fiddle-leaf-fig')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
                     <span class="font-semibold">Monstera vs Fiddle Leaf Fig</span>
-                    <p class="text-sm text-slate-300">Statement plant showdown</p>
+                    <p class="text-sm text-slate-600">Statement plant showdown</p>
                 </button>
                 <button onclick="setPlants('peace-lily', 'spider-plant')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
                     <span class="font-semibold">Peace Lily vs Spider Plant</span>
-                    <p class="text-sm text-slate-300">Air purifying favorites</p>
+                    <p class="text-sm text-slate-600">Air purifying favorites</p>
                 </button>
                 <button onclick="setPlants('rubber-plant', 'dracaena')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
                     <span class="font-semibold">Rubber Plant vs Dracaena</span>
-                    <p class="text-sm text-slate-300">Easy indoor trees</p>
+                    <p class="text-sm text-slate-600">Easy indoor trees</p>
                 </button>
                 <button onclick="setPlants('calathea', 'boston-fern')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
                     <span class="font-semibold">Calathea vs Boston Fern</span>
-                    <p class="text-sm text-slate-300">Pet safe beauties</p>
+                    <p class="text-sm text-slate-600">Pet safe beauties</p>
                 </button>
             </div>
         </div>
@@ -136,7 +136,7 @@
 
     <!-- Footer -->
     <footer class="border-t border-slate-100 mt-16 py-8">
-        <div class="max-w-6xl mx-auto px-4 text-center text-slate-300 text-sm">
+        <div class="max-w-6xl mx-auto px-4 text-center text-slate-600 text-sm">
             <p>© 2026 HousePlantFinder. Made with 🌿 for plant lovers everywhere.</p>
         </div>
     </footer>
@@ -202,7 +202,7 @@
             const header = document.getElementById('comparison-header');
             header.innerHTML = `
                 <tr class="border-b border-slate-100">
-                    <th class="p-4 text-left text-slate-300 font-medium w-1/4">Attribute</th>
+                    <th class="p-4 text-left text-slate-600 font-medium w-1/4">Attribute</th>
                     ${selectedPlants.map(plant => {
                         const hasImage = verifiedImages.has(plant.id);
                         const imgHtml = hasImage 
@@ -270,7 +270,7 @@
                 4: 'text-emerald-600',
                 5: 'text-emerald-700'
             };
-            return `<span class="${colors[value] || 'text-slate-300'}">${filled}</span><span class="text-slate-200">${empty}</span>`;
+            return `<span class="${colors[value] || 'text-slate-600'}">${filled}</span><span class="text-slate-200">${empty}</span>`;
         }
     </script>
 </body>
