@@ -1,0 +1,582 @@
+{
+  "monstera-deliciosa": {
+    "name": "Monstera Deliciosa",
+    "description": "Die Monstera Deliciosa ist berühmt für ihre atemberaubenden geschlitzten Blätter und einfache Pflege. Eine Statement-Pflanze, die ziemlich groß werden kann.",
+    "care_tips": "Helles indirektes Licht, gießen wenn der obere Zentimeter trocken ist, gelegentlich besprühen."
+  },
+  "pothos-golden": {
+    "name": "Goldene Efeutute",
+    "description": "Eine der einfachsten Zimmerpflanzen. Hängende Ranken mit herzförmigen Blättern. Gedeiht unter fast allen Bedingungen.",
+    "care_tips": "Wenig bis helles indirektes Licht, gießen wenn trocken, sehr pflegeleicht."
+  },
+  "snake-plant": {
+    "name": "Bogenhanf",
+    "description": "Nahezu unzerstörbare Pflanze mit markanten aufrechten Blättern. Perfekt für Anfänger und lichtarme Räume.",
+    "care_tips": "Jedes Licht, sparsam gießen, sehr trockenheitstolerant."
+  },
+  "peace-lily": {
+    "name": "Einblatt",
+    "description": "Elegante weiße Blüten und glänzende Blätter. Eine der besten luftreinigenden Pflanzen. Lässt dramatisch die Blätter hängen wenn durstig.",
+    "care_tips": "Wenig bis mittleres Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "fiddle-leaf-fig": {
+    "name": "Geigenfeige",
+    "description": "Die Instagram-berühmte Pflanze mit großen geigenförmigen Blättern. Schön aber anspruchsvoll.",
+    "care_tips": "Helles indirektes Licht, gleichmäßig gießen, mag keine Veränderungen."
+  },
+  "rubber-plant": {
+    "name": "Gummibaum",
+    "description": "Kräftige, glänzende Blätter in dunkelgrün oder burgunderrot. Pflegeleicht und eine tolle Statement-Pflanze.",
+    "care_tips": "Helles indirektes Licht, gießen wenn trocken, Blätter abwischen."
+  },
+  "zz-plant": {
+    "name": "Zamioculcas",
+    "description": "Praktisch unzerstörbar mit wachsartigen, dunkelgrünen Blättern. Gedeiht bei Vernachlässigung.",
+    "care_tips": "Jedes Licht auch wenig, monatlich gießen, sehr trockenheitstolerant."
+  },
+  "spider-plant": {
+    "name": "Grünlilie",
+    "description": "Klassische Zimmerpflanze mit gebogenen Blättern und Kindeln. Haustierfreundlich und ideal für Anfänger.",
+    "care_tips": "Helles indirektes Licht, gleichmäßige Feuchtigkeit, bildet Ableger."
+  },
+  "boston-fern": {
+    "name": "Schwertfarn",
+    "description": "Üppige, federartige Wedel die ein tropisches Flair verleihen. Braucht konstante Feuchtigkeit und Luftfeuchtigkeit.",
+    "care_tips": "Indirektes Licht, feucht halten, täglich besprühen, hohe Luftfeuchtigkeit."
+  },
+  "aloe-vera": {
+    "name": "Aloe Vera",
+    "description": "Nützliche Sukkulente mit heilendem Gel in den Blättern. Einfach auf einer sonnigen Fensterbank zu kultivieren.",
+    "care_tips": "Helles Licht, sparsam gießen, gut durchlässige Erde."
+  },
+  "philodendron-heartleaf": {
+    "name": "Herzblatt-Philodendron",
+    "description": "Hängende Ranken mit herzförmigen Blättern. Sehr anpassungsfähig und tolerant.",
+    "care_tips": "Wenig bis helles indirektes Licht, gießen wenn trocken."
+  },
+  "chinese-evergreen": {
+    "name": "Kolbenfaden",
+    "description": "Schön gemusterte Blätter in Silber, Grün, Rosa oder Rot. Verträgt wenig Licht sehr gut.",
+    "care_tips": "Wenig bis mittleres Licht, gießen wenn trocken, kalte Zugluft vermeiden."
+  },
+  "jade-plant": {
+    "name": "Geldbaum",
+    "description": "Dicke holzige Stämme und ovale Blätter. Kann bei richtiger Pflege Jahrzehnte leben.",
+    "care_tips": "Helles Licht, gießen wenn komplett trocken, durchlässige Erde."
+  },
+  "bird-of-paradise": {
+    "name": "Strelitzie",
+    "description": "Dramatische tropische Pflanze mit großen paddelförmigen Blättern. Kann atemberaubende Blüten produzieren.",
+    "care_tips": "Helles direktes Licht, regelmäßig gießen, monatlich düngen."
+  },
+  "parlor-palm": {
+    "name": "Bergpalme",
+    "description": "Elegante Palme perfekt für wenig Licht. Haustierfreundlich und luftreinigend.",
+    "care_tips": "Wenig bis mittleres Licht, gleichmäßig feucht halten, gelegentlich besprühen."
+  },
+  "calathea-medallion": {
+    "name": "Calathea Medallion",
+    "description": "Atemberaubend gemusterte Blätter die sich nachts zusammenfalten. Schön aber anspruchsvoll.",
+    "care_tips": "Indirektes Licht, konstante Feuchtigkeit, hohe Luftfeuchtigkeit, gefiltertes Wasser."
+  },
+  "string-of-pearls": {
+    "name": "Erbsenpflanze",
+    "description": "Einzigartige hängende Sukkulente mit perlenartigen Blättern. Atemberaubend in Ampeln.",
+    "care_tips": "Helles indirektes Licht, sparsam gießen, durchlässige Erde."
+  },
+  "english-ivy": {
+    "name": "Efeu",
+    "description": "Klassische Kletterpflanze. Ideal für Ampeln oder zum Klettern.",
+    "care_tips": "Helles indirektes Licht, feucht halten, regelmäßig besprühen."
+  },
+  "dracaena-marginata": {
+    "name": "Drachenbaum",
+    "description": "Spitze palmenartige Blätter auf hohen Stämmen. Pflegeleicht und architektonisch.",
+    "care_tips": "Mittleres indirektes Licht, gießen wenn trocken, toleriert Vernachlässigung."
+  },
+  "croton": {
+    "name": "Kroton",
+    "description": "Lebhafte mehrfarbige Blätter in Rot, Orange, Gelb und Grün.",
+    "care_tips": "Helles direktes Licht, feucht halten, hohe Luftfeuchtigkeit, hasst Standortwechsel."
+  },
+  "ponytail-palm": {
+    "name": "Elefantenfuß",
+    "description": "Bauchiger Stamm mit langen lockigen Blättern. Keine echte Palme, sondern eine Sukkulente.",
+    "care_tips": "Helles Licht, sparsam gießen, sehr trockenheitstolerant."
+  },
+  "peperomia-hope": {
+    "name": "Peperomia Hope",
+    "description": "Kleine runde Blätter an hängenden Stielen. Kompakt und pflegeleicht.",
+    "care_tips": "Mittleres bis helles indirektes Licht, zwischen dem Gießen trocknen lassen."
+  },
+  "prayer-plant": {
+    "name": "Gebetspflanze",
+    "description": "Wunderschön gemusterte Blätter die sich nachts wie betende Hände zusammenfalten.",
+    "care_tips": "Mittleres indirektes Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "orchid-phalaenopsis": {
+    "name": "Schmetterlingsorchidee",
+    "description": "Elegante langlebige Blüten in vielen Farben. Einfacher als man denkt.",
+    "care_tips": "Helles indirektes Licht, wöchentlich gießen, monatlich düngen."
+  },
+  "cast-iron-plant": {
+    "name": "Schusterpalme",
+    "description": "Extrem tolerant mit breiten dunklen Blättern. Gedeiht bei Vernachlässigung.",
+    "care_tips": "Sehr wenig bis mittleres Licht, gießen wenn trocken, sehr anpassungsfähig."
+  },
+  "hoya-carnosa": {
+    "name": "Wachsblume",
+    "description": "Wachsartige Ranke mit duftenden sternförmigen Blüten. Langsam aber lohnend.",
+    "care_tips": "Helles indirektes Licht, trocknen lassen, nicht bewegen wenn Knospen da sind."
+  },
+  "succulent-echeveria": {
+    "name": "Echeverie",
+    "description": "Klassische rosettenförmige Sukkulente in vielen Farben. Perfekt für sonnige Fensterbänke.",
+    "care_tips": "Helles Licht bis volle Sonne, sparsam gießen, durchlässige Erde."
+  },
+  "majesty-palm": {
+    "name": "Majestätspalme",
+    "description": "Elegante Palme mit gebogenen Wedeln. Bringt tropisches Flair in jeden Raum.",
+    "care_tips": "Helles indirektes Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "birds-nest-fern": {
+    "name": "Nestfarn",
+    "description": "Gewellte Wedel die aus einer zentralen Rosette wachsen. Einfacher als die meisten Farne.",
+    "care_tips": "Wenig bis mittleres Licht, feucht halten, hohe Luftfeuchtigkeit, Mitte nicht nass machen."
+  },
+  "anthurium": {
+    "name": "Anthurie",
+    "description": "Wachsartige herzförmige Blüten in Rot, Rosa oder Weiß. Blüht das ganze Jahr.",
+    "care_tips": "Helles indirektes Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "philodendron-brasil": {
+    "name": "Philodendron Brasil",
+    "description": "Panaschierte herzförmige Blätter mit gelben und grünen Streifen. Wüchsig und farbenfroh.",
+    "care_tips": "Mittleres bis helles indirektes Licht, gießen wenn trocken."
+  },
+  "philodendron-birkin": {
+    "name": "Philodendron Birkin",
+    "description": "Dunkelgrüne Blätter mit weißen Streifen. Kompakt und auffällig.",
+    "care_tips": "Helles indirektes Licht, gießen wenn die obere Schicht trocken ist."
+  },
+  "philodendron-pink-princess": {
+    "name": "Philodendron Pink Princess",
+    "description": "Selten und begehrt wegen der rosa Panaschierung. Eine sehr sammelwürdige Pflanze.",
+    "care_tips": "Helles indirektes Licht für beste Panaschierung, mäßige Feuchtigkeit."
+  },
+  "philodendron-selloum": {
+    "name": "Baumfreund",
+    "description": "Große tief gelappte Blätter. Macht ein kühnes tropisches Statement.",
+    "care_tips": "Helles indirektes Licht, gießen wenn trocken, mag Luftfeuchtigkeit."
+  },
+  "philodendron-prince-orange": {
+    "name": "Philodendron Prince of Orange",
+    "description": "Neue Blätter erscheinen leuchtend orange und reifen zu grün. Kompakt und farbenfroh.",
+    "care_tips": "Mittleres bis helles indirektes Licht, gießen wenn die obere Schicht trocken ist."
+  },
+  "dracaena-lemon-lime": {
+    "name": "Dracaena Lemon Lime",
+    "description": "Gestreifte Blätter in Neongelb und Grün. Bringt helle Farbe in lichtarme Räume.",
+    "care_tips": "Wenig bis mittleres Licht, gießen wenn trocken, Fluorid vermeiden."
+  },
+  "dracaena-corn-plant": {
+    "name": "Drachenbaum Massangeana",
+    "description": "Hohe Stämme mit breiten maisähnlichen Blättern. Pflegeleicht und architektonisch.",
+    "care_tips": "Wenig bis mittleres Licht, gießen wenn trocken, toleriert Vernachlässigung."
+  },
+  "dracaena-janet-craig": {
+    "name": "Dracaena Janet Craig",
+    "description": "Glänzende dunkelgrüne Blätter. Ausgezeichneter Luftreiniger für Büros.",
+    "care_tips": "Wenig bis mittleres Licht, gießen wenn trocken, sehr anpassungsfähig."
+  },
+  "dieffenbachia": {
+    "name": "Dieffenbachie",
+    "description": "Große auffällige Blätter mit creme-grünen Mustern. Pflegeleicht und eindrucksvoll.",
+    "care_tips": "Mittleres indirektes Licht, leicht feucht halten, giftig wenn verschluckt."
+  },
+  "schefflera-arboricola": {
+    "name": "Strahlenaralie",
+    "description": "Zusammengesetzte Blätter die wie kleine Regenschirme aussehen. Kompakt und pflegeleicht.",
+    "care_tips": "Mittleres bis helles Licht, gießen wenn trocken, durch Schnitt formen."
+  },
+  "schefflera-amate": {
+    "name": "Schefflera Amate",
+    "description": "Große glänzende Blätter an einem hohen Baum. Macht ein dramatisches Statement.",
+    "care_tips": "Helles indirektes Licht, gießen wenn die obere Schicht trocken ist."
+  },
+  "haworthia-zebra": {
+    "name": "Zebra-Haworthie",
+    "description": "Kleine Sukkulente mit weißen Streifen auf dunkelgrünen Blättern. Perfekt für Schreibtische.",
+    "care_tips": "Helles indirektes Licht, sparsam gießen, trockenheitstolerant."
+  },
+  "haworthia-cooperi": {
+    "name": "Haworthia Cooperi",
+    "description": "Durchscheinende Sukkulente mit Blattspitzen die wie kleine Fenster aussehen.",
+    "care_tips": "Helles indirektes Licht, gießen wenn trocken, gut drainiert."
+  },
+  "sedum-burrito": {
+    "name": "Eselschwanz",
+    "description": "Hängende Stiele bedeckt mit dicken tropfenförmigen Blättern. Zerbrechlich aber wunderschön.",
+    "care_tips": "Helles Licht, sparsam gießen, vorsichtig handhaben."
+  },
+  "sedum-rubrotinctum": {
+    "name": "Fettblatt",
+    "description": "Dicke bonbonartige Blätter die in der Sonne rot werden. Fröhlich und pflegeleicht.",
+    "care_tips": "Helles Licht bis volle Sonne, sparsam gießen, mehr Licht = mehr Farbe."
+  },
+  "crassula-string-of-buttons": {
+    "name": "Knopfschnur",
+    "description": "Gestapelte Blätter an langen Stielen sehen aus wie aufgereihte Knöpfe. Einzigartig architektonisch.",
+    "care_tips": "Helles Licht, sparsam gießen, durchlässige Erde."
+  },
+  "crassula-baby-necklace": {
+    "name": "Baby-Halskette",
+    "description": "Dreieckige gestapelte Blätter an aufrechten Stielen. Kompakt und auffällig.",
+    "care_tips": "Helles Licht, gießen wenn komplett trocken, sehr trockenheitstolerant."
+  },
+  "lithops": {
+    "name": "Lebende Steine",
+    "description": "Lebende Steinpflanzen die sich als Kiesel tarnen. Faszinierend und pflegeleicht.",
+    "care_tips": "Helles Licht, sehr wenig gießen, komplett trocknen lassen."
+  },
+  "string-of-hearts": {
+    "name": "Leuchterblume",
+    "description": "Zarte Ranke mit herzförmigen Blättern an dünnen Stielen. Romantisch und bezaubernd.",
+    "care_tips": "Helles indirektes Licht, zwischen dem Gießen trocknen lassen."
+  },
+  "tradescantia-zebrina": {
+    "name": "Zebrakraut",
+    "description": "Silberne und violette Blätter die im Licht glitzern. Schnellwachsend und leicht zu vermehren.",
+    "care_tips": "Mittleres bis helles Licht, feucht halten, für Dichte entspitzen."
+  },
+  "tradescantia-nanouk": {
+    "name": "Tradescantia Nanouk",
+    "description": "Rosa, grüne und cremefarbene Blätter. Eine der farbenfrohsten verfügbaren Pflanzen.",
+    "care_tips": "Helles indirektes Licht für beste Farbe, gießen wenn die obere Schicht trocken ist."
+  },
+  "pothos-marble-queen": {
+    "name": "Marble Queen Efeutute",
+    "description": "Weiß-grün panaschierte Blätter. Langsamer als goldene Efeutute aber auffälliger.",
+    "care_tips": "Helles indirektes Licht für beste Panaschierung, gießen wenn trocken."
+  },
+  "pothos-neon": {
+    "name": "Neon-Efeutute",
+    "description": "Leuchtend limonengrüne Blätter. Bringt lebendige Farbe in jeden Raum.",
+    "care_tips": "Wenig bis mittleres Licht, gießen wenn trocken, sehr anpassungsfähig."
+  },
+  "pothos-njoy": {
+    "name": "Efeutute N'Joy",
+    "description": "Kompakte weiß-grüne Blätter. Kleiner und buschiger als andere Efeututen.",
+    "care_tips": "Helles indirektes Licht, gießen wenn trocken, kompakter Wuchs."
+  },
+  "satin-pothos": {
+    "name": "Satin-Efeutute",
+    "description": "Samtige Blätter mit silbernen Flecken. Technisch ein Scindapsus, keine Efeutute.",
+    "care_tips": "Mittleres bis helles indirektes Licht, zwischen dem Gießen trocknen lassen."
+  },
+  "maidenhair-fern": {
+    "name": "Frauenhaarfarn",
+    "description": "Zarte federartige Wedel an feinen schwarzen Stielen. Wunderschön aber anspruchsvoll.",
+    "care_tips": "Indirektes Licht, nie austrocknen lassen, sehr hohe Luftfeuchtigkeit."
+  },
+  "staghorn-fern": {
+    "name": "Geweihfarn",
+    "description": "Einzigartige geweihähnliche Wedel. Oft auf Brettern montiert als lebende Kunst.",
+    "care_tips": "Helles indirektes Licht, wöchentlich tauchen, oft besprühen."
+  },
+  "asparagus-fern": {
+    "name": "Zierspargel",
+    "description": "Weiches federartiges Laub. Eigentlich kein Farn, sondern mit Spargel verwandt.",
+    "care_tips": "Helles indirektes Licht, feucht halten, regelmäßig besprühen."
+  },
+  "kangaroo-fern": {
+    "name": "Kängurufarn",
+    "description": "Glänzende gewellte Wedel die robuster sind als die meisten Farne.",
+    "care_tips": "Wenig bis mittleres Licht, feucht halten, toleriert weniger Luftfeuchtigkeit."
+  },
+  "blue-star-fern": {
+    "name": "Blausternfarn",
+    "description": "Blau-grüne sternförmige Wedel. Einfacher als viele Farne.",
+    "care_tips": "Wenig bis mittleres Licht, feucht halten, moderate Luftfeuchtigkeit."
+  },
+  "lemon-button-fern": {
+    "name": "Zitronenknopffarn",
+    "description": "Kleine runde Wedel die beim Reiben nach Zitrone duften. Kompakt.",
+    "care_tips": "Wenig bis mittleres Licht, feucht halten, gute Luftfeuchtigkeit."
+  },
+  "areca-palm": {
+    "name": "Goldfruchtpalme",
+    "description": "Federartige Wedel an mehreren Stämmen. Ausgezeichneter Luftreiniger.",
+    "care_tips": "Helles indirektes Licht, feucht halten, oft besprühen."
+  },
+  "kentia-palm": {
+    "name": "Kentiapalme",
+    "description": "Elegante gebogene Wedel. Verträgt wenig Licht besser als die meisten Palmen.",
+    "care_tips": "Wenig bis mittleres Licht, gießen wenn die obere Schicht trocken ist."
+  },
+  "lady-palm": {
+    "name": "Steckenpalme",
+    "description": "Fächerblätter an mehreren Stämmen. Langsam aber sehr widerstandsfähig.",
+    "care_tips": "Wenig bis mittleres Licht, gleichmäßig feucht halten."
+  },
+  "cat-palm": {
+    "name": "Katzenpalme",
+    "description": "Weiche federartige Wedel die haustierfreundlich sind. Kompakter als andere Palmen.",
+    "care_tips": "Helles indirektes Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "bamboo-palm": {
+    "name": "Bambuspalme",
+    "description": "Gebündelte Stämme mit zarten Wedeln. Ausgezeichneter Luftreiniger.",
+    "care_tips": "Wenig bis mittleres Licht, feucht halten, bevorzugt Luftfeuchtigkeit."
+  },
+  "african-violet": {
+    "name": "Usambaraveilchen",
+    "description": "Bezaubernde Blüten über samtigen Blättern. Kann das ganze Jahr blühen.",
+    "care_tips": "Helles indirektes Licht, von unten gießen, Blätter nicht nass machen."
+  },
+  "bromeliad-guzmania": {
+    "name": "Guzmania",
+    "description": "Farbenfrohe langlebige Hochblätter. Mutterpflanze stirbt nach der Blüte, bildet aber Kindel.",
+    "care_tips": "Helles indirektes Licht, Wasser im zentralen Trichter halten."
+  },
+  "kalanchoe": {
+    "name": "Flammendes Käthchen",
+    "description": "Blühende Sukkulente mit Büscheln leuchtender Blüten. Einfach erneut zum Blühen zu bringen.",
+    "care_tips": "Helles Licht, gießen wenn trocken, braucht lange Nächte zum Blühen."
+  },
+  "cyclamen": {
+    "name": "Alpenveilchen",
+    "description": "Elegante Blüten über gemusterten Blättern. Blüht im Winter.",
+    "care_tips": "Helles indirektes kühles Licht, feucht halten, Ruhephase im Sommer."
+  },
+  "lipstick-plant": {
+    "name": "Lippenstiftpflanze",
+    "description": "Rote röhrenförmige Blüten die wie Lippenstift aus dunklen Kelchen erscheinen.",
+    "care_tips": "Helles indirektes Licht, gleichmäßig feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "christmas-cactus": {
+    "name": "Weihnachtskaktus",
+    "description": "Gebogene Segmente mit bunten Blüten im Winter. Ein beliebtes Festtagsgeschenk.",
+    "care_tips": "Helles indirektes Licht, feucht halten, kühle dunkle Nächte zum Blühen."
+  },
+  "bunny-ears-cactus": {
+    "name": "Hasenohrenkaktus",
+    "description": "Flache Segmente mit Glochidenbüscheln die wie Hasenohren aussehen. Niedlich aber stachelig.",
+    "care_tips": "Helles Licht bis volle Sonne, sparsam gießen, vorsichtig handhaben."
+  },
+  "golden-barrel-cactus": {
+    "name": "Goldkugelkaktus",
+    "description": "Klassischer kugelförmiger Kaktus mit goldenen Dornen. Sehr langsam wachsend.",
+    "care_tips": "Volle Sonne, sparsam gießen, sehr durchlässige Erde."
+  },
+  "moon-cactus": {
+    "name": "Mondkaktus",
+    "description": "Buntes Pfropfreis auf grünem Stamm. Der obere Teil kann nicht alleine überleben.",
+    "care_tips": "Helles indirektes Licht, sparsam gießen, begrenzte Lebensdauer."
+  },
+  "prickly-pear-cactus": {
+    "name": "Feigenkaktus",
+    "description": "Flache Segmente mit essbaren Früchten. Kann ziemlich groß werden.",
+    "care_tips": "Volle Sonne, sehr wenig gießen, sehr widerstandsfähig."
+  },
+  "san-pedro-cactus": {
+    "name": "San-Pedro-Kaktus",
+    "description": "Hoher säulenförmiger schnellwachsender Kaktus. Beliebt in Trockengärten.",
+    "care_tips": "Volle Sonne, gießen wenn trocken im Sommer, trocken im Winter."
+  },
+  "old-man-cactus": {
+    "name": "Greisenhaupt",
+    "description": "Bedeckt mit langen weißen Haaren die wie ein Bart aussehen. Langsam wachsend.",
+    "care_tips": "Helles Licht, sparsam gießen, Haare trocken halten."
+  },
+  "string-of-dolphins": {
+    "name": "Delfinpflanze",
+    "description": "Blätter geformt wie springende Delfine. Einzigartige hängende Hybride.",
+    "care_tips": "Helles indirektes Licht, zwischen dem Gießen trocknen lassen."
+  },
+  "string-of-bananas": {
+    "name": "Bananenschnur",
+    "description": "Gebogene bananenförmige Blätter an hängenden Stielen. Schnellwachsend.",
+    "care_tips": "Helles indirektes Licht, gießen wenn trocken, leicht zu vermehren."
+  },
+  "peperomia-watermelon": {
+    "name": "Wassermelonen-Peperomie",
+    "description": "Gestreifte Blätter die wie Wassermelonenschale aussehen. Kompakt und auffällig.",
+    "care_tips": "Mittleres bis helles indirektes Licht, zwischen dem Gießen trocknen lassen."
+  },
+  "peperomia-obtusifolia": {
+    "name": "Zwergpfeffer",
+    "description": "Dicke glänzende runde Blätter. Sehr pflegeleicht.",
+    "care_tips": "Wenig bis helles Licht, zwischen dem Gießen trocknen lassen."
+  },
+  "peperomia-rosso": {
+    "name": "Peperomia Rosso",
+    "description": "Grüne Blätter mit dunkelroter Unterseite. Kompakt und farbenfroh.",
+    "care_tips": "Mittleres indirektes Licht, zwischen dem Gießen trocknen lassen."
+  },
+  "calathea-orbifolia": {
+    "name": "Calathea Orbifolia",
+    "description": "Große runde Blätter mit silbernen Streifen. Eine der eindrucksvollsten Calatheas.",
+    "care_tips": "Indirektes Licht, feucht halten, hohe Luftfeuchtigkeit, gefiltertes Wasser."
+  },
+  "calathea-rattlesnake": {
+    "name": "Korbmarante",
+    "description": "Lange gewellte Blätter mit Fleckenmuster. Auch Lancifolia genannt.",
+    "care_tips": "Indirektes Licht, konstante Feuchtigkeit, hohe Luftfeuchtigkeit."
+  },
+  "stromanthe-triostar": {
+    "name": "Stromanthe Triostar",
+    "description": "Rosa, creme und grüne Blätter. Calathea-Verwandte mit beeindruckenden Farben.",
+    "care_tips": "Helles indirektes Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "alocasia-polly": {
+    "name": "Alocasia Polly",
+    "description": "Dunkle glänzende Blätter mit auffälligen weißen Adern. Dramatisch und kompakt.",
+    "care_tips": "Helles indirektes Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "alocasia-zebrina": {
+    "name": "Alocasia Zebrina",
+    "description": "Pfeilförmige Blätter auf zebrastreifigen Stielen. Architektonischer Blickfang.",
+    "care_tips": "Helles indirektes Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "monstera-adansonii": {
+    "name": "Monstera Adansonii",
+    "description": "Löchrige Blätter an kletternder Ranke. Kompakter als die Deliciosa.",
+    "care_tips": "Helles indirektes Licht, gießen wenn die obere Schicht trocken ist, Kletterhilfe geben."
+  },
+  "ficus-audrey": {
+    "name": "Ficus Audrey",
+    "description": "Samtige Blätter mit hellen Adern. Einfacher als die Geigenfeige.",
+    "care_tips": "Helles indirektes Licht, gießen wenn trocken, mag stabile Bedingungen."
+  },
+  "ficus-tineke": {
+    "name": "Ficus Tineke",
+    "description": "Panaschierter Gummibaum mit creme, grünen und rosa Blättern.",
+    "care_tips": "Helles indirektes Licht für beste Panaschierung, gießen wenn trocken."
+  },
+  "nerve-plant": {
+    "name": "Fittonie",
+    "description": "Filigran geäderte Blätter in Rosa, Rot oder Weiß. Kompakt für Terrarien.",
+    "care_tips": "Wenig bis mittleres Licht, feucht halten, sehr hohe Luftfeuchtigkeit."
+  },
+  "aluminum-plant": {
+    "name": "Kanonierblume",
+    "description": "Blätter mit metallisch silbernen Markierungen. Pflegeleicht und schnellwachsend.",
+    "care_tips": "Mittleres indirektes Licht, leicht feucht halten."
+  },
+  "pilea-peperomioides": {
+    "name": "Ufopflanze",
+    "description": "Runde münzenförmige Blätter an dünnen Stielen. Sehr beliebt in sozialen Medien.",
+    "care_tips": "Helles indirektes Licht, gießen wenn trocken, bildet viele Ableger."
+  },
+  "rex-begonia": {
+    "name": "Königsbegonie",
+    "description": "Dramatisch gemusterte Blätter in Silber, Rosa, Lila. Wird wegen des Laubs gezüchtet, nicht der Blüten.",
+    "care_tips": "Helles indirektes Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "polka-dot-begonia": {
+    "name": "Forellenbegonie",
+    "description": "Engelsflügelförmige Blätter mit silbernen Punkten. Elegant und auffällig.",
+    "care_tips": "Helles indirektes Licht, leicht feucht halten, gute Luftfeuchtigkeit."
+  },
+  "oxalis-triangularis": {
+    "name": "Dreiecksklee",
+    "description": "Dreieckige lila Blätter die sich nachts zusammenfalten. Auch falscher Klee genannt.",
+    "care_tips": "Helles indirektes Licht, gießen wenn trocken, kann Ruhephase einlegen."
+  },
+  "bird-nest-snake-plant": {
+    "name": "Vogelnest-Bogenhanf",
+    "description": "Kompakte Rosette aus kurzen breiten Blättern. Perfekt für kleine Räume.",
+    "care_tips": "Jedes Licht, sparsam gießen, sehr trockenheitstolerant."
+  },
+  "whale-fin-snake-plant": {
+    "name": "Walflosse",
+    "description": "Ein einzelnes großes breites Blatt. Dramatische skulpturale Form.",
+    "care_tips": "Wenig bis helles Licht, sehr sparsam gießen, sehr langsam."
+  },
+  "yucca": {
+    "name": "Yucca",
+    "description": "Steife schwertförmige Blätter an dickem Stamm. Robust und architektonisch.",
+    "care_tips": "Helles Licht bis volle Sonne, sparsam gießen, sehr widerstandsfähig."
+  },
+  "ti-plant": {
+    "name": "Keulenlilie",
+    "description": "Dramatische Blätter in Rosa, Rot, Lila oder Grün. Beliebt in tropischer Landschaftsgestaltung.",
+    "care_tips": "Helles indirektes Licht, feucht halten, bevorzugt Luftfeuchtigkeit."
+  },
+  "norfolk-island-pine": {
+    "name": "Zimmertanne",
+    "description": "Tropischer Nadelbaum mit eleganten gestuften Zweigen. Keine echte Kiefer.",
+    "care_tips": "Helles indirektes Licht, feucht halten, hohe Luftfeuchtigkeit, hasst trockene Luft."
+  },
+  "coffee-plant": {
+    "name": "Kaffeepflanze",
+    "description": "Glänzende dunkelgrüne Blätter. Kann drinnen Kaffeebeeren produzieren.",
+    "care_tips": "Helles indirektes Licht, feucht halten, hohe Luftfeuchtigkeit."
+  },
+  "polka-dot-plant": {
+    "name": "Punktblume",
+    "description": "Mit Rosa, Weiß oder Rot gesprenkelte Blätter. Farbenfroh aber kurzlebig.",
+    "care_tips": "Helles indirektes Licht, feucht halten, Blüten abknipsen."
+  },
+  "lucky-bamboo": {
+    "name": "Glücksbambus",
+    "description": "Stämme die zu Spiralen oder Zöpfen geformt werden können. Eigentlich eine Dracaena.",
+    "care_tips": "Wenig bis mittleres Licht, in Wasser oder Erde kultivieren, Wasser regelmäßig wechseln."
+  },
+  "money-tree": {
+    "name": "Pachira",
+    "description": "Geflochtener Stamm mit handförmigen Blättern. Beliebt für Feng Shui und Glück.",
+    "care_tips": "Helles indirektes Licht, gießen wenn trocken, Überwässerung vermeiden."
+  },
+  "syngonium": {
+    "name": "Purpurtute",
+    "description": "Die Purpurtute hat elegante pfeilförmige Blätter die zu gelappten Formen heranreifen. Eine vielseitige Rankpflanze die unter verschiedenen Bedingungen gedeiht.",
+    "care_tips": "Mittleres bis helles indirektes Licht, Erde leicht feucht halten, schätzt Luftfeuchtigkeit."
+  },
+  "rhaphidophora-tetrasperma": {
+    "name": "Mini-Monstera",
+    "description": "Trotz des Spitznamens ist diese schnellwachsende Ranke keine echte Monstera. Hat kleine gefensterte Blätter die ihr ein Miniatur-Monstera-Aussehen verleihen.",
+    "care_tips": "Helles indirektes Licht, gießen wenn der obere Zentimeter trocken ist, Kletterhilfe anbieten."
+  },
+  "string-of-turtles": {
+    "name": "Schildkrötenpflanze",
+    "description": "Eine bezaubernde hängende Sukkulente mit winzigen Blättern die wie Schildkrötenpanzer aussehen. Jedes Blatt zeigt filigrane Aderungsmuster.",
+    "care_tips": "Helles indirektes Licht, Erde zwischen dem Gießen trocknen lassen, Überwässerung vermeiden."
+  },
+  "hoya-kerrii": {
+    "name": "Herzpflanze",
+    "description": "Berühmt für ihre perfekt herzförmigen Blätter. Wird oft als Einzelblatt-Steckling zum Valentinstag verkauft, kann aber zu einer vollständigen Ranke heranwachsen.",
+    "care_tips": "Helles indirektes Licht, Erde komplett trocknen lassen zwischen dem Gießen, sehr trockenheitstolerant."
+  },
+  "philodendron-micans": {
+    "name": "Samt-Philodendron",
+    "description": "Ein atemberaubender hängender Philodendron mit samtigen, schillernden Blättern die zwischen Bronze-, Grün- und Lilatönen wechseln.",
+    "care_tips": "Mittleres bis helles indirektes Licht, Erde leicht feucht halten, liebt Luftfeuchtigkeit."
+  },
+  "calathea-white-fusion": {
+    "name": "Calathea White Fusion",
+    "description": "Eine der auffälligsten Calatheas mit marmorierten weißen, grünen und fliederfarbenen Blättern. Wunderschön aber anspruchsvoll.",
+    "care_tips": "Mittleres indirektes Licht, konstant feucht halten mit gefiltertem Wasser, hohe Luftfeuchtigkeit essentiell."
+  },
+  "alocasia-frydek": {
+    "name": "Samt-Alocasia",
+    "description": "Eine elegante Alocasia mit dunkel samtigen grünen Blättern und auffälligen weißen Adern. Ein Blickfang der toleranter ist als andere Alocasias.",
+    "care_tips": "Helles indirektes Licht, Erde leicht feucht halten, bevorzugt hohe Luftfeuchtigkeit."
+  },
+  "begonia-angel-wing": {
+    "name": "Engelsflügel-Begonie",
+    "description": "Hat flügelförmige Blätter mit silbernen Punkten und produziert Büschel hängender rosa oder roter Blüten. Eine elegante Stämmchen-Begonie.",
+    "care_tips": "Helles indirektes Licht, gießen wenn der obere Zentimeter trocken ist, gute Drainage essentiell."
+  },
+  "peperomia-raindrop": {
+    "name": "Regentropfen-Peperomie",
+    "description": "Eine bezaubernde kompakte Pflanze mit dicken glänzenden regentropfenförmigen Blättern. Pflegeleicht und perfekt für Schreibtische oder Regale.",
+    "care_tips": "Mittleres bis helles indirektes Licht, Erde zwischen dem Gießen trocknen lassen, Überwässerung vermeiden."
+  },
+  "ctenanthe": {
+    "name": "Korbmarante",
+    "description": "Eine wunderschöne Verwandte der Gebetspflanze mit auffällig gestreiften Blättern. Toleranter als Calathea aber genauso schön.",
+    "care_tips": "Mittleres indirektes Licht, Erde konstant feucht halten, schätzt Luftfeuchtigkeit."
+  }
+}
