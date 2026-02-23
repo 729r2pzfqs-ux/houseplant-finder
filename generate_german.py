@@ -1,296 +1,597 @@
 #!/usr/bin/env python3
-"""Generate complete German translations for PlantFinder plant pages"""
+"""Generate all plant pages for PlantFinder"""
 
 import json
+
+# Size to height mapping
+size_heights = {
+    "small": "15-30 cm (6-12 in)",
+    "medium": "30-90 cm (1-3 ft)", 
+    "large": "90-180+ cm (3-6+ ft)"
+}
+
 import os
-import re
-from pathlib import Path
+from datetime import datetime
 
-BASE_DIR = Path(__file__).parent
-PLANTS_FILE = BASE_DIR / "data" / "plants.json"
-PLANTS_DE_FILE = BASE_DIR / "data" / "plants_de.json"
+# Configuration
+BASE_DIR = os.path.expanduser("~/clawd/houseplant-finder")
+PLANTS_DIR = os.path.join(BASE_DIR, "de/plants")
+DATA_FILE = os.path.join(BASE_DIR, "data/plants.json")
+TRANSLATIONS_FILE = os.path.join(BASE_DIR, "data/plants_de.json")
+SITEMAP_FILE = None
+BASE_URL = "https://plantfinder.org/de"
 
-# Load data
-with open(PLANTS_FILE) as f:
-    plants = json.load(f)
-with open(PLANTS_DE_FILE) as f:
-    plants_de = json.load(f)
+def get_light_label(level):
+    labels = {1: "Sehr Niedrig", 2: "Niedrig", 3: "Mittel (Indirekt)", 4: "Hell Indirekt", 5: "Direkte Sonne"}
+    return labels.get(level, "Medium")
 
-def generate_plant_page(plant):
-    """Generate a complete German plant page"""
-    plant_id = plant['id']
-    de_data = plants_de.get(plant_id, {})
-    
-    # Get translated values or fall back to English
-    name = de_data.get('name', plant['name'])
-    description = de_data.get('description', plant['description'])
-    care_tips = de_data.get('care_tips', plant['care_tips'])
-    
-    # Translate static values
-    difficulty_map = {'easy': 'Einfach', 'moderate': 'Mittel', 'hard': 'Schwer'}
-    size_map = {'small': 'Klein', 'medium': 'Mittel', 'large': 'Groß'}
-    growth_map = {'slow': 'Langsam', 'moderate': 'Mittel', 'fast': 'Schnell'}
-    
-    difficulty = difficulty_map.get(plant.get('difficulty', ''), plant.get('difficulty', ''))
-    size = size_map.get(plant.get('size', ''), plant.get('size', ''))
-    growth_rate = growth_map.get(plant.get('growth_rate', ''), plant.get('growth_rate', ''))
-    
-    # Light/water/humidity levels
-    light_labels = {1: 'Sehr niedrig', 2: 'Niedrig', 3: 'Mittel', 4: 'Hoch', 5: 'Sehr hoch'}
-    water_labels = {1: 'Sehr niedrig', 2: 'Niedrig', 3: 'Mittel', 4: 'Hoch', 5: 'Sehr hoch'}
-    humidity_labels = {1: 'Sehr niedrig', 2: 'Niedrig', 3: 'Mittel', 4: 'Hoch', 5: 'Sehr hoch'}
-    
-    light = plant.get('light', 3)
-    water = plant.get('water', 3)
-    humidity = plant.get('humidity', 3)
-    
-    # Pet safety
-    pet_safe = plant.get('pet_safe', False)
-    pet_safe_text = 'Ja ✓' if pet_safe else 'Nein ✗'
-    pet_safe_class = 'text-green-600' if pet_safe else 'text-red-600'
-    
-    toxic_to = plant.get('toxic_to', [])
-    toxic_text = ', '.join(['Katzen' if t == 'cats' else 'Hunde' if t == 'dogs' else t for t in toxic_to]) if toxic_to else 'Nicht giftig'
-    
-    # Air purifying
-    air_purifying = plant.get('air_purifying', False)
-    air_text = 'Ja ✓' if air_purifying else 'Nein'
-    
-    # Common names
-    common_names = plant.get('common_names', [])
-    common_names_text = ', '.join(common_names) if common_names else ''
-    
-    # Origin
-    origin = plant.get('origin', 'Unbekannt')
-    
-    # Category
-    category_map = {
-        'foliage': 'Blattpflanze',
-        'succulent': 'Sukkulente', 
-        'flowering': 'Blühpflanze',
-        'palm': 'Palme',
-        'fern': 'Farn',
-        'cactus': 'Kaktus'
+def get_water_label(level):
+    labels = {1: "Sehr Niedrig", 2: "Niedrig", 3: "Mäßig", 4: "Häufig", 5: "Konstant"}
+    return labels.get(level, "Moderate")
+
+def get_humidity_label(level):
+    labels = {1: "Sehr Niedrig", 2: "Niedrig", 3: "Mittel", 4: "Hoch", 5: "Sehr Hoch"}
+    return labels.get(level, "Average")
+
+def get_difficulty_badge(difficulty):
+    colors = {
+        "easy": ("emerald", "Einfach"),
+        "medium": ("amber", "Mittel"),
+        "hard": ("rose", "Experte")
     }
-    category = category_map.get(plant.get('category', ''), plant.get('category', ''))
+    color, text = colors.get(difficulty, ("slate", difficulty.title()))
+    return f'<span class="bg-{color}-100 text-{color}-700 px-3 py-1 rounded-full text-sm font-medium">{text}</span>'
+
+def get_growth_rate_value(rate):
+    values = {"slow": 2, "moderate": 3, "fast": 5}
+    return values.get(rate, 3)
+
+def generate_plant_html(plant):
+    plant_id = plant["id"]
+    name = plant.get("name_de", plant["name"])  # Use German name if available
+    common_names = plant.get("common_names", [])
+    common_names_str = ", ".join(common_names) if common_names else ""
     
-    # Generate HTML
+    light = plant.get("light", 3)
+    water = plant.get("water", 3)
+    humidity = plant.get("humidity", 3)
+    difficulty = plant.get("difficulty", "medium")
+    pet_safe = plant.get("pet_safe", False)
+    toxic_to = plant.get("toxic_to", [])
+    size = plant.get("size", "medium").title()
+    size_height = size_heights.get(plant.get("size", "medium"), "30-90 cm")
+    growth_rate = plant.get("growth_rate", "moderate")
+    air_purifying = plant.get("air_purifying", False)
+    description = plant.get("description", "")
+    care_tips = plant.get("care_tips", "")
+    origin = plant.get("origin", "")
+    category = plant.get("category", "foliage")
+    
+    # Calculate maintenance (inverse of difficulty)
+    maintenance_map = {"easy": 2, "medium": 3, "hard": 4}
+    maintenance = maintenance_map.get(difficulty, 3)
+    
+    # Build badges
+    badges = [get_difficulty_badge(difficulty)]
+    badges.append(f'<span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full text-sm font-medium">{category.title()}</span>')
+    if not pet_safe:
+        badges.append('<span class="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-medium">⚠️ Giftig für Haustiere</span>')
+    else:
+        badges.append('<span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">✓ Haustierfreundlich</span>')
+    
+    badges_html = "\n                        ".join(badges)
+    
+    # Pet warning section
+    pet_warning_html = ""
+    if not pet_safe and toxic_to:
+        pets_str = " and ".join(toxic_to)
+        pet_warning_html = f'''
+        <!-- Haustierfreundlichty Warning -->
+        <div class="bg-rose-50 border border-rose-200 rounded-2xl p-6 mb-8">
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-rose-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i data-lucide="alert-triangle" class="w-6 h-6 text-rose-600"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-rose-800 mb-1">⚠️ Giftig für Haustiere</h3>
+                    <p class="text-rose-700">{name} enthält giftige Stoffe to {pets_str} if ingested. Keep this plant out of reach of pets, or consider a <a href="/search/?pet_safe=true" class="underline hover:no-underline">haustierfreundliche Alternative</a>.</p>
+                </div>
+            </div>
+        </div>
+'''
+    elif pet_safe:
+        pet_warning_html = f'''
+        <!-- Haustierfreundlichty Notice -->
+        <div class="bg-green-50 border border-green-200 rounded-2xl p-6 mb-8">
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i data-lucide="heart" class="w-6 h-6 text-green-600"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-green-800 mb-1">✓ Haustierfreundlich</h3>
+                    <p class="text-green-700">{name} is non-toxic and safe for homes with cats and dogs.</p>
+                </div>
+            </div>
+        </div>
+'''
+    
+    # Additional badges for size, growth rate, air purifying
+    info_badges = []
+    info_badges.append(f'''<div class="flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-xl">
+                            <i data-lucide="ruler" class="w-4 h-4 text-slate-600"></i>
+                            <span class="text-sm font-medium text-slate-700">{size}</span>
+                        </div>''')
+    info_badges.append(f'''<div class="flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-xl">
+                            <i data-lucide="trending-up" class="w-4 h-4 text-slate-600"></i>
+                            <span class="text-sm font-medium text-slate-700">{growth_rate.title()} Growth</span>
+                        </div>''')
+    if air_purifying:
+        info_badges.append('''<div class="flex items-center gap-2 px-4 py-2 bg-emerald-100 rounded-xl">
+                            <i data-lucide="wind" class="w-4 h-4 text-emerald-600"></i>
+                            <span class="text-sm font-medium text-emerald-700">Luftreinigung</span>
+                        </div>''')
+    
+    info_badges_html = "\n                        ".join(info_badges)
+    
+    # Best for / Not ideal for based on plant characteristics
+    best_for = []
+    not_ideal = []
+    
+    if light <= 2:
+        best_for.append("Räume mit wenig Licht und Büros")
+    elif light >= 4:
+        best_for.append("Helle Räume mit gutem Tageslicht")
+    else:
+        best_for.append("Wohnzimmer mit indirektem Licht")
+    
+    if difficulty == "easy":
+        best_for.append("Anfänger und beschäftigte Pflanzeneltern")
+    elif difficulty == "hard":
+        not_ideal.append("Anfänger oder Leute mit wenig Zeit")
+    
+    if pet_safe:
+        best_for.append("Haushalte mit Katzen und Hunden")
+    else:
+        not_ideal.append("Haushalte mit neugierigen Haustieren")
+    
+    if water <= 2:
+        best_for.append("Vergessliche Gießer")
+    elif water >= 4:
+        not_ideal.append("Häufige Reisende")
+    
+    if size == "Large":
+        best_for.append("Ein Statement in großen Räumen")
+        not_ideal.append("Kleine Wohnungen oder enge Räume")
+    elif size == "Small":
+        best_for.append("Schreibtische, Regale und kleine Räume")
+    
+    if humidity >= 4:
+        best_for.append("Badezimmer oder Räume mit Luftbefeuchtern")
+        not_ideal.append("Sehr trockene Klimata ohne Feuchtigkeitskontrolle")
+    
+    if air_purifying:
+        best_for.append("Verbesserung der Raumluftqualität")
+    
+    if category == "trailing":
+        best_for.append("Hängeampeln und hohe Regale")
+    elif category == "succulent" or category == "cactus":
+        best_for.append("Sonnige Fensterbänke")
+    
+    best_for_html = "\n                        ".join([f'<li class="flex items-start gap-2"><i data-lucide="check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i><span>{item}</span></li>' for item in best_for[:4]])
+    not_ideal_html = "\n                        ".join([f'<li class="flex items-start gap-2"><i data-lucide="x" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"></i><span>{item}</span></li>' for item in not_ideal[:3]])
+    
+    growth_rate_val = get_growth_rate_value(growth_rate)
+    air_purifying_val = 4 if air_purifying else 1
+
     html = f'''<!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta name="google-site-verification" content="_6B659H6pJiEc-n-JpbJOzbFOC9-IVr9OAmN5TTVh74">
+    <!-- Google Analytics placeholder -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{name} - Pflegeanleitung | PlantFinder</title>
-    <meta name="description" content="{description[:155]}...">
-    <link rel="canonical" href="https://plantfinder.org/de/plants/{plant_id}/">
-    <link rel="alternate" hreflang="en" href="https://plantfinder.org/plants/{plant_id}/">
-    <link rel="alternate" hreflang="es" href="https://plantfinder.org/es/plants/{plant_id}/">
-    <link rel="alternate" hreflang="de" href="https://plantfinder.org/de/plants/{plant_id}/">
-    <link rel="alternate" hreflang="x-default" href="https://plantfinder.org/plants/{plant_id}/">
+    <title>{name} Pflegeanleitung | PlantFinder</title>
+    <meta name="description" content="Vollständige Pflegeanleitung für {name}{' (' + common_names[0] + ')' if common_names else ''}. Erfahre mehr über Licht, Wasser, Luftfeuchtigkeit, und wie du deine {name} gesund hältst.">
+    <link rel="canonical" href="{BASE_URL}/plants/{plant_id}/">
+    <meta property="og:title" content="{name} Pflegeanleitung | PlantFinder">
+    <meta property="og:description" content="{description}">
+    <meta property="og:url" content="{BASE_URL}/plants/{plant_id}/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="PlantFinder">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2JW25BZPF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-J2JW25BZPF");</script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {{
+            theme: {{
+                extend: {{
+                    fontFamily: {{ sans: ['Plus Jakarta Sans', 'sans-serif'] }}
+                }}
+            }}
+        }}
+    </script>
+    <style>
+        .rating-bar {{ height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }}
+        .rating-bar::after {{ content: ''; display: block; height: 100%; border-radius: 4px; background: linear-gradient(90deg, #10b981, #14b8a6); }}
+        .rating-1::after {{ width: 20%; }}
+        .rating-2::after {{ width: 40%; }}
+        .rating-3::after {{ width: 60%; }}
+        .rating-4::after {{ width: 80%; }}
+        .rating-5::after {{ width: 100%; }}
+    </style>
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{name} Pflegeanleitung">
+    <meta name="twitter:description" content="{description}">
+
+    <!-- Schema.org Markup -->
     <script type="application/ld+json">
     {{
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "{name} - Pflegeanleitung",
-      "description": "{description[:200]}",
-      "image": "https://plantfinder.org/images/plants/{plant_id}.webp"
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {{
+            "@type": "WebPage",
+            "@id": "{BASE_URL}/plants/{plant_id}/"
+        }},
+        "headline": "{name}: Complete Pflegeanleitung, Light & Wasserbedarf",
+        "description": "{description}",
+        "author": {{
+            "@type": "Organization",
+            "name": "PlantFinder"
+        }},
+        "publisher": {{
+            "@type": "Organization",
+            "name": "PlantFinder",
+            "logo": {{
+                "@type": "ImageObject",
+                "url": "{BASE_URL}/favicon.svg"
+            }}
+        }}
+    }}
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {{"@type": "ListItem", "position": 1, "name": "Startseite", "item": "{BASE_URL}/"}},
+            {{"@type": "ListItem", "position": 2, "name": "Pflanzen", "item": "{BASE_URL}/search/"}},
+            {{"@type": "ListItem", "position": 3, "name": "{name}"}}
+        ]
     }}
     </script>
 </head>
 <body class="bg-slate-50 text-slate-800">
-    <!-- Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-40">
-        <nav class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/de/" class="flex items-center gap-2 text-xl font-bold text-emerald-600">
-                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-                PlantFinder
-            </a>
-            <div class="flex items-center gap-4 md:gap-6">
-                <a href="/de/search/" class="text-slate-600 hover:text-emerald-600">Suchen</a>
-                <a href="/de/quiz/" class="text-slate-600 hover:text-emerald-600">Quiz</a>
-                <a href="/de/compare/" class="text-slate-600 hover:text-emerald-600">Vergleichen</a>
-                <!-- Language selector -->
-                <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                        <span>DE</span>
-                    </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50">
-                        <a href="/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
-                        <a href="/es/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
-                        <a href="/de/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Deutsch</a>
+    <nav class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/de/" class="flex items-center gap-2">
+                    <svg class="w-7 h-7 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 20h10"/>
+                        <path d="M10 20c5.5-2.5.8-6.4 3-10"/>
+                        <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/>
+                        <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
+                    </svg>
+                    <span class="font-bold text-xl bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
+                </a>
+                <div class="flex items-center gap-4 md:gap-6">
+                    <a href="/de/search/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Durchsuchen</a>
+                    <a href="/de/quiz/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Quiz</a>
+                    <a href="/de/compare/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Vergleichen</a>
+                    <!-- Language selector -->
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>DE</span>
+                        </button>
+                        <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50">
+                            <a href="/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
+                            <a href="/es/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
+                            <a href="/de/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Deutsch</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <main class="max-w-4xl mx-auto px-4 py-8">
-        <!-- Breadcrumb -->
-        <nav class="text-sm mb-6">
-            <a href="/de/" class="text-emerald-600 hover:underline">Startseite</a>
-            <span class="mx-2 text-slate-400">/</span>
-            <a href="/de/search/" class="text-emerald-600 hover:underline">Pflanzen</a>
-            <span class="mx-2 text-slate-400">/</span>
-            <span class="text-slate-600">{name}</span>
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <nav class="text-sm text-slate-500 mb-6">
+            <a href="/de/" class="hover:text-emerald-600">Startseite</a>
+            <span class="mx-2">/</span>
+            <a href="/de/search/" class="hover:text-emerald-600">Pflanzen</a>
+            <span class="mx-2">/</span>
+            <span class="text-slate-700">{name}</span>
         </nav>
 
-        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <!-- Hero Section -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-8">
             <div class="md:flex">
-                <div class="md:w-1/2 p-6">
-                    <img src="/images/plants/{plant_id}.webp" 
-                         alt="{name}" 
-                         class="w-full h-80 object-cover rounded-xl"
-                         onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22><rect fill=%22%2310b981%22 width=%22400%22 height=%22300%22/><text x=%22200%22 y=%22150%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2248%22>🌿</text></svg>'">
-                </div>
-                <div class="md:w-1/2 p-6">
-                    <div class="flex items-center gap-2 mb-2">
-                        <span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-sm rounded-full">{category}</span>
-                        {f'<span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">Haustierfreundlich</span>' if pet_safe else ''}
+                <div class="md:w-2/5">
+                    <div class="aspect-[4/5] bg-gradient-to-br from-emerald-100 via-teal-100 to-lime-100 relative overflow-hidden flex items-center justify-center p-8">
+                        <img src="/images/plants/{plant_id}.webp" alt="{name}" class="w-full h-full object-contain" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<span class=\'text-9xl\'>🪴</span>'">
                     </div>
-                    <h1 class="text-3xl font-bold text-slate-800 mb-2">{name}</h1>
-                    {f'<p class="text-slate-500 mb-4">Auch bekannt als: {common_names_text}</p>' if common_names_text else ''}
-                    <p class="text-slate-600 mb-6">{description}</p>
+                </div>
+                <div class="md:w-3/5 p-6 md:p-8">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        {badges_html}
+                    </div>
+                    <h1 class="text-3xl md:text-4xl font-bold text-slate-900 mb-2">{name}</h1>
+                    {f'<p class="text-slate-500 mb-4">Auch bekannt als: {common_names_str}</p>' if common_names_str else '<div class="mb-4"></div>'}
+                    
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        {info_badges_html}
+                    </div>
                     
                     <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-slate-50 rounded-lg p-3">
-                            <div class="text-sm text-slate-500">Schwierigkeit</div>
-                            <div class="font-semibold text-slate-800">{difficulty}</div>
+                        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
+                            <i data-lucide="sun" class="w-6 h-6 text-amber-500"></i>
+                            <div>
+                                <p class="text-xs text-slate-500">Licht</p>
+                                <p class="font-semibold text-slate-700">{get_light_label(light)}</p>
+                            </div>
                         </div>
-                        <div class="bg-slate-50 rounded-lg p-3">
-                            <div class="text-sm text-slate-500">Größe</div>
-                            <div class="font-semibold text-slate-800">{size}</div>
+                        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
+                            <i data-lucide="droplets" class="w-6 h-6 text-blue-500"></i>
+                            <div>
+                                <p class="text-xs text-slate-500">Wasser</p>
+                                <p class="font-semibold text-slate-700">{get_water_label(water)}</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
+                            <i data-lucide="cloud" class="w-6 h-6 text-cyan-500"></i>
+                            <div>
+                                <p class="text-xs text-slate-500">Luftfeuchtigkeit</p>
+                                <p class="font-semibold text-slate-700">{get_humidity_label(humidity)}</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
+                            <i data-lucide="ruler" class="w-6 h-6 text-emerald-500"></i>
+                            <div>
+                                <p class="text-xs text-slate-500">Größe</p>
+                                <p class="font-semibold text-slate-700">{size}</p>
+                                <p class="text-xs text-slate-500 mt-1">{size_height}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Care Requirements -->
-            <div class="border-t border-slate-100 p-6">
-                <h2 class="text-xl font-bold text-slate-800 mb-4">Pflegeanforderungen</h2>
-                <div class="grid md:grid-cols-3 gap-6">
-                    <!-- Light -->
-                    <div class="bg-amber-50 rounded-xl p-4">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="text-2xl">☀️</span>
-                            <span class="font-semibold text-slate-800">Licht</span>
-                        </div>
-                        <div class="flex gap-1 mb-2">
-                            {''.join([f'<div class="w-6 h-2 rounded-full {"bg-amber-400" if i < light else "bg-slate-200"}"></div>' for i in range(5)])}
-                        </div>
-                        <div class="text-sm text-slate-600">{light_labels.get(light, 'Mittel')}</div>
-                    </div>
-                    
-                    <!-- Water -->
-                    <div class="bg-blue-50 rounded-xl p-4">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="text-2xl">💧</span>
-                            <span class="font-semibold text-slate-800">Wasser</span>
-                        </div>
-                        <div class="flex gap-1 mb-2">
-                            {''.join([f'<div class="w-6 h-2 rounded-full {"bg-blue-400" if i < water else "bg-slate-200"}"></div>' for i in range(5)])}
-                        </div>
-                        <div class="text-sm text-slate-600">{water_labels.get(water, 'Mittel')}</div>
-                    </div>
-                    
-                    <!-- Humidity -->
-                    <div class="bg-teal-50 rounded-xl p-4">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="text-2xl">💨</span>
-                            <span class="font-semibold text-slate-800">Luftfeuchtigkeit</span>
-                        </div>
-                        <div class="flex gap-1 mb-2">
-                            {''.join([f'<div class="w-6 h-2 rounded-full {"bg-teal-400" if i < humidity else "bg-slate-200"}"></div>' for i in range(5)])}
-                        </div>
-                        <div class="text-sm text-slate-600">{humidity_labels.get(humidity, 'Mittel')}</div>
-                    </div>
+{pet_warning_html}
+        <!-- Care Ratings -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 mb-8">
+            <h2 class="text-xl font-bold text-slate-900 mb-6">Pflegeanforderungen</h2>
+            <div class="grid md:grid-cols-2 gap-x-12 gap-y-4">
+                <div>
+                    <div class="flex justify-between mb-2"><span class="text-slate-600">Lichtbedarf</span><span class="font-medium">{light}/5</span></div>
+                    <div class="rating-bar rating-{light}"></div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-2"><span class="text-slate-600">Wasserbedarf</span><span class="font-medium">{water}/5</span></div>
+                    <div class="rating-bar rating-{water}"></div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-2"><span class="text-slate-600">Luftfeuchtigkeit</span><span class="font-medium">{humidity}/5</span></div>
+                    <div class="rating-bar rating-{humidity}"></div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-2"><span class="text-slate-600">Pflegeaufwand</span><span class="font-medium">{maintenance}/5</span></div>
+                    <div class="rating-bar rating-{maintenance}"></div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-2"><span class="text-slate-600">Wachstumsgeschwindigkeit</span><span class="font-medium">{growth_rate_val}/5</span></div>
+                    <div class="rating-bar rating-{growth_rate_val}"></div>
+                </div>
+                <div>
+                    <div class="flex justify-between mb-2"><span class="text-slate-600">Luftreinigung</span><span class="font-medium">{air_purifying_val}/5</span></div>
+                    <div class="rating-bar rating-{air_purifying_val}"></div>
                 </div>
             </div>
+        </section>
 
-            <!-- Care Tips -->
-            <div class="border-t border-slate-100 p-6">
-                <h2 class="text-xl font-bold text-slate-800 mb-4">Pflegetipps</h2>
-                <div class="bg-emerald-50 rounded-xl p-4">
+        <!-- About -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 mb-8">
+            <h2 class="text-xl font-bold text-slate-900 mb-4">About the {name}</h2>
+            <p class="text-slate-600 leading-relaxed mb-4">{description}</p>
+            {f'<p class="text-slate-600 leading-relaxed"><strong>Herkunft:</strong> {origin}</p>' if origin else ''}
+        </section>
+
+        <!-- Pflegetipps -->
+        <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8 mb-8">
+            <h2 class="text-xl font-bold text-slate-900 mb-4">Pflegetipps</h2>
+            <div class="bg-emerald-50 rounded-xl p-5">
+                <div class="flex items-start gap-3">
+                    <i data-lucide="lightbulb" class="w-6 h-6 text-emerald-600 mt-0.5"></i>
                     <p class="text-slate-700">{care_tips}</p>
                 </div>
             </div>
+        </section>
 
-            <!-- Additional Info -->
-            <div class="border-t border-slate-100 p-6">
-                <h2 class="text-xl font-bold text-slate-800 mb-4">Weitere Informationen</h2>
-                <div class="grid md:grid-cols-2 gap-4">
-                    <div class="flex justify-between py-2 border-b border-slate-100">
-                        <span class="text-slate-500">Haustierfreundlich</span>
-                        <span class="{pet_safe_class} font-medium">{pet_safe_text}</span>
-                    </div>
-                    <div class="flex justify-between py-2 border-b border-slate-100">
-                        <span class="text-slate-500">Giftig für</span>
-                        <span class="text-slate-800">{toxic_text}</span>
-                    </div>
-                    <div class="flex justify-between py-2 border-b border-slate-100">
-                        <span class="text-slate-500">Luftreinigend</span>
-                        <span class="text-slate-800">{air_text}</span>
-                    </div>
-                    <div class="flex justify-between py-2 border-b border-slate-100">
-                        <span class="text-slate-500">Wachstumsrate</span>
-                        <span class="text-slate-800">{growth_rate}</span>
-                    </div>
-                    <div class="flex justify-between py-2 border-b border-slate-100">
-                        <span class="text-slate-500">Herkunft</span>
-                        <span class="text-slate-800">{origin}</span>
-                    </div>
+        <!-- Is This Plant Right for You? -->
+        <section class="bg-gradient-to-br from-emerald-50 via-teal-50 to-lime-50 rounded-2xl p-6 md:p-8 mb-8">
+            <h2 class="text-xl font-bold text-slate-900 mb-6">Is This Plant Right for You?</h2>
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <div class="bg-white rounded-xl p-5 shadow-sm">
+                    <h3 class="font-semibold text-green-700 mb-3 flex items-center gap-2">
+                        <i data-lucide="check-circle" class="w-5 h-5"></i>
+                        Ideal Für
+                    </h3>
+                    <ul class="space-y-2 text-slate-600">
+                        {best_for_html}
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl p-5 shadow-sm">
+                    <h3 class="font-semibold text-red-700 mb-3 flex items-center gap-2">
+                        <i data-lucide="x-circle" class="w-5 h-5"></i>
+                        Nicht Ideal Für
+                    </h3>
+                    <ul class="space-y-2 text-slate-600">
+                        {not_ideal_html if not_ideal_html else '<li class="text-slate-400">No major concerns!</li>'}
+                    </ul>
                 </div>
             </div>
-        </div>
-
-        <!-- Back to Search -->
-        <div class="mt-8 text-center">
-            <a href="/de/search/" class="inline-flex items-center gap-2 text-emerald-600 hover:text-emerald-700 font-medium">
-                ← Zurück zur Suche
-            </a>
-        </div>
+            
+            <div class="flex flex-wrap gap-3">
+                <a href="/de/compare/" class="inline-flex items-center gap-2 bg-white text-slate-700 border border-slate-200 px-5 py-2.5 rounded-xl font-semibold hover:border-slate-300 hover:shadow-md transition">
+                    <i data-lucide="scale" class="w-4 h-4"></i>
+                    Compare with other plants
+                </a>
+                {f'<a href="/search/?pet_safe=true" class="inline-flex items-center gap-2 bg-emerald-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-emerald-700 transition"><i data-lucide="paw-print" class="w-4 h-4"></i>Find haustierfreundliche Alternatives</a>' if not pet_safe else ''}
+            </div>
+        </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-slate-800 text-slate-300 py-8 mt-12">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <p class="text-sm">© 2025 PlantFinder. Dein Ratgeber für die perfekten Zimmerpflanzen.</p>
+    <footer class="bg-slate-900 text-slate-400 py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <svg class="w-6 h-6 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 20h10"/>
+                        <path d="M10 20c5.5-2.5.8-6.4 3-10"/>
+                        <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/>
+                        <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
+                    </svg>
+                    <span class="font-bold text-white">PlantFinder</span>
+                </div>
+                <div class="flex gap-6 text-sm">
+                    <a href="/de/search/" class="hover:text-white">Durchsuchen</a>
+                    <a href="/de/quiz/" class="hover:text-white">Quiz</a>
+                    <a href="/de/compare/" class="hover:text-white">Vergleichen</a>
+                    <a href="/faq/" class="hover:text-white">FAQ</a>
+                </div>
+                <p class="text-sm">&copy; 2026 PlantFinder</p>
+            </div>
         </div>
     </footer>
+    
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>'''
     
     return html
 
-def main():
-    print("Generating complete German plant pages...\\n")
+
+def generate_sitemap(plants):
+    """Generate sitemap.xml with all plant URLs"""
+    today = datetime.now().strftime("%Y-%m-%d")
     
-    # Create de/plants directory
-    de_plants_dir = BASE_DIR / "de" / "plants"
-    de_plants_dir.mkdir(parents=True, exist_ok=True)
+    sitemap = f'''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{BASE_URL}/</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>{BASE_URL}/search/</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>{BASE_URL}/quiz/</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{BASE_URL}/compare/</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>{BASE_URL}/faq/</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+'''
     
-    count = 0
     for plant in plants:
-        plant_id = plant['id']
-        plant_dir = de_plants_dir / plant_id
-        plant_dir.mkdir(exist_ok=True)
+        sitemap += f'''    <url>
+        <loc>{BASE_URL}/plants/{plant["id"]}/</loc>
+        <lastmod>{today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+'''
+    
+    sitemap += '</urlset>'
+    return sitemap
+
+
+def main():
+    # Load plant data
+    print(f"Loading plant data from {DATA_FILE}...")
+    with open(DATA_FILE, 'r') as f:
+        plants = json.load(f)
+    
+    # Load German translations
+    with open(TRANSLATIONS_FILE, 'r') as f:
+        translations = json.load(f)
+    
+    # Merge translations into plant data
+    for plant in plants:
+        plant_id = plant["id"]
+        if plant_id in translations:
+            trans = translations[plant_id]
+            if "name" in trans:
+                plant["name_de"] = trans["name"]
+            if "description" in trans:
+                plant["description"] = trans["description"]
+            if "care_tips" in trans:
+                plant["care_tips"] = trans["care_tips"]
+    
+    print(f"Found {len(plants)} plants with German translations")
+    
+    # Generate pages for each plant
+    created = 0
+    skipped = 0
+    
+    for plant in plants:
+        plant_id = plant["id"]
+        plant_dir = os.path.join(PLANTS_DIR, plant_id)
+        plant_file = os.path.join(plant_dir, "index.html")
         
-        html = generate_plant_page(plant)
+        # Create directory if needed
+        os.makedirs(plant_dir, exist_ok=True)
         
-        with open(plant_dir / "index.html", "w") as f:
+        # Generate HTML
+        html = generate_plant_html(plant)
+        
+        # Write file
+        with open(plant_file, 'w') as f:
             f.write(html)
         
-        count += 1
-        if count % 20 == 0:
-            print(f"  Generated {count} pages...")
+        created += 1
+        print(f"  ✓ {plant['name']} ({plant_id})")
     
-    print(f"\\n✅ Generated {count} German plant pages")
+    print(f"\n✅ Created {created} plant pages")
+    
+    # Generate sitemap (skipped for language versions - main sitemap includes all)
+    if SITEMAP_FILE:
+        print(f"\nGenerating sitemap...")
+        sitemap = generate_sitemap(plants)
+        with open(SITEMAP_FILE, 'w') as f:
+            f.write(sitemap)
+        print(f"✅ Sitemap updated with {len(plants)} plant URLs")
+    
+    print(f"\n🎉 Done! All plant pages generated at {PLANTS_DIR}/")
+
 
 if __name__ == "__main__":
     main()
