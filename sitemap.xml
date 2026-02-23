@@ -1,728 +1,728 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://plantfinder.org/es/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/search/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/search/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/quiz/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/quiz/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/compare/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/compare/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/faq/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/faq/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/monstera-deliciosa/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/monstera-deliciosa/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/pothos-golden/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/pothos-golden/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/snake-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/snake-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/peace-lily/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/peace-lily/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/fiddle-leaf-fig/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/fiddle-leaf-fig/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/rubber-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/rubber-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/zz-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/zz-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/spider-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/spider-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/boston-fern/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/boston-fern/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/aloe-vera/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/aloe-vera/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/philodendron-heartleaf/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/philodendron-heartleaf/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/chinese-evergreen/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/chinese-evergreen/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/jade-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/jade-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/bird-of-paradise/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/bird-of-paradise/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/parlor-palm/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/parlor-palm/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/calathea-medallion/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/calathea-medallion/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/string-of-pearls/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/string-of-pearls/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/english-ivy/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/english-ivy/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/dracaena-marginata/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/dracaena-marginata/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/croton/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/croton/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/ponytail-palm/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/ponytail-palm/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/peperomia-hope/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/peperomia-hope/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/prayer-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/prayer-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/orchid-phalaenopsis/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/orchid-phalaenopsis/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/cast-iron-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/cast-iron-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/hoya-carnosa/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/hoya-carnosa/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/succulent-echeveria/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/succulent-echeveria/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/majesty-palm/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/majesty-palm/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/birds-nest-fern/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/birds-nest-fern/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/anthurium/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/anthurium/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/philodendron-brasil/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/philodendron-brasil/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/philodendron-birkin/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/philodendron-birkin/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/philodendron-pink-princess/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/philodendron-pink-princess/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/philodendron-selloum/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/philodendron-selloum/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/philodendron-prince-orange/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/philodendron-prince-orange/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/dracaena-lemon-lime/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/dracaena-lemon-lime/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/dracaena-corn-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/dracaena-corn-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/dracaena-janet-craig/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/dracaena-janet-craig/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/dieffenbachia/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/dieffenbachia/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/schefflera-arboricola/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/schefflera-arboricola/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/schefflera-amate/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/schefflera-amate/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/haworthia-zebra/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/haworthia-zebra/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/haworthia-cooperi/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/haworthia-cooperi/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/sedum-burrito/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/sedum-burrito/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/sedum-rubrotinctum/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/sedum-rubrotinctum/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/crassula-string-of-buttons/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/crassula-string-of-buttons/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/crassula-baby-necklace/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/crassula-baby-necklace/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/lithops/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/lithops/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/string-of-hearts/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/string-of-hearts/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/tradescantia-zebrina/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/tradescantia-zebrina/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/tradescantia-nanouk/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/tradescantia-nanouk/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/pothos-marble-queen/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/pothos-marble-queen/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/pothos-neon/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/pothos-neon/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/pothos-njoy/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/pothos-njoy/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/satin-pothos/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/satin-pothos/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/maidenhair-fern/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/maidenhair-fern/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/staghorn-fern/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/staghorn-fern/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/asparagus-fern/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/asparagus-fern/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/kangaroo-fern/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/kangaroo-fern/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/blue-star-fern/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/blue-star-fern/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/lemon-button-fern/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/lemon-button-fern/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/areca-palm/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/areca-palm/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/kentia-palm/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/kentia-palm/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/lady-palm/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/lady-palm/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/cat-palm/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/cat-palm/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/bamboo-palm/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/bamboo-palm/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/african-violet/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/african-violet/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/bromeliad-guzmania/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/bromeliad-guzmania/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/kalanchoe/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/kalanchoe/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/cyclamen/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/cyclamen/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/lipstick-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/lipstick-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/christmas-cactus/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/christmas-cactus/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/bunny-ears-cactus/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/bunny-ears-cactus/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/golden-barrel-cactus/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/golden-barrel-cactus/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/moon-cactus/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/moon-cactus/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/prickly-pear-cactus/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/prickly-pear-cactus/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/san-pedro-cactus/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/san-pedro-cactus/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/old-man-cactus/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/old-man-cactus/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/string-of-dolphins/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/string-of-dolphins/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/string-of-bananas/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/string-of-bananas/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/peperomia-watermelon/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/peperomia-watermelon/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/peperomia-obtusifolia/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/peperomia-obtusifolia/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/peperomia-rosso/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/peperomia-rosso/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/calathea-orbifolia/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/calathea-orbifolia/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/calathea-rattlesnake/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/calathea-rattlesnake/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/stromanthe-triostar/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/stromanthe-triostar/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/alocasia-polly/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/alocasia-polly/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/alocasia-zebrina/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/alocasia-zebrina/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/monstera-adansonii/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/monstera-adansonii/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/ficus-audrey/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/ficus-audrey/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/ficus-tineke/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/ficus-tineke/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/nerve-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/nerve-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/aluminum-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/aluminum-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/pilea-peperomioides/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/pilea-peperomioides/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/rex-begonia/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/rex-begonia/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/polka-dot-begonia/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/polka-dot-begonia/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/oxalis-triangularis/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/oxalis-triangularis/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/bird-nest-snake-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/bird-nest-snake-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/whale-fin-snake-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/whale-fin-snake-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/yucca/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/yucca/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/ti-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/ti-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/norfolk-island-pine/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/norfolk-island-pine/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/coffee-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/coffee-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/polka-dot-plant/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/polka-dot-plant/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/lucky-bamboo/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/lucky-bamboo/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/money-tree/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/money-tree/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/syngonium/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/syngonium/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/rhaphidophora-tetrasperma/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/rhaphidophora-tetrasperma/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/string-of-turtles/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/string-of-turtles/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/hoya-kerrii/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/hoya-kerrii/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/philodendron-micans/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/philodendron-micans/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/calathea-white-fusion/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/calathea-white-fusion/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/alocasia-frydek/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/alocasia-frydek/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/begonia-angel-wing/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/begonia-angel-wing/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/peperomia-raindrop/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/peperomia-raindrop/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://plantfinder.org/es/plants/ctenanthe/</loc>
-        <lastmod>2026-02-23</lastmod>
+        <loc>https://plantfinder.org/plants/ctenanthe/</loc>
+        <lastmod>2026-02-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
