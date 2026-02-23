@@ -1,95 +1,178 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta name="google-site-verification" content="_6B659H6pJiEc-n-JpbJOzbFOC9-IVr9OAmN5TTVh74">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2JW25BZPF"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-J2JW25BZPF");</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guía Completa de Riego | PlantFinder</title>
-    <meta name="description" content="Cómo regar tus plantas de interior correctamente">
-    <link rel="canonical" href="https://plantfinder.org/es/articles/watering-guide/">
-    <link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/watering-guide/">
+    <title>How to Water Houseplants (Complete Guide) | PlantFinder</title>
+    <meta name="description" content="Learn the right way to water houseplants. Avoid overwatering, understand drainage, and master the finger test. Deja de matar plantas con exceso de cuidado!">
+    <link rel="canonical" href="https://plantfinder.org/articles/watering-guide/">
+    <link rel="alternate" hreflang="es" href="https://plantfinder.org/articles/watering-guide/">
     <link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/watering-guide/">
     <link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/watering-guide/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2JW25BZPF"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-J2JW25BZPF");</script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Plus Jakarta Sans','sans-serif']}}}}</script>
 </head>
-<body class="bg-slate-50 min-h-screen">
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/es/" class="flex items-center gap-2"><span class="text-2xl">🌿</span><span class="text-xl font-bold text-emerald-700">PlantFinder</span></a>
-            <nav class="flex gap-6 text-sm">
-                <a href="/es/search/" class="text-slate-600 hover:text-emerald-700">Buscar</a>
-                <a href="/es/articles/" class="text-emerald-700 font-medium">Guías</a>
-            <!-- Language selector -->
-                <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                        <span>ES</span>
-                    </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
-                        <a href="/es/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Español</a>
-                        <a href="/de/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a>
+<body class="bg-slate-50 text-slate-800">
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/es/" class="flex items-center gap-2">
+                    <svg class="w-8 h-8 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+                    <span class="font-bold text-xl bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
+                </a>
+                <nav class="flex items-center gap-6">
+                    <a href="/es/search/" class="text-slate-600 hover:text-emerald-700 font-medium hidden sm:block">Buscar</a>
+                    <a href="/es/quiz/" class="text-slate-600 hover:text-emerald-700 font-medium hidden sm:block">Quiz</a>
+                    <a href="/es/articles/" class="text-emerald-700 font-medium hidden sm:block">Guías</a>
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>ES</span>
+                        </button>
+                        <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50">
+                            <a href="/articles/watering-guide/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
+                            <a href="/es/articles/watering-guide/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Español</a>
+                            <a href="/de/articles/watering-guide/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <main class="max-w-3xl mx-auto px-4 py-12">
-        <nav class="text-sm text-slate-600 mb-6"><a href="/es/articles/" class="hover:text-emerald-700">Guías</a> → Guía</nav>
-        <h1 class="text-4xl font-bold text-slate-800 mb-4">Guía Completa de Riego</h1>
-        <p class="text-xl text-slate-600 mb-8">Nunca más riegues de más o de menos</p>
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <nav class="text-sm text-slate-500 mb-6">
+            <a href="/es/" class="hover:text-emerald-600">Inicio</a><span class="mx-2">/</span>
+            <a href="/es/articles/" class="hover:text-emerald-600">Guías</a><span class="mx-2">/</span>
+            <span class="text-slate-700">Watering Guide</span>
+        </nav>
 
-        <div class="prose prose-lg max-w-none">
-            
-        <p>El riego excesivo es la causa número uno de muerte de plantas. Aprende cómo hacerlo bien.</p>
+        <article>
+            <header class="mb-10">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">💧 Guía de Cuidado</span>
+                    <span class="text-slate-500 text-sm">Actualizado Feb 2026</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">How to Water Houseplants</h1>
+                <p class="text-xl text-slate-600 leading-relaxed">Deja de matar plantas con exceso de cuidado! Learn the right way to water and avoid the #1 cause of houseplant death.</p>
+            </header>
 
-        <h2 class="text-2xl font-bold text-slate-800 mt-8 mb-4">La Regla de Oro</h2>
-        <div class="bg-white rounded-xl p-6 border border-slate-200 mb-6">
-            <p class="text-lg text-slate-700"><strong>Siempre revisa la tierra antes de regar.</strong> Mete el dedo 2-3cm en la tierra. Si está seco, riega. Si está húmedo, espera.</p>
-        </div>
-
-        <h2 class="text-2xl font-bold text-slate-800 mt-8 mb-4">Necesidades por Tipo de Planta</h2>
-        <div class="space-y-4">
-            <div class="bg-white rounded-xl p-6 border border-slate-200">
-                <h3 class="font-bold text-lg mb-2">🌵 Suculentas y Cactus</h3>
-                <p class="text-slate-600">Riega cada 2-3 semanas. Deja secar completamente entre riegos.</p>
+            <div class="bg-red-50 border border-red-200 rounded-2xl p-6 mb-10">
+                <div class="flex items-start gap-3">
+                    <span class="text-2xl">☠️</span>
+                    <div>
+                        <h3 class="font-bold text-red-900 mb-1">The #1 Plant Killer</h3>
+                        <p class="text-red-800 text-sm">Overwatering kills more houseplants than any other cause. Roots need oxygen—when soil stays constantly wet, they suffocate and rot.</p>
+                    </div>
+                </div>
             </div>
-            <div class="bg-white rounded-xl p-6 border border-slate-200">
-                <h3 class="font-bold text-lg mb-2">🌿 Plantas Tropicales</h3>
-                <p class="text-slate-600">Mantén la tierra ligeramente húmeda. Riega cuando la pulgada superior esté seca.</p>
-            </div>
-            <div class="bg-white rounded-xl p-6 border border-slate-200">
-                <h3 class="font-bold text-lg mb-2">🌴 Palmeras</h3>
-                <p class="text-slate-600">Riega cuando las 2 pulgadas superiores estén secas. No dejes encharcada.</p>
-            </div>
-            <div class="bg-white rounded-xl p-6 border border-slate-200">
-                <h3 class="font-bold text-lg mb-2">🌸 Helechos</h3>
-                <p class="text-slate-600">Mantén constantemente húmedo pero no empapado. Rocía regularmente.</p>
-            </div>
-        </div>
 
-        <h2 class="text-2xl font-bold text-slate-800 mt-8 mb-4">Señales de Problemas de Riego</h2>
-        <ul class="list-disc pl-6 space-y-2 text-slate-600">
-            <li><strong>Hojas amarillas blandas</strong> = Exceso de riego</li>
-            <li><strong>Hojas marrones crujientes</strong> = Falta de riego</li>
-            <li><strong>Hojas caídas</strong> = Puede ser cualquiera; revisa la tierra</li>
-        </ul>
-        
-        </div>
+            <div class="prose prose-lg max-w-none">
+                <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-6">👆 The Finger Test</h2>
 
-        <div class="mt-12 p-6 bg-emerald-50 rounded-2xl border border-emerald-200">
-            <p class="font-medium text-emerald-800">🔍 <a href="/es/search/?difficulty=easy" class="underline">Explorar todas las plantas fáciles</a></p>
-        </div>
+                <div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-6 mb-6">
+                    <div class="font-bold text-emerald-900 mb-3">The Most Reliable Method:</div>
+                    <ol class="space-y-2 text-emerald-800">
+                        <li><strong>1.</strong> Stick your finger 1-2 inches into the soil</li>
+                        <li><strong>2.</strong> If it feels dry → Water thoroughly</li>
+                        <li><strong>3.</strong> If it feels moist → Wait a few more days</li>
+                        <li><strong>4.</strong> Repeat before every watering!</li>
+                    </ol>
+                </div>
+
+                <h2 class="text-2xl font-bold text-slate-900 mt-12 mb-6">💧 Watering by Plant Type</h2>
+
+                <div class="space-y-4">
+                    <div class="bg-white rounded-xl p-5 border border-slate-200">
+                        <div class="font-bold text-slate-900 mb-2">🌵 Succulents & Cacti</div>
+                        <p class="text-slate-600 text-sm mb-2">Water every 2-4 weeks. Let soil dry completely between waterings. Better to underwater than overwater.</p>
+                        <div class="text-xs text-blue-600">Examples: Aloe, Jade, Echeveria, Haworthia</div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-5 border border-slate-200">
+                        <div class="font-bold text-slate-900 mb-2">🌴 Tropical Foliage</div>
+                        <p class="text-slate-600 text-sm mb-2">Water when top inch is dry. Most prefer consistent moisture but not soggy soil.</p>
+                        <div class="text-xs text-blue-600">Examples: Monstera, Pothos, Philodendron</div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-5 border border-slate-200">
+                        <div class="font-bold text-slate-900 mb-2">🌿 Ferns</div>
+                        <p class="text-slate-600 text-sm mb-2">Keep soil consistently moist (not wet). They hate drying out completely.</p>
+                        <div class="text-xs text-blue-600">Examples: Boston Fern, Maidenhair, Bird's Nest</div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-5 border border-slate-200">
+                        <div class="font-bold text-slate-900 mb-2">🐍 Snake Plants & ZZ</div>
+                        <p class="text-slate-600 text-sm mb-2">Water every 2-3 weeks. These store water in their leaves—they prefer drought to wet feet.</p>
+                        <div class="text-xs text-blue-600">Examples: Sansevieria, ZZ Plant, Dracaena</div>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold text-slate-900 mt-12 mb-6">✅ Signs You're Watering Right</h2>
+
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-green-50 rounded-xl p-5 border border-green-200">
+                        <div class="font-bold text-green-900 mb-2">Healthy Signs ✓</div>
+                        <ul class="text-green-800 text-sm space-y-1">
+                            <li>• New growth appearing</li>
+                            <li>• Leaves firm and vibrant</li>
+                            <li>• Roots white or tan</li>
+                            <li>• No mushy stems</li>
+                        </ul>
+                    </div>
+                    <div class="bg-red-50 rounded-xl p-5 border border-red-200">
+                        <div class="font-bold text-red-900 mb-2">Warning Signs ✗</div>
+                        <ul class="text-red-800 text-sm space-y-1">
+                            <li>• Yellow leaves (overwatering)</li>
+                            <li>• Crispy brown tips (underwatering)</li>
+                            <li>• Mushy black roots (root rot)</li>
+                            <li>• Fungus gnats (too wet)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold text-slate-900 mt-12 mb-6">🏺 Drainage is Essential</h2>
+
+                <div class="bg-amber-50 border border-amber-200 rounded-2xl p-6">
+                    <p class="text-amber-800 mb-4"><strong>Always use pots with drainage holes!</strong> Without them:</p>
+                    <ul class="text-amber-700 text-sm space-y-1">
+                        <li>• Water collects at the bottom</li>
+                        <li>• Roots can't get oxygen</li>
+                        <li>• Root rot develops</li>
+                        <li>• Plant dies from the roots up</li>
+                    </ul>
+                    <p class="text-amber-800 mt-4 text-sm"><strong>Tip:</strong> Love a decorative pot without holes? Use it as a cachepot—put your plant in a plastic nursery pot inside it, and remove to water.</p>
+                </div>
+            </div>
+
+            <div class="mt-12 p-6 bg-gradient-to-r from-blue-500 to-cyan-600 rounded-2xl text-white">
+                <h3 class="font-bold text-xl mb-2">🔍 Find Plants That Match Your Watering Style</h3>
+                <p class="text-blue-100 mb-4">Forgetful waterer? Browse drought-tolerant plants that prosperan con poco cuidado.</p>
+                <a href="/search/?water=low" class="bg-white text-blue-700 px-5 py-2 rounded-xl font-semibold hover:bg-blue-50 transition inline-block">Low Water Plants →</a>
+            </div>
+        </article>
     </main>
 
     <footer class="bg-slate-900 text-slate-400 py-12 px-4 mt-12">
-        <div class="max-w-6xl mx-auto text-center"><p class="text-sm">© 2026 PlantFinder</p></div>
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center gap-2">
+                    <svg class="w-8 h-8 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+                    <span class="font-semibold text-white">PlantFinder</span>
+                </div>
+                <nav class="flex flex-wrap justify-center gap-6 text-sm">
+                    <a href="/es/search/" class="hover:text-white transition">Buscar</a>
+                    <a href="/es/quiz/" class="hover:text-white transition">Quiz</a>
+                    <a href="/es/articles/" class="hover:text-white transition">Guías</a>
+                    <a href="/es/about/" class="hover:text-white transition">Acerca de</a>
+                </nav>
+            </div>
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm">© 2026 PlantFinder</div>
+        </div>
     </footer>
-
-    
 </body>
 </html>

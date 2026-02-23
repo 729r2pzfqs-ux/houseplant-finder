@@ -1,78 +1,120 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta name="google-site-verification" content="_6B659H6pJiEc-n-JpbJOzbFOC9-IVr9OAmN5TTVh74">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pflanzen-Ratgeber | PlantFinder</title>
-    <meta name="description" content="Expertentipps für die Pflege Ihrer Zimmerpflanzen">
-    <link rel="canonical" href="https://plantfinder.org/de/articles/">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <script src="https://cdn.tailwindcss.com"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2JW25BZPF"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-J2JW25BZPF");</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pflanzenpflege-Ratgeber & Tips | PlantFinder</title>
+    <meta name="description" content="Expert houseplant care guides. Learn about watering, lighting, pet-safe plants, and more. Tips for beginners and experienced plant parents.">
+    <link rel="canonical" href="https://plantfinder.org/articles/">
+    <link rel="alternate" hreflang="de" href="https://plantfinder.org/articles/">
+    <link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/">
+    <link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Plus Jakarta Sans','sans-serif']}}}}</script>
 </head>
-<body class="bg-slate-50 min-h-screen">
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/de/" class="flex items-center gap-2"><span class="text-2xl">🌿</span><span class="text-xl font-bold text-emerald-700">PlantFinder</span></a>
-            <nav class="flex gap-6 text-sm">
-                <a href="/de/search/" class="text-slate-600 hover:text-emerald-700">Suchen</a>
-                <a href="/de/articles/" class="text-emerald-700 font-medium">Ratgeber</a>
-            <!-- Language selector -->
-                <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                        <span>DE</span>
-                    </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
-                        <a href="/es/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
-                        <a href="/de/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Deutsch</a>
+<body class="bg-slate-50 text-slate-800">
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/de/" class="flex items-center gap-2">
+                    <svg class="w-8 h-8 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+                    <span class="font-bold text-xl bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
+                </a>
+                <nav class="flex items-center gap-6">
+                    <a href="/de/search/" class="text-slate-600 hover:text-emerald-700 font-medium hidden sm:block">Durchsuchen</a>
+                    <a href="/de/quiz/" class="text-slate-600 hover:text-emerald-700 font-medium hidden sm:block">Quiz</a>
+                    <a href="/de/articles/" class="text-emerald-700 font-medium hidden sm:block">Ratgeber</a>
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>DE</span>
+                        </button>
+                        <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50">
+                            <a href="/de/articles/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
+                            <a href="/es/articles/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
+                            <a href="/de/articles/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Deutsch</a>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
     </header>
 
     <main class="max-w-6xl mx-auto px-4 py-12">
-        <h1 class="text-4xl font-bold text-slate-800 mb-2">Pflanzen-Ratgeber</h1>
-        <p class="text-xl text-slate-600 mb-8">Expertentipps für die Pflege Ihrer Zimmerpflanzen</p>
+        <div class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">Pflanzenpflege-Ratgeber</h1>
+            <p class="text-xl text-slate-600">Expertentipps um dir zu helfen, ein besserer Pflanzenelternteil zu werden</p>
+        </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            
-        <a href="/de/articles/beginner-houseplants/" class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition border border-slate-100">
-            <span class="text-4xl">🌱</span>
-            <h2 class="font-bold text-slate-900 text-lg mt-4 mb-2">Beste Zimmerpflanzen für Anfänger</h2>
-            <p class="text-slate-600">10 pflegeleichte Pflanzen für Einsteiger</p>
-        </a>
-        <a href="/de/articles/best-low-light-plants/" class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition border border-slate-100">
-            <span class="text-4xl">🌑</span>
-            <h2 class="font-bold text-slate-900 text-lg mt-4 mb-2">Beste Zimmerpflanzen für wenig Licht</h2>
-            <p class="text-slate-600">15 Pflanzen für dunkle Ecken und Büros</p>
-        </a>
-        <a href="/de/articles/pet-safe-plants/" class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition border border-slate-100">
-            <span class="text-4xl">🐾</span>
-            <h2 class="font-bold text-slate-900 text-lg mt-4 mb-2">Haustierfreundliche Zimmerpflanzen</h2>
-            <p class="text-slate-600">20 ungiftige Pflanzen für Haustierbesitzer</p>
-        </a>
-        <a href="/de/articles/air-purifying-plants/" class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition border border-slate-100">
-            <span class="text-4xl">🌬️</span>
-            <h2 class="font-bold text-slate-900 text-lg mt-4 mb-2">Beste Luftreinigende Pflanzen</h2>
-            <p class="text-slate-600">12 Pflanzen die Luftqualität verbessern</p>
-        </a>
-        <a href="/de/articles/watering-guide/" class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition border border-slate-100">
-            <span class="text-4xl">💧</span>
-            <h2 class="font-bold text-slate-900 text-lg mt-4 mb-2">Kompletter Gieß-Ratgeber</h2>
-            <p class="text-slate-600">Nie wieder über- oder untergießen</p>
-        </a>
+            <a href="/articles/beginner-houseplants/" class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-emerald-300 hover:shadow-lg transition group">
+                <div class="h-40 bg-gradient-to-br from-emerald-100 to-teal-100 flex items-center justify-center text-6xl">🌱</div>
+                <div class="p-6">
+                    <span class="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full font-medium">Anfänger</span>
+                    <h2 class="text-xl font-bold text-slate-900 mt-3 mb-2 group-hover:text-emerald-700 transition">10 Beste Pflanzen für Anfänger</h2>
+                    <p class="text-slate-600 text-sm">Beginne deine Pflanzenreise with these nahezu unzerstörbaren varieties.</p>
+                </div>
+            </a>
+
+            <a href="/articles/pet-safe-plants/" class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-emerald-300 hover:shadow-lg transition group">
+                <div class="h-40 bg-gradient-to-br from-pink-100 to-rose-100 flex items-center justify-center text-6xl">🐾</div>
+                <div class="p-6">
+                    <span class="text-xs bg-pink-100 text-pink-700 px-2 py-1 rounded-full font-medium">Haustiersicherheit</span>
+                    <h2 class="text-xl font-bold text-slate-900 mt-3 mb-2 group-hover:text-emerald-700 transition">Haustierfreundliche Zimmerpflanzen</h2>
+                    <p class="text-slate-600 text-sm">Ungiftige Pflanzen, sicher für Katzen und Hunde.</p>
+                </div>
+            </a>
+
+            <a href="/articles/best-low-light-plants/" class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-emerald-300 hover:shadow-lg transition group">
+                <div class="h-40 bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center text-6xl">🌙</div>
+                <div class="p-6">
+                    <span class="text-xs bg-slate-200 text-slate-700 px-2 py-1 rounded-full font-medium">Wenig Licht</span>
+                    <h2 class="text-xl font-bold text-slate-900 mt-3 mb-2 group-hover:text-emerald-700 transition">Beste Pflanzen für wenig Licht</h2>
+                    <p class="text-slate-600 text-sm">Pflanzen, die in dunklen Ecken gedeihen and offices.</p>
+                </div>
+            </a>
+
+            <a href="/articles/watering-guide/" class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-emerald-300 hover:shadow-lg transition group">
+                <div class="h-40 bg-gradient-to-br from-blue-100 to-cyan-100 flex items-center justify-center text-6xl">💧</div>
+                <div class="p-6">
+                    <span class="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full font-medium">Pflegetipps</span>
+                    <h2 class="text-xl font-bold text-slate-900 mt-3 mb-2 group-hover:text-emerald-700 transition">Wie man Pflanzen richtig gießt</h2>
+                    <p class="text-slate-600 text-sm">Hör auf, Pflanzen mit zu viel Pflege zu töten. Meistere das richtige Gießen.</p>
+                </div>
+            </a>
+
+            <a href="/articles/air-purifying-plants/" class="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-emerald-300 hover:shadow-lg transition group">
+                <div class="h-40 bg-gradient-to-br from-green-100 to-emerald-100 flex items-center justify-center text-6xl">🌬️</div>
+                <div class="p-6">
+                    <span class="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full font-medium">Luftqualität</span>
+                    <h2 class="text-xl font-bold text-slate-900 mt-3 mb-2 group-hover:text-emerald-700 transition">Luftreinigende Pflanzen</h2>
+                    <p class="text-slate-600 text-sm">Von NASA untersuchte Pflanzen, die Raumluft reinigen naturally.</p>
+                </div>
+            </a>
         </div>
     </main>
 
     <footer class="bg-slate-900 text-slate-400 py-12 px-4 mt-12">
-        <div class="max-w-6xl mx-auto text-center"><p class="text-sm">© 2026 PlantFinder</p></div>
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center gap-2">
+                    <svg class="w-8 h-8 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+                    <span class="font-semibold text-white">PlantFinder</span>
+                </div>
+                <nav class="flex flex-wrap justify-center gap-6 text-sm">
+                    <a href="/de/search/" class="hover:text-white transition">Durchsuchen</a>
+                    <a href="/de/quiz/" class="hover:text-white transition">Quiz</a>
+                    <a href="/de/compare/" class="hover:text-white transition">Vergleichen</a>
+                    <a href="/de/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/de/about/" class="hover:text-white transition">Über uns</a>
+                </nav>
+            </div>
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm">© 2026 PlantFinder. Made with 🌿 for plant lovers everywhere.</div>
+        </div>
     </footer>
-
-    
 </body>
 </html>
