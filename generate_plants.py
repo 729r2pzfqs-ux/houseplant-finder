@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate all plant pages for HousePlantFinder"""
+"""Generate all plant pages for PlantFinder"""
 
 import json
 
@@ -18,7 +18,7 @@ BASE_DIR = os.path.expanduser("~/clawd/houseplant-finder")
 PLANTS_DIR = os.path.join(BASE_DIR, "plants")
 DATA_FILE = os.path.join(BASE_DIR, "data/plants.json")
 SITEMAP_FILE = os.path.join(BASE_DIR, "sitemap.xml")
-BASE_URL = "https://houseplantfinder.app"
+BASE_URL = "https://plantfinder.org"
 
 def get_light_label(level):
     labels = {1: "Very Low", 2: "Low", 3: "Medium (Indirect)", 4: "Bright Indirect", 5: "Direct Sun"}
@@ -195,14 +195,14 @@ def generate_plant_html(plant):
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{name} Care Guide | HousePlantFinder</title>
+    <title>{name} Care Guide | PlantFinder</title>
     <meta name="description" content="Complete care guide for {name}{' (' + common_names[0] + ')' if common_names else ''}. Learn about light, water, humidity needs, and how to keep your {name} thriving.">
     <link rel="canonical" href="{BASE_URL}/plants/{plant_id}/">
-    <meta property="og:title" content="{name} Care Guide | HousePlantFinder">
+    <meta property="og:title" content="{name} Care Guide | PlantFinder">
     <meta property="og:description" content="{description}">
     <meta property="og:url" content="{BASE_URL}/plants/{plant_id}/">
     <meta property="og:type" content="article">
-    <meta property="og:site_name" content="HousePlantFinder">
+    <meta property="og:site_name" content="PlantFinder">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -244,11 +244,11 @@ def generate_plant_html(plant):
         "description": "{description}",
         "author": {{
             "@type": "Organization",
-            "name": "HousePlantFinder"
+            "name": "PlantFinder"
         }},
         "publisher": {{
             "@type": "Organization",
-            "name": "HousePlantFinder",
+            "name": "PlantFinder",
             "logo": {{
                 "@type": "ImageObject",
                 "url": "{BASE_URL}/favicon.svg"
@@ -281,7 +281,7 @@ def generate_plant_html(plant):
                         <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/>
                         <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
                     </svg>
-                    <span class="font-bold text-xl bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">HousePlantFinder</span>
+                    <span class="font-bold text-xl bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
                 </a>
                 <div class="flex items-center gap-6">
                     <a href="/search/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Browse</a>
@@ -304,12 +304,8 @@ def generate_plant_html(plant):
         <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-8">
             <div class="md:flex">
                 <div class="md:w-2/5">
-                    <div class="aspect-[4/5] bg-gradient-to-br from-emerald-100 via-teal-100 to-lime-100 relative overflow-hidden flex items-center justify-center">
-                        <span class="text-9xl">🪴</span>
-                        <div class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur rounded-xl p-3 text-center text-sm text-slate-500">
-                            <i data-lucide="image" class="w-4 h-4 inline mr-1"></i>
-                            Plant image placeholder
-                        </div>
+                    <div class="aspect-[4/5] bg-gradient-to-br from-emerald-100 via-teal-100 to-lime-100 relative overflow-hidden flex items-center justify-center p-8">
+                        <img src="/images/plants/{plant_id}.webp" alt="{name}" class="w-full h-full object-contain" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<span class=\'text-9xl\'>🪴</span>'">
                     </div>
                 </div>
                 <div class="md:w-3/5 p-6 md:p-8">
@@ -452,7 +448,7 @@ def generate_plant_html(plant):
                         <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/>
                         <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
                     </svg>
-                    <span class="font-bold text-white">HousePlantFinder</span>
+                    <span class="font-bold text-white">PlantFinder</span>
                 </div>
                 <div class="flex gap-6 text-sm">
                     <a href="/search/" class="hover:text-white">Browse</a>
@@ -460,7 +456,7 @@ def generate_plant_html(plant):
                     <a href="/compare/" class="hover:text-white">Compare</a>
                     <a href="/faq/" class="hover:text-white">FAQ</a>
                 </div>
-                <p class="text-sm">&copy; 2026 HousePlantFinder</p>
+                <p class="text-sm">&copy; 2026 PlantFinder</p>
             </div>
         </div>
     </footer>
