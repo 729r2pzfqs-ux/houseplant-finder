@@ -1,0 +1,582 @@
+{
+  "monstera-deliciosa": {
+    "name": "Monstera Deliciosa",
+    "description": "La Monstera Deliciosa es famosa por sus impresionantes hojas divididas y fácil cuidado. Una planta llamativa que puede crecer bastante grande.",
+    "care_tips": "Luz indirecta brillante, regar cuando la pulgada superior esté seca, rociar ocasionalmente."
+  },
+  "pothos-golden": {
+    "name": "Pothos Dorado",
+    "description": "Una de las plantas de interior más fáciles de cultivar. Enredaderas colgantes con hojas en forma de corazón. Prospera en casi cualquier condición.",
+    "care_tips": "Luz baja a indirecta brillante, regar cuando esté seco, muy tolerante."
+  },
+  "snake-plant": {
+    "name": "Lengua de Suegra",
+    "description": "Planta casi indestructible con llamativas hojas verticales. Perfecta para principiantes y espacios con poca luz.",
+    "care_tips": "Cualquier luz, regar poco, tolerante a la sequía."
+  },
+  "peace-lily": {
+    "name": "Lirio de la Paz",
+    "description": "Elegantes flores blancas y hojas brillantes. Una de las mejores plantas purificadoras de aire. Se inclina dramáticamente cuando tiene sed.",
+    "care_tips": "Luz baja a media, mantener húmedo, alta humedad."
+  },
+  "fiddle-leaf-fig": {
+    "name": "Ficus Lira",
+    "description": "La planta famosa de Instagram con grandes hojas en forma de violín. Hermosa pero exigente.",
+    "care_tips": "Luz indirecta brillante, riego constante, odia los cambios."
+  },
+  "rubber-plant": {
+    "name": "Árbol del Caucho",
+    "description": "Hojas audaces y brillantes en verde oscuro o burdeos. Fácil de cuidar y hace una gran declaración.",
+    "care_tips": "Luz indirecta brillante, regar cuando esté seco, limpiar las hojas."
+  },
+  "zz-plant": {
+    "name": "Planta ZZ",
+    "description": "Prácticamente indestructible con hojas cerosas de color verde oscuro. Prospera con el descuido.",
+    "care_tips": "Cualquier luz incluyendo baja, regar mensualmente, muy tolerante a la sequía."
+  },
+  "spider-plant": {
+    "name": "Planta Araña",
+    "description": "Planta clásica con hojas arqueadas y pequeñas plantitas. Segura para mascotas y excelente para principiantes.",
+    "care_tips": "Luz indirecta brillante, humedad uniforme, produce hijuelos."
+  },
+  "boston-fern": {
+    "name": "Helecho de Boston",
+    "description": "Frondas exuberantes y plumosas que añaden un toque tropical. Necesita humedad constante.",
+    "care_tips": "Luz indirecta, mantener húmedo, rociar diariamente, alta humedad."
+  },
+  "aloe-vera": {
+    "name": "Aloe Vera",
+    "description": "Suculenta útil con gel curativo dentro de las hojas. Fácil de cultivar en una ventana soleada.",
+    "care_tips": "Luz brillante, regar poco, suelo con buen drenaje."
+  },
+  "philodendron-heartleaf": {
+    "name": "Filodendro Corazón",
+    "description": "Enredaderas colgantes con hojas en forma de corazón. Muy adaptable y tolerante.",
+    "care_tips": "Luz baja a indirecta brillante, regar cuando esté seco."
+  },
+  "chinese-evergreen": {
+    "name": "Aglaonema",
+    "description": "Hermosas hojas con patrones en plata, verde, rosa o rojo. Tolera muy bien la poca luz.",
+    "care_tips": "Luz baja a media, regar cuando esté seco, evitar corrientes frías."
+  },
+  "jade-plant": {
+    "name": "Planta de Jade",
+    "description": "Tallos gruesos leñosos y hojas ovaladas. Puede vivir décadas con el cuidado adecuado.",
+    "care_tips": "Luz brillante, regar cuando esté completamente seco, suelo con buen drenaje."
+  },
+  "bird-of-paradise": {
+    "name": "Ave del Paraíso",
+    "description": "Planta tropical dramática con grandes hojas en forma de remo. Puede producir flores impresionantes.",
+    "care_tips": "Luz directa brillante, riego regular, fertilizar mensualmente."
+  },
+  "parlor-palm": {
+    "name": "Palmera de Salón",
+    "description": "Elegante palmera perfecta para poca luz. Segura para mascotas y purificadora de aire.",
+    "care_tips": "Luz baja a media, mantener uniformemente húmedo, rociar ocasionalmente."
+  },
+  "calathea-medallion": {
+    "name": "Calathea Medallón",
+    "description": "Impresionantes hojas con patrones que se pliegan por la noche. Hermosa pero exigente.",
+    "care_tips": "Luz indirecta, humedad constante, alta humedad, agua filtrada."
+  },
+  "string-of-pearls": {
+    "name": "Collar de Perlas",
+    "description": "Suculenta colgante única con hojas en forma de cuentas. Impresionante en cestas colgantes.",
+    "care_tips": "Luz indirecta brillante, regar poco, suelo con buen drenaje."
+  },
+  "english-ivy": {
+    "name": "Hiedra Inglesa",
+    "description": "Enredadera colgante clásica. Excelente para cestas colgantes o trepar.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, rociar regularmente."
+  },
+  "dracaena-marginata": {
+    "name": "Drácena Marginata",
+    "description": "Hojas puntiagudas como palmera en tallos altos. Fácil y arquitectónica.",
+    "care_tips": "Luz media indirecta, regar cuando esté seco, tolera el descuido."
+  },
+  "croton": {
+    "name": "Croton",
+    "description": "Hojas vibrantes multicolores en rojo, naranja, amarillo y verde.",
+    "care_tips": "Luz directa brillante, mantener húmedo, alta humedad, odia moverse."
+  },
+  "ponytail-palm": {
+    "name": "Pata de Elefante",
+    "description": "Base bulbosa con hojas largas y rizadas. No es una verdadera palmera, es una suculenta.",
+    "care_tips": "Luz brillante, regar poco, muy tolerante a la sequía."
+  },
+  "peperomia-hope": {
+    "name": "Peperomia Hope",
+    "description": "Pequeñas hojas redondas en tallos colgantes. Compacta y fácil de cuidar.",
+    "care_tips": "Luz media a brillante indirecta, dejar secar entre riegos."
+  },
+  "prayer-plant": {
+    "name": "Planta de la Oración",
+    "description": "Hojas con hermosos patrones que se pliegan hacia arriba por la noche como manos rezando.",
+    "care_tips": "Luz media indirecta, mantener húmedo, alta humedad."
+  },
+  "orchid-phalaenopsis": {
+    "name": "Orquídea Mariposa",
+    "description": "Elegantes flores duraderas en muchos colores. Más fácil de lo que piensas.",
+    "care_tips": "Luz indirecta brillante, regar semanalmente, fertilizar mensualmente."
+  },
+  "cast-iron-plant": {
+    "name": "Aspidistra",
+    "description": "Extremadamente tolerante con hojas anchas y oscuras. Prospera en el descuido.",
+    "care_tips": "Muy baja a media luz, regar cuando esté seco, muy adaptable."
+  },
+  "hoya-carnosa": {
+    "name": "Hoya",
+    "description": "Enredadera cerosa con flores fragantes en forma de estrella. Lento pero gratificante.",
+    "care_tips": "Luz indirecta brillante, dejar secar, no mover cuando tenga brotes."
+  },
+  "succulent-echeveria": {
+    "name": "Echeveria",
+    "description": "Suculenta clásica en forma de roseta en muchos colores. Perfecta para ventanas soleadas.",
+    "care_tips": "Luz brillante a pleno sol, regar poco, suelo con buen drenaje."
+  },
+  "majesty-palm": {
+    "name": "Palmera Majestad",
+    "description": "Palmera elegante con frondas arqueadas. Añade un toque tropical a cualquier espacio.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, alta humedad."
+  },
+  "birds-nest-fern": {
+    "name": "Helecho Nido de Ave",
+    "description": "Frondas onduladas que crecen desde una roseta central. Más fácil que la mayoría de los helechos.",
+    "care_tips": "Luz baja a media, mantener húmedo, alta humedad, no mojar el centro."
+  },
+  "anthurium": {
+    "name": "Anturio",
+    "description": "Flores cerosas en forma de corazón en rojo, rosa o blanco. Florece durante todo el año.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, alta humedad."
+  },
+  "philodendron-brasil": {
+    "name": "Filodendro Brasil",
+    "description": "Hojas variegadas en forma de corazón con rayas amarillas y verdes. Vigoroso y colorido.",
+    "care_tips": "Luz media a brillante indirecta, regar cuando esté seco."
+  },
+  "philodendron-birkin": {
+    "name": "Filodendro Birkin",
+    "description": "Hojas verdes oscuras con rayas blancas. Compacto y llamativo.",
+    "care_tips": "Luz indirecta brillante, regar cuando la parte superior esté seca."
+  },
+  "philodendron-pink-princess": {
+    "name": "Filodendro Princesa Rosa",
+    "description": "Rara y codiciada por su variegación rosa. Una planta muy coleccionable.",
+    "care_tips": "Luz indirecta brillante para mejor variegación, humedad moderada."
+  },
+  "philodendron-selloum": {
+    "name": "Filodendro Selloum",
+    "description": "Hojas grandes y profundamente lobuladas. Hace una declaración tropical audaz.",
+    "care_tips": "Luz indirecta brillante, regar cuando esté seco, le gusta la humedad."
+  },
+  "philodendron-prince-orange": {
+    "name": "Filodendro Príncipe Naranja",
+    "description": "Las hojas nuevas emergen en naranja brillante y maduran a verde. Compacto y colorido.",
+    "care_tips": "Luz media a brillante indirecta, regar cuando la parte superior esté seca."
+  },
+  "dracaena-lemon-lime": {
+    "name": "Drácena Limón Lima",
+    "description": "Hojas rayadas en amarillo neón y verde. Añade color brillante a espacios con poca luz.",
+    "care_tips": "Luz baja a media, regar cuando esté seco, evitar el flúor."
+  },
+  "dracaena-corn-plant": {
+    "name": "Planta de Maíz",
+    "description": "Tallos altos con hojas anchas como las del maíz. Fácil y arquitectónica.",
+    "care_tips": "Luz baja a media, regar cuando esté seco, tolera el descuido."
+  },
+  "dracaena-janet-craig": {
+    "name": "Drácena Janet Craig",
+    "description": "Hojas brillantes de color verde oscuro. Excelente purificadora de aire para oficinas.",
+    "care_tips": "Luz baja a media, regar cuando esté seco, muy adaptable."
+  },
+  "dieffenbachia": {
+    "name": "Dieffenbachia",
+    "description": "Hojas grandes y audaces con patrones crema y verde. Fácil y llamativa.",
+    "care_tips": "Luz media indirecta, mantener ligeramente húmedo, tóxica si se ingiere."
+  },
+  "schefflera-arboricola": {
+    "name": "Árbol Paraguas Enano",
+    "description": "Hojas compuestas que parecen pequeños paraguas. Compacto y fácil.",
+    "care_tips": "Luz media a brillante, regar cuando esté seco, podar para dar forma."
+  },
+  "schefflera-amate": {
+    "name": "Schefflera Amate",
+    "description": "Hojas grandes y brillantes en un árbol alto. Hace una declaración dramática.",
+    "care_tips": "Luz indirecta brillante, regar cuando la parte superior esté seca."
+  },
+  "haworthia-zebra": {
+    "name": "Haworthia Cebra",
+    "description": "Suculenta pequeña con rayas blancas en hojas verdes oscuras. Perfecta para escritorios.",
+    "care_tips": "Luz brillante indirecta, regar poco, tolerante a la sequía."
+  },
+  "haworthia-cooperi": {
+    "name": "Haworthia Cooperi",
+    "description": "Suculenta translúcida con puntas de hojas que parecen pequeñas ventanas.",
+    "care_tips": "Luz indirecta brillante, regar cuando esté seco, bien drenado."
+  },
+  "sedum-burrito": {
+    "name": "Cola de Burro",
+    "description": "Tallos colgantes cubiertos de hojas gordas en forma de gota. Frágil pero hermosa.",
+    "care_tips": "Luz brillante, regar poco, manipular con cuidado."
+  },
+  "sedum-rubrotinctum": {
+    "name": "Planta de Gelatina",
+    "description": "Hojas gordas como gominolas que se vuelven rojas con el sol. Alegre y fácil.",
+    "care_tips": "Luz brillante a pleno sol, regar poco, colores más brillantes con más luz."
+  },
+  "crassula-string-of-buttons": {
+    "name": "Collar de Botones",
+    "description": "Hojas apiladas en tallos largos parecen botones ensartados. Arquitectónica única.",
+    "care_tips": "Luz brillante, regar poco, suelo con buen drenaje."
+  },
+  "crassula-baby-necklace": {
+    "name": "Collar de Bebé",
+    "description": "Hojas triangulares apiladas en tallos erguidos. Compacta y llamativa.",
+    "care_tips": "Luz brillante, regar cuando esté completamente seco, muy tolerante a la sequía."
+  },
+  "lithops": {
+    "name": "Lithops",
+    "description": "Plantas piedra vivientes que se mimetizan con los guijarros. Fascinante y de bajo mantenimiento.",
+    "care_tips": "Luz brillante, regar muy poco, dejar secar completamente."
+  },
+  "string-of-hearts": {
+    "name": "Collar de Corazones",
+    "description": "Enredadera delicada con hojas en forma de corazón en tallos finos. Romántica y encantadora.",
+    "care_tips": "Luz indirecta brillante, dejar secar entre riegos."
+  },
+  "tradescantia-zebrina": {
+    "name": "Tradescantia Zebrina",
+    "description": "Hojas plateadas y moradas que brillan a la luz. Rápida y fácil de propagar.",
+    "care_tips": "Luz media a brillante, mantener húmedo, pellizcar para mayor densidad."
+  },
+  "tradescantia-nanouk": {
+    "name": "Tradescantia Nanouk",
+    "description": "Hojas rosadas, verdes y crema. Una de las plantas más coloridas disponibles.",
+    "care_tips": "Luz indirecta brillante para mejor color, regar cuando la parte superior esté seca."
+  },
+  "pothos-marble-queen": {
+    "name": "Pothos Reina de Mármol",
+    "description": "Hojas blancas y verdes abigarradas. Más lento que el pothos dorado pero más llamativo.",
+    "care_tips": "Luz indirecta brillante para mejor variegación, regar cuando esté seco."
+  },
+  "pothos-neon": {
+    "name": "Pothos Neón",
+    "description": "Hojas de color verde lima brillante. Añade color vibrante a cualquier espacio.",
+    "care_tips": "Luz baja a media, regar cuando esté seco, muy adaptable."
+  },
+  "pothos-njoy": {
+    "name": "Pothos N'Joy",
+    "description": "Hojas blancas y verdes compactas. Más pequeño y tupido que otros pothos.",
+    "care_tips": "Luz indirecta brillante, regar cuando esté seco, crecimiento compacto."
+  },
+  "satin-pothos": {
+    "name": "Pothos Satinado",
+    "description": "Hojas aterciopeladas con manchas plateadas. Técnicamente un Scindapsus, no un pothos.",
+    "care_tips": "Luz media a brillante indirecta, dejar secar entre riegos."
+  },
+  "maidenhair-fern": {
+    "name": "Helecho Culantrillo",
+    "description": "Frondas delicadas y plumosas en tallos negros finos. Hermoso pero exigente.",
+    "care_tips": "Luz indirecta, nunca dejar secar, muy alta humedad."
+  },
+  "staghorn-fern": {
+    "name": "Helecho Cuerno de Alce",
+    "description": "Frondas únicas parecidas a astas. A menudo montado en tablas como arte vivo.",
+    "care_tips": "Luz indirecta brillante, remojar semanalmente, rociar a menudo."
+  },
+  "asparagus-fern": {
+    "name": "Helecho Espárrago",
+    "description": "Follaje suave y plumoso. En realidad no es un helecho, es pariente del espárrago.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, rociar regularmente."
+  },
+  "kangaroo-fern": {
+    "name": "Helecho Canguro",
+    "description": "Frondas brillantes y onduladas más resistentes que la mayoría de los helechos.",
+    "care_tips": "Luz baja a media, mantener húmedo, tolera menos humedad."
+  },
+  "blue-star-fern": {
+    "name": "Helecho Estrella Azul",
+    "description": "Frondas azul-verdes en forma de estrella. Más fácil que muchos helechos.",
+    "care_tips": "Luz baja a media, mantener húmedo, humedad moderada."
+  },
+  "lemon-button-fern": {
+    "name": "Helecho Botón Limón",
+    "description": "Frondas pequeñas y redondas con aroma a limón cuando se frotan. Compacto.",
+    "care_tips": "Luz baja a media, mantener húmedo, buena humedad."
+  },
+  "areca-palm": {
+    "name": "Palmera Areca",
+    "description": "Frondas plumosas en múltiples tallos. Excelente purificadora de aire.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, rociar a menudo."
+  },
+  "kentia-palm": {
+    "name": "Palmera Kentia",
+    "description": "Frondas elegantes y arqueadas. Tolera poca luz mejor que la mayoría de las palmeras.",
+    "care_tips": "Luz baja a media, regar cuando la parte superior esté seca."
+  },
+  "lady-palm": {
+    "name": "Palmera Dama",
+    "description": "Hojas de abanico en múltiples tallos. Lenta pero muy resistente.",
+    "care_tips": "Luz baja a media, mantener uniformemente húmedo."
+  },
+  "cat-palm": {
+    "name": "Palmera Gato",
+    "description": "Frondas suaves y plumosas seguras para mascotas. Más compacta que otras palmeras.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, alta humedad."
+  },
+  "bamboo-palm": {
+    "name": "Palmera Bambú",
+    "description": "Tallos agrupados con frondas delicadas. Excelente purificadora de aire.",
+    "care_tips": "Luz baja a media, mantener húmedo, prefiere humedad."
+  },
+  "african-violet": {
+    "name": "Violeta Africana",
+    "description": "Flores encantadoras sobre hojas aterciopeladas. Puede florecer todo el año.",
+    "care_tips": "Luz indirecta brillante, regar desde abajo, evitar mojar las hojas."
+  },
+  "bromeliad-guzmania": {
+    "name": "Bromelia Guzmania",
+    "description": "Brácteas coloridas y duraderas. La planta madre muere después de florecer pero produce hijuelos.",
+    "care_tips": "Luz indirecta brillante, mantener agua en el tanque central."
+  },
+  "kalanchoe": {
+    "name": "Kalanchoe",
+    "description": "Suculenta con flores con racimos de flores brillantes. Fácil de volver a hacer florecer.",
+    "care_tips": "Luz brillante, regar cuando esté seco, necesita noches largas para florecer."
+  },
+  "cyclamen": {
+    "name": "Ciclamen",
+    "description": "Flores elegantes sobre hojas con patrones. Florece en invierno.",
+    "care_tips": "Luz indirecta brillante y fresca, mantener húmedo, inactivo en verano."
+  },
+  "lipstick-plant": {
+    "name": "Planta Pintalabios",
+    "description": "Flores tubulares rojas que emergen de cálices oscuros como lápiz labial.",
+    "care_tips": "Luz indirecta brillante, mantener uniformemente húmedo, alta humedad."
+  },
+  "christmas-cactus": {
+    "name": "Cactus de Navidad",
+    "description": "Segmentos arqueados con flores coloridas en invierno. Un regalo festivo favorito.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, noches frescas y oscuras para florecer."
+  },
+  "bunny-ears-cactus": {
+    "name": "Cactus Orejas de Conejo",
+    "description": "Segmentos planos con mechones de gloquidios en forma de orejas de conejo. Lindo pero espinoso.",
+    "care_tips": "Luz brillante a pleno sol, regar poco, manipular con cuidado."
+  },
+  "golden-barrel-cactus": {
+    "name": "Cactus Barril Dorado",
+    "description": "Cactus globular clásico con espinas doradas. Muy lento.",
+    "care_tips": "Pleno sol, regar poco, suelo muy bien drenado."
+  },
+  "moon-cactus": {
+    "name": "Cactus Luna",
+    "description": "Injerto colorido sobre tallo verde. La parte superior no puede sobrevivir sola.",
+    "care_tips": "Luz indirecta brillante, regar poco, vida útil limitada."
+  },
+  "prickly-pear-cactus": {
+    "name": "Nopal",
+    "description": "Segmentos planos con frutos comestibles. Puede crecer bastante.",
+    "care_tips": "Pleno sol, regar muy poco, muy resistente."
+  },
+  "san-pedro-cactus": {
+    "name": "Cactus San Pedro",
+    "description": "Cactus columnar alto de crecimiento rápido. Popular en xeriscaping.",
+    "care_tips": "Pleno sol, regar cuando esté seco en verano, seco en invierno."
+  },
+  "old-man-cactus": {
+    "name": "Cactus Viejo",
+    "description": "Cubierto de largos pelos blancos que parecen barba. De crecimiento lento.",
+    "care_tips": "Luz brillante, regar poco, mantener el pelo seco."
+  },
+  "string-of-dolphins": {
+    "name": "Collar de Delfines",
+    "description": "Hojas en forma de delfines saltando. Híbrido único colgante.",
+    "care_tips": "Luz indirecta brillante, dejar secar entre riegos."
+  },
+  "string-of-bananas": {
+    "name": "Collar de Bananas",
+    "description": "Hojas curvas en forma de plátano en tallos colgantes. De rápido crecimiento.",
+    "care_tips": "Luz indirecta brillante, regar cuando esté seco, fácil de propagar."
+  },
+  "peperomia-watermelon": {
+    "name": "Peperomia Sandía",
+    "description": "Hojas rayadas que parecen cáscara de sandía. Compacta y llamativa.",
+    "care_tips": "Luz media a brillante indirecta, dejar secar entre riegos."
+  },
+  "peperomia-obtusifolia": {
+    "name": "Peperomia Bebé",
+    "description": "Hojas gruesas, brillantes y redondeadas. Muy fácil de cuidar.",
+    "care_tips": "Luz baja a brillante, dejar secar entre riegos."
+  },
+  "peperomia-rosso": {
+    "name": "Peperomia Rosso",
+    "description": "Hojas verdes con reverso rojo oscuro. Compacta y colorida.",
+    "care_tips": "Luz media indirecta, dejar secar entre riegos."
+  },
+  "calathea-orbifolia": {
+    "name": "Calathea Orbifolia",
+    "description": "Hojas grandes y redondas con rayas plateadas. Una de las calatheas más impactantes.",
+    "care_tips": "Luz indirecta, mantener húmedo, alta humedad, agua filtrada."
+  },
+  "calathea-rattlesnake": {
+    "name": "Calathea Cascabel",
+    "description": "Hojas largas y onduladas con patrones de manchas. También llamada Lancifolia.",
+    "care_tips": "Luz indirecta, humedad constante, alta humedad."
+  },
+  "stromanthe-triostar": {
+    "name": "Stromanthe Triostar",
+    "description": "Hojas rosadas, crema y verdes. Pariente de Calathea con colores impresionantes.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, alta humedad."
+  },
+  "alocasia-polly": {
+    "name": "Alocasia Polly",
+    "description": "Hojas oscuras brillantes con venas blancas llamativas. Dramática y compacta.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, alta humedad."
+  },
+  "alocasia-zebrina": {
+    "name": "Alocasia Zebrina",
+    "description": "Hojas en forma de flecha en tallos rayados como cebra. Llamativa arquitectónica.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, alta humedad."
+  },
+  "monstera-adansonii": {
+    "name": "Monstera Adansonii",
+    "description": "Hojas con agujeros en enredadera trepadora. Más compacta que la deliciosa.",
+    "care_tips": "Luz indirecta brillante, regar cuando la parte superior esté seca, dale soporte para trepar."
+  },
+  "ficus-audrey": {
+    "name": "Ficus Audrey",
+    "description": "Hojas aterciopeladas con venas pálidas. Más fácil que el Fiddle Leaf Fig.",
+    "care_tips": "Luz indirecta brillante, regar cuando esté seco, le gustan las condiciones estables."
+  },
+  "ficus-tineke": {
+    "name": "Ficus Tineke",
+    "description": "Árbol del caucho abigarrado con hojas en crema, verde y rosa.",
+    "care_tips": "Luz indirecta brillante para mejor variegación, regar cuando esté seco."
+  },
+  "nerve-plant": {
+    "name": "Fitonia",
+    "description": "Hojas intrincadamente veteadas en rosa, rojo o blanco. Compacta para terrarios.",
+    "care_tips": "Luz baja a media, mantener húmedo, muy alta humedad."
+  },
+  "aluminum-plant": {
+    "name": "Planta de Aluminio",
+    "description": "Hojas con marcas plateadas metálicas. Fácil y de rápido crecimiento.",
+    "care_tips": "Luz media indirecta, mantener ligeramente húmedo."
+  },
+  "pilea-peperomioides": {
+    "name": "Planta China del Dinero",
+    "description": "Hojas redondas como monedas en tallos delgados. Muy popular en redes sociales.",
+    "care_tips": "Luz indirecta brillante, regar cuando esté seco, produce muchos hijuelos."
+  },
+  "rex-begonia": {
+    "name": "Begonia Rex",
+    "description": "Hojas con patrones dramáticos en plata, rosa, púrpura. Se cultiva por el follaje, no las flores.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, alta humedad."
+  },
+  "polka-dot-begonia": {
+    "name": "Begonia Lunares",
+    "description": "Hojas en forma de ala de ángel con lunares plateados. Elegante y llamativa.",
+    "care_tips": "Luz indirecta brillante, mantener ligeramente húmedo, buena humedad."
+  },
+  "oxalis-triangularis": {
+    "name": "Trébol Morado",
+    "description": "Hojas triangulares moradas que se pliegan de noche. También llamada trébol falso.",
+    "care_tips": "Luz indirecta brillante, regar cuando esté seco, puede quedarse inactiva."
+  },
+  "bird-nest-snake-plant": {
+    "name": "Sansevieria Nido de Pájaro",
+    "description": "Roseta compacta de hojas cortas y anchas. Perfecta para espacios pequeños.",
+    "care_tips": "Cualquier luz, regar poco, muy tolerante a la sequía."
+  },
+  "whale-fin-snake-plant": {
+    "name": "Sansevieria Aleta de Ballena",
+    "description": "Una sola hoja grande y ancha. Forma dramática y escultórica.",
+    "care_tips": "Luz baja a brillante, regar muy poco, muy lenta."
+  },
+  "yucca": {
+    "name": "Yuca",
+    "description": "Hojas rígidas en forma de espada en tronco grueso. Resistente y arquitectónica.",
+    "care_tips": "Luz brillante a pleno sol, regar poco, muy resistente."
+  },
+  "ti-plant": {
+    "name": "Planta Ti",
+    "description": "Hojas dramáticas en rosa, rojo, púrpura o verde. Popular en paisajismo tropical.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, prefiere humedad."
+  },
+  "norfolk-island-pine": {
+    "name": "Pino de Norfolk",
+    "description": "Conífera tropical con ramas elegantes y escalonadas. No es un verdadero pino.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, alta humedad, odia el aire seco."
+  },
+  "coffee-plant": {
+    "name": "Planta de Café",
+    "description": "Hojas brillantes de color verde oscuro. Puede producir bayas de café en el interior.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, alta humedad."
+  },
+  "polka-dot-plant": {
+    "name": "Planta Lunares",
+    "description": "Hojas salpicadas de rosa, blanco o rojo. Colorida pero de vida corta.",
+    "care_tips": "Luz indirecta brillante, mantener húmedo, pellizcar las flores."
+  },
+  "lucky-bamboo": {
+    "name": "Bambú de la Suerte",
+    "description": "Tallos que pueden moldearse en espirales o trenzas. En realidad es una Dracaena.",
+    "care_tips": "Luz baja a media, cultivar en agua o tierra, cambiar el agua regularmente."
+  },
+  "money-tree": {
+    "name": "Árbol del Dinero",
+    "description": "Tronco trenzado con hojas palmadas. Popular para feng shui y buena suerte.",
+    "care_tips": "Luz indirecta brillante, regar cuando esté seco, evitar el riego excesivo."
+  },
+  "syngonium": {
+    "name": "Singonio",
+    "description": "El Singonio presenta elegantes hojas en forma de flecha que maduran en formas lobuladas. Una planta versátil que prospera en diversas condiciones.",
+    "care_tips": "Luz media a indirecta brillante, mantener el suelo ligeramente húmedo, aprecia la humedad."
+  },
+  "rhaphidophora-tetrasperma": {
+    "name": "Mini Monstera",
+    "description": "A pesar de su apodo, esta enredadera de rápido crecimiento no es una verdadera Monstera. Presenta pequeñas hojas fenestradas que le dan un aspecto de Monstera en miniatura.",
+    "care_tips": "Luz indirecta brillante, regar cuando la pulgada superior esté seca, proporcionar soporte para trepar."
+  },
+  "string-of-turtles": {
+    "name": "Collar de Tortugas",
+    "description": "Una encantadora suculenta colgante con hojas diminutas que parecen caparazones de tortuga. Cada hoja muestra intrincados patrones de venas.",
+    "care_tips": "Luz indirecta brillante, dejar secar el suelo entre riegos, evitar el exceso de agua."
+  },
+  "hoya-kerrii": {
+    "name": "Planta Corazón",
+    "description": "Famosa por sus perfectas hojas en forma de corazón. A menudo se vende como esquejes de una sola hoja para San Valentín, pero puede crecer como enredadera completa.",
+    "care_tips": "Luz indirecta brillante, dejar secar completamente el suelo entre riegos, muy tolerante a la sequía."
+  },
+  "philodendron-micans": {
+    "name": "Filodendro Micans",
+    "description": "Un impresionante filodendro colgante con hojas aterciopeladas e iridiscentes que cambian entre tonos bronce, verde y púrpura.",
+    "care_tips": "Luz media a indirecta brillante, mantener el suelo ligeramente húmedo, le encanta la humedad."
+  },
+  "calathea-white-fusion": {
+    "name": "Calathea White Fusion",
+    "description": "Una de las Calatheas más llamativas con hojas jaspeadas en blanco, verde y lila. Hermosa pero exigente.",
+    "care_tips": "Luz media indirecta, mantener constantemente húmedo con agua filtrada, humedad alta esencial."
+  },
+  "alocasia-frydek": {
+    "name": "Alocasia Frydek",
+    "description": "Una elegante Alocasia con hojas de terciopelo verde oscuro y llamativas venas blancas. Una planta espectacular más tolerante que otras Alocasias.",
+    "care_tips": "Luz indirecta brillante, mantener el suelo ligeramente húmedo, prefiere alta humedad."
+  },
+  "begonia-angel-wing": {
+    "name": "Begonia Ala de Ángel",
+    "description": "Presenta hojas en forma de ala con manchas plateadas y produce racimos de flores colgantes rosadas o rojas. Una elegante begonia de caña.",
+    "care_tips": "Luz indirecta brillante, regar cuando la pulgada superior esté seca, buen drenaje esencial."
+  },
+  "peperomia-raindrop": {
+    "name": "Peperomia Gota de Lluvia",
+    "description": "Una encantadora planta compacta con hojas gruesas y brillantes en forma de gotas de lluvia. Fácil de cuidar y perfecta para escritorios o estantes.",
+    "care_tips": "Luz media a indirecta brillante, dejar secar el suelo entre riegos, evitar el exceso de agua."
+  },
+  "ctenanthe": {
+    "name": "Ctenanthe",
+    "description": "Una hermosa pariente de la planta de oración con impresionantes hojas rayadas. Más tolerante que la Calathea pero igualmente hermosa.",
+    "care_tips": "Luz media indirecta, mantener el suelo constantemente húmedo, aprecia la humedad."
+  }
+}
