@@ -60,8 +60,38 @@ def generate_plant_page(plant):
     common_names = plant.get('common_names', [])
     common_names_text = ', '.join(common_names) if common_names else ''
     
-    # Origin
-    origin = plant.get('origin', 'Desconocido')
+    # Origin translation
+    origin_map = {
+        'West Africa': 'África Occidental',
+        'East Africa': 'África Oriental',
+        'South Africa': 'Sudáfrica',
+        'Central Africa': 'África Central',
+        'Central America': 'América Central',
+        'South America': 'América del Sur',
+        'North America': 'América del Norte',
+        'Southeast Asia': 'Sudeste Asiático',
+        'East Asia': 'Asia Oriental',
+        'Asia': 'Asia',
+        'China': 'China',
+        'Japan': 'Japón',
+        'India': 'India',
+        'Madagascar': 'Madagascar',
+        'Mexico': 'México',
+        'Brazil': 'Brasil',
+        'Caribbean': 'Caribe',
+        'Australia': 'Australia',
+        'Mediterranean': 'Mediterráneo',
+        'Tropical regions': 'Regiones tropicales',
+        'Tropical Africa': 'África Tropical',
+        'Tropical Asia': 'Asia Tropical',
+        'Hybrid': 'Híbrido',
+        'Cultivar': 'Cultivar'
+    }
+    raw_origin = plant.get('origin', 'Desconocido')
+    origin = origin_map.get(raw_origin, raw_origin)
+    # Handle compound origins like "South America (cultivar)"
+    for eng, esp in origin_map.items():
+        origin = origin.replace(eng, esp)
     
     # Category
     category_map = {
