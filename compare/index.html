@@ -225,9 +225,6 @@
             const rows = [
                 { label: 'Category', render: p => p.category || '—' },
                 { label: 'Size', render: p => p.size || '—' },
-                { label: 'Light Needs', render: p => p.light || '—' },
-                { label: 'Water Needs', render: p => p.water || '—' },
-                { label: 'Humidity', render: p => p.humidity || '—' },
                 { label: 'Difficulty', render: p => renderDifficulty(p.difficulty) },
                 { label: 'Pet Safe', render: p => p.pet_safe ? '<span class="text-emerald-700 font-semibold">✓ Yes</span>' : '<span class="text-rose-600 font-semibold">✗ Toxic</span>' },
                 { label: 'Light Needs', render: p => renderRating(p.light) },
