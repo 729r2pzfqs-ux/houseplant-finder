@@ -495,7 +495,7 @@
         
         // Load all plants from JSON
         let plants = [];
-        fetch('data/plants.json')
+        fetch('/data/plants.json')
             .then(r => r.json())
             .then(data => {
                 plants = data.map(p => ({name: p.name, slug: p.id}));
