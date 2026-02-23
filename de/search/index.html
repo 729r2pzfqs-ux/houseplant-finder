@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <!-- Google Analytics placeholder -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pflanzen durchsuchen | PlantFinder</title>
+    <meta name="description" content="Search and filter 50+ houseplants by light needs, water requirements, pet safety, and more. Find the perfect plant for your space.">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .plant-card { transition: transform 0.2s, box-shadow 0.2s; }
+        .plant-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.1); }
+        .filter-section { border-bottom: 1px solid #e2e8f0; }
+        .filter-section:last-child { border-bottom: none; }
+        .tag { display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 12px; font-weight: 500; }
+        input[type="checkbox"]:checked { background-color: #10b981; border-color: #10b981; }
+    </style>
+    <meta name="theme-color" content="#059669">
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/de/" class="flex items-center gap-2">
+                    <svg class="w-8 h-8 text-emerald-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 20h10"/>
+                        <path d="M10 20c5.5-2.5.8-6.4 3-10"/>
+                        <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/>
+                        <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
+                    </svg>
+                    <span class="font-bold text-xl bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
+                </a>
+                <nav class="flex items-center gap-6">
+                    <a href="/de/quiz/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Quiz</a>
+                    <a href="/de/compare/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Compare</a>
+                    <a href="/search/" class="text-emerald-700 font-medium">Search</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <div class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-800 mb-3">Find Your Perfect Houseplant</h1>
+            <p class="text-slate-600 text-lg">Filter by light, water, pet safety & more</p>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="max-w-2xl mx-auto mb-8">
+            <div class="relative">
+                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-600"></i>
+                <input type="text" id="searchInput" placeholder="Pflanzen suchen... (e.g. Monstera, Snake Plant)" 
+                    class="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 bg-white shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-lg" autocomplete="off">
+                <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 hover:text-slate-600 hidden">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- Filters Sidebar -->
+            <aside class="lg:w-72 flex-shrink-0">
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="font-semibold text-slate-800 flex items-center gap-2">
+                            <i data-lucide="sliders-horizontal" class="w-5 h-5"></i>
+                            Filters
+                        </h2>
+                        <button id="resetFilters" class="text-sm text-emerald-700 hover:text-emerald-700">Reset</button>
+                    </div>
+
+                    <!-- Light Filter -->
+                    <div class="filter-section py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Light Needs</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="low" class="light-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Niedrig Light</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="medium" class="light-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Mittel Light</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="bright" class="light-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Hell Light</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="direct" class="light-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Direkte Sonne</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Water Filter -->
+                    <div class="filter-section py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Wasserbedarf</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="low" class="water-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Niedrig Water</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="moderate" class="water-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Mittel Water</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="high" class="water-filter rounded text-emerald-700">
+                                <span class="text-slate-600">High Water</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Haustierfreundlich -->
+                    <div class="filter-section py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Haustierfreundlichty</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" id="petSafe" class="rounded text-emerald-700">
+                                <span class="text-slate-600">Haustierfreundlich Only 🐾</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Schwierigkeit Filter -->
+                    <div class="filter-section py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Care Level</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="easy" class="difficulty-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Einfach</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="medium" class="difficulty-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Mittel</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="hard" class="difficulty-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Expert</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Größe Filter -->
+                    <div class="filter-section py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Größe</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="small" class="size-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Klein</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="medium" class="size-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Mittel</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="large" class="size-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Groß</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Category Filter -->
+                    <div class="py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Category</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="tropical" class="category-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Tropical</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="succulent" class="category-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Succulent</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="trailing" class="category-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Trailing</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="tree" class="category-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Tree/Floor Plant</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="fern" class="category-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Fern</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="palm" class="category-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Palm</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="flowering" class="category-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Flowering</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Results Grid -->
+            <div class="flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <p class="text-slate-600"><span id="resultCount">0</span> Pflanzen gefunden</p>
+                    <select id="sortBy" class="px-3 py-2 rounded-lg border border-slate-200 bg-white text-sm focus:ring-2 focus:ring-emerald-500">
+                        <option value="name">Sort by Name</option>
+                        <option value="difficulty">Sort by Schwierigkeit</option>
+                        <option value="light">Sort by Light Needs</option>
+                    </select>
+                </div>
+
+                <div id="resultsGrid" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
+                    <!-- Plant cards will be inserted here -->
+                </div>
+
+                <div id="noResults" class="hidden text-center py-16">
+                    <i data-lucide="search" class="w-16 h-16 text-slate-600 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Nein Pflanzen gefunden</h3>
+                    <p class="text-slate-600">Try adjusting your filters or search terms</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-600 py-12 mt-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <svg class="w-6 h-6 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 20h10"/>
+                        <path d="M10 20c5.5-2.5.8-6.4 3-10"/>
+                        <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/>
+                        <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
+                    </svg>
+                    <span class="font-bold text-white">PlantFinder</span>
+                </div>
+                <div class="flex gap-6 text-sm">
+                    <a href="/de/" class="hover:text-white">Home</a>
+                    <a href="/de/quiz/" class="hover:text-white">Quiz</a>
+                    <a href="/de/compare/" class="hover:text-white">Compare</a>
+                </div>
+                <p class="text-sm">&copy; 2026 PlantFinder</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        
+        // State
+        let allPlants = [];
+        let fuse = null;
+
+        // Load plant data
+        async function loadPlants() {
+            try {
+                const response = await fetch('/data/plants.json');
+                allPlants = await response.json();
+                
+                // Initialize Fuse.js for fuzzy search
+                fuse = new Fuse(allPlants, {
+                    keys: ['name', 'common_names', 'category', 'description'],
+                    threshold: 0.4,
+                    includeScore: true
+                });
+            } catch (error) {
+                console.error('Error loading plants:', error);
+            }
+        }
+
+        // Verified correct images
+        const verifiedImages = new Set([
+            'monstera-deliciosa', 'boston-fern', 'pothos-golden', 'aloe-vera',
+            'jade-plant', 'bunny-ears-cactus', 'areca-palm', 'haworthia-zebra', 'peace-lily'
+        ]);
+
+        // Render plant card
+        function renderPlantCard(plant) {
+            const difficultyColors = {
+                easy: 'bg-emerald-100 text-emerald-700',
+                medium: 'bg-amber-100 text-amber-700',
+                hard: 'bg-rose-100 text-rose-700'
+            };
+
+            const lightIcons = { 1: "🌙", 2: "🌙", 3: "⛅", 4: "☀️", 5: "☀️",
+                low: '🌙',
+                medium: '⛅',
+                bright: '☀️'
+            };
+
+            const petBadge = plant.pet_safe 
+                ? '<span class="tag bg-emerald-100 text-emerald-700">🐾 Haustierfreundlich</span>'
+                : '<span class="tag bg-rose-100 text-rose-700">⚠️ Toxic</span>';
+
+            const hasImage = true;
+            const imageHtml = hasImage
+                ? `<img src="/images/plants/${plant.id}.webp" alt="${plant.name}" class="w-full h-full object-cover" loading="lazy">`
+                : `<span class="text-7xl">🪴</span>`;
+
+            return `
+                <a href="/de/plants/${plant.id}/" class="plant-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
+                    <div class="aspect-square bg-gradient-to-br from-emerald-50 to-teal-50 relative overflow-hidden flex items-center justify-center">
+                        ${imageHtml}
+                        <span class="absolute top-2 right-2 tag ${difficultyColors[plant.difficulty] || 'bg-slate-100 text-slate-600'}">
+                            ${plant.difficulty}
+                        </span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-slate-800 text-lg mb-1">${plant.name}</h3>
+                        <p class="text-slate-600 text-sm mb-3">${plant.category} · ${plant.size}</p>
+                        <div class="flex flex-wrap gap-1 mb-3">
+                            ${petBadge}
+                            <span class="tag bg-slate-100 text-slate-600">${lightIcons[plant.light]} ${plant.light <= 2 ? "Niedrig" : plant.light <= 3 ? "Mittel" : "Hell"} Light</span>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2 text-center text-xs">
+                            <div class="bg-slate-50 rounded-lg py-2">
+                                <div class="text-slate-600">Light</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(plant.light)}${'○'.repeat(5-plant.light)}</div>
+                            </div>
+                            <div class="bg-slate-50 rounded-lg py-2">
+                                <div class="text-slate-600">Water</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(plant.water)}${'○'.repeat(5-plant.water)}</div>
+                            </div>
+                            <div class="bg-slate-50 rounded-lg py-2">
+                                <div class="text-slate-600">Care</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(plant.humidity)}${'○'.repeat(5-plant.humidity)}</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            `;
+        }
+
+        // Apply all filters
+        function applyFilters() {
+            const searchQuery = document.getElementById('searchInput').value.trim();
+            const petSafe = document.getElementById('petSafe').checked;
+            const sortBy = document.getElementById('sortBy').value;
+
+            // Get selected filters
+            const selectedLight = Array.from(document.querySelectorAlle('.light-filter:checked')).map(cb => cb.value);
+            const selectedWater = Array.from(document.querySelectorAlle('.water-filter:checked')).map(cb => cb.value);
+            const selectedSchwierigkeit = Array.from(document.querySelectorAlle('.difficulty-filter:checked')).map(cb => cb.value);
+            const selectedGröße = Array.from(document.querySelectorAlle('.size-filter:checked')).map(cb => cb.value);
+            const selectedCategory = Array.from(document.querySelectorAlle('.category-filter:checked')).map(cb => cb.value);
+
+            // Start with search results or all plants
+            let results = searchQuery && fuse 
+                ? fuse.search(searchQuery).map(r => r.item)
+                : [...allPlants];
+
+            // Apply filters
+            results = results.filter(plant => {
+                // Light filter
+                if (selectedLight.length > 0) { const lightMap = {1:"low",2:"low",3:"medium",4:"bright",5:"direct"}; if (!selectedLight.includes(lightMap[plant.light])) return false; }
+                
+                // Water filter
+                if (selectedWater.length > 0) { const waterMap = {1:"low",2:"moderate",3:"moderate",4:"high",5:"high"}; if (!selectedWater.includes(waterMap[plant.water])) return false; }
+                
+                // Pet safe
+                if (petSafe && !plant.pet_safe) return false;
+                
+                // Schwierigkeit
+                if (selectedSchwierigkeit.length > 0 && !selectedSchwierigkeit.includes(plant.difficulty)) return false;
+                
+                // Größe
+                if (selectedGröße.length > 0 && !selectedGröße.includes(plant.size)) return false;
+                
+                // Category
+                if (selectedCategory.length > 0 && !selectedCategory.includes(plant.category)) return false;
+
+                return true;
+            });
+
+            // Sort results
+            const difficultyOrder = { easy: 1, medium: 2, hard: 3 };
+            const lightOrder = { low: 1, medium: 2, bright: 3 };
+            results.sort((a, b) => {
+                switch (sortBy) {
+                    case 'difficulty': return (difficultyOrder[a.difficulty] || 2) - (difficultyOrder[b.difficulty] || 2);
+                    case 'light': return (lightOrder[a.light] || 2) - (lightOrder[b.light] || 2);
+                    default: return a.name.localeCompare(b.name);
+                }
+            });
+
+            // Render results
+            const grid = document.getElementById('resultsGrid');
+            const noResults = document.getElementById('noResults');
+            const resultCount = document.getElementById('resultCount');
+
+            resultCount.textContent = results.length;
+
+            if (results.length === 0) {
+                grid.innerHTML = '';
+                noResults.classList.remove('hidden');
+            } else {
+                noResults.classList.add('hidden');
+                grid.innerHTML = results.map(renderPlantCard).join('');
+            }
+
+            // Update clear button visibility
+            document.getElementById('clearSearch').classList.toggle('hidden', !searchQuery);
+            
+            lucide.createIcons();
+        }
+
+        // Reset filters
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('petSafe').checked = false;
+            document.querySelectorAlle('.light-filter, .water-filter, .difficulty-filter, .size-filter, .category-filter').forEach(cb => cb.checked = false);
+            document.getElementById('sortBy').value = 'name';
+            applyFilters();
+        }
+
+        // Apply URL parameters
+        function applyUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+            
+            // Search query
+            const q = params.get('q');
+            if (q) {
+                document.getElementById('searchInput').value = q;
+            }
+            
+            // Pet safe
+            if (params.get('pet_safe') === 'true') {
+                document.getElementById('petSafe').checked = true;
+            }
+            
+            // Light
+            const light = params.get('light');
+            if (light) {
+                const cb = document.querySelector(`.light-filter[value="${light}"]`);
+                if (cb) cb.checked = true;
+            }
+            
+            // Schwierigkeit
+            const difficulty = params.get('difficulty');
+            if (difficulty) {
+                const cb = document.querySelector(`.difficulty-filter[value="${difficulty}"]`);
+                if (cb) cb.checked = true;
+            }
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+        document.getElementById('clearSearch').addEventListener('click', () => {
+            document.getElementById('searchInput').value = '';
+            applyFilters();
+        });
+        document.getElementById('petSafe').addEventListener('change', applyFilters);
+        document.getElementById('sortBy').addEventListener('change', applyFilters);
+        document.getElementById('resetFilters').addEventListener('click', resetFilters);
+        document.querySelectorAlle('.light-filter, .water-filter, .difficulty-filter, .size-filter, .category-filter').forEach(cb => cb.addEventListener('change', applyFilters));
+
+        // Initialize
+        loadPlants().then(() => {
+            applyUrlParams();
+            applyFilters();
+        });
+    </script>
+</body>
+</html>
