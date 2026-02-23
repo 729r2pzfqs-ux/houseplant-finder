@@ -230,9 +230,9 @@
                 { label: 'Humidity', render: p => p.humidity || '—' },
                 { label: 'Difficulty', render: p => renderDifficulty(p.difficulty) },
                 { label: 'Pet Safe', render: p => p.pet_safe ? '<span class="text-emerald-700 font-semibold">✓ Yes</span>' : '<span class="text-rose-600 font-semibold">✗ Toxic</span>' },
-                { label: 'Light Rating', render: p => renderRating(p.light) },
-                { label: 'Water Rating', render: p => renderRating(p.water) },
-                { label: 'Humidity Rating', render: p => renderRating(p.humidity) },
+                { label: 'Light Needs', render: p => renderRating(p.light) },
+                { label: 'Water Needs', render: p => renderRating(p.water) },
+                { label: 'Humidity', render: p => renderRating(p.humidity) },
                 
                 
                 { label: 'Air Purifying', render: p => p.air_purifying ? '✓ Yes' : '✗ No' }
