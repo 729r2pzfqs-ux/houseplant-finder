@@ -4,94 +4,207 @@
     <meta name="google-site-verification" content="_6B659H6pJiEc-n-JpbJOzbFOC9-IVr9OAmN5TTVh74">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About PlantFinder | Find Your Perfect Houseplant</title>
-    <meta name="description" content="PlantFinder helps you discover the perfect houseplant for your home. Search by light, care level, pet safety, and more.">
+    <title>About PlantFinder | Our Mission & Contact</title>
+    <meta name="description" content="Learn about PlantFinder - helping plant lovers find their perfect houseplant since 2026. Contact us with questions or suggestions.">
     <link rel="canonical" href="https://plantfinder.org/about/">
+    <link rel="alternate" hreflang="en" href="https://plantfinder.org/about/">
+    <link rel="alternate" hreflang="es" href="https://plantfinder.org/es/about/">
+    <link rel="alternate" hreflang="de" href="https://plantfinder.org/de/about/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://plantfinder.org/about/">
+    <meta property="og:title" content="About PlantFinder">
+    <meta property="og:description" content="Helping plant lovers find their perfect houseplant. Contact us with questions or suggestions.">
+    <meta property="og:site_name" content="PlantFinder">
+    
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>body { font-family: 'Plus Jakarta Sans', sans-serif; }</style>
-    <meta name="theme-color" content="#059669">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2JW25BZPF"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-J2JW25BZPF");</script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        .card-shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03); }
+    </style>
 </head>
-<body class="bg-slate-50 min-h-screen">
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+<body class="bg-white min-h-screen text-slate-800">
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="/" class="flex items-center gap-2">
-                <span class="text-2xl">🌿</span>
-                <span class="text-xl font-bold text-emerald-700">PlantFinder</span>
+                <svg class="w-8 h-8 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 20h10"/>
+                    <path d="M10 20c5.5-2.5.8-6.4 3-10"/>
+                    <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/>
+                    <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
+                </svg>
+                <span class="text-xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
             </a>
-            <nav class="flex gap-6 text-sm">
-                <a href="/search/" class="text-slate-600 hover:text-emerald-700">Browse</a>
-                <a href="/quiz/" class="text-slate-600 hover:text-emerald-700">Quiz</a>
-                <a href="/compare/" class="text-slate-600 hover:text-emerald-700">Compare</a>
-                <a href="/articles/" class="text-slate-600 hover:text-emerald-700">Guides</a>
-            <!-- Language selector -->
+            <nav class="flex items-center gap-4 md:gap-6 text-sm font-medium">
+                <a href="/search/" class="text-slate-600 hover:text-emerald-700 transition">Browse Plants</a>
+                <a href="/quiz/" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-emerald-500/25 transition">Take Quiz</a>
+                <!-- Language selector -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                         <span>EN</span>
                     </button>
                     <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">English</a>
-                        <a href="/es/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
-                        <a href="/de/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a>
+                        <a href="/about/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">English</a>
+                        <a href="/es/about/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
+                        <a href="/de/about/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto px-4 py-12">
-        <h1 class="text-4xl font-bold text-slate-800 mb-6">About PlantFinder</h1>
-        
-        <div class="prose prose-lg max-w-none">
-            <p class="text-xl text-slate-600 mb-8">
-                PlantFinder helps you discover the perfect houseplant for your space, lifestyle, and experience level.
-            </p>
-
-            <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 mb-8">
-                <h2 class="text-2xl font-bold text-slate-800 mb-4">🌱 Our Mission</h2>
-                <p class="text-slate-600">
-                    We believe everyone deserves to enjoy the benefits of houseplants—cleaner air, better mood, and a more beautiful home. 
-                    Our goal is to match you with plants that will thrive in your specific conditions, whether you're a complete beginner or an experienced plant parent.
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-6 mb-8">
-                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200">
-                    <h3 class="text-xl font-bold text-slate-800 mb-3">🔍 Smart Search</h3>
-                    <p class="text-slate-600">Filter plants by light requirements, water needs, pet safety, difficulty level, and more.</p>
-                </div>
-                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200">
-                    <h3 class="text-xl font-bold text-slate-800 mb-3">📝 Plant Quiz</h3>
-                    <p class="text-slate-600">Answer a few questions about your space and lifestyle to get personalized plant recommendations.</p>
-                </div>
-                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200">
-                    <h3 class="text-xl font-bold text-slate-800 mb-3">⚖️ Compare Tool</h3>
-                    <p class="text-slate-600">Compare up to 3 plants side-by-side to find the best fit for your needs.</p>
-                </div>
-                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200">
-                    <h3 class="text-xl font-bold text-slate-800 mb-3">📚 Care Guides</h3>
-                    <p class="text-slate-600">Detailed care information for each plant, plus general guides for plant care success.</p>
-                </div>
-            </div>
-
-            <div class="bg-emerald-50 rounded-2xl p-8 border border-emerald-200">
-                <h2 class="text-2xl font-bold text-emerald-800 mb-4">🌿 106 Plants & Growing</h2>
-                <p class="text-emerald-700">
-                    Our database includes 106 popular houseplants, from easy-care favorites like Pothos and Snake Plants 
-                    to statement pieces like Fiddle Leaf Figs and Monstera. Each plant page includes care requirements, 
-                    pet safety information, and tips for success.
-                </p>
-            </div>
+    <main class="max-w-3xl mx-auto px-4 py-16">
+        <!-- Hero -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-extrabold text-slate-900 mb-4">About PlantFinder</h1>
+            <p class="text-xl text-slate-600">Helping plant lovers find their perfect match</p>
         </div>
+
+        <!-- Our Story -->
+        <section class="mb-12">
+            <div class="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-3xl p-8 border border-emerald-100">
+                <h2 class="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-3">
+                    🌱 Our Story
+                </h2>
+                <p class="text-slate-700 leading-relaxed mb-4">
+                    PlantFinder started in 2026 with a simple mission: help people find the right houseplant for their lifestyle. We noticed that many plant guides were either too technical or too superficial — so we built something better.
+                </p>
+                <p class="text-slate-700 leading-relaxed">
+                    Every plant page includes honest information about care requirements, pet safety, and difficulty level. No fluff, no marketing — just practical advice from plant lovers to plant lovers.
+                </p>
+            </div>
+        </section>
+
+        <!-- What We Offer -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6">What We Offer</h2>
+            <div class="grid gap-4">
+                <div class="bg-white rounded-2xl p-6 card-shadow border border-slate-100">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">🌿</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 mb-1">116 Plant Profiles</h3>
+                            <p class="text-slate-600">Detailed information on light requirements, water needs, humidity, difficulty level, pet safety, and care tips.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 card-shadow border border-slate-100">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">🎯</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 mb-1">Plant Quiz</h3>
+                            <p class="text-slate-600">Answer a few questions about your space, lifestyle, and experience level to get personalized plant recommendations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 card-shadow border border-slate-100">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">⚖️</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 mb-1">Compare Tool</h3>
+                            <p class="text-slate-600">Compare plants side-by-side to see which one best fits your needs — light, water, difficulty, pet safety, and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 card-shadow border border-slate-100">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">🔍</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 mb-1">Smart Search</h3>
+                            <p class="text-slate-600">Filter plants by light level, water needs, pet safety, difficulty, size, and more. Find exactly what you're looking for.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 card-shadow border border-slate-100">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">📚</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 mb-1">Care Guides</h3>
+                            <p class="text-slate-600">Expert guides on watering, light requirements, beginner-friendly plants, pet-safe options, and air-purifying varieties.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages -->
+        <section class="mb-12">
+            <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200">
+                <h2 class="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    🌍 Available in 3 Languages
+                </h2>
+                <p class="text-slate-600 mb-4">PlantFinder is available in English, Spanish, and German — with all 116 plant profiles fully translated.</p>
+                <div class="flex gap-3">
+                    <a href="/" class="px-4 py-2 bg-white rounded-lg border border-slate-200 hover:border-emerald-300 transition">🇬🇧 English</a>
+                    <a href="/es/" class="px-4 py-2 bg-white rounded-lg border border-slate-200 hover:border-emerald-300 transition">🇪🇸 Español</a>
+                    <a href="/de/" class="px-4 py-2 bg-white rounded-lg border border-slate-200 hover:border-emerald-300 transition">🇩🇪 Deutsch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="mb-12">
+            <div class="bg-emerald-600 rounded-3xl p-8 text-white">
+                <h2 class="text-2xl font-bold mb-4 flex items-center gap-3">
+                    ✉️ Contact Us
+                </h2>
+                <p class="text-emerald-100 mb-4">
+                    Have a question, suggestion, or found an error? We'd love to hear from you!
+                </p>
+                <a href="mailto:hello@plantfinder.org" class="inline-flex items-center gap-2 bg-white text-emerald-700 font-semibold px-6 py-3 rounded-xl hover:bg-emerald-50 transition">
+                    hello@plantfinder.org
+                </a>
+            </div>
+        </section>
+
+        <!-- Credits -->
+        <section>
+            <p class="text-center text-slate-500 text-sm">
+                Made with 🌱 for plant lovers everywhere<br>
+                © 2026 PlantFinder
+            </p>
+        </section>
     </main>
 
-    <footer class="bg-slate-900 text-slate-400 py-12 px-4 mt-12">
-        <div class="max-w-6xl mx-auto text-center">
-            <p class="text-sm">© 2026 PlantFinder. Made with 🌱 for plant lovers everywhere.</p>
+    <footer class="bg-slate-900 text-slate-400 py-8 px-4 mt-12">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+                <span class="text-lg">🌿</span>
+                <span class="font-semibold text-white">PlantFinder</span>
+            </div>
+            <nav class="flex gap-6 text-sm">
+                <a href="/search/" class="hover:text-white transition">Browse</a>
+                <a href="/quiz/" class="hover:text-white transition">Quiz</a>
+                <a href="/compare/" class="hover:text-white transition">Compare</a>
+                <a href="/articles/" class="hover:text-white transition">Guides</a>
+                <a href="/faq/" class="hover:text-white transition">FAQ</a>
+            </nav>
         </div>
     </footer>
-
 </body>
 </html>
