@@ -1,0 +1,16 @@
+{
+  "name": "PlantFinder",
+  "short_name": "PlantFinder",
+  "description": "Find the perfect houseplant for your home",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#059669",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
