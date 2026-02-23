@@ -100,6 +100,10 @@
                                 <input type="checkbox" value="bright" class="light-filter rounded text-emerald-700">
                                 <span class="text-slate-600">Bright Light</span>
                             </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="direct" class="light-filter rounded text-emerald-700">
+                                <span class="text-slate-600">Direct Sun</span>
+                            </label>
                         </div>
                     </div>
 
@@ -363,7 +367,7 @@
             // Apply filters
             results = results.filter(plant => {
                 // Light filter
-                if (selectedLight.length > 0) { const lightMap = {1:"low",2:"low",3:"medium",4:"bright",5:"bright"}; if (!selectedLight.includes(lightMap[plant.light])) return false; }
+                if (selectedLight.length > 0) { const lightMap = {1:"low",2:"low",3:"medium",4:"bright",5:"direct"}; if (!selectedLight.includes(lightMap[plant.light])) return false; }
                 
                 // Water filter
                 if (selectedWater.length > 0) { const waterMap = {1:"low",2:"moderate",3:"moderate",4:"high",5:"high"}; if (!selectedWater.includes(waterMap[plant.water])) return false; }
