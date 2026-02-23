@@ -363,10 +363,10 @@
             // Apply filters
             results = results.filter(plant => {
                 // Light filter
-                if (selectedLight.length > 0 && !selectedLight.includes(plant.light)) return false;
+                if (selectedLight.length > 0) { const lightMap = {1:"low",2:"low",3:"medium",4:"bright",5:"bright"}; if (!selectedLight.includes(lightMap[plant.light])) return false; }
                 
                 // Water filter
-                if (selectedWater.length > 0 && !selectedWater.includes(plant.water)) return false;
+                if (selectedWater.length > 0) { const waterMap = {1:"low",2:"moderate",3:"moderate",4:"high",5:"high"}; if (!selectedWater.includes(waterMap[plant.water])) return false; }
                 
                 // Pet safe
                 if (petSafe && !plant.pet_safe) return false;
