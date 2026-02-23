@@ -2,6 +2,14 @@
 """Generate all plant pages for HousePlantFinder"""
 
 import json
+
+# Size to height mapping
+size_heights = {
+    "small": "15-30 cm (6-12 in)",
+    "medium": "30-90 cm (1-3 ft)", 
+    "large": "90-180+ cm (3-6+ ft)"
+}
+
 import os
 from datetime import datetime
 
@@ -50,6 +58,7 @@ def generate_plant_html(plant):
     pet_safe = plant.get("pet_safe", False)
     toxic_to = plant.get("toxic_to", [])
     size = plant.get("size", "medium").title()
+    size_height = size_heights.get(plant.get("size", "medium"), "30-90 cm")
     growth_rate = plant.get("growth_rate", "moderate")
     air_purifying = plant.get("air_purifying", False)
     description = plant.get("description", "")
@@ -341,6 +350,7 @@ def generate_plant_html(plant):
                             <div>
                                 <p class="text-xs text-slate-500">Size</p>
                                 <p class="font-semibold text-slate-700">{size}</p>
+                                <p class="text-xs text-slate-500 mt-1">{size_height}</p>
                             </div>
                         </div>
                     </div>
