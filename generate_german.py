@@ -110,10 +110,22 @@ def generate_plant_page(plant):
                 <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
                 PlantFinder
             </a>
-            <div class="flex items-center gap-6">
+            <div class="flex items-center gap-4 md:gap-6">
                 <a href="/de/search/" class="text-slate-600 hover:text-emerald-600">Suchen</a>
                 <a href="/de/quiz/" class="text-slate-600 hover:text-emerald-600">Quiz</a>
                 <a href="/de/compare/" class="text-slate-600 hover:text-emerald-600">Vergleichen</a>
+                <!-- Language selector -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <span>DE</span>
+                    </button>
+                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50">
+                        <a href="/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
+                        <a href="/es/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
+                        <a href="/de/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Deutsch</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -251,17 +263,6 @@ def generate_plant_page(plant):
             <p class="text-sm">© 2025 PlantFinder. Dein Ratgeber für die perfekten Zimmerpflanzen.</p>
         </div>
     </footer>
-
-    <!-- Language Selector -->
-    <div style="position:fixed;bottom:20px;right:20px;z-index:50;">
-        <select onchange="window.location.href=this.value" 
-                class="bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm shadow-lg"
-                aria-label="Sprache wählen">
-            <option value="/plants/{plant_id}/">🇬🇧 English</option>
-            <option value="/es/plants/{plant_id}/">🇪🇸 Español</option>
-            <option value="/de/plants/{plant_id}/" selected>🇩🇪 Deutsch</option>
-        </select>
-    </div>
 </body>
 </html>'''
     

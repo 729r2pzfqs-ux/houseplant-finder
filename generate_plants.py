@@ -283,10 +283,22 @@ def generate_plant_html(plant):
                     </svg>
                     <span class="font-bold text-xl bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
                 </a>
-                <div class="flex items-center gap-6">
+                <div class="flex items-center gap-4 md:gap-6">
                     <a href="/search/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Browse</a>
                     <a href="/quiz/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Quiz</a>
                     <a href="/compare/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Compare</a>
+                    <!-- Language selector -->
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>EN</span>
+                        </button>
+                        <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50">
+                            <a href="/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">English</a>
+                            <a href="/es/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
+                            <a href="/de/plants/{plant_id}/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
