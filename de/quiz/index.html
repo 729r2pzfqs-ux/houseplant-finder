@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <!-- Google Analytics placeholder -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pflanzen-Quiz — Find Your Perfect Houseplant | PlantFinder</title>
+    <meta name="description" content="Take our quick quiz to find the perfect houseplant for your space and lifestyle. Beantworte ein paar Fragen and discover your ideal green companion.">
+    <link rel="canonical" href="https://houseplantfinder.app/quiz/">
+    
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://houseplantfinder.app/quiz/">
+    <meta property="og:title" content="Pflanzen-Quiz — Find Your Perfect Houseplant">
+    <meta property="og:description" content="Take our quick quiz to find the perfect houseplant for your space and lifestyle.">
+    <meta property="og:site_name" content="PlantFinder">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+    <meta name="theme-color" content="#059669">
+</head>
+<body class="bg-gradient-to-br from-emerald-50 via-white to-teal-50 min-h-screen text-slate-800">
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../" class="flex items-center gap-2">
+                <svg class="w-8 h-8 text-emerald-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 20h10"/>
+                    <path d="M10 20c5.5-2.5.8-6.4 3-10"/>
+                    <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/>
+                    <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
+                </svg>
+                <span class="text-xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
+            </a>
+            <nav class="flex items-center gap-6 text-sm font-medium">
+                <a href="../search/" class="text-slate-600 hover:text-emerald-700 transition">All Plants</a>
+                <a href="./" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-5 py-2.5 rounded-xl font-semibold shadow-lg shadow-emerald-500/25">Take Quiz</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-2xl mx-auto px-4 py-12">
+        <!-- Quiz Container -->
+        <div id="quiz-container">
+            <!-- Intro -->
+            <div id="quiz-intro" class="text-center">
+                <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-100 text-sm text-slate-600 mb-6">
+                    <span>🌱</span>
+                    <span>6 quick questions</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+                    Find Your
+                    <span class="bg-gradient-to-r from-emerald-500 to-teal-600 bg-clip-text text-transparent">Perfect Plant</span>
+                </h1>
+                <p class="text-lg text-slate-600 mb-8">Beantworte ein paar Fragen about your space and lifestyle and we'll match you with ideal plants.</p>
+                <button onclick="startQuiz()" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:shadow-xl hover:shadow-emerald-500/25 transition transform hover:scale-105">
+                    Start Quiz →
+                </button>
+            </div>
+
+            <!-- Questions -->
+            <div id="quiz-questions" class="hidden">
+                <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 p-8">
+                    <!-- Progress -->
+                    <div class="mb-8">
+                        <div class="flex justify-between text-sm text-slate-600 mb-2">
+                            <span>Question <span id="current-q">1</span> of 6</span>
+                            <span id="progress-pct">17%</span>
+                        </div>
+                        <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
+                            <div id="progress-bar" class="h-full bg-gradient-to-r from-emerald-500 to-teal-600 transition-all duration-300" style="width: 17%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Question -->
+                    <h2 id="question-text" class="text-2xl font-bold mb-6"></h2>
+                    
+                    <!-- Options -->
+                    <div id="options-container" class="space-y-3"></div>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div id="quiz-results" class="hidden">
+                <div class="text-center mb-8">
+                    <span class="text-6xl mb-4 block">🌿</span>
+                    <h2 class="text-3xl font-bold mb-2">Deine perfekten Pflanzen!</h2>
+                    <p class="text-slate-600">Based on your answers, these plants are ideal for you:</p>
+                </div>
+                <div id="results-container" class="space-y-4"></div>
+                <div class="text-center mt-8 space-y-4">
+                    <a href="../search/" class="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition">
+                        Browse All Plants
+                    </a>
+                    <br>
+                    <button onclick="restartQuiz()" class="text-emerald-700 font-semibold hover:text-emerald-700">← Take Quiz Again</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-100 mt-16 py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center text-slate-600 text-sm">
+            <p>© 2026 PlantFinder. Made with 🌿 for plant lovers everywhere.</p>
+        </div>
+    </footer>
+
+    <script>
+        const questions = [
+            {
+                q: "How much natural light does your space get?",
+                options: [
+                    { text: "🌙 Low — No direct sun, mostly shade", criteria: { light_needs: 1 } },
+                    { text: "⛅ Mittel — Bright but indirect light", criteria: { light_needs: 3 } },
+                    { text: "☀️ Bright — Lots of sun near windows", criteria: { light_needs: 5 } }
+                ]
+            },
+            {
+                q: "How often do you remember to water plants?",
+                options: [
+                    { text: "🏜️ Selten — I forget all the time", criteria: { water_needs: 1, maintenance: 1 } },
+                    { text: "💧 Wöchentlich — I can do once a week", criteria: { water_needs: 3, maintenance: 2 } },
+                    { text: "🌊 Oft — I love caring for plants", criteria: { water_needs: 4, maintenance: 4 } }
+                ]
+            },
+            {
+                q: "Hast du Haustiere?",
+                options: [
+                    { text: "🐾 Yes, and they chew plants!", criteria: { pet_safe: true } },
+                    { text: "🐕 Yes, but they ignore plants", criteria: { pet_safe: false } },
+                    { text: "🏠 Keine Haustiere", criteria: { pet_safe: false } }
+                ]
+            },
+            {
+                q: "How much space do you have?",
+                options: [
+                    { text: "🪴 Desk or shelf only", criteria: { size_pref: 'small' } },
+                    { text: "📦 A nice corner or table", criteria: { size_pref: 'medium' } },
+                    { text: "🌳 Floor space for a big plant", criteria: { size_pref: 'large' } }
+                ]
+            },
+            {
+                q: "What's your plant experience?",
+                options: [
+                    { text: "🌱 Anfänger — Keep it simple", criteria: { maintenance: 1 } },
+                    { text: "🌿 Some experience — I can handle more", criteria: { maintenance: 3 } },
+                    { text: "🌳 Experte — Bring on the challenge!", criteria: { maintenance: 5 } }
+                ]
+            },
+            {
+                q: "What matters most to you?",
+                options: [
+                    { text: "🎨 Looks amazing!", criteria: { statement: true } },
+                    { text: "🌬️ Purifies air", criteria: { air_purifying: 5 } },
+                    { text: "💪 Hard to kill", criteria: { maintenance: 1, water_needs: 1 } },
+                    { text: "🌸 Produces flowers", criteria: { flowering: true } }
+                ]
+            }
+        ];
+
+        let plants = [];
+        let currentQuestion = 0;
+        let selectedCriteria = {};
+
+        // Load plants from JSON
+        fetch('../data/plants.json')
+            .then(r => r.json())
+            .then(data => {
+                plants = data;
+                console.log(`Loaded ${plants.length} plants`);
+            })
+            .catch(e => console.error('Failed to load plants:', e));
+
+        function startQuiz() {
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-questions').classList.remove('hidden');
+            showQuestion(0);
+        }
+
+        function showQuestion(index) {
+            const q = questions[index];
+            document.getElementById('question-text').textContent = q.q;
+            document.getElementById('current-q').textContent = index + 1;
+            const pct = Math.round(((index + 1) / questions.length) * 100);
+            document.getElementById('progress-pct').textContent = pct + '%';
+            document.getElementById('progress-bar').style.width = pct + '%';
+
+            const container = document.getElementById('options-container');
+            container.innerHTML = '';
+            
+            q.options.forEach((opt, i) => {
+                const btn = document.createElement('button');
+                btn.className = 'w-full text-left p-4 rounded-xl border-2 border-slate-200 hover:border-emerald-400 hover:bg-emerald-50 transition font-medium';
+                btn.textContent = opt.text;
+                btn.onclick = () => selectOption(opt.criteria);
+                container.appendChild(btn);
+            });
+        }
+
+        function selectOption(criteria) {
+            // Merge criteria
+            for (const [key, value] of Object.entries(criteria)) {
+                if (typeof value === 'boolean') {
+                    selectedCriteria[key] = value;
+                } else {
+                    if (!selectedCriteria[key]) selectedCriteria[key] = [];
+                    selectedCriteria[key].push(value);
+                }
+            }
+            
+            currentQuestion++;
+            
+            if (currentQuestion < questions.length) {
+                showQuestion(currentQuestion);
+            } else {
+                showResults();
+            }
+        }
+
+        function showResults() {
+            document.getElementById('quiz-questions').classList.add('hidden');
+            document.getElementById('quiz-results').classList.remove('hidden');
+
+            // Calculate average for numeric criteria
+            const avgCriteria = {};
+            for (const [key, value] of Object.entries(selectedCriteria)) {
+                if (Array.isArray(value)) {
+                    avgCriteria[key] = value.reduce((a, b) => a + b, 0) / value.length;
+                } else {
+                    avgCriteria[key] = value;
+                }
+            }
+
+            // Score plants
+            const scored = plants.map(plant => {
+                let score = 0;
+                let factors = 0;
+                
+                // Pet safety is a hard filter
+                if (avgCriteria.pet_safe === true && !plant.pet_safe) {
+                    return { ...plant, score: -100 };
+                }
+                
+                // Size preference
+                if (avgCriteria.size_pref && plant.size === avgCriteria.size_pref) {
+                    score += 10;
+                }
+                
+                // Rating matches
+                for (const [key, targetValue] of Object.entries(avgCriteria)) {
+                    if (plant.ratings && plant.ratings[key] !== undefined) {
+                        const breedValue = plant.ratings[key];
+                        const diff = Math.abs(breedValue - targetValue);
+                        score += (5 - diff);
+                        factors++;
+                    }
+                }
+                
+                // Bonus for air purifying preference
+                if (avgCriteria.air_purifying && plant.ratings.air_purifying >= 4) {
+                    score += 5;
+                }
+                
+                // Bonus for easy maintenance
+                if (avgCriteria.maintenance <= 2 && plant.difficulty === 'easy') {
+                    score += 10;
+                }
+                
+                return { 
+                    ...plant, 
+                    score: factors > 0 ? score / factors : score
+                };
+            });
+
+            // Sort and get top 5
+            scored.sort((a, b) => b.score - a.score);
+            const top5 = scored.filter(p => p.score > 0).slice(0, 5);
+
+            const container = document.getElementById('results-container');
+            container.innerHTML = '';
+
+            if (top5.length === 0) {
+                container.innerHTML = '<p class="text-center text-slate-600">No perfect matches found. Try the quiz again with different answers!</p>';
+                return;
+            }
+
+            top5.forEach((plant, i) => {
+                const match = Math.min(100, Math.round((plant.score / 10) * 100));
+                const petBadge = plant.pet_safe ? '<span class="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full">🐾 Pet Safe</span>' : '';
+                const div = document.createElement('a');
+                div.href = '../plants/' + plant.id + '/';
+                div.className = 'block bg-white rounded-2xl p-6 shadow-lg shadow-slate-200/50 hover:shadow-xl transition';
+                div.innerHTML = `
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-xl flex items-center justify-center text-2xl font-bold text-emerald-700">${i + 1}</div>
+                            <div>
+                                <h3 class="text-xl font-bold">${plant.name}</h3>
+                                <p class="text-slate-600 text-sm">${match}% match · ${plant.difficulty} care ${petBadge}</p>
+                            </div>
+                        </div>
+                        <div class="text-emerald-700 font-semibold">View →</div>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function restartQuiz() {
+            currentQuestion = 0;
+            selectedCriteria = {};
+            document.getElementById('quiz-results').classList.add('hidden');
+            document.getElementById('quiz-intro').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
