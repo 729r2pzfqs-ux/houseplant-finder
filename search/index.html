@@ -62,10 +62,10 @@
         <!-- Search Bar -->
         <div class="max-w-2xl mx-auto mb-8">
             <div class="relative">
-                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400"></i>
+                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-300"></i>
                 <input type="text" id="searchInput" placeholder="Search plants... (e.g. Monstera, Snake Plant)" 
                     class="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 bg-white shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-lg" autocomplete="off">
-                <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 hidden">
+                <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-300 hover:text-slate-600 hidden">
                     <i data-lucide="x" class="w-5 h-5"></i>
                 </button>
             </div>
@@ -225,14 +225,14 @@
                 <div id="noResults" class="hidden text-center py-16">
                     <i data-lucide="search" class="w-16 h-16 text-slate-300 mx-auto mb-4"></i>
                     <h3 class="text-xl font-semibold text-slate-700 mb-2">No plants found</h3>
-                    <p class="text-slate-500">Try adjusting your filters or search terms</p>
+                    <p class="text-slate-300">Try adjusting your filters or search terms</p>
                 </div>
             </div>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-12 mt-16">
+    <footer class="bg-slate-900 text-slate-300 py-12 mt-16">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                 <div class="flex items-center gap-2">
@@ -317,22 +317,22 @@
                     </div>
                     <div class="p-4">
                         <h3 class="font-semibold text-slate-800 text-lg mb-1">${plant.name}</h3>
-                        <p class="text-slate-500 text-sm mb-3">${plant.category} · ${plant.size}</p>
+                        <p class="text-slate-300 text-sm mb-3">${plant.category} · ${plant.size}</p>
                         <div class="flex flex-wrap gap-1 mb-3">
                             ${petBadge}
                             <span class="tag bg-slate-100 text-slate-600">${lightIcons[plant.light]} ${plant.light} light</span>
                         </div>
                         <div class="grid grid-cols-3 gap-2 text-center text-xs">
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-500">Light</div>
+                                <div class="text-slate-300">Light</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(plant.ratings.light_needs)}${'○'.repeat(5-plant.ratings.light_needs)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-500">Water</div>
+                                <div class="text-slate-300">Water</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(plant.ratings.water_needs)}${'○'.repeat(5-plant.ratings.water_needs)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-500">Care</div>
+                                <div class="text-slate-300">Care</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(plant.ratings.maintenance)}${'○'.repeat(5-plant.ratings.maintenance)}</div>
                             </div>
                         </div>
