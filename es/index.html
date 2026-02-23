@@ -150,6 +150,18 @@
             <nav class="flex items-center gap-4 md:gap-6 text-sm font-medium">
                 <a href="search/" class="text-slate-600 hover:text-emerald-700 transition ml-2 md:ml-0">Explorar Plantas</a>
                 <a href="quiz/" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-emerald-500/25 transition">Take Quiz</a>
+            <!-- Language selector -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <span>ES</span>
+                    </button>
+                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <a href="/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
+                        <a href="/es/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Español</a>
+                        <a href="/de/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
@@ -534,14 +546,6 @@
         }
     </script>
 
-    <div style="position:fixed;top:80px;right:20px;z-index:50;">
-        <select onchange="window.location.href=this.value" 
-                class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-600 rounded-lg px-3 py-2 text-sm shadow-lg"
-                aria-label="Select language">
-            <option value="/" >🇬🇧 English</option>
-            <option value="/es/" selected>🇪🇸 Español</option>
-            <option value="/de/" >🇩🇪 Deutsch</option>
-        </select>
-    </div>
+    
 </body>
 </html>

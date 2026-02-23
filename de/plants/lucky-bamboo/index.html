@@ -38,7 +38,19 @@
                 <a href="/de/quiz/" class="text-slate-600 hover:text-emerald-600">Quiz</a>
                 <a href="/de/compare/" class="text-slate-600 hover:text-emerald-600">Vergleichen</a>
             </div>
-        </nav>
+        <!-- Language selector -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <span>DE</span>
+                    </button>
+                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <a href="/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
+                        <a href="/es/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
+                        <a href="/de/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Deutsch</a>
+                    </div>
+                </div>
+            </nav>
     </header>
 
     <main class="max-w-4xl mx-auto px-4 py-8">
@@ -176,14 +188,6 @@
     </footer>
 
     <!-- Language Selector -->
-    <div style="position:fixed;top:80px;right:20px;z-index:50;">
-        <select onchange="window.location.href=this.value" 
-                class="bg-white border border-slate-300 rounded-lg px-3 py-2 text-sm shadow-lg"
-                aria-label="Sprache wählen">
-            <option value="/plants/lucky-bamboo/">🇬🇧 English</option>
-            <option value="/es/plants/lucky-bamboo/">🇪🇸 Español</option>
-            <option value="/de/plants/lucky-bamboo/" selected>🇩🇪 Deutsch</option>
-        </select>
-    </div>
+    
 </body>
 </html>
