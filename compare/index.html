@@ -204,9 +204,9 @@
                 <tr class="border-b border-slate-100">
                     <th class="p-4 text-left text-slate-600 font-medium w-1/4">Attribute</th>
                     ${selectedPlants.map(plant => {
-                        const hasImage = verifiedImages.has(plant.id);
+                        const hasImage = true;
                         const imgHtml = hasImage 
-                            ? `<img src="/images/plants/${plant.id}.png" alt="${plant.name}" class="w-full h-full object-cover rounded-xl">`
+                            ? `<img src="/images/plants/${plant.id}.webp" alt="${plant.name}" class="w-full h-full object-cover rounded-xl">`
                             : `<span class="text-3xl">🪴</span>`;
                         return `
                         <th class="p-4 text-center">
@@ -230,12 +230,12 @@
                 { label: 'Humidity', render: p => p.humidity || '—' },
                 { label: 'Difficulty', render: p => renderDifficulty(p.difficulty) },
                 { label: 'Pet Safe', render: p => p.pet_safe ? '<span class="text-emerald-700 font-semibold">✓ Yes</span>' : '<span class="text-rose-600 font-semibold">✗ Toxic</span>' },
-                { label: 'Light Rating', render: p => renderRating(p.ratings?.light_needs) },
-                { label: 'Water Rating', render: p => renderRating(p.ratings?.water_needs) },
-                { label: 'Humidity Rating', render: p => renderRating(p.ratings?.humidity_needs) },
-                { label: 'Maintenance', render: p => renderRating(p.ratings?.maintenance) },
-                { label: 'Growth Speed', render: p => renderRating(p.ratings?.growth_speed) },
-                { label: 'Air Purifying', render: p => renderRating(p.ratings?.air_purifying) }
+                { label: 'Light Rating', render: p => renderRating(p.light) },
+                { label: 'Water Rating', render: p => renderRating(p.water) },
+                { label: 'Humidity Rating', render: p => renderRating(p.humidity) },
+                
+                
+                { label: 'Air Purifying', render: p => p.air_purifying ? '✓ Yes' : '✗ No' }
             ];
 
             body.innerHTML = rows.map((row, i) => `
