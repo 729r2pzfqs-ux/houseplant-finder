@@ -16,8 +16,8 @@
     <meta property="og:url" content="https://plantfinder.org/de/plants/zz-plant/">
     <meta property="og:type" content="article">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/styles.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Plus Jakarta Sans','sans-serif']}}}}</script>
     <style>
@@ -95,43 +95,43 @@
                     
                     <div class="flex flex-wrap gap-2 mb-6">
                         <div class="flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-xl">
-                            <i data-lucide="ruler" class="w-4 h-4 text-slate-600"></i>
+                            <svg aria-hidden="true" class="w-4 h-4 text-slate-600"><use href="#icon-ruler"/></svg>
                             <span class="text-sm font-medium text-slate-700">Mittel</span>
                         </div>
                         <div class="flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-xl">
-                            <i data-lucide="trending-up" class="w-4 h-4 text-slate-600"></i>
+                            <svg aria-hidden="true" class="w-4 h-4 text-slate-600"><use href="#icon-trending-up"/></svg>
                             <span class="text-sm font-medium text-slate-700">Langsames Wachstum</span>
                         </div>
                         <div class="flex items-center gap-2 px-4 py-2 bg-emerald-100 rounded-xl">
-                            <i data-lucide="wind" class="w-4 h-4 text-emerald-600"></i>
+                            <svg aria-hidden="true" class="w-4 h-4 text-emerald-600"><use href="#icon-wind"/></svg>
                             <span class="text-sm font-medium text-emerald-700">Luftreinigend</span>
                         </div>
                     </div>
                     
                     <div class="grid grid-cols-2 gap-4">
                         <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
-                            <i data-lucide="sun" class="w-6 h-6 text-amber-500"></i>
+                            <svg aria-hidden="true" class="w-6 h-6 text-amber-500"><use href="#icon-sun"/></svg>
                             <div>
                                 <p class="text-xs text-slate-500">Licht</p>
                                 <p class="font-semibold text-slate-700">Sehr Niedrig</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
-                            <i data-lucide="droplets" class="w-6 h-6 text-blue-500"></i>
+                            <svg aria-hidden="true" class="w-6 h-6 text-blue-500"><use href="#icon-droplets"/></svg>
                             <div>
                                 <p class="text-xs text-slate-500">Wasser</p>
                                 <p class="font-semibold text-slate-700">Sehr Niedrig</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
-                            <i data-lucide="cloud" class="w-6 h-6 text-cyan-500"></i>
+                            <svg aria-hidden="true" class="w-6 h-6 text-cyan-500"><use href="#icon-cloud"/></svg>
                             <div>
                                 <p class="text-xs text-slate-500">Feuchtigkeit</p>
                                 <p class="font-semibold text-slate-700">Sehr Niedrig</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
-                            <i data-lucide="ruler" class="w-6 h-6 text-emerald-500"></i>
+                            <svg aria-hidden="true" class="w-6 h-6 text-emerald-500"><use href="#icon-ruler"/></svg>
                             <div>
                                 <p class="text-xs text-slate-500">Größe</p>
                                 <p class="font-semibold text-slate-700">Mittel</p>
@@ -147,7 +147,7 @@
         <div class="bg-rose-50 border border-rose-200 rounded-2xl p-6 mb-8">
             <div class="flex items-start gap-4">
                 <div class="w-12 h-12 bg-rose-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <i data-lucide="alert-triangle" class="w-6 h-6 text-rose-600"></i>
+                    <svg aria-hidden="true" class="w-6 h-6 text-rose-600"><use href="#icon-alert-triangle"/></svg>
                 </div>
                 <div>
                     <h3 class="font-bold text-rose-800 mb-1">⚠️ Giftig für Haustiere</h3>
@@ -196,7 +196,7 @@
             <h2 class="text-xl font-bold text-slate-900 mb-4">Pflegetipps</h2>
             <div class="bg-emerald-50 rounded-xl p-5">
                 <div class="flex items-start gap-3">
-                    <i data-lucide="lightbulb" class="w-6 h-6 text-emerald-600 mt-0.5"></i>
+                    <svg aria-hidden="true" class="w-6 h-6 text-emerald-600 mt-0.5"><use href="#icon-lightbulb"/></svg>
                     <p class="text-slate-700">Jedes Licht auch wenig, monatlich gießen, sehr trockenheitstolerant.</p>
                 </div>
             </div>
@@ -207,33 +207,33 @@
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div class="bg-white rounded-xl p-5 shadow-sm">
                     <h3 class="font-semibold text-green-700 mb-3 flex items-center gap-2">
-                        <i data-lucide="check-circle" class="w-5 h-5"></i>
+                        <svg aria-hidden="true" class="w-5 h-5"><use href="#icon-check-circle"/></svg>
                         Ideal Für
                     </h3>
                     <ul class="space-y-2 text-slate-600">
-                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i><span>Räume mit wenig Licht und Büros</span></li>
-                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i><span>Anfänger und vielbeschäftigte Menschen</span></li>
-                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i><span>Vergessliche Gießer</span></li>
-                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i><span>Verbesserung der Raumluftqualität</span></li>
+                        <li class="flex items-start gap-2"><svg aria-hidden="true" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"><use href="#icon-check"/></svg><span>Räume mit wenig Licht und Büros</span></li>
+                        <li class="flex items-start gap-2"><svg aria-hidden="true" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"><use href="#icon-check"/></svg><span>Anfänger und vielbeschäftigte Menschen</span></li>
+                        <li class="flex items-start gap-2"><svg aria-hidden="true" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"><use href="#icon-check"/></svg><span>Vergessliche Gießer</span></li>
+                        <li class="flex items-start gap-2"><svg aria-hidden="true" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"><use href="#icon-check"/></svg><span>Verbesserung der Raumluftqualität</span></li>
                     </ul>
                 </div>
                 <div class="bg-white rounded-xl p-5 shadow-sm">
                     <h3 class="font-semibold text-red-700 mb-3 flex items-center gap-2">
-                        <i data-lucide="x-circle" class="w-5 h-5"></i>
+                        <svg aria-hidden="true" class="w-5 h-5"><use href="#icon-x-circle"/></svg>
                         Nicht Ideal Für
                     </h3>
                     <ul class="space-y-2 text-slate-600">
-                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"></i><span>Haushalte mit neugierigen Haustieren</span></li>
+                        <li class="flex items-start gap-2"><svg aria-hidden="true" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"><use href="#icon-x"/></svg><span>Haushalte mit neugierigen Haustieren</span></li>
                     </ul>
                 </div>
             </div>
             
             <div class="flex flex-wrap gap-3">
                 <a href="/de/compare/" class="inline-flex items-center gap-2 bg-white text-slate-700 border border-slate-200 px-5 py-2.5 rounded-xl font-semibold hover:border-slate-300 hover:shadow-md transition">
-                    <i data-lucide="scale" class="w-4 h-4"></i>
+                    <svg aria-hidden="true" class="w-4 h-4"><use href="#icon-scale"/></svg>
                     Mit anderen Pflanzen vergleichen
                 </a>
-                <a href="/de/search/?pet_safe=true" class="inline-flex items-center gap-2 bg-emerald-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-emerald-700 transition"><i data-lucide="paw-print" class="w-4 h-4"></i>Haustierfreundliche Alternativen</a>
+                <a href="/de/search/?pet_safe=true" class="inline-flex items-center gap-2 bg-emerald-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-emerald-700 transition"><svg aria-hidden="true" class="w-4 h-4"><use href="#icon-paw-print"/></svg>Haustierfreundliche Alternativen</a>
             </div>
         </section>
     </main>
@@ -257,6 +257,6 @@
         </div>
     </footer>
     
-    <script>lucide.createIcons();</script>
+    <script></script>
 </body>
 </html>
