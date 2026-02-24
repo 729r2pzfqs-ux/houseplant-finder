@@ -21,7 +21,7 @@
     <meta property="og:site_name" content="PlantFinder">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
@@ -147,43 +147,43 @@
                     
                     <div class="flex flex-wrap gap-2 mb-6">
                         <div class="flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-xl">
-                            <svg aria-hidden="true" style="width:1rem;height:1rem;" class="w-4 h-4 text-slate-600"><use href="#icon-ruler"/></svg>
+                            <i data-lucide="ruler" class="w-4 h-4 text-slate-600"></i>
                             <span class="text-sm font-medium text-slate-700">Medium</span>
                         </div>
                         <div class="flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-xl">
-                            <svg aria-hidden="true" style="width:1rem;height:1rem;" class="w-4 h-4 text-slate-600"><use href="#icon-trending-up"/></svg>
+                            <i data-lucide="trending-up" class="w-4 h-4 text-slate-600"></i>
                             <span class="text-sm font-medium text-slate-700">Moderate Growth</span>
                         </div>
                         <div class="flex items-center gap-2 px-4 py-2 bg-emerald-100 rounded-xl">
-                            <svg aria-hidden="true" style="width:1rem;height:1rem;" class="w-4 h-4 text-emerald-600"><use href="#icon-wind"/></svg>
+                            <i data-lucide="wind" class="w-4 h-4 text-emerald-600"></i>
                             <span class="text-sm font-medium text-emerald-700">Air Purifying</span>
                         </div>
                     </div>
                     
                     <div class="grid grid-cols-2 gap-4">
                         <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-amber-500"><use href="#icon-sun"/></svg>
+                            <i data-lucide="sun" class="w-6 h-6 text-amber-500"></i>
                             <div>
                                 <p class="text-xs text-slate-500">Light</p>
                                 <p class="font-semibold text-slate-700">Medium (Indirect)</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-blue-500"><use href="#icon-droplets"/></svg>
+                            <i data-lucide="droplets" class="w-6 h-6 text-blue-500"></i>
                             <div>
                                 <p class="text-xs text-slate-500">Water</p>
                                 <p class="font-semibold text-slate-700">Low</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-cyan-500"><use href="#icon-cloud"/></svg>
+                            <i data-lucide="cloud" class="w-6 h-6 text-cyan-500"></i>
                             <div>
                                 <p class="text-xs text-slate-500">Humidity</p>
                                 <p class="font-semibold text-slate-700">Average</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-emerald-500"><use href="#icon-ruler"/></svg>
+                            <i data-lucide="ruler" class="w-6 h-6 text-emerald-500"></i>
                             <div>
                                 <p class="text-xs text-slate-500">Size</p>
                                 <p class="font-semibold text-slate-700">Medium</p>
@@ -200,7 +200,7 @@
         <div class="bg-rose-50 border border-rose-200 rounded-2xl p-6 mb-8">
             <div class="flex items-start gap-4">
                 <div class="w-12 h-12 bg-rose-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-rose-600"><use href="#icon-alert-triangle"/></svg>
+                    <i data-lucide="alert-triangle" class="w-6 h-6 text-rose-600"></i>
                 </div>
                 <div>
                     <h3 class="font-bold text-rose-800 mb-1">⚠️ Toxic to Pets</h3>
@@ -252,7 +252,7 @@
             <h2 class="text-xl font-bold text-slate-900 mb-4">Care Tips</h2>
             <div class="bg-emerald-50 rounded-xl p-5">
                 <div class="flex items-start gap-3">
-                    <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-emerald-600 mt-0.5"><use href="#icon-lightbulb"/></svg>
+                    <i data-lucide="lightbulb" class="w-6 h-6 text-emerald-600 mt-0.5"></i>
                     <p class="text-slate-700">Medium indirect light, water when dry, enjoys humidity.</p>
                 </div>
             </div>
@@ -264,33 +264,33 @@
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div class="bg-white rounded-xl p-5 shadow-sm">
                     <h3 class="font-semibold text-green-700 mb-3 flex items-center gap-2">
-                        <svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5"><use href="#icon-check-circle"/></svg>
+                        <i data-lucide="check-circle" class="w-5 h-5"></i>
                         Best For
                     </h3>
                     <ul class="space-y-2 text-slate-600">
-                        <li class="flex items-start gap-2"><svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"><use href="#icon-check"/></svg><span>Living rooms with indirect light</span></li>
-                        <li class="flex items-start gap-2"><svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"><use href="#icon-check"/></svg><span>Beginners and busy plant parents</span></li>
-                        <li class="flex items-start gap-2"><svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"><use href="#icon-check"/></svg><span>Forgetful waterers</span></li>
-                        <li class="flex items-start gap-2"><svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"><use href="#icon-check"/></svg><span>Improving indoor air quality</span></li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i><span>Living rooms with indirect light</span></li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i><span>Beginners and busy plant parents</span></li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i><span>Forgetful waterers</span></li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"></i><span>Improving indoor air quality</span></li>
                     </ul>
                 </div>
                 <div class="bg-white rounded-xl p-5 shadow-sm">
                     <h3 class="font-semibold text-red-700 mb-3 flex items-center gap-2">
-                        <svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5"><use href="#icon-x-circle"/></svg>
+                        <i data-lucide="x-circle" class="w-5 h-5"></i>
                         Not Ideal For
                     </h3>
                     <ul class="space-y-2 text-slate-600">
-                        <li class="flex items-start gap-2"><svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"><use href="#icon-x"/></svg><span>Homes with curious pets</span></li>
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"></i><span>Homes with curious pets</span></li>
                     </ul>
                 </div>
             </div>
             
             <div class="flex flex-wrap gap-3">
                 <a href="/compare/" class="inline-flex items-center gap-2 bg-white text-slate-700 border border-slate-200 px-5 py-2.5 rounded-xl font-semibold hover:border-slate-300 hover:shadow-md transition">
-                    <svg aria-hidden="true" style="width:1rem;height:1rem;" class="w-4 h-4"><use href="#icon-scale"/></svg>
+                    <i data-lucide="scale" class="w-4 h-4"></i>
                     Compare with other plants
                 </a>
-                <a href="/search/?pet_safe=true" class="inline-flex items-center gap-2 bg-emerald-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-emerald-700 transition"><svg aria-hidden="true" style="width:1rem;height:1rem;" class="w-4 h-4"><use href="#icon-paw-print"/></svg>Find pet-safe alternatives</a>
+                <a href="/search/?pet_safe=true" class="inline-flex items-center gap-2 bg-emerald-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-emerald-700 transition"><i data-lucide="paw-print" class="w-4 h-4"></i>Find pet-safe alternatives</a>
             </div>
         </section>
     </main>
@@ -319,6 +319,7 @@
     </footer>
     
     <script>
-        </script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>

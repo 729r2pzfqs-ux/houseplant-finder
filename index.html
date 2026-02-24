@@ -104,7 +104,7 @@
     </script>
     
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -135,99 +135,6 @@
     <link rel="alternate" hreflang="x-default" href="https://plantfinder.org/">
 </head>
 <body class="bg-white min-h-screen text-slate-800">
-<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
-  <symbol id="icon-alert-triangle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>
-  </symbol>
-  <symbol id="icon-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
-  </symbol>
-  <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M20 6 9 17l-5-5"/>
-  </symbol>
-  <symbol id="icon-check-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
-  </symbol>
-  <symbol id="icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="m6 9 6 6 6-6"/>
-  </symbol>
-  <symbol id="icon-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
-  </symbol>
-  <symbol id="icon-cloud-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 2v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="M20 12h2"/><path d="m19.07 4.93-1.41 1.41"/><path d="M15.947 12.65a4 4 0 0 0-5.925-4.128"/><path d="M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"/>
-  </symbol>
-  <symbol id="icon-droplets" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/>
-  </symbol>
-  <symbol id="icon-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
-  </symbol>
-  <symbol id="icon-help-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>
-  </symbol>
-  <symbol id="icon-lightbulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>
-  </symbol>
-  <symbol id="icon-meh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="10"/><line x1="8" x2="16" y1="15" y2="15"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/>
-  </symbol>
-  <symbol id="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
-  </symbol>
-  <symbol id="icon-paw-print" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/>
-  </symbol>
-  <symbol id="icon-ruler" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z"/><path d="m14.5 12.5 2-2"/><path d="m11.5 9.5 2-2"/><path d="m8.5 6.5 2-2"/><path d="m17.5 15.5 2-2"/>
-  </symbol>
-  <symbol id="icon-scale" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>
-  </symbol>
-  <symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
-  </symbol>
-  <symbol id="icon-seedling" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 10a6 6 0 0 0 6-6v-.01A6 6 0 0 0 12 10Z"/><path d="M12 10a6 6 0 0 1-6-6v-.01A6 6 0 0 1 12 10Z"/><path d="M12 10v12"/>
-  </symbol>
-  <symbol id="icon-sliders-horizontal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/>
-  </symbol>
-  <symbol id="icon-smile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/>
-  </symbol>
-  <symbol id="icon-sparkles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/>
-  </symbol>
-  <symbol id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/>
-  </symbol>
-  <symbol id="icon-sun-medium" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="4"/><path d="M12 3v1"/><path d="M12 20v1"/><path d="M3 12h1"/><path d="M20 12h1"/><path d="m18.364 5.636-.707.707"/><path d="m6.343 17.657-.707.707"/><path d="m5.636 5.636.707.707"/><path d="m17.657 17.657.707.707"/>
-  </symbol>
-  <symbol id="icon-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
-  </symbol>
-  <symbol id="icon-trending-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>
-  </symbol>
-  <symbol id="icon-trophy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
-  </symbol>
-  <symbol id="icon-wind" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2"/><path d="M9.6 4.6A2 2 0 1 1 11 8H2"/><path d="M12.6 19.4A2 2 0 1 0 14 16H2"/>
-  </symbol>
-  <symbol id="icon-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
-  </symbol>
-  <symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
-  </symbol>
-  <symbol id="icon-x-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/>
-  </symbol>
-</svg>
-
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
@@ -264,7 +171,7 @@
         <section class="hero-gradient py-20 px-4">
             <div class="max-w-4xl mx-auto text-center">
                 <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full text-sm font-medium text-slate-600 mb-6 border border-slate-200/50">
-                    <svg aria-hidden="true" style="width:1rem;height:1rem;" class="w-4 h-4 text-emerald-500"><use href="#icon-sparkles"/></svg>
+                    <i data-lucide="sparkles" class="w-4 h-4 text-emerald-500"></i>
                     Over 115 houseplants to explore
                 </div>
                 
@@ -282,7 +189,7 @@
                     <div class="relative">
                         <input type="text" id="home-search" placeholder="Search plants..." autocomplete="off" class="w-full bg-white border border-slate-200 rounded-2xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-400 shadow-sm">
                         <button aria-label="Search" class="absolute right-2 top-1/2 -translate-y-1/2 bg-slate-100 hover:bg-slate-200 p-3 rounded-xl transition">
-                            <svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5 text-slate-600"><use href="#icon-search"/></svg>
+                            <i data-lucide="search" class="w-5 h-5 text-slate-600"></i>
                         </button>
                         <!-- Autocomplete dropdown -->
                         <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl z-100 hidden max-h-80 overflow-y-auto">
@@ -292,11 +199,11 @@
 
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="quiz/" class="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-xl hover:shadow-emerald-500/25 transition transform hover:-translate-y-0.5">
-                        <svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5"><use href="#icon-target"/></svg>
+                        <i data-lucide="target" class="w-5 h-5"></i>
                         Take the Plant Quiz
                     </a>
                     <a href="compare/" class="inline-flex items-center gap-2 bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-2xl font-semibold text-lg hover:border-slate-300 hover:shadow-lg transition transform hover:-translate-y-0.5">
-                        <svg aria-hidden="true" style="width:1.25rem;height:1.25rem;" class="w-5 h-5"><use href="#icon-scale"/></svg>
+                        <i data-lucide="scale" class="w-5 h-5"></i>
                         Compare Plants
                     </a>
                 </div>
@@ -371,7 +278,7 @@
                 <div class="text-center mt-8">
                     <a href="search/" class="inline-flex items-center gap-2 text-emerald-700 font-semibold hover:text-emerald-700 transition">
                         View all 115+ plants
-                        <svg aria-hidden="true" style="width:1rem;height:1rem;" class="w-4 h-4"><use href="#icon-arrow-right"/></svg>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                 </div>
             </div>
@@ -386,28 +293,28 @@
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                     <a href="search/?light=low" class="bg-gradient-to-br from-slate-100 to-slate-200 hover:from-slate-200 hover:to-slate-300 rounded-2xl p-6 text-center transition border border-slate-200 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-slate-600"><use href="#icon-moon"/></svg>
+                            <i data-lucide="moon" class="w-6 h-6 text-slate-600"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Low Light</div>
                         <div class="text-sm text-slate-600">Dark corners OK</div>
                     </a>
                     <a href="search/?light=medium" class="bg-gradient-to-br from-amber-100 to-yellow-100 hover:from-amber-100 hover:to-yellow-100 rounded-2xl p-6 text-center transition border border-amber-100 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-amber-500"><use href="#icon-cloud-sun"/></svg>
+                            <i data-lucide="cloud-sun" class="w-6 h-6 text-amber-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Medium Light</div>
                         <div class="text-sm text-slate-600">Indirect sunlight</div>
                     </a>
                     <a href="search/?light=bright" class="bg-gradient-to-br from-orange-100 to-amber-100 hover:from-orange-100 hover:to-amber-100 rounded-2xl p-6 text-center transition border border-orange-100 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-orange-500"><use href="#icon-sun"/></svg>
+                            <i data-lucide="sun" class="w-6 h-6 text-orange-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Bright Light</div>
                         <div class="text-sm text-slate-600">Near windows</div>
                     </a>
                     <a href="search/?light=direct" class="bg-gradient-to-br from-yellow-100 to-lime-100 hover:from-yellow-100 hover:to-lime-100 rounded-2xl p-6 text-center transition border border-yellow-100 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-yellow-500"><use href="#icon-sun-medium"/></svg>
+                            <i data-lucide="sun-medium" class="w-6 h-6 text-yellow-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Direct Sun</div>
                         <div class="text-sm text-slate-600">Sunny windowsills</div>
@@ -425,21 +332,21 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <a href="search/?difficulty=easy" class="bg-gradient-to-br from-emerald-100 to-green-100 hover:from-emerald-100 hover:to-green-100 rounded-2xl p-6 text-center transition border border-emerald-100 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-emerald-500"><use href="#icon-smile"/></svg>
+                            <i data-lucide="smile" class="w-6 h-6 text-emerald-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Easy Care</div>
                         <div class="text-sm text-slate-600">Perfect for beginners</div>
                     </a>
                     <a href="search/?difficulty=medium" class="bg-gradient-to-br from-amber-100 to-yellow-100 hover:from-amber-100 hover:to-yellow-100 rounded-2xl p-6 text-center transition border border-amber-100 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-amber-500"><use href="#icon-meh"/></svg>
+                            <i data-lucide="meh" class="w-6 h-6 text-amber-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Medium Care</div>
                         <div class="text-sm text-slate-600">Some attention needed</div>
                     </a>
                     <a href="search/?difficulty=hard" class="bg-gradient-to-br from-rose-100 to-pink-100 hover:from-rose-100 hover:to-pink-100 rounded-2xl p-6 text-center transition border border-rose-100 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <svg aria-hidden="true" style="width:1.5rem;height:1.5rem;" class="w-6 h-6 text-rose-500"><use href="#icon-trophy"/></svg>
+                            <i data-lucide="trophy" class="w-6 h-6 text-rose-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Expert Level</div>
                         <div class="text-sm text-slate-600">For plant enthusiasts</div>
@@ -483,7 +390,7 @@
                 <div class="text-center mt-8">
                     <a href="search/?pet_safe=true" class="inline-flex items-center gap-2 bg-white text-emerald-700 font-semibold px-6 py-3 rounded-xl hover:bg-emerald-100 transition border border-emerald-200">
                         View all pet-safe plants
-                        <svg aria-hidden="true" style="width:1rem;height:1rem;" class="w-4 h-4"><use href="#icon-arrow-right"/></svg>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                 </div>
             </div>
@@ -548,7 +455,7 @@
                 <div class="text-center mt-8">
                     <a href="faq/" class="inline-flex items-center gap-2 text-emerald-700 font-semibold hover:text-emerald-700 transition">
                         View all FAQs
-                        <svg aria-hidden="true" style="width:1rem;height:1rem;" class="w-4 h-4"><use href="#icon-arrow-right"/></svg>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
                 </div>
             </div>
@@ -584,6 +491,8 @@
     </footer>
 
     <script>
+        lucide.createIcons();
+        
         // Load all plants from JSON
         let plants = [];
         fetch('data/plants.json')
