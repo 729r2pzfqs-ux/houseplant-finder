@@ -12,16 +12,20 @@
     <meta name="google-site-verification" content="_6B659H6pJiEc-n-JpbJOzbFOC9-IVr9OAmN5TTVh74">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compare Houseplants Side by Side | PlantFinder</title>
-    <meta name="description" content="Compare houseplants side by side. See light needs, water requirements, pet safety, and more to find your perfect plant match.">
-    <link rel="canonical" href="https://plantfinder.org/compare/">
+    <title>Zimmerpflanzen vergleichen | PlantFinder</title>
+    <meta name="description" content="Vergleiche Zimmerpflanzen nebeneinander. Lichtbedarf, Wasserbedarf, Haustierfreundlichkeit und mehr auf einen Blick.">
+    <link rel="canonical" href="https://plantfinder.org/de/compare/">
+    <link rel="alternate" hreflang="en" href="https://plantfinder.org/compare/">
+    <link rel="alternate" hreflang="es" href="https://plantfinder.org/es/compare/">
+    <link rel="alternate" hreflang="de" href="https://plantfinder.org/de/compare/">
+    <link rel="alternate" hreflang="x-default" href="https://plantfinder.org/compare/">
     
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://plantfinder.org/compare/">
-    <meta property="og:title" content="Compare Houseplants Side by Side">
-    <meta property="og:description" content="Compare houseplants side by side to find your perfect green companion.">
+    <meta property="og:url" content="https://plantfinder.org/de/compare/">
+    <meta property="og:title" content="Zimmerpflanzen vergleichen">
+    <meta property="og:description" content="Vergleiche Zimmerpflanzen nebeneinander und finde die perfekte Pflanze für dein Zuhause.">
     <meta property="og:site_name" content="PlantFinder">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -46,8 +50,8 @@
                 <span class="text-xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="../search/" class="text-slate-600 hover:text-emerald-700 transition">All Plants</a>
-                <a href="../quiz/" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-emerald-500/25 transition">Take Quiz</a>
+                <a href="../search/" class="text-slate-600 hover:text-emerald-700 transition">Alle Pflanzen</a>
+                <a href="../quiz/" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-emerald-500/25 transition">Quiz starten</a>
             <!-- Language selector -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
@@ -68,8 +72,8 @@
         <!-- Header -->
         <div class="text-center mb-10">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-                Compare
-                <span class="bg-gradient-to-r from-emerald-500 to-teal-600 bg-clip-text text-transparent">Plants</span>
+                Pflanzen
+                <span class="bg-gradient-to-r from-emerald-500 to-teal-600 bg-clip-text text-transparent">vergleichen</span>
             </h1>
             <p class="text-lg text-slate-600">Wähle bis zu 3 Pflanzen zum Vergleichen</p>
         </div>
@@ -122,28 +126,28 @@
             <h2 class="text-2xl font-bold mb-6">Beliebte Vergleiche</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <button onclick="setPlants('pothos-golden', 'philodendron-heartleaf')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Pothos vs Heartleaf Philodendron</span>
-                    <p class="text-sm text-slate-600">Similar looks, different care</p>
+                    <span class="font-semibold">Efeutute vs Herzblatt-Philodendron</span>
+                    <p class="text-sm text-slate-600">Ähnlich, aber unterschiedliche Pflege</p>
                 </button>
                 <button onclick="setPlants('snake-plant', 'zz-plant')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Snake Plant vs ZZ Plant</span>
-                    <p class="text-sm text-slate-600">Low maintenance champions</p>
+                    <span class="font-semibold">Bogenhanf vs Zamioculcas</span>
+                    <p class="text-sm text-slate-600">Pflegeleichte Champions</p>
                 </button>
                 <button onclick="setPlants('monstera-deliciosa', 'fiddle-leaf-fig')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Monstera vs Fiddle Leaf Fig</span>
-                    <p class="text-sm text-slate-600">Statement plant showdown</p>
+                    <span class="font-semibold">Fensterblatt vs Geigenfeige</span>
+                    <p class="text-sm text-slate-600">Statement-Pflanzen im Vergleich</p>
                 </button>
                 <button onclick="setPlants('peace-lily', 'spider-plant')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Peace Lily vs Spider Plant</span>
-                    <p class="text-sm text-slate-600">Air purifying favorites</p>
+                    <span class="font-semibold">Einblatt vs Grünlilie</span>
+                    <p class="text-sm text-slate-600">Beliebte Luftreiniger</p>
                 </button>
                 <button onclick="setPlants('rubber-plant', 'dracaena-marginata')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Rubber Plant vs Dragon Tree</span>
-                    <p class="text-sm text-slate-600">Easy indoor trees</p>
+                    <span class="font-semibold">Gummibaum vs Drachenbaum</span>
+                    <p class="text-sm text-slate-600">Pflegeleichte Zimmerbäume</p>
                 </button>
                 <button onclick="setPlants('calathea-medallion', 'boston-fern')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Calathea Medallion vs Boston Fern</span>
-                    <p class="text-sm text-slate-600">Pet safe beauties</p>
+                    <span class="font-semibold">Korbmarante vs Schwertfarn</span>
+                    <p class="text-sm text-slate-600">Haustierfreundliche Schönheiten</p>
                 </button>
             </div>
         </div>
@@ -244,7 +248,7 @@
             const header = document.getElementById('comparison-header');
             header.innerHTML = `
                 <tr class="border-b border-slate-100">
-                    <th class="p-4 text-left text-slate-600 font-medium w-1/4">Attribute</th>
+                    <th class="p-4 text-left text-slate-600 font-medium w-1/4">Eigenschaft</th>
                     ${selectedPlants.map(plant => {
                         const hasImage = true;
                         const imgHtml = hasImage 
