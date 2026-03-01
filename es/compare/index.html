@@ -161,6 +161,25 @@
             'jade-plant', 'bunny-ears-cactus', 'areca-palm', 'haworthia-zebra', 'peace-lily'
         ]);
 
+        // Spanish plant name translations
+        const PLANT_NAMES_ES = {
+            "monstera-deliciosa": "Costilla de Adán", "pothos-golden": "Pothos Dorado",
+            "snake-plant": "Lengua de Suegra", "peace-lily": "Espatifilo",
+            "fiddle-leaf-fig": "Ficus Lira", "rubber-plant": "Árbol del Caucho",
+            "zz-plant": "Planta ZZ", "spider-plant": "Planta Araña", "boston-fern": "Helecho de Boston",
+            "aloe-vera": "Aloe Vera", "philodendron-heartleaf": "Filodendro Hoja de Corazón",
+            "chinese-evergreen": "Aglaonema", "jade-plant": "Planta de Jade", "bird-of-paradise": "Ave del Paraíso",
+            "parlor-palm": "Palma de Salón", "calathea-medallion": "Calathea Medallón", "string-of-pearls": "Collar de Perlas",
+            "pothos-marble-queen": "Pothos Reina de Mármol", "dracaena-marginata": "Dracena Marginata",
+            "bamboo-palm": "Palma Bambú", "english-ivy": "Hiedra Inglesa", "prayer-plant": "Planta de la Oración",
+            "croton": "Croton", "dieffenbachia": "Diefembaquia", "areca-palm": "Palma Areca",
+            "cast-iron-plant": "Aspidistra", "chinese-money-plant": "Planta China del Dinero", "hoya-carnosa": "Flor de Cera",
+            "calathea-orbifolia": "Calathea Orbifolia", "birds-nest-fern": "Helecho Nido de Ave", "african-violet": "Violeta Africana",
+            "peperomia": "Peperomia", "anthurium": "Anturio", "schefflera": "Cheflera",
+            "yucca": "Yuca", "norfolk-island-pine": "Pino de Norfolk", "weeping-fig": "Ficus Benjamina"
+        };
+        function getPlantNameES(id, fallback) { return PLANT_NAMES_ES[id] || fallback; }
+
         // Load plants from JSON
         fetch('/data/plants.json')
             .then(r => r.json())
@@ -177,7 +196,7 @@
                 plants.forEach(plant => {
                     const option = document.createElement('option');
                     option.value = plant.id;
-                    option.textContent = plant.name;
+                    option.textContent = getPlantNameES(plant.id, plant.name);
                     select.appendChild(option);
                 });
             });
@@ -219,13 +238,13 @@
                     ${selectedPlants.map(plant => {
                         const hasImage = true;
                         const imgHtml = hasImage 
-                            ? `<img src="/images/plants/${plant.id}.webp" alt="${plant.name}" class="w-full h-full object-cover rounded-xl">`
+                            ? `<img src="/images/plants/${plant.id}.webp" alt="${getPlantNameES(plant.id, plant.name)}" class="w-full h-full object-cover rounded-xl">`
                             : `<span class="text-3xl">🪴</span>`;
                         return `
                         <th class="p-4 text-center">
                             <a href="../plants/${plant.id}/" class="group">
                                 <div class="w-16 h-16 rounded-xl mx-auto mb-2 bg-gradient-to-br from-emerald-100 to-teal-100 flex items-center justify-center overflow-hidden shadow-md group-hover:shadow-lg transition">${imgHtml}</div>
-                                <div class="font-bold text-slate-800 group-hover:text-emerald-700 transition">${plant.name}</div>
+                                <div class="font-bold text-slate-800 group-hover:text-emerald-700 transition">${getPlantNameES(plant.id, plant.name)}</div>
                             </a>
                         </th>`;
                     }).join('')}
