@@ -493,6 +493,47 @@
     <script>
         lucide.createIcons();
         
+        // German plant name translations
+        const PLANT_NAMES_DE = {
+            "monstera-deliciosa": "Fensterblatt", "pothos-golden": "Goldene Efeutute",
+            "snake-plant": "Bogenhanf", "peace-lily": "Einblatt",
+            "fiddle-leaf-fig": "Geigenfeige", "rubber-plant": "Gummibaum",
+            "zz-plant": "Zamioculcas", "spider-plant": "Grünlilie", "boston-fern": "Schwertfarn",
+            "aloe-vera": "Aloe Vera", "philodendron-heartleaf": "Herzblatt-Philodendron",
+            "chinese-evergreen": "Kolbenfaden", "jade-plant": "Geldbaum",
+            "bird-of-paradise": "Strelitzie", "parlor-palm": "Bergpalme",
+            "calathea-medallion": "Korbmarante", "string-of-pearls": "Erbsenpflanze",
+            "english-ivy": "Efeu", "dracaena-marginata": "Drachenbaum",
+            "croton": "Kroton", "ponytail-palm": "Elefantenfuß",
+            "peperomia-hope": "Zwergpfeffer", "prayer-plant": "Pfeilwurz",
+            "orchid-phalaenopsis": "Schmetterlingsorchidee", "cast-iron-plant": "Schusterpalme",
+            "hoya-carnosa": "Wachsblume", "succulent-echeveria": "Echeverie",
+            "majesty-palm": "Majestätspalme", "birds-nest-fern": "Nestfarn",
+            "anthurium": "Flamingoblume", "philodendron-brasil": "Philodendron Brasil",
+            "philodendron-birkin": "Philodendron Birkin", "philodendron-pink-princess": "Philodendron Pink Princess",
+            "philodendron-selloum": "Baumfreund", "dieffenbachia": "Dieffenbachie",
+            "schefflera-arboricola": "Strahlenaralie", "ficus-benjamina": "Birkenfeige",
+            "ficus-audrey": "Banyanfeige", "ficus-elastica-tineke": "Gummibaum Tineke",
+            "money-tree": "Glückskastanie", "yucca": "Palmlilie", "areca-palm": "Goldfruchtpalme",
+            "kentia-palm": "Kentiapalme", "bamboo-palm": "Bambuspalme",
+            "banana-plant": "Bananenpflanze", "calathea-orbifolia": "Calathea Orbifolia",
+            "calathea-rattlesnake": "Calathea Rattlesnake", "calathea-white-fusion": "Calathea White Fusion",
+            "alocasia-polly": "Pfeilblatt", "alocasia-zebrina": "Alocasia Zebrina",
+            "caladium": "Buntblatt", "begonia-rex": "Königsbegonie", "begonia-maculata": "Forellenbegonie",
+            "tradescantia-zebrina": "Zebrakraut", "wandering-jew": "Dreimasterblume",
+            "string-of-hearts": "Leuchterblume", "string-of-bananas": "Bananenschnur",
+            "burros-tail": "Eselsschwanz", "swiss-cheese-vine": "Monstera Adansonii",
+            "maranta-lemon-lime": "Marante", "african-violet": "Usambaraveilchen",
+            "christmas-cactus": "Weihnachtskaktus", "polka-dot-plant": "Punktblume",
+            "nerve-plant": "Fittonie", "air-plant": "Tillandsie", "lucky-bamboo": "Glücksbambus",
+            "bromeliad": "Bromelie", "lipstick-plant": "Lippenstiftpflanze",
+            "satin-pothos": "Satin-Efeutute", "neon-pothos": "Neon-Efeutute", "marble-queen-pothos": "Efeutute Marble Queen"
+        };
+        
+        function getPlantNameDE(slug, fallback) {
+            return PLANT_NAMES_DE[slug] || fallback;
+        }
+        
         // Load all plants from JSON
         let plants = [];
         fetch('/data/plants.json')
@@ -515,21 +556,26 @@
                     return;
                 }
                 
-                const matches = plants.filter(p => 
-                    p.name.toLowerCase().includes(query)
-                ).slice(0, 8);
+                // Search both English and German names
+                const matches = plants.filter(p => {
+                    const deName = getPlantNameDE(p.slug, p.name).toLowerCase();
+                    const enName = p.name.toLowerCase();
+                    return deName.includes(query) || enName.includes(query);
+                }).slice(0, 8);
                 
                 if (matches.length === 0) {
                     dropdown.classList.add('hidden');
                     return;
                 }
                 
-                dropdown.innerHTML = matches.map(p => `
+                dropdown.innerHTML = matches.map(p => {
+                    const deName = getPlantNameDE(p.slug, p.name);
+                    return `
                     <a href="/de/plants/${p.slug}/" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-100 transition first:rounded-t-2xl last:rounded-b-2xl">
-                        <img src="/images/plants/${p.slug}.webp" alt="${p.name}" class="w-10 h-10 rounded-xl object-cover bg-emerald-50" onerror="this.style.display='none'">
-                        <span class="font-medium text-slate-800">${p.name}</span>
+                        <img src="/images/plants/${p.slug}.webp" alt="${deName}" class="w-10 h-10 rounded-xl object-cover bg-emerald-50" onerror="this.style.display='none'">
+                        <span class="font-medium text-slate-800">${deName}</span>
                     </a>
-                `).join('');
+                `}).join('');
                 dropdown.classList.remove('hidden');
             });
             
