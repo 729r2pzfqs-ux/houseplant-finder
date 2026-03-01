@@ -284,6 +284,41 @@
         let allPlants = [];
         let fuse = null;
 
+        // German translations
+        const PLANT_NAMES_DE = {
+            "african-violet": "Usambaraveilchen", "alocasia-frydek": "Alocasia Frydek", "alocasia-polly": "Alocasia Polly",
+            "aloe-vera": "Aloe Vera", "anthurium": "Flamingoblume", "areca-palm": "Goldfruchtpalme",
+            "birds-nest-fern": "Nestfarn", "boston-fern": "Schwertfarn", "calathea-orbifolia": "Calathea Orbifolia",
+            "calathea-medallion": "Korbmarante", "chinese-evergreen": "Kolbenfaden", "chinese-money-plant": "Ufopflanze",
+            "croton": "Kroton", "dieffenbachia": "Dieffenbachie", "dracaena-marginata": "Drachenbaum",
+            "english-ivy": "Efeu", "fiddle-leaf-fig": "Geigenfeige", "golden-pothos": "Goldene Efeutute",
+            "heartleaf-philodendron": "Herzblatt-Philodendron", "hoya-carnosa": "Wachsblume", "jade-plant": "Geldbaum",
+            "monstera-deliciosa": "Fensterblatt", "monstera-adansonii": "Monstera Adansonii", "nerve-plant": "Fittonia",
+            "norfolk-island-pine": "Zimmertanne", "parlor-palm": "Bergpalme", "peace-lily": "Einblatt",
+            "peperomia": "Zwergpfeffer", "philodendron-brasil": "Philodendron Brasil", "polka-dot-plant": "Punktblume",
+            "ponytail-palm": "Elefantenfuß", "pothos-golden": "Goldene Efeutute", "pothos-marble-queen": "Efeutute Marble Queen",
+            "prayer-plant": "Pfeilwurz", "rubber-plant": "Gummibaum", "sansevieria-cylindrica": "Bogenhanf Cylindrica",
+            "schefflera": "Strahlenaralie", "snake-plant": "Bogenhanf", "spider-plant": "Grünlilie",
+            "string-of-pearls": "Erbsenpflanze", "swiss-cheese-plant": "Fensterblatt", "weeping-fig": "Birkenfeige",
+            "yucca": "Yucca-Palme", "zz-plant": "Zamioculcas", "bamboo-palm": "Bambuspalme",
+            "bird-of-paradise": "Strelitzie", "cast-iron-plant": "Schusterpalme", "corn-plant": "Drachenbaum",
+            "dumb-cane": "Dieffenbachie", "elephant-ear": "Elefantenohr", "flamingo-flower": "Flamingoblume",
+            "inch-plant": "Dreimasterblume", "lucky-bamboo": "Glücksbambus", "majesty-palm": "Majestätspalme",
+            "money-tree": "Geldbaum", "mother-in-laws-tongue": "Bogenhanf", "neon-pothos": "Neon Efeutute",
+            "oxalis": "Sauerklee", "philodendron-pink-princess": "Philodendron Pink Princess", "philodendron-birkin": "Philodendron Birkin",
+            "polka-dot-begonia": "Forellenbegonie", "raven-zz-plant": "Schwarze Zamioculcas", "rex-begonia": "Königsbegonie",
+            "rubber-tree": "Gummibaum", "satin-pothos": "Samtpothos", "string-of-hearts": "Leuchterblume",
+            "tradescantia": "Dreimasterblume", "umbrella-plant": "Strahlenaralie", "wandering-jew": "Dreimasterblume"
+        };
+        const CATEGORY_DE = {"flowering": "Blühpflanze", "foliage": "Blattschmuck", "succulent": "Sukkulente", "palm": "Palme", "fern": "Farn", "cactus": "Kaktus", "vine": "Kletterpflanze", "tree": "Baum"};
+        const SIZE_DE = {"small": "Klein", "medium": "Mittel", "large": "Groß", "extra-large": "Sehr groß"};
+        const DIFFICULTY_DE = {"easy": "Einfach", "moderate": "Mittel", "hard": "Anspruchsvoll"};
+        
+        function getPlantNameDE(id, fallback) { return PLANT_NAMES_DE[id] || fallback; }
+        function getCategoryDE(cat) { return CATEGORY_DE[cat?.toLowerCase()] || cat; }
+        function getSizeDE(size) { return SIZE_DE[size?.toLowerCase()] || size; }
+        function getDifficultyDE(diff) { return DIFFICULTY_DE[diff?.toLowerCase()] || diff; }
+
         // Load plant data
         async function loadPlants() {
             try {
@@ -326,8 +361,9 @@
                 : '<span class="tag bg-rose-100 text-rose-700">⚠️ Toxic</span>';
 
             const hasImage = true;
+            const deName = getPlantNameDE(plant.id, plant.name);
             const imageHtml = hasImage
-                ? `<img src="/images/plants/${plant.id}.webp" alt="${plant.name}" class="w-full h-full object-cover" loading="lazy">`
+                ? `<img src="/images/plants/${plant.id}.webp" alt="${deName}" class="w-full h-full object-cover" loading="lazy">`
                 : `<span class="text-7xl">🪴</span>`;
 
             return `
@@ -335,27 +371,27 @@
                     <div class="aspect-square bg-gradient-to-br from-emerald-50 to-teal-50 relative overflow-hidden flex items-center justify-center">
                         ${imageHtml}
                         <span class="absolute top-2 right-2 tag ${difficultyColors[plant.difficulty] || 'bg-slate-100 text-slate-600'}">
-                            ${plant.difficulty}
+                            ${getDifficultyDE(plant.difficulty)}
                         </span>
                     </div>
                     <div class="p-4">
-                        <h3 class="font-semibold text-slate-800 text-lg mb-1">${plant.name}</h3>
-                        <p class="text-slate-600 text-sm mb-3">${plant.category} · ${plant.size}</p>
+                        <h3 class="font-semibold text-slate-800 text-lg mb-1">${deName}</h3>
+                        <p class="text-slate-600 text-sm mb-3">${getCategoryDE(plant.category)} · ${getSizeDE(plant.size)}</p>
                         <div class="flex flex-wrap gap-1 mb-3">
                             ${petBadge}
-                            <span class="tag bg-slate-100 text-slate-600">${lightIcons[plant.light]} ${plant.light <= 2 ? "Low" : plant.light <= 3 ? "Medium" : "Bright"} Light</span>
+                            <span class="tag bg-slate-100 text-slate-600">${lightIcons[plant.light]} ${plant.light <= 2 ? "Wenig" : plant.light <= 3 ? "Mittleres" : "Helles"} Licht</span>
                         </div>
                         <div class="grid grid-cols-3 gap-2 text-center text-xs">
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-600">Light</div>
+                                <div class="text-slate-600">Licht</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(plant.light)}${'○'.repeat(5-plant.light)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-600">Water</div>
+                                <div class="text-slate-600">Wasser</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(plant.water)}${'○'.repeat(5-plant.water)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-600">Care</div>
+                                <div class="text-slate-600">Pflege</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(plant.humidity)}${'○'.repeat(5-plant.humidity)}</div>
                             </div>
                         </div>
