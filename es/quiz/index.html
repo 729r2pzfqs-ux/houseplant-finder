@@ -134,52 +134,52 @@
     <script>
         const questions = [
             {
-                q: "How much natural light does your space get?",
+                q: "¿Cuánta luz natural recibe tu espacio?",
                 options: [
-                    { text: "🌙 Low — No direct sun, mostly shade", criteria: { light_needs: 1 } },
-                    { text: "⛅ Mediana — Bright but indirect light", criteria: { light_needs: 3 } },
-                    { text: "☀️ Bright — Lots of sun near windows", criteria: { light_needs: 5 } }
+                    { text: "🌙 Poca — Sin sol directo, mayormente sombra", criteria: { light_needs: 1 } },
+                    { text: "⛅ Media — Brillante pero luz indirecta", criteria: { light_needs: 3 } },
+                    { text: "☀️ Mucha — Mucho sol cerca de ventanas", criteria: { light_needs: 5 } }
                 ]
             },
             {
-                q: "How often do you remember to water plants?",
+                q: "¿Con qué frecuencia recuerdas regar las plantas?",
                 options: [
-                    { text: "🏜️ Raramente — I forget all the time", criteria: { water_needs: 1, maintenance: 1 } },
-                    { text: "💧 Semanalmente — I can do once a week", criteria: { water_needs: 3, maintenance: 2 } },
-                    { text: "🌊 Often — I love caring for plants", criteria: { water_needs: 4, maintenance: 4 } }
+                    { text: "🏜️ Raramente — Lo olvido siempre", criteria: { water_needs: 1, maintenance: 1 } },
+                    { text: "💧 Semanalmente — Una vez por semana puedo", criteria: { water_needs: 3, maintenance: 2 } },
+                    { text: "🌊 Frecuentemente — Me encanta cuidar plantas", criteria: { water_needs: 4, maintenance: 4 } }
                 ]
             },
             {
                 q: "¿Tienes mascotas?",
                 options: [
-                    { text: "🐾 Yes, and they chew plants!", criteria: { pet_safe: true } },
-                    { text: "🐕 Yes, but they ignore plants", criteria: { pet_safe: false } },
+                    { text: "🐾 Sí, ¡y muerden las plantas!", criteria: { pet_safe: true } },
+                    { text: "🐕 Sí, pero ignoran las plantas", criteria: { pet_safe: false } },
                     { text: "🏠 Sin mascotas", criteria: { pet_safe: false } }
                 ]
             },
             {
-                q: "How much space do you have?",
+                q: "¿Cuánto espacio tienes?",
                 options: [
-                    { text: "🪴 Desk or shelf only", criteria: { size_pref: 'small' } },
-                    { text: "📦 A nice corner or table", criteria: { size_pref: 'medium' } },
-                    { text: "🌳 Floor space for a big plant", criteria: { size_pref: 'large' } }
+                    { text: "🪴 Solo escritorio o estante", criteria: { size_pref: 'small' } },
+                    { text: "📦 Una esquina o mesa", criteria: { size_pref: 'medium' } },
+                    { text: "🌳 Espacio en el suelo para planta grande", criteria: { size_pref: 'large' } }
                 ]
             },
             {
-                q: "What's your plant experience?",
+                q: "¿Cuál es tu experiencia con plantas?",
                 options: [
-                    { text: "🌱 Principiante — Keep it simple", criteria: { maintenance: 1 } },
-                    { text: "🌿 Some experience — I can handle more", criteria: { maintenance: 3 } },
-                    { text: "🌳 Experto — Bring on the challenge!", criteria: { maintenance: 5 } }
+                    { text: "🌱 Principiante — Mantenlo simple", criteria: { maintenance: 1 } },
+                    { text: "🌿 Algo de experiencia — Puedo con más", criteria: { maintenance: 3 } },
+                    { text: "🌳 Experto — ¡Trae el desafío!", criteria: { maintenance: 5 } }
                 ]
             },
             {
-                q: "What matters most to you?",
+                q: "¿Qué es más importante para ti?",
                 options: [
-                    { text: "🎨 Looks amazing!", criteria: { statement: true } },
-                    { text: "🌬️ Purifies air", criteria: { air_purifying: 5 } },
-                    { text: "💪 Hard to kill", criteria: { maintenance: 1, water_needs: 1 } },
-                    { text: "🌸 Produces flowers", criteria: { flowering: true } }
+                    { text: "🎨 ¡Que se vea increíble!", criteria: { statement: true } },
+                    { text: "🌬️ Que purifique el aire", criteria: { air_purifying: 5 } },
+                    { text: "💪 Difícil de matar", criteria: { maintenance: 1, water_needs: 1 } },
+                    { text: "🌸 Que produzca flores", criteria: { flowering: true } }
                 ]
             }
         ];
