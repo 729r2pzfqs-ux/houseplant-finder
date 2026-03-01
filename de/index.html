@@ -556,11 +556,17 @@
                     return;
                 }
                 
-                // Search both English and German names
+                // Search both English and German names, prioritize German matches
                 const matches = plants.filter(p => {
                     const deName = getPlantNameDE(p.slug, p.name).toLowerCase();
                     const enName = p.name.toLowerCase();
                     return deName.includes(query) || enName.includes(query);
+                }).sort((a, b) => {
+                    const aDE = getPlantNameDE(a.slug, a.name).toLowerCase().includes(query);
+                    const bDE = getPlantNameDE(b.slug, b.name).toLowerCase().includes(query);
+                    if (aDE && !bDE) return -1;
+                    if (!aDE && bDE) return 1;
+                    return 0;
                 }).slice(0, 8);
                 
                 if (matches.length === 0) {
