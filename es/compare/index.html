@@ -179,6 +179,14 @@
             "yucca": "Yuca", "norfolk-island-pine": "Pino de Norfolk", "weeping-fig": "Ficus Benjamina"
         };
         function getPlantNameES(id, fallback) { return PLANT_NAMES_ES[id] || fallback; }
+        
+        // More Spanish translations
+        const CATEGORY_ES = {"foliage": "Follaje", "flowering": "Floración", "succulent": "Suculenta", "palm": "Palma", "fern": "Helecho", "cactus": "Cactus", "vine": "Trepadora", "tree": "Árbol"};
+        const SIZE_ES = {"small": "Pequeña", "medium": "Mediana", "large": "Grande", "extra-large": "Muy grande"};
+        const DIFFICULTY_ES = {"easy": "Fácil", "moderate": "Moderado", "hard": "Difícil"};
+        function getCategoryES(cat) { return CATEGORY_ES[cat?.toLowerCase()] || cat; }
+        function getSizeES(size) { return SIZE_ES[size?.toLowerCase()] || size; }
+        function getDifficultyES(diff) { return DIFFICULTY_ES[diff?.toLowerCase()] || diff; }
 
         // Load plants from JSON
         fetch('/data/plants.json')
@@ -255,16 +263,14 @@
             const body = document.getElementById('comparison-body');
             
             const rows = [
-                { label: 'Category', render: p => p.category || '—' },
-                { label: 'Tamaño', render: p => p.size || '—' },
+                { label: 'Categoría', render: p => getCategoryES(p.category) || '—' },
+                { label: 'Tamaño', render: p => getSizeES(p.size) || '—' },
                 { label: 'Dificultad', render: p => renderDificultad(p.difficulty) },
-                { label: 'Segura para Mascotas', render: p => p.pet_safe ? '<span class="text-emerald-700 font-semibold">✓ Sí</span>' : '<span class="text-rose-600 font-semibold">✗ Toxic</span>' },
-                { label: 'Necesidades de Luz', render: p => renderRating(p.light) },
-                { label: 'Necesidades de Agua', render: p => renderRating(p.water) },
+                { label: 'Segura para Mascotas', render: p => p.pet_safe ? '<span class="text-emerald-700 font-semibold">✓ Sí</span>' : '<span class="text-rose-600 font-semibold">✗ Tóxica</span>' },
+                { label: 'Luz', render: p => renderRating(p.light) },
+                { label: 'Agua', render: p => renderRating(p.water) },
                 { label: 'Humedad', render: p => renderRating(p.humidity) },
-                
-                
-                { label: 'Air Purifying', render: p => p.air_purifying ? '✓ Sí' : '✗ No' }
+                { label: 'Purifica Aire', render: p => p.air_purifying ? '✓ Sí' : '✗ No' }
             ];
 
             body.innerHTML = rows.map((row, i) => `
@@ -282,10 +288,10 @@
         function renderDificultad(value) {
             const colors = {
                 easy: 'bg-emerald-100 text-emerald-700',
-                medium: 'bg-amber-100 text-amber-700',
+                moderate: 'bg-amber-100 text-amber-700',
                 hard: 'bg-rose-100 text-rose-700'
             };
-            return `<span class="px-2 py-1 rounded-full text-sm font-medium ${colors[value] || 'bg-slate-100 text-slate-600'}">${value || '—'}</span>`;
+            return `<span class="px-2 py-1 rounded-full text-sm font-medium ${colors[value] || 'bg-slate-100 text-slate-600'}">${getDifficultyES(value) || '—'}</span>`;
         }
 
         function renderRating(value) {
