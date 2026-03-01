@@ -12,16 +12,20 @@
     <meta name="google-site-verification" content="_6B659H6pJiEc-n-JpbJOzbFOC9-IVr9OAmN5TTVh74">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compare Houseplants Side by Side | PlantFinder</title>
-    <meta name="description" content="Compara plantas de interior lado a lado. See light needs, water requirements, pet safety, and more to find your perfect plant match.">
-    <link rel="canonical" href="https://plantfinder.org/compare/">
+    <title>Comparar Plantas de Interior | PlantFinder</title>
+    <meta name="description" content="Compara plantas de interior lado a lado. Luz, agua, seguridad para mascotas y más para encontrar tu planta perfecta.">
+    <link rel="canonical" href="https://plantfinder.org/es/compare/">
+    <link rel="alternate" hreflang="en" href="https://plantfinder.org/compare/">
+    <link rel="alternate" hreflang="es" href="https://plantfinder.org/es/compare/">
+    <link rel="alternate" hreflang="de" href="https://plantfinder.org/de/compare/">
+    <link rel="alternate" hreflang="x-default" href="https://plantfinder.org/compare/">
     
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://plantfinder.org/compare/">
-    <meta property="og:title" content="Compare Houseplants Side by Side">
-    <meta property="og:description" content="Compara plantas de interior lado a lado to find your perfect green companion.">
+    <meta property="og:url" content="https://plantfinder.org/es/compare/">
+    <meta property="og:title" content="Comparar Plantas de Interior">
+    <meta property="og:description" content="Compara plantas de interior lado a lado para encontrar tu compañera verde perfecta.">
     <meta property="og:site_name" content="PlantFinder">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -46,8 +50,8 @@
                 <span class="text-xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">PlantFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="../search/" class="text-slate-600 hover:text-emerald-700 transition">All Plants</a>
-                <a href="../quiz/" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-emerald-500/25 transition">Take Quiz</a>
+                <a href="../search/" class="text-slate-600 hover:text-emerald-700 transition">Todas las Plantas</a>
+                <a href="../quiz/" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-emerald-500/25 transition">Hacer Quiz</a>
             <!-- Language selector -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
@@ -55,7 +59,7 @@
                         <span>ES</span>
                     </button>
                     <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="/es/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">English</a>
+                        <a href="/compare/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
                         <a href="/es/compare/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-emerald-700">Español</a>
                         <a href="/de/compare/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a>
                     </div>
@@ -68,10 +72,10 @@
         <!-- Header -->
         <div class="text-center mb-10">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-                Compare
-                <span class="bg-gradient-to-r from-emerald-500 to-teal-600 bg-clip-text text-transparent">Plants</span>
+                Comparar
+                <span class="bg-gradient-to-r from-emerald-500 to-teal-600 bg-clip-text text-transparent">Plantas</span>
             </h1>
-            <p class="text-lg text-slate-600">Selecciona hasta 3 plantas para comparar side by side</p>
+            <p class="text-lg text-slate-600">Selecciona hasta 3 plantas para comparar lado a lado</p>
         </div>
 
         <!-- Plant Selectors -->
@@ -121,28 +125,28 @@
             <h2 class="text-2xl font-bold mb-6">Comparaciones Populares</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <button onclick="setPlants('pothos-golden', 'philodendron-heartleaf')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Pothos vs Heartleaf Philodendron</span>
-                    <p class="text-sm text-slate-600">Similar looks, different care</p>
+                    <span class="font-semibold">Pothos vs Filodendro Corazón</span>
+                    <p class="text-sm text-slate-600">Aspecto similar, cuidados diferentes</p>
                 </button>
                 <button onclick="setPlants('snake-plant', 'zz-plant')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Snake Plant vs ZZ Plant</span>
-                    <p class="text-sm text-slate-600">Low maintenance champions</p>
+                    <span class="font-semibold">Lengua de Suegra vs Planta ZZ</span>
+                    <p class="text-sm text-slate-600">Campeonas de bajo mantenimiento</p>
                 </button>
                 <button onclick="setPlants('monstera-deliciosa', 'fiddle-leaf-fig')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Monstera vs Fiddle Leaf Fig</span>
-                    <p class="text-sm text-slate-600">Statement plant showdown</p>
+                    <span class="font-semibold">Costilla de Adán vs Ficus Lira</span>
+                    <p class="text-sm text-slate-600">Plantas protagonistas</p>
                 </button>
                 <button onclick="setPlants('peace-lily', 'spider-plant')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Peace Lily vs Spider Plant</span>
-                    <p class="text-sm text-slate-600">Air purifying favorites</p>
+                    <span class="font-semibold">Espatifilo vs Planta Araña</span>
+                    <p class="text-sm text-slate-600">Favoritas purificadoras de aire</p>
                 </button>
                 <button onclick="setPlants('rubber-plant', 'dracaena-marginata')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Rubber Plant vs Dragon Tree</span>
-                    <p class="text-sm text-slate-600">Fácil indoor trees</p>
+                    <span class="font-semibold">Árbol del Caucho vs Dracena</span>
+                    <p class="text-sm text-slate-600">Árboles de interior fáciles</p>
                 </button>
                 <button onclick="setPlants('calathea-medallion', 'boston-fern')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Calathea Medallion vs Boston Fern</span>
-                    <p class="text-sm text-slate-600">Pet safe beauties</p>
+                    <span class="font-semibold">Calathea vs Helecho de Boston</span>
+                    <p class="text-sm text-slate-600">Bellezas seguras para mascotas</p>
                 </button>
             </div>
         </div>
@@ -243,7 +247,7 @@
             const header = document.getElementById('comparison-header');
             header.innerHTML = `
                 <tr class="border-b border-slate-100">
-                    <th class="p-4 text-left text-slate-600 font-medium w-1/4">Attribute</th>
+                    <th class="p-4 text-left text-slate-600 font-medium w-1/4">Atributo</th>
                     ${selectedPlants.map(plant => {
                         const hasImage = true;
                         const imgHtml = hasImage 
