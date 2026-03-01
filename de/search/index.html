@@ -52,8 +52,8 @@
                 </a>
                 <nav class="flex items-center gap-6">
                     <a href="/de/quiz/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Quiz</a>
-                    <a href="/de/compare/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Compare</a>
-                    <a href="/de/search/" class="text-emerald-700 font-medium">Search</a>
+                    <a href="/de/compare/" class="text-slate-600 hover:text-slate-900 font-medium hidden sm:block">Vergleichen</a>
+                    <a href="/de/search/" class="text-emerald-700 font-medium">Suche</a>
                 <!-- Language selector -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-700 py-2">
@@ -270,7 +270,7 @@
                 <div class="flex gap-6 text-sm">
                     <a href="/de/" class="hover:text-white">Home</a>
                     <a href="/de/quiz/" class="hover:text-white">Quiz</a>
-                    <a href="/de/compare/" class="hover:text-white">Compare</a>
+                    <a href="/de/compare/" class="hover:text-white">Vergleichen</a>
                 </div>
                 <p class="text-sm">&copy; 2026 PlantFinder</p>
             </div>
@@ -358,7 +358,7 @@
 
             const petBadge = plant.pet_safe 
                 ? '<span class="tag bg-emerald-100 text-emerald-700">🐾 Haustierfreundlich</span>'
-                : '<span class="tag bg-rose-100 text-rose-700">⚠️ Toxic</span>';
+                : '<span class="tag bg-rose-100 text-rose-700">⚠️ Giftig</span>';
 
             const hasImage = true;
             const deName = getPlantNameDE(plant.id, plant.name);
