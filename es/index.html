@@ -503,6 +503,47 @@
             })
             .catch(e => console.error('Failed to load plants:', e));
         
+        // Spanish plant name translations
+        const PLANT_NAMES_ES = {
+            "monstera-deliciosa": "Monstera Deliciosa", "pothos-golden": "Pothos Dorado",
+            "snake-plant": "Lengua de Suegra", "peace-lily": "Lirio de la Paz",
+            "fiddle-leaf-fig": "Ficus Lyrata", "rubber-plant": "Árbol del Caucho",
+            "zz-plant": "Planta ZZ", "spider-plant": "Cinta", "boston-fern": "Helecho de Boston",
+            "aloe-vera": "Aloe Vera", "philodendron-heartleaf": "Filodendro Hoja de Corazón",
+            "chinese-evergreen": "Aglaonema", "jade-plant": "Árbol de Jade",
+            "bird-of-paradise": "Ave del Paraíso", "parlor-palm": "Palma de Salón",
+            "calathea-medallion": "Calathea Medallón", "string-of-pearls": "Collar de Perlas",
+            "english-ivy": "Hiedra Inglesa", "dracaena-marginata": "Drácena Marginata",
+            "croton": "Croton", "ponytail-palm": "Pata de Elefante",
+            "peperomia-hope": "Peperomia Hope", "prayer-plant": "Planta de la Oración",
+            "orchid-phalaenopsis": "Orquídea Phalaenopsis", "cast-iron-plant": "Aspidistra",
+            "hoya-carnosa": "Flor de Cera", "succulent-echeveria": "Echeveria",
+            "majesty-palm": "Palma Majestad", "birds-nest-fern": "Helecho Nido de Ave",
+            "anthurium": "Anturio", "philodendron-brasil": "Filodendro Brasil",
+            "philodendron-birkin": "Filodendro Birkin", "philodendron-pink-princess": "Filodendro Princesa Rosa",
+            "philodendron-selloum": "Filodendro Selloum", "dieffenbachia": "Dieffenbachia",
+            "schefflera-arboricola": "Cheflera Enana", "ficus-benjamina": "Ficus Benjamina",
+            "ficus-audrey": "Ficus Audrey", "ficus-elastica-tineke": "Ficus Tineke",
+            "money-tree": "Árbol del Dinero", "yucca": "Yuca", "areca-palm": "Palma Areca",
+            "kentia-palm": "Palma Kentia", "bamboo-palm": "Palma Bambú",
+            "banana-plant": "Planta de Banano", "calathea-orbifolia": "Calathea Orbifolia",
+            "calathea-rattlesnake": "Calathea Rattlesnake", "calathea-white-fusion": "Calathea White Fusion",
+            "alocasia-polly": "Alocasia Polly", "alocasia-zebrina": "Alocasia Zebrina",
+            "caladium": "Caladio", "begonia-rex": "Begonia Rex", "begonia-maculata": "Begonia Maculata",
+            "tradescantia-zebrina": "Tradescantia Zebrina", "wandering-jew": "Amor de Hombre",
+            "string-of-hearts": "Collar de Corazones", "string-of-bananas": "Collar de Bananas",
+            "burros-tail": "Cola de Burro", "swiss-cheese-vine": "Monstera Adansonii",
+            "maranta-lemon-lime": "Maranta Limón", "african-violet": "Violeta Africana",
+            "christmas-cactus": "Cactus de Navidad", "polka-dot-plant": "Planta Lunares",
+            "nerve-plant": "Fitonia", "air-plant": "Planta de Aire", "lucky-bamboo": "Bambú de la Suerte",
+            "bromeliad": "Bromelia", "lipstick-plant": "Planta Lápiz Labial",
+            "satin-pothos": "Pothos Satinado", "neon-pothos": "Pothos Neón", "marble-queen-pothos": "Pothos Reina de Mármol"
+        };
+        
+        function getPlantNameES(slug, fallback) {
+            return PLANT_NAMES_ES[slug] || fallback;
+        }
+        
         const homeSearch = document.getElementById('home-search');
         const dropdown = document.getElementById('search-dropdown');
         
@@ -515,21 +556,26 @@
                     return;
                 }
                 
-                const matches = plants.filter(p => 
-                    p.name.toLowerCase().includes(query)
-                ).slice(0, 8);
+                // Search both English and Spanish names
+                const matches = plants.filter(p => {
+                    const esName = getPlantNameES(p.slug, p.name).toLowerCase();
+                    const enName = p.name.toLowerCase();
+                    return esName.includes(query) || enName.includes(query);
+                }).slice(0, 8);
                 
                 if (matches.length === 0) {
                     dropdown.classList.add('hidden');
                     return;
                 }
                 
-                dropdown.innerHTML = matches.map(p => `
+                dropdown.innerHTML = matches.map(p => {
+                    const esName = getPlantNameES(p.slug, p.name);
+                    return `
                     <a href="/es/plants/${p.slug}/" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-100 transition first:rounded-t-2xl last:rounded-b-2xl">
-                        <img src="/images/plants/${p.slug}.webp" alt="${p.name}" class="w-10 h-10 rounded-xl object-cover bg-emerald-50" onerror="this.style.display='none'">
-                        <span class="font-medium text-slate-800">${p.name}</span>
+                        <img src="/images/plants/${p.slug}.webp" alt="${esName}" class="w-10 h-10 rounded-xl object-cover bg-emerald-50" onerror="this.style.display='none'">
+                        <span class="font-medium text-slate-800">${esName}</span>
                     </a>
-                `).join('');
+                `}).join('');
                 dropdown.classList.remove('hidden');
             });
             
