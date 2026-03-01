@@ -185,6 +185,22 @@
         ];
 
         let plants = [];
+        
+        // Spanish plant name translations
+        const PLANT_NAMES_ES = {
+            "monstera-deliciosa": "Costilla de Adán", "pothos-golden": "Pothos Dorado",
+            "snake-plant": "Lengua de Suegra", "peace-lily": "Espatifilo",
+            "fiddle-leaf-fig": "Ficus Lira", "rubber-plant": "Árbol del Caucho",
+            "zz-plant": "Planta ZZ", "spider-plant": "Planta Araña", "boston-fern": "Helecho de Boston",
+            "aloe-vera": "Aloe Vera", "philodendron-heartleaf": "Filodendro Hoja de Corazón",
+            "chinese-evergreen": "Aglaonema", "jade-plant": "Planta de Jade", "bird-of-paradise": "Ave del Paraíso",
+            "parlor-palm": "Palma de Salón", "calathea-medallion": "Calathea Medallón", "string-of-pearls": "Collar de Perlas",
+            "bamboo-palm": "Palma Bambú", "english-ivy": "Hiedra Inglesa", "prayer-plant": "Planta de la Oración",
+            "areca-palm": "Palma Areca", "chinese-money-plant": "Planta China del Dinero", "african-violet": "Violeta Africana",
+            "anthurium": "Anturio", "schefflera": "Cheflera", "yucca": "Yuca",
+            "dracaena-marginata": "Dracena Marginata", "weeping-fig": "Ficus Benjamina"
+        };
+        function getPlantNameES(id, fallback) { return PLANT_NAMES_ES[id] || fallback; }
         let currentQuestion = 0;
         let selectedCriteria = {};
 
@@ -306,13 +322,14 @@
             container.innerHTML = '';
 
             if (top5.length === 0) {
-                container.innerHTML = '<p class="text-center text-slate-600">No perfect matches found. Try the quiz again with different answers!</p>';
+                container.innerHTML = '<p class="text-center text-slate-600">No se encontraron coincidencias. ¡Intenta el quiz de nuevo con otras respuestas!</p>';
                 return;
             }
 
             top5.forEach((plant, i) => {
                 const match = Math.min(100, Math.round((plant.score / 10) * 100));
-                const petBadge = plant.pet_safe ? '<span class="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full">🐾 Pet Safe</span>' : '';
+                const petBadge = plant.pet_safe ? '<span class="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full">🐾 Segura</span>' : '';
+                const plantName = getPlantNameES(plant.id, plant.name);
                 const div = document.createElement('a');
                 div.href = '../plants/' + plant.id + '/';
                 div.className = 'block bg-white rounded-2xl p-6 shadow-lg shadow-slate-200/50 hover:shadow-xl transition';
@@ -321,7 +338,7 @@
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-xl flex items-center justify-center text-2xl font-bold text-emerald-700">${i + 1}</div>
                             <div>
-                                <h3 class="text-xl font-bold">${plant.name}</h3>
+                                <h3 class="text-xl font-bold">${plantName}</h3>
                                 <p class="text-slate-600 text-sm">${match}% match · ${plant.difficulty} care ${petBadge}</p>
                             </div>
                         </div>
