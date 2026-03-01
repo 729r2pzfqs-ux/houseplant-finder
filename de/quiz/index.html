@@ -189,7 +189,7 @@
         let selectedCriteria = {};
 
         // Load plants from JSON
-        fetch('../data/plants.json')
+        fetch('/data/plants.json')
             .then(r => r.json())
             .then(data => {
                 plants = data;
