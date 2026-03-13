@@ -1,7 +1,10 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://plantfinder.org/sitemap.xml
+# Block template variable URLs that Google crawls literally
+Disallow: /*${*
+Disallow: /*%24*
 Disallow: /data/
 Disallow: /*/data/
-Disallow: /*$*
+
+Sitemap: https://plantfinder.org/sitemap.xml
