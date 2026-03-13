@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://plantfinder.org/sitemap.xml
+Disallow: /data/
+Disallow: /*/data/
+Disallow: /*$*
