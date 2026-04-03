@@ -2,13 +2,8 @@
 <html lang="en">
 <head>
     <!-- Google Analytics placeholder -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2JW25BZPF"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-J2JW25BZPF');
-    </script>
+    
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Philodendron Micans Care Guide | PlantFinder</title>
@@ -85,7 +80,11 @@
         ]
     }
     </script>
-</head>
+    <link rel="alternate" hreflang="en" href="https://plantfinder.org/plants/philodendron-micans/" />
+    <link rel="alternate" hreflang="es" href="https://plantfinder.org/es/plants/philodendron-micans/" />
+    <link rel="alternate" hreflang="de" href="https://plantfinder.org/de/plants/philodendron-micans/" />
+    <link rel="alternate" hreflang="x-default" href="https://plantfinder.org/plants/philodendron-micans/" />
+  </head>
 <body class="bg-slate-50 text-slate-800">
     <nav class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4">
@@ -322,5 +321,100 @@
     <script>
         lucide.createIcons();
     </script>
+
+<script id="consent-banner-script">
+(function() {
+  const consentKey = 'plantfinder-consent';
+  const scripts = document.querySelectorAll('script[data-ga-pending]');
+
+  function loadGA() {
+    // Load GA scripts that were marked as pending
+    scripts.forEach(script => {
+      const newScript = document.createElement('script');
+      newScript.async = true;
+      newScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-J2JW25BZPF';
+      document.head.appendChild(newScript);
+
+      const configScript = document.createElement('script');
+      configScript.textContent = `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-J2JW25BZPF");`;
+      document.head.appendChild(configScript);
+    });
+  }
+
+  function showConsentBanner() {
+    const banner = document.createElement('div');
+    banner.id = 'consent-banner';
+    banner.style.cssText = `
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #fff;
+      border-top: 1px solid #e5e7eb;
+      padding: 16px 24px;
+      z-index: 9999;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 14px;
+    `;
+
+    const text = document.createElement('p');
+    text.style.cssText = 'margin: 0; flex: 1; margin-right: 16px;';
+    text.textContent = 'We use analytics to understand how you use our site and improve it.';
+
+    const acceptBtn = document.createElement('button');
+    acceptBtn.textContent = 'Accept';
+    acceptBtn.style.cssText = `
+      background: #16a34a;
+      color: white;
+      border: none;
+      padding: 8px 24px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      white-space: nowrap;
+    `;
+    acceptBtn.onclick = function() {
+      localStorage.setItem(consentKey, 'accepted');
+      banner.remove();
+      loadGA();
+    };
+
+    const denyBtn = document.createElement('button');
+    denyBtn.textContent = 'Decline';
+    denyBtn.style.cssText = `
+      background: transparent;
+      color: #666;
+      border: 1px solid #ddd;
+      padding: 8px 24px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-left: 8px;
+      white-space: nowrap;
+    `;
+    denyBtn.onclick = function() {
+      localStorage.setItem(consentKey, 'declined');
+      banner.remove();
+    };
+
+    banner.appendChild(text);
+    banner.appendChild(acceptBtn);
+    banner.appendChild(denyBtn);
+    document.body.appendChild(banner);
+  }
+
+  const consent = localStorage.getItem(consentKey);
+  if (!consent) {
+    showConsentBanner();
+  } else if (consent === 'accepted') {
+    loadGA();
+  }
+})();
+</script>
+
 </body>
 </html>
