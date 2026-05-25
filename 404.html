@@ -27,5 +27,10 @@
     <a href="/quiz/">Take the Quiz</a>
     <a href="/search/">Search Plants</a>
   </div>
+<script>
+  if (window.location.pathname.indexOf('${') !== -1) {
+    window.location.replace('/');
+  }
+  </script>
 </body>
 </html>

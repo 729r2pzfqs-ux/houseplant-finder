@@ -555,14 +555,24 @@
                     return;
                 }
                 
-                dropdown.innerHTML = matches.map(p => {
-                    const esName = getPlantNameES(p.slug, p.name);
-                    return `
-                    <a href="/es/plants/${p.slug}/" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-100 transition first:rounded-t-2xl last:rounded-b-2xl">
-                        <img src="/images/plants/${p.slug}.webp" alt="${esName}" class="w-10 h-10 rounded-xl object-cover bg-emerald-50" onerror="this.style.display='none'">
-                        <span class="font-medium text-slate-800">${esName}</span>
-                    </a>
-                `}).join('');
+                dropdown.innerHTML = '';
+                matches.forEach(function(p) {
+                    var esName = getPlantNameES(p.slug, p.name);
+                    var a = document.createElement('a');
+                    a.href = '/es/plants/' + p.slug + '/';
+                    a.className = 'flex items-center gap-3 px-4 py-3 hover:bg-slate-100 transition first:rounded-t-2xl last:rounded-b-2xl';
+                    var img = document.createElement('img');
+                    img.src = '/images/plants/' + p.slug + '.webp';
+                    img.alt = esName;
+                    img.className = 'w-10 h-10 rounded-xl object-cover bg-emerald-50';
+                    img.onerror = function() { this.style.display='none'; };
+                    a.appendChild(img);
+                    var span = document.createElement('span');
+                    span.className = 'font-medium text-slate-800';
+                    span.textContent = esName;
+                    a.appendChild(span);
+                    dropdown.appendChild(a);
+                });
                 dropdown.classList.remove('hidden');
             });
             

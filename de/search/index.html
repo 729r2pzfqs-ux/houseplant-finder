@@ -361,8 +361,9 @@
                 ? `<img src="/images/plants/${plant.id}.webp" alt="${deName}" class="w-full h-full object-cover" loading="lazy">`
                 : `<span class="text-7xl">🪴</span>`;
 
+            var cardHref = '/de/plants/' + plant.id + '/';
             return `
-                <a href="/de/plants/${plant.id}/" class="plant-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
+                <a href="` + cardHref + `" class="plant-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
                     <div class="aspect-square bg-gradient-to-br from-emerald-50 to-teal-50 relative overflow-hidden flex items-center justify-center">
                         ${imageHtml}
                         <span class="absolute top-2 right-2 tag ${difficultyColors[plant.difficulty] || 'bg-slate-100 text-slate-600'}">
