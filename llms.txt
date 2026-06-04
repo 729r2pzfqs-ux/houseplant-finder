@@ -1,0 +1,7 @@
+# plantfinder.org
+
+## About
+PlantFinder.org helps you identify and care for houseplants. Browse 200+ indoor plants with photos, care guides, light requirements, and toxicity information.
+
+## URLs
+- Homepage: https://plantfinder.org/
