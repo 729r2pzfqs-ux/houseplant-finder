@@ -85,7 +85,49 @@
     <link rel="alternate" hreflang="es" href="https://plantfinder.org/es/plants/string-of-pearls/" />
     <link rel="alternate" hreflang="de" href="https://plantfinder.org/de/plants/string-of-pearls/" />
     <link rel="alternate" hreflang="x-default" href="https://plantfinder.org/plants/string-of-pearls/" />
-  </head>
+  
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "How much light does a String of Pearls need?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The String of Pearls needs bright indirect conditions. Bright indirect light, water sparingly, well-draining soil."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is String of Pearls toxic to pets?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, the String of Pearls is toxic to cats, dogs. Keep it out of reach of pets."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is String of Pearls easy to care for?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The String of Pearls is considered medium to care for. It has very low watering needs and grows at a fast rate."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How often should I water my String of Pearls?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The String of Pearls has very low watering needs. Bright indirect light, water sparingly, well-draining soil."
+            }
+        }
+    ]
+}
+    </script>
+</head>
 <body class="bg-slate-50 text-slate-800">
     <nav class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4">
@@ -289,7 +331,69 @@
                 <a href="/search/?pet_safe=true" class="inline-flex items-center gap-2 bg-emerald-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:bg-emerald-700 transition"><i data-lucide="paw-print" class="w-4 h-4"></i>Find pet-safe alternatives</a>
             </div>
         </section>
-    </main>
+    
+    <!-- Related Plants Section -->
+    <section class="mt-12 mb-8">
+        <h2 class="text-xl font-bold text-slate-900 mb-6">Similar Plants You Might Like</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            
+            <a href="/plants/string-of-dolphins/" class="block bg-white rounded-lg border border-slate-200 p-4 hover:shadow-md transition">
+                <h3 class="font-bold text-slate-900">String of Dolphins</h3>
+                <p class="text-sm text-slate-500 italic">Senecio Peregrinus, Dolphin Plant</p>
+                <div class="mt-2 flex flex-wrap gap-1">
+                    <span class="text-xs bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded">medium</span>
+                    <span class="text-xs bg-rose-50 text-rose-700 px-2 py-0.5 rounded">Toxic</span>
+                    <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded">small</span>
+                </div>
+            </a>
+            <a href="/plants/sedum-burrito/" class="block bg-white rounded-lg border border-slate-200 p-4 hover:shadow-md transition">
+                <h3 class="font-bold text-slate-900">Burro's Tail</h3>
+                <p class="text-sm text-slate-500 italic">Sedum Morganianum, Donkey's Tail</p>
+                <div class="mt-2 flex flex-wrap gap-1">
+                    <span class="text-xs bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded">medium</span>
+                    <span class="text-xs bg-green-50 text-green-700 px-2 py-0.5 rounded">Pet safe</span>
+                    <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded">small</span>
+                </div>
+            </a>
+            <a href="/plants/aloe-vera/" class="block bg-white rounded-lg border border-slate-200 p-4 hover:shadow-md transition">
+                <h3 class="font-bold text-slate-900">Aloe Vera</h3>
+                <p class="text-sm text-slate-500 italic">Medicinal Aloe, Burn Plant</p>
+                <div class="mt-2 flex flex-wrap gap-1">
+                    <span class="text-xs bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded">easy</span>
+                    <span class="text-xs bg-rose-50 text-rose-700 px-2 py-0.5 rounded">Toxic</span>
+                    <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded">small</span>
+                </div>
+            </a>
+            <a href="/plants/crassula-string-of-buttons/" class="block bg-white rounded-lg border border-slate-200 p-4 hover:shadow-md transition">
+                <h3 class="font-bold text-slate-900">String of Buttons</h3>
+                <p class="text-sm text-slate-500 italic">Crassula Perforata, Necklace Vine</p>
+                <div class="mt-2 flex flex-wrap gap-1">
+                    <span class="text-xs bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded">easy</span>
+                    <span class="text-xs bg-rose-50 text-rose-700 px-2 py-0.5 rounded">Toxic</span>
+                    <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded">small</span>
+                </div>
+            </a>
+            <a href="/plants/crassula-baby-necklace/" class="block bg-white rounded-lg border border-slate-200 p-4 hover:shadow-md transition">
+                <h3 class="font-bold text-slate-900">Baby Necklace</h3>
+                <p class="text-sm text-slate-500 italic">Crassula Rupestris, Kebab Bush</p>
+                <div class="mt-2 flex flex-wrap gap-1">
+                    <span class="text-xs bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded">easy</span>
+                    <span class="text-xs bg-rose-50 text-rose-700 px-2 py-0.5 rounded">Toxic</span>
+                    <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded">small</span>
+                </div>
+            </a>
+            <a href="/plants/string-of-bananas/" class="block bg-white rounded-lg border border-slate-200 p-4 hover:shadow-md transition">
+                <h3 class="font-bold text-slate-900">String of Bananas</h3>
+                <p class="text-sm text-slate-500 italic">Senecio Radicans, Fishhook Senecio</p>
+                <div class="mt-2 flex flex-wrap gap-1">
+                    <span class="text-xs bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded">easy</span>
+                    <span class="text-xs bg-rose-50 text-rose-700 px-2 py-0.5 rounded">Toxic</span>
+                    <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded">small</span>
+                </div>
+            </a>
+        </div>
+    </section>
+</main>
 
     <footer class="bg-slate-900 text-slate-400 py-12">
         <div class="max-w-6xl mx-auto px-4">
