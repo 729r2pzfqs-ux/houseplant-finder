@@ -1,7 +1,56 @@
 # plantfinder.org
 
+> Identify and care for 116 indoor houseplants with photos, detailed care guides, light and water requirements, pet-toxicity ratings, a matching quiz, and side-by-side comparisons.
+
 ## About
 PlantFinder.org helps you identify and care for houseplants. Browse 200+ indoor plants with photos, care guides, light requirements, and toxicity information.
 
-## URLs
-- Homepage: https://plantfinder.org/
+## Features / Content
+- Plant profiles: 116 detailed houseplant pages, each with photos, description, origin, common names, and practical care tips.
+- Care guides: per-plant light, water, and humidity requirements plus difficulty level, growth rate, and mature size.
+- Pet toxicity: every plant is rated for pet safety, with the specific animals it is toxic to (cats, dogs) flagged where applicable.
+- Plant quiz: answer a few questions about your space, lifestyle, and experience to get personalized plant recommendations.
+- Compare tool: view plants side by side on light, water, difficulty, pet safety, and other attributes.
+- Smart search/filter: browse and filter plants by light level, water needs, pet safety, difficulty, size, category, and air-purifying ability.
+- Articles: expert how-to guides on watering, light, beginner plants, pet-safe options, and air-purifying varieties.
+- FAQ: answers to common houseplant questions on watering, light, pet safety, propagation, repotting, and troubleshooting.
+
+## Key Facts
+- 116 plant profiles across 7 categories: foliage, flowering, succulent, cactus, fern, palm, and trailing.
+- Attributes tracked per plant: light, water, humidity, difficulty (easy/moderate/hard), pet safety + toxic-to list, size, growth rate, air-purifying, category, origin, common names, description, and care tips.
+- 48 plants are pet-safe and 57 are air-purifying.
+- 5 in-depth care articles plus a FAQ covering ~12 common questions.
+- Available in 3 languages (English, Spanish, German) with all plant profiles fully translated.
+
+## Sections
+- [Homepage](https://plantfinder.org/): featured plants, browse-by-light, browse-by-care-level, pet-safe picks, and guides.
+- [Browse / Search](https://plantfinder.org/search/): filter all plants by light, water, pet safety, difficulty, size, and more.
+- [Plant Quiz](https://plantfinder.org/quiz/): personalized recommendations based on your space and experience.
+- [Compare](https://plantfinder.org/compare/): compare houseplants side by side.
+- [Articles](https://plantfinder.org/articles/): care guides index.
+- [FAQ](https://plantfinder.org/faq/): frequently asked houseplant questions.
+- [About](https://plantfinder.org/about/): mission and contact.
+- [Sample plant page](https://plantfinder.org/plants/monstera-deliciosa/): Monstera Deliciosa care guide.
+
+## URL Patterns
+- Plant pages: `/plants/{slug}/` (e.g. `/plants/snake-plant/`, `/plants/pothos-golden/`, `/plants/zz-plant/`).
+- Articles: `/articles/{slug}/` (e.g. `/articles/watering-guide/`, `/articles/pet-safe-plants/`, `/articles/beginner-houseplants/`, `/articles/best-low-light-plants/`, `/articles/air-purifying-plants/`).
+- Tools: `/compare/`, `/quiz/`, `/search/`, `/faq/`, `/about/`.
+- Language prefixes: Spanish under `/es/...` and German under `/de/...` mirror the same structure (e.g. `/es/plants/{slug}/`, `/de/articles/{slug}/`).
+- Sitemap: https://plantfinder.org/sitemap.xml
+
+## Data Sources / Methodology
+- Plant data comes from a curated, hand-maintained dataset (`data/plants.json`, with `plants_es.json` and `plants_de.json` translations) covering 116 indoor plants.
+- Each plant is rated on standardized scales (light, water, humidity) and tagged with difficulty, size, growth rate, pet safety, toxicity, and air-purifying status.
+- Care information is written as practical, plain-language guidance for home growers rather than technical horticultural reference.
+
+## Languages
+- English (default)
+- Spanish (Español) — `/es/`
+- German (Deutsch) — `/de/`
+
+## Notes
+- This is a static site hosted on GitHub Pages.
+- Care information is general guidance and conditions vary by home, climate, and season — observe your own plant.
+- Toxicity and pet-safety information is provided for awareness and is not a substitute for professional veterinary advice; if a pet ingests a plant, contact a vet.
+- Not affiliated with any plant retailer or nursery.
