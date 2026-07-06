@@ -3661,4 +3661,214 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/plants/zz-plant/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/plants/zz-plant/"/>
     </url>
+    <url>
+        <loc>https://plantfinder.org/articles/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/es/articles/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/de/articles/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/articles/beginner-houseplants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/beginner-houseplants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/beginner-houseplants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/beginner-houseplants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/beginner-houseplants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/es/articles/beginner-houseplants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/beginner-houseplants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/beginner-houseplants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/beginner-houseplants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/beginner-houseplants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/de/articles/beginner-houseplants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/beginner-houseplants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/beginner-houseplants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/beginner-houseplants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/beginner-houseplants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/articles/best-low-light-plants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/best-low-light-plants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/best-low-light-plants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/best-low-light-plants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/best-low-light-plants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/es/articles/best-low-light-plants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/best-low-light-plants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/best-low-light-plants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/best-low-light-plants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/best-low-light-plants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/de/articles/best-low-light-plants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/best-low-light-plants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/best-low-light-plants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/best-low-light-plants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/best-low-light-plants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/articles/pet-safe-plants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/pet-safe-plants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/pet-safe-plants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/pet-safe-plants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/pet-safe-plants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/es/articles/pet-safe-plants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/pet-safe-plants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/pet-safe-plants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/pet-safe-plants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/pet-safe-plants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/de/articles/pet-safe-plants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/pet-safe-plants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/pet-safe-plants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/pet-safe-plants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/pet-safe-plants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/articles/air-purifying-plants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/air-purifying-plants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/air-purifying-plants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/air-purifying-plants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/air-purifying-plants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/es/articles/air-purifying-plants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/air-purifying-plants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/air-purifying-plants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/air-purifying-plants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/air-purifying-plants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/de/articles/air-purifying-plants/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/air-purifying-plants/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/air-purifying-plants/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/air-purifying-plants/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/air-purifying-plants/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/articles/watering-guide/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/watering-guide/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/watering-guide/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/watering-guide/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/watering-guide/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/es/articles/watering-guide/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/watering-guide/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/watering-guide/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/watering-guide/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/watering-guide/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/de/articles/watering-guide/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/articles/watering-guide/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/articles/watering-guide/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/articles/watering-guide/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/watering-guide/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/privacy/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/privacy/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/es/privacy/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/privacy/"/>
+    </url>
+    <url>
+        <loc>https://plantfinder.org/de/privacy/</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://plantfinder.org/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://plantfinder.org/es/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://plantfinder.org/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://plantfinder.org/privacy/"/>
+    </url>
 </urlset>
