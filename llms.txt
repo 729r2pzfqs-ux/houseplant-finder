@@ -11,6 +11,7 @@ PlantFinder.org helps you identify and care for houseplants. Browse 200+ indoor 
 - Pet toxicity: every plant is rated for pet safety, with the specific animals it is toxic to (cats, dogs) flagged where applicable.
 - Plant quiz: answer a few questions about your space, lifestyle, and experience to get personalized plant recommendations.
 - Compare tool: view plants side by side on light, water, difficulty, pet safety, and other attributes.
+- Head-to-head comparisons: 80 static pages answering specific "X vs Y" questions (which is easier, which is pet-safe, which takes less light), each with a full attribute table, the practical differences, how to tell the two plants apart, and an FAQ.
 - Smart search/filter: browse and filter plants by light level, water needs, pet safety, difficulty, size, category, and air-purifying ability.
 - Articles: expert how-to guides on watering, light, beginner plants, pet-safe options, and air-purifying varieties.
 - FAQ: answers to common houseplant questions on watering, light, pet safety, propagation, repotting, and troubleshooting.
@@ -26,7 +27,8 @@ PlantFinder.org helps you identify and care for houseplants. Browse 200+ indoor 
 - [Homepage](https://plantfinder.org/): featured plants, browse-by-light, browse-by-care-level, pet-safe picks, and guides.
 - [Browse / Search](https://plantfinder.org/search/): filter all plants by light, water, pet safety, difficulty, size, and more.
 - [Plant Quiz](https://plantfinder.org/quiz/): personalized recommendations based on your space and experience.
-- [Compare](https://plantfinder.org/compare/): compare houseplants side by side.
+- [Compare](https://plantfinder.org/compare/): compare any two or three houseplants side by side, plus an index of all 80 ready-made comparisons.
+- [Sample comparison page](https://plantfinder.org/compare/pothos-vs-heartleaf-philodendron/): Golden Pothos vs Heartleaf Philodendron.
 - [Articles](https://plantfinder.org/articles/): care guides index.
 - [FAQ](https://plantfinder.org/faq/): frequently asked houseplant questions.
 - [About](https://plantfinder.org/about/): mission and contact.
@@ -35,6 +37,7 @@ PlantFinder.org helps you identify and care for houseplants. Browse 200+ indoor 
 ## URL Patterns
 - Plant pages: `/plants/{slug}/` (e.g. `/plants/snake-plant/`, `/plants/pothos-golden/`, `/plants/zz-plant/`).
 - Articles: `/articles/{slug}/` (e.g. `/articles/watering-guide/`, `/articles/pet-safe-plants/`, `/articles/beginner-houseplants/`, `/articles/best-low-light-plants/`, `/articles/air-purifying-plants/`).
+- Comparison pages: `/compare/{plant-a}-vs-{plant-b}/` (e.g. `/compare/snake-plant-vs-zz-plant/`, `/compare/monstera-vs-fiddle-leaf-fig/`, `/compare/peace-lily-vs-spider-plant/`). English only; the slug uses a short common name, not always the plant page slug.
 - Tools: `/compare/`, `/quiz/`, `/search/`, `/faq/`, `/about/`.
 - Language prefixes: Spanish under `/es/...` and German under `/de/...` mirror the same structure (e.g. `/es/plants/{slug}/`, `/de/articles/{slug}/`).
 - Sitemap: https://plantfinder.org/sitemap.xml
@@ -43,6 +46,7 @@ PlantFinder.org helps you identify and care for houseplants. Browse 200+ indoor 
 - Plant data comes from a curated, hand-maintained dataset (`data/plants.json`, with `plants_es.json` and `plants_de.json` translations) covering 116 indoor plants.
 - Each plant is rated on standardized scales (light, water, humidity) and tagged with difficulty, size, growth rate, pet safety, toxicity, and air-purifying status.
 - Care information is written as practical, plain-language guidance for home growers rather than technical horticultural reference.
+- Comparison pages are generated from the same dataset by `generate_comparisons.py`; the pair list, the "how to tell them apart" notes and every meta description are hand-written in `comparison_pairs.py`.
 
 ## Languages
 - English (default)
