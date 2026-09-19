@@ -489,6 +489,7 @@ def generate_article_page(slug, lang):
     <script src="https://cdn.tailwindcss.com"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2JW25BZPF"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-J2JW25BZPF");</script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
 </head>
 <body class="bg-slate-50 min-h-screen">
     <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
@@ -567,6 +568,7 @@ def generate_articles_index(lang):
     <script src="https://cdn.tailwindcss.com"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J2JW25BZPF"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-J2JW25BZPF");</script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
 </head>
 <body class="bg-slate-50 min-h-screen">
     <header class="bg-white border-b border-slate-200 sticky top-0 z-50">

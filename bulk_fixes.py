@@ -120,6 +120,7 @@ REDIRECT_TEMPLATE = '''<!DOCTYPE html>
 <meta charset="utf-8">
 <meta http-equiv="refresh" content="0;url={target}">
 <link rel="canonical" href="{target}">
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
 </head>
 <body></body>
 </html>

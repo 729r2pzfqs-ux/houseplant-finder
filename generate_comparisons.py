@@ -644,6 +644,7 @@ def render(idx, a_id, b_id, note):
     <script type="application/ld+json">
     {faq_schema}
     </script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
 </head>
 <body class="bg-slate-50 text-slate-800">
 {NAV}

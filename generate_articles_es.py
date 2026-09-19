@@ -264,6 +264,7 @@ def generate_article(slug, article):
         "dateModified": "2026-02-23"
     }}
     </script>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
 </head>
 <body class="bg-slate-50 text-slate-800">'''
     
