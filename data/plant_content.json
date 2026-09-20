@@ -534,5 +534,340 @@
       "The plain species has deep green leaves; 'Robusta' is the common commercial form with especially broad, thick foliage. 'Burgundy' and 'Abidjan' have near-black leaves with red midribs and hold that colour best in bright light.",
       "'Tineke' carries cream and grey-green variegation, and 'Ruby' adds pink flushing to the margins — both need more light than the green forms to keep their colour. All Ficus elastica are toxic to cats and dogs, and the milky sap causes skin irritation and stains fabric, so gloves and a dust sheet are worth having when pruning."
     ]
+  },
+  "aloe-vera": {
+    "care": {
+      "light": [
+        "Aloe vera is a true succulent from arid regions and wants as much light as you can give it indoors. A south or west-facing windowsill is ideal, with four to six hours of direct sun. In lower light the plant stretches, the leaves thin and flop outward, and the compact rosette shape is lost.",
+        "Introduce strong sun gradually. An aloe moved straight from a shop shelf to a blazing summer windowsill will develop brown or reddish scorch patches. Move it in stages over two or three weeks. A reddish-bronze tint on the leaves is normal sun stress and not harmful, but white or brown papery patches are burns."
+      ],
+      "water": [
+        "Water deeply, then let the mix dry out completely before watering again. The thick leaves are water reserves, and this plant is built for drought rather than regular irrigation. In spring and summer that usually means every two to three weeks; in winter, every four to six weeks or even less in a cool room.",
+        "Water into the soil around the base, not into the rosette. Water trapped between the leaves at the centre causes crown rot, which is difficult to recover from.",
+        "The commonest mistake is watering a little and often. That keeps the surface damp without ever soaking the root zone, encouraging shallow roots and fungus gnats. Soak thoroughly, drain completely, then wait. Humidity is irrelevant; aloe is happiest in dry household air."
+      ],
+      "soil": [
+        "Use a cactus or succulent compost, or make your own from two parts potting mix to one part coarse sand or perlite plus a handful of grit. The mix should feel gritty and drain within seconds when watered.",
+        "Terracotta is strongly preferable to plastic here, because the porous walls pull moisture out between waterings. Drainage holes are essential and a layer of grit on the surface helps keep the base of the leaves dry. Feed sparingly — a half-strength succulent fertiliser twice across the whole growing season is plenty, and none in winter."
+      ]
+    },
+    "propagation": [
+      "Aloe vera propagates from offsets, commonly called pups — small plantlets that emerge from the base of a mature plant. This is the only reliable method; a detached aloe leaf will rot rather than root, unlike some other succulents.",
+      "Wait until a pup is at least a few inches tall and has developed its own roots. Slide the whole plant out of the pot, brush the soil away and locate where the pup joins the parent. Separate it with a clean knife, taking as many of its own roots as possible. Let the cut surfaces dry and callus for two to three days in a shaded spot — potting a fresh wound straight into damp soil invites rot. Then plant each pup in dry cactus mix and wait a week before the first light watering. Keep new divisions in bright indirect light rather than full sun until they are established, then move them into direct sun gradually."
+    ],
+    "problems": [
+      {
+        "symptom": "Leaves soft, mushy and translucent at the base",
+        "cause": "Root or crown rot from overwatering, a mix that holds too much moisture, or water sitting in the rosette.",
+        "fix": "Unpot immediately and inspect. Cut away every soft root and any mushy leaf bases until only firm tissue remains, let it dry for two days, and repot into dry gritty mix. Withhold water for a week. Severely rotted plants may only be salvageable as healthy pups."
+      },
+      {
+        "symptom": "Leaves thin, curling inward and wrinkled",
+        "cause": "Underwatering. The plant is drawing on its internal reserves.",
+        "fix": "Water thoroughly until it drains and repeat in a week. Leaves plump up over several days. This is much easier to correct than overwatering."
+      },
+      {
+        "symptom": "Leaves flat, splaying outward instead of upright",
+        "cause": "Too little light. The plant stretches sideways searching for it, and the rosette loses its structure.",
+        "fix": "Move to the brightest window available, increasing exposure gradually. Stretched growth will not re-tighten, but new growth from the centre will come in compact."
+      },
+      {
+        "symptom": "Brown or white papery patches on leaves",
+        "cause": "Sunburn, usually after an abrupt move into direct sun.",
+        "fix": "Shade the plant temporarily and reintroduce sun over two to three weeks. Damaged tissue does not heal; remove badly scorched leaves at the base."
+      },
+      {
+        "symptom": "Leaves turning reddish-brown or bronze all over",
+        "cause": "Usually sun stress, which is harmless, though it can also indicate underwatering or a pot-bound plant.",
+        "fix": "Check the soil and the roots first. If watering is adequate and roots have room, the colour is cosmetic and the plant is fine — move it slightly out of the strongest sun if you prefer green."
+      },
+      {
+        "symptom": "Small flies around the pot",
+        "cause": "Fungus gnats breeding in soil that is being kept too damp — a symptom of watering too often rather than a pest problem in itself.",
+        "fix": "Let the mix dry out completely, add a gritty top dressing, and use sticky traps for the adults. The problem disappears once the watering routine changes."
+      },
+      {
+        "symptom": "White cottony spots where leaves meet the stem",
+        "cause": "Mealybugs, which shelter deep in the tight leaf axils of the rosette.",
+        "fix": "Dab each one with a cotton bud dipped in rubbing alcohol. Check weekly for a month; the leaf axils hide them well and a single survivor restarts the colony."
+      }
+    ],
+    "repotting": [
+      "Aloe vera is happy slightly pot-bound and only needs repotting every two to three years, or sooner if pups have filled the container. Other signs are roots through the drainage holes and a plant that has become top-heavy enough to tip.",
+      "Repot in spring into a pot just one size larger, and choose something wide and heavy rather than deep — aloe roots are shallow and spreading. Terracotta again helps with moisture control and stability.",
+      "Use completely dry mix and do not water for a week afterwards, giving any damaged roots time to seal. Remove pups at the same time if the pot has become crowded. Skip fertiliser for a couple of months after repotting."
+    ],
+    "varieties": [
+      "Aloe barbadensis miller is the medicinal species and the one usually sold simply as aloe vera, with thick grey-green leaves and a gel used for minor burns. Aloe aristata, the lace aloe, is smaller and more ornamental with white tubercles along the leaves.",
+      "Aloe 'Christmas Carol' and Aloe 'Pink Blush' are compact hybrids grown for their red markings. Note the pet-safety point: despite its use on human skin, aloe vera is toxic to cats and dogs if eaten, causing vomiting and lethargy — the latex just under the leaf skin is the culprit. Keep it out of reach in a pet household."
+    ]
+  },
+  "boston-fern": {
+    "care": {
+      "light": [
+        "Boston fern wants bright indirect light and no direct sun at all. In the wild it grows in humid forest shade, and the fine fronds scorch quickly on a sunny windowsill. A north-facing window is ideal; an east window works if the plant sits slightly back from the glass.",
+        "In too little light the fronds thin out, the plant looks sparse and it sheds heavily. In too much, the leaflets bleach to a pale yellow-green and then crisp. If you are hanging one, remember that light falls off sharply with distance from the window — a fern hung in the middle of a room is usually in lower light than it looks."
+      ],
+      "water": [
+        "This is the demanding part. Boston fern wants consistently moist soil — not wet, not dry — and it punishes lapses in either direction. Check the top half-inch every couple of days and water as soon as it feels dry to the touch. In a warm room that can mean two or three times a week in summer.",
+        "Reduce slightly in winter, but never let the root ball dry out completely. A Boston fern that dries out fully will shed most of its fronds, and while the crown often survives to regrow, it is a setback of months.",
+        "Humidity matters more for this plant than for almost any other common houseplant. It genuinely needs 50% and preferably more. A bathroom or kitchen, a humidifier, or a pebble tray all help significantly. The dry air from central heating is the main reason Boston ferns fail indoors over winter."
+      ],
+      "soil": [
+        "Use a peat-based or coir-based potting mix that holds moisture while still draining — add a handful of perlite to keep it open. The goal is a medium that stays evenly damp without becoming a bog.",
+        "Plastic pots suit Boston ferns better than terracotta, because they slow evaporation and help keep the root ball consistently moist. Feed monthly at half strength through spring and summer only. Ferns are sensitive to fertiliser salts, so flush the pot with plain water every couple of months to prevent buildup, which shows as browned frond tips."
+      ]
+    },
+    "propagation": [
+      "Division is the practical method and the one to use. In spring, slide the plant out of its pot and look at the dense root mass. Mature Boston ferns naturally form multiple crowns, and these pull apart into separate plants. Use a clean serrated knife if the root ball is too dense to separate by hand.",
+      "Each division needs several fronds and a healthy share of roots. Pot each into fresh moisture-retentive mix at the same depth, water thoroughly and keep them somewhere humid and shaded for two to three weeks while they recover. Expect some frond loss after division; this is normal and new growth follows once the roots re-establish. Boston ferns also produce runners — thin, wiry stolons that creep over the soil surface. Pin one down into an adjacent pot of damp mix and it will root at the tip, after which you can sever the connection. Spore propagation is possible but slow and unreliable at home, and named cultivars do not come true from spores."
+    ],
+    "problems": [
+      {
+        "symptom": "Fronds dropping leaflets all over the floor",
+        "cause": "The signature Boston fern complaint. Almost always low humidity, sometimes combined with the soil drying out or a position near a radiator.",
+        "fix": "Raise humidity to 50% or more with a humidifier or pebble tray, move it away from heat sources and draughts, and keep the soil consistently damp. Some shedding of old fronds is normal; carpet-covering shedding is not."
+      },
+      {
+        "symptom": "Brown, crispy frond tips",
+        "cause": "Dry air, underwatering, or fertiliser salt buildup in the mix.",
+        "fix": "Increase humidity, water more consistently, and flush the pot with plain water every couple of months. Trim damaged tips with scissors."
+      },
+      {
+        "symptom": "Whole fronds yellowing and dying back",
+        "cause": "Overwatering and waterlogged roots if the mix is sodden, or severe drought if the root ball has shrunk away from the pot sides.",
+        "fix": "Feel the soil. If it is soggy, improve drainage and water less. If it is bone dry and water runs straight down the gap at the edge, submerge the whole pot in a basin for twenty minutes to rehydrate the root ball."
+      },
+      {
+        "symptom": "Pale, washed-out fronds",
+        "cause": "Too much light, usually direct sun through a window.",
+        "fix": "Move to a shadier position with bright indirect light only. Bleached fronds will not recover, so trim them out as new growth comes through."
+      },
+      {
+        "symptom": "Sparse, thin growth with long gaps between fronds",
+        "cause": "Too little light, or a plant that needs feeding and repotting after several seasons in the same tired mix.",
+        "fix": "Move somewhere brighter but still out of direct sun, refresh the potting mix in spring, and resume regular half-strength feeding through the growing season."
+      },
+      {
+        "symptom": "Small brown bumps in rows under the fronds",
+        "cause": "Usually spores, which are entirely normal and a sign of a mature, healthy fern. Occasionally scale insects, which are irregularly placed rather than arranged in neat rows.",
+        "fix": "If the bumps are in tidy rows either side of the midrib, leave them alone. If scattered and they scrape off stickily, treat as scale with rubbing alcohol and neem oil."
+      },
+      {
+        "symptom": "Fine webbing between fronds",
+        "cause": "Spider mites, which thrive in exactly the dry air that also causes shedding.",
+        "fix": "Rinse thoroughly in the shower, treat with insecticidal soap weekly for three weeks, and fix the humidity — otherwise they will return."
+      }
+    ],
+    "repotting": [
+      "Boston ferns grow fast and generally need repotting every one to two years, in spring. Signs are roots filling the surface, water running straight through, or a plant that dries out within a day of watering.",
+      "Move up one pot size, choosing plastic rather than terracotta to conserve moisture, and make sure it drains. Boston ferns have shallow, fibrous root systems, so a wide pot suits them better than a deep one.",
+      "Loosen the root mass gently and trim any dead brown roots. This is the obvious moment to divide a crowded plant. Water well, keep humidity high for a few weeks while it settles, and do not feed for six weeks."
+    ],
+    "varieties": [
+      "Nephrolepis exaltata 'Bostoniensis' is the classic with long arching fronds. 'Dallas' and 'Compacta' are smaller and noticeably more tolerant of average household humidity — a better choice if you cannot provide a humid spot.",
+      "'Fluffy Ruffles' and 'Rita's Gold' offer denser, frillier foliage, the latter with a chartreuse tint. Related lemon button fern is much smaller and considerably more forgiving about dry air. All Nephrolepis ferns are non-toxic to cats and dogs, which makes them a popular choice for pet households despite the humidity demands."
+    ]
+  },
+  "philodendron-heartleaf": {
+    "care": {
+      "light": [
+        "Heartleaf philodendron is one of the most adaptable trailing plants available, growing happily in anything from low light to bright indirect. Like pothos it survives in dim corners, but the difference shows in the foliage: good light produces larger, closer-spaced leaves and a fuller plant.",
+        "Keep it out of direct sun, which scorches and fades the deep green. An east window or a position a few feet back from a brighter one suits it well. If your plant has long bare stretches of vine with small leaves, low light is almost always the explanation."
+      ],
+      "water": [
+        "Let the top inch of mix dry before watering, then water thoroughly until it drains. In spring and summer that usually means every seven to ten days; in lower light or in winter, every two weeks or more.",
+        "Heartleaf philodendron signals thirst clearly, with slightly limp leaves that recover within hours of watering. It is far more tolerant of occasional drought than of permanently wet soil, so when unsure, wait a few more days.",
+        "Average household humidity is adequate, though the plant grows faster above 50%. Brown crispy tips generally point to dry air or inconsistent watering rather than anything more serious. Empty the saucer after watering; standing water is the usual route to root rot."
+      ],
+      "soil": [
+        "A standard well-draining houseplant mix with added perlite or orchid bark works well. As a climbing aroid it wants air around the roots, so anything dense and peat-heavy that stays soggy should be lightened.",
+        "Feed monthly at half strength during spring and summer and stop over winter. Heartleaf philodendron is a modest feeder, and over-fertilising shows up as brown leaf tips and a white crust on the soil surface. Flush the pot with plain water every few months if you feed regularly."
+      ]
+    },
+    "propagation": [
+      "This is among the easiest of all houseplants to propagate, and a good candidate for a first attempt. The vines are covered in nodes — small bumps where each leaf stem meets the vine, often with a short aerial root already visible.",
+      "Cut a four to six inch section with two or three leaves, making the cut half an inch below a node. Remove the lowest leaf so that node sits bare. Stand the cutting in water with the node submerged and the leaves clear of the surface, in bright indirect light, changing the water weekly. Roots appear within one to two weeks. Once they are two inches long, pot three or four cuttings together into one small pot for an immediately full plant. Cuttings root just as readily pushed directly into damp soil, which avoids the brief adjustment period that water-rooted cuttings go through when transplanted."
+    ],
+    "problems": [
+      {
+        "symptom": "Long bare vines with small, widely spaced leaves",
+        "cause": "Too little light. The plant stretches toward the nearest source rather than producing full foliage.",
+        "fix": "Move to brighter indirect light and prune the bare vines back to a few inches from the soil. Philodendron branches readily from cut nodes, and the removed sections root easily to fill out the same pot."
+      },
+      {
+        "symptom": "Yellow leaves, several at once",
+        "cause": "Overwatering, particularly if the mix is still damp and the yellowing starts low on the plant.",
+        "fix": "Let the top inch dry properly before watering and check the pot is not sitting in water. The occasional yellow leaf on an old vine is normal ageing."
+      },
+      {
+        "symptom": "Brown crispy leaf tips and edges",
+        "cause": "Dry air, erratic watering, or salt buildup from fertiliser and hard tap water.",
+        "fix": "Water on a more consistent schedule, raise humidity a little, and flush the pot with plain water every few months."
+      },
+      {
+        "symptom": "Leaves drooping despite damp soil",
+        "cause": "Root rot. Damaged roots cannot take up water, so the plant wilts even though the mix is wet.",
+        "fix": "Take healthy cuttings straight away as insurance, then unpot, trim every soft brown root, and repot into fresh airy mix. Water sparingly until new growth appears."
+      },
+      {
+        "symptom": "Pale, washed-out or scorched leaves",
+        "cause": "Direct sun, typically through an unshaded south or west window.",
+        "fix": "Move it back from the glass or filter the light. Bleached leaves do not recover; trim them as new growth replaces them."
+      },
+      {
+        "symptom": "Small flies hovering around the pot",
+        "cause": "Fungus gnats breeding in permanently damp topsoil, which indicates watering too frequently.",
+        "fix": "Let the surface dry fully between waterings, use yellow sticky traps for the adults, and water from below for a few weeks."
+      },
+      {
+        "symptom": "White cottony clusters along the stems",
+        "cause": "Mealybugs, which tuck themselves into leaf joints and under the curl of new growth.",
+        "fix": "Dab with rubbing alcohol on a cotton bud, then treat with insecticidal soap. Inspect weekly for a month, since a single missed cluster restarts the infestation."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years, in spring. Heartleaf philodendron grows quickly and the usual signs apply: roots emerging from the drainage holes, water running straight through, and slowing growth during the growing season.",
+      "Move up one pot size only. As a trailing plant it suits hanging pots and shelf positions, so weight and balance are worth considering — a pot that is too large holds excess wet soil and makes hanging awkward.",
+      "Tease apart circling roots so they grow outward. If the plant has gone bare at the crown, repotting is the moment to cut it back hard and plant rooted cuttings around the parent to thicken it. Water well and wait a month before feeding."
+    ],
+    "varieties": [
+      "The plain Philodendron hederaceum has deep green heart-shaped leaves. 'Brasil' carries a bright chartreuse stripe down the centre of each leaf and is equally easy. 'Micans' has velvety bronze-green foliage with a faint iridescence and slightly prefers higher humidity.",
+      "'Lemon Lime' is a uniform chartreuse throughout. Heartleaf philodendron is frequently confused with pothos, but the differences are consistent: philodendron leaves are thinner, softer and more sharply heart-shaped with a distinct drip tip, and new leaves emerge from a papery sheath. All philodendrons are toxic to cats and dogs, so a hanging position is worth considering in a pet household."
+    ]
+  },
+  "jade-plant": {
+    "care": {
+      "light": [
+        "Jade plant needs a lot of light — four or more hours of direct sun daily is ideal. A south or west-facing windowsill is the right home. This is the single biggest factor in whether a jade develops the thick, compact, tree-like form people want or a floppy, stretched one.",
+        "In insufficient light the stems elongate, the leaves space out and thin, and the plant eventually leans and topples under its own weight. Good light also brings out the red edging on the leaves, which is a healthy sun response rather than a warning. Introduce strong sun gradually to avoid scorching a plant that has been in dimmer conditions."
+      ],
+      "water": [
+        "Treat jade as the succulent it is. Water deeply, then let the mix dry out completely before watering again. In spring and summer that usually works out at every two to three weeks; in winter, once a month or less, especially in a cool room.",
+        "The leaves are the best gauge. Firm and plump means the plant is well watered; slightly soft and wrinkled means it is ready for a drink. Shrivelled, papery leaves mean it has been dry too long, and soft translucent ones mean it is far too wet.",
+        "Water the soil, not the foliage, and never leave the pot in a saucer of water. Humidity is irrelevant; jade is perfectly happy in dry indoor air and actually prefers it."
+      ],
+      "soil": [
+        "Use a cactus or succulent mix, or two parts potting compost to one part coarse sand or perlite. The mix needs to drain fast and dry out fully between waterings.",
+        "Terracotta is strongly preferred. Jade grows top-heavy as it matures, and a heavy pot prevents tipping while the porous clay helps the root ball dry. Pick a pot that is wide rather than deep, since the roots are relatively shallow. Feed only two or three times across spring and summer with a half-strength succulent fertiliser, and not at all in winter."
+      ]
+    },
+    "propagation": [
+      "Jade is among the most rewarding plants to propagate because both leaves and stem cuttings work, and the success rate is high. The key step that people skip is callusing.",
+      "For leaf propagation, gently twist a plump healthy leaf off the stem so it comes away cleanly with its base intact — a torn leaf will not root. For stem cuttings, take a three to four inch section with several leaves. Either way, leave the cutting on a dry surface out of direct sun for three to seven days until the cut end has dried and sealed. Then lay leaves flat on dry cactus mix, or insert stem cuttings an inch deep. Do not water for a week, then mist lightly or water sparingly every few days. Roots form in two to three weeks and a tiny plantlet follows at the base of a leaf after a month or more. Bright indirect light and warmth speed things up; damp soil at the callusing stage is the one thing that reliably causes failure."
+    ],
+    "problems": [
+      {
+        "symptom": "Leaves soft, translucent and dropping at a touch",
+        "cause": "Overwatering. Jade leaves become waterlogged and lose structure, and this is the most common way jades are killed.",
+        "fix": "Stop watering immediately and let the mix dry out completely. Check the roots and stem base for rot; cut away soft tissue and repot into dry gritty mix if found. Dropped leaves can be callused and rooted as insurance."
+      },
+      {
+        "symptom": "Leaves wrinkled, thin and papery",
+        "cause": "Underwatering over an extended period.",
+        "fix": "Water thoroughly until it drains, then again a week later. Leaves plump back up over a week or two. Much easier to correct than overwatering."
+      },
+      {
+        "symptom": "Stems long and leggy, leaves widely spaced",
+        "cause": "Not enough light. The plant is stretching, and the resulting growth is weak.",
+        "fix": "Move to the sunniest window available. Prune the stretched growth back to encourage branching — jade responds very well to pruning and the cuttings root easily."
+      },
+      {
+        "symptom": "Leaf edges turning red or bronze",
+        "cause": "Sun stress, which in jade is normal and generally considered desirable. Occasionally it indicates underwatering.",
+        "fix": "No action needed if watering is adequate. If you prefer plain green foliage, move slightly out of the most direct sun."
+      },
+      {
+        "symptom": "Black or brown soft patches at the base of the stem",
+        "cause": "Stem or root rot, usually from wet soil in cool conditions.",
+        "fix": "Take healthy cuttings from the upper stems immediately. Unpot, cut back to firm white tissue, let it dry for several days, and repot into dry mix. Advanced stem rot is often fatal, so the cuttings are your real insurance."
+      },
+      {
+        "symptom": "White cottony spots in the leaf joints",
+        "cause": "Mealybugs, which favour the tight angles where leaves meet stems.",
+        "fix": "Dab each one with rubbing alcohol on a cotton bud, and inspect weekly for a month. Jade's compact growth gives them plenty of hiding places."
+      },
+      {
+        "symptom": "Sudden loss of many leaves at once",
+        "cause": "A sharp change in conditions — a cold draught, a move, or a drastic swing in watering. Jade sheds leaves as a stress response.",
+        "fix": "Settle it in a stable bright position away from draughts and resume consistent care. New growth follows once conditions steady."
+      }
+    ],
+    "repotting": [
+      "Jade grows slowly and likes being snug, so repot only every three to four years. The prompts are roots filling the pot entirely, a plant that has become unstable and top-heavy, or mix that has broken down and no longer drains.",
+      "Repot in spring into a pot one size larger — wide, heavy and shallow rather than tall. Stability matters: a mature jade is genuinely heavy and a light plastic pot will tip.",
+      "Use dry mix, handle the brittle branches carefully, and do not water for a week afterwards so any damaged roots can seal. Skip fertiliser for a couple of months. If the plant has grown lopsided, repotting is also the moment to prune it back into shape; jade tolerates hard pruning well and branches from just below each cut."
+    ],
+    "varieties": [
+      "Crassula ovata is the standard jade, with rounded deep green leaves. 'Hobbit' and 'Gollum' have tubular, trumpet-shaped leaves and are popular for bonsai-style training. 'Tricolor' is variegated in cream, green and pink and needs strong light to hold the colour.",
+      "'Sunset' develops vivid red and yellow tones in bright light. Crassula arborescens, the silver jade, has blue-grey leaves with red margins and is a distinct species with the same care needs. All jade plants are toxic to cats and dogs, causing vomiting and lethargy if eaten — and because the leaves detach so easily, they are worth keeping well out of reach of a curious pet."
+    ]
+  },
+  "chinese-evergreen": {
+    "care": {
+      "light": [
+        "Chinese evergreen is one of the best genuinely low-light houseplants, and the darker green varieties tolerate conditions where almost nothing else will grow. It does equally well in medium and bright indirect light, where growth is noticeably faster.",
+        "The variegation determines how much light a given plant needs. Dark green forms like 'Maria' cope with genuinely dim corners. Heavily patterned and pink or red cultivars such as 'Siam Aurora' need medium to bright indirect light to keep their colour and will fade toward green in shade. No variety tolerates direct sun, which scorches the leaves quickly."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly until it drains. In spring and summer that typically means every seven to ten days; in winter or in low light, every two to three weeks.",
+        "Chinese evergreen is noticeably more drought-tolerant than most tropical foliage plants and far more likely to be killed by overwatering than by neglect. The thick stems store some water, so a missed watering is not a crisis.",
+        "It prefers humidity above 50% but copes with average household air better than calatheas or ferns. Brown leaf tips usually indicate dry air, salt buildup or fluoride in tap water rather than a watering fault — try filtered water if tips keep browning despite a good routine."
+      ],
+      "soil": [
+        "Use a standard well-draining potting mix with a handful of perlite. Aglaonema is not fussy, but it wants a medium that drains rather than staying saturated.",
+        "Feed monthly at half strength through spring and summer, stopping over winter. This is a slow, modest grower and over-fertilising causes leaf-tip burn. A pot with drainage holes matters more than the mix itself; the most frequent cause of failure is a decorative cachepot quietly collecting water underneath."
+      ]
+    },
+    "propagation": [
+      "Division is the most reliable method. A mature Chinese evergreen forms a clump of several stems rising from a shared root mass, and these separate cleanly. In spring, slide the plant from its pot, shake off loose soil and identify sections that have their own stems and roots. Pull or cut them apart, giving each division at least a few leaves and a decent root share, and pot into fresh mix.",
+      "Stem cuttings also work. Cut a section of mature stem four to six inches long with a few leaves, remove the lowest leaf, and stand it in water or damp mix in a warm, bright spot. Roots take three to six weeks — slower than pothos or philodendron, so patience is needed. Older plants that have lost their lower leaves and developed a bare trunk can be cut back hard; the stump usually resprouts from the base, and the removed top roots as a cutting to make a second plant."
+    ],
+    "problems": [
+      {
+        "symptom": "Yellowing lower leaves",
+        "cause": "Overwatering if several yellow at once and the soil is wet; natural ageing if it is one old leaf at a time near the base.",
+        "fix": "Check the mix before watering and let the top inch dry. Confirm the pot drains and is not standing in water inside a cachepot."
+      },
+      {
+        "symptom": "Brown, crispy leaf tips",
+        "cause": "Dry air, fluoride or chlorine in tap water, or fertiliser salt buildup.",
+        "fix": "Raise humidity, switch to filtered or rainwater, and flush the pot with plain water every few months. Trim tips at an angle."
+      },
+      {
+        "symptom": "Pink or red variegation fading to green",
+        "cause": "Too little light for that cultivar. Coloured forms need more light than the plain green ones.",
+        "fix": "Move to brighter indirect light. The change shows on new growth; existing faded leaves stay as they are."
+      },
+      {
+        "symptom": "Leaves curling inward",
+        "cause": "Underwatering, low humidity, or cold exposure. Aglaonema is sensitive to temperatures below about 15°C.",
+        "fix": "Check the soil and move the plant away from draughty windows and doors. Cold damage shows as greyish patches that do not recover."
+      },
+      {
+        "symptom": "Drooping stems and mushy bases",
+        "cause": "Root rot from prolonged wet soil, often worse in winter when growth has slowed.",
+        "fix": "Unpot, cut away soft brown roots, and repot into fresh mix. Reduce watering substantially, especially in the colder months."
+      },
+      {
+        "symptom": "Grey or greasy-looking patches on leaves",
+        "cause": "Cold damage from a draught or from being left near a window on a frosty night.",
+        "fix": "Move to a warmer spot away from glass. Damaged leaves will not recover; remove them and protect the plant through winter."
+      },
+      {
+        "symptom": "Sticky residue and small brown bumps on stems",
+        "cause": "Scale insects, which favour the stems and leaf undersides.",
+        "fix": "Scrape them off with a cotton bud dipped in rubbing alcohol, wash away the honeydew, and treat with neem oil weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Chinese evergreen grows slowly and only needs repotting every two to three years. The prompts are roots circling the surface or emerging from the drainage holes, and water running straight through the pot.",
+      "Repot in spring into a container one size larger. Aglaonema prefers being slightly snug, and an oversized pot holding wet mix is a direct route to root rot in a plant that is already slow to use water.",
+      "Loosen the root ball, trim anything soft and brown, and set the plant at the same depth. This is the natural point to divide a crowded clump into two or three plants. Water thoroughly and wait six weeks before resuming fertiliser."
+    ],
+    "varieties": [
+      "'Maria' and 'Emerald Beauty' are the dark green, silver-marked forms and the most shade-tolerant. 'Silver Bay' has broad silver centres and is a reliable medium-light plant. 'Siam Aurora' and 'Red Valentine' carry pink or red midribs and margins and need noticeably more light to hold that colour.",
+      "'Cutlass' has narrow, lance-shaped leaves for a more architectural look. All Aglaonema are toxic to cats and dogs — the calcium oxalate crystals cause mouth and throat irritation if chewed — so despite their reputation as easy office plants, they are not a good choice within reach of a pet that nibbles."
+    ]
   }
 }
