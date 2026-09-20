@@ -3236,5 +3236,685 @@
       "Hypoestes phyllostachya comes in three main colour groups — pink, white and red spotting on green. The 'Confetti' series offers compact plants in all three, and the 'Splash' series has larger, bolder areas of colour, sometimes covering most of the leaf.",
       "'Carmina' is a deep red form and 'Pink Brocade' has fine mottled pink speckling. The plant is sometimes sold as freckle face or measles plant. Hypoestes is non-toxic to cats and dogs, and its small size, easy propagation and shade tolerance make it a good choice for a terrarium or a pet household — with the caveat that it should be treated as a plant to refresh annually rather than a long-term specimen."
     ]
+  },
+  "monstera-adansonii": {
+    "care": {
+      "light": [
+        "Monstera adansonii wants bright indirect light. It is a climbing aroid that scrambles up tree trunks in Central and South America, and like its larger cousin it needs good light to produce well-fenestrated leaves.",
+        "An east window is ideal, or a few feet back from a south or west window. Direct sun scorches the thin leaves and bleaches them. In low light the vine still grows but the new leaves come out smaller with fewer holes, and the internodes lengthen into long bare stretches. Unlike Monstera deliciosa, adansonii produces holes from quite a young age, so a plant with solid leaves is almost always a light problem rather than an age one."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain fully. In spring and summer that is usually every five to seven days — more frequent than M. deliciosa, because adansonii has thinner leaves and less water storage.",
+        "Reduce to every ten to fourteen days in winter. The leaves are a good gauge: slight drooping means thirsty, and the plant perks up within hours. Do not let it reach the point of crisping, which damages the delicate leaf margins around the holes permanently.",
+        "Humidity above 60% makes a real difference to leaf quality and size. This is a thinner-leaved plant than deliciosa and shows dry air much faster, with browning around the edges of the fenestrations. A humidifier is worthwhile."
+      ],
+      "soil": [
+        "Use a chunky aroid mix — roughly equal parts orchid bark, perlite and potting compost, with a little coco coir for moisture. The roots want air alongside moisture.",
+        "Drainage holes are essential and the pot should be snug rather than roomy. Feed monthly at half strength through spring and summer, stopping in winter. A moss pole or trellis is genuinely worth providing: adansonii is a climber, and a supported plant produces noticeably larger, more heavily fenestrated leaves than one left to trail."
+      ]
+    },
+    "propagation": [
+      "Monstera adansonii propagates very easily from stem cuttings, and the node rule applies exactly as it does for M. deliciosa: a cutting without a node will never root, however healthy the leaf looks.",
+      "Find a node — the slightly swollen band where a leaf stem meets the vine, usually with a small aerial root — and cut half an inch below it. Each cutting needs at least one node and one leaf. Because adansonii vines are long and full of nodes, a single pruning can yield many cuttings.",
+      "Root in water with the node submerged and leaves clear, changing the water weekly, or in damp sphagnum moss which tends to produce sturdier roots. Roots appear in two to three weeks. Pot several rooted cuttings together for a full plant, which is much faster than growing one on alone. Cuttings can also be laid along the surface of damp moss so multiple nodes root at once. Keep newly potted cuttings slightly moister than an established plant for the first fortnight."
+    ],
+    "problems": [
+      {
+        "symptom": "New leaves with no holes",
+        "cause": "Insufficient light, or a very young plant. Adansonii normally fenestrates early, so light is the usual culprit.",
+        "fix": "Move to brighter indirect light and provide a moss pole to climb. Climbing plants produce larger, more fenestrated leaves. Expect the change on new growth only."
+      },
+      {
+        "symptom": "Brown crispy edges around the holes",
+        "cause": "Low humidity. The thin tissue around each fenestration dries first.",
+        "fix": "Raise humidity above 60% with a humidifier. This is the most visible difference between a well-grown adansonii and a struggling one."
+      },
+      {
+        "symptom": "Yellowing leaves, several at once",
+        "cause": "Overwatering, particularly if the mix stays damp for days after watering.",
+        "fix": "Let the top inch dry properly and confirm the pot drains. Repot into a chunkier aroid mix if the medium holds water too long."
+      },
+      {
+        "symptom": "Long bare vine with widely spaced small leaves",
+        "cause": "Too little light, and no support to climb.",
+        "fix": "Increase light and add a moss pole. Prune the leggy sections back to a node and root the cuttings back into the same pot to fill it out."
+      },
+      {
+        "symptom": "Leaves drooping with damp soil",
+        "cause": "Root rot — damaged roots cannot take up water.",
+        "fix": "Take cuttings immediately as insurance, then unpot, trim soft brown roots, and repot into fresh airy mix."
+      },
+      {
+        "symptom": "Fine webbing and stippled leaves",
+        "cause": "Spider mites, which the thin leaves and dry air both encourage.",
+        "fix": "Rinse thoroughly, treat with insecticidal soap every five days for three cycles, and raise humidity to prevent recurrence."
+      },
+      {
+        "symptom": "Black spots spreading on the leaves",
+        "cause": "Fungal or bacterial leaf spot, usually following water on the foliage in cool still air, or chronic overwatering.",
+        "fix": "Remove affected leaves, improve air circulation, and water the soil rather than the plant."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring. Adansonii grows fast in good conditions, and the signs are roots through the drainage holes and water running straight through.",
+      "Move up one pot size only into fresh chunky aroid mix. If you are adding or replacing a moss pole, do it now while the root ball is out and you can position it against the stem.",
+      "Guide the aerial roots onto the pole rather than cutting them off — they anchor the plant and take up moisture. Water thoroughly and wait a month before feeding. This is also the moment to prune a plant that has grown long and bare, and to root the cuttings back into the pot."
+    ],
+    "varieties": [
+      "Monstera adansonii is sold as Swiss cheese vine or monkey mask. The widely available form has oval leaves with enclosed oval holes. A narrow form has more elongated leaves, and a round form has broader ones.",
+      "Monstera obliqua is the plant adansonii is often mistaken for — genuinely rare, with leaves that are more hole than leaf and paper-thin. Almost everything sold as obliqua is adansonii. A variegated adansonii exists with white or yellow marbling and is slow and expensive. The key distinction from M. deliciosa is that adansonii's holes stay enclosed within the leaf, while deliciosa's splits open out to the margin. All Monstera are toxic to cats and dogs."
+    ]
+  },
+  "syngonium": {
+    "care": {
+      "light": [
+        "Arrowhead plant does well in medium to bright indirect light. It is one of the more adaptable aroids and tolerates lower light than most, though growth slows and the stems stretch.",
+        "The variegation determines how much light a given plant needs. Plain green and dark forms cope with medium light. Pink, white and heavily marked cultivars such as 'Neon Robusta' or 'Albo' need brighter conditions to hold their colour and fade toward green in shade. Direct sun scorches the thin leaves in all forms, so filtered brightness is the target."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain. In spring and summer that is usually every five to seven days; in winter, every ten to fourteen days.",
+        "Syngonium likes more consistent moisture than pothos or philodendron and shows drought as drooping leaves and crisping edges. It recovers quickly from a single dry spell but repeated drying causes leaf loss.",
+        "Humidity above 50% produces noticeably better growth and larger leaves, and dry air shows as brown crispy edges. A pebble tray or humidifier helps. Empty the saucer after watering; the roots rot in standing water."
+      ],
+      "soil": [
+        "Use a well-draining aroid-style mix — potting compost with added perlite and orchid bark. Syngonium roots want air as well as moisture.",
+        "Feed monthly at half strength through spring and summer to support the fast growth, stopping in winter. This is a vigorous plant in good conditions. Drainage holes are essential. If you want a climbing plant rather than a bushy one, provide a moss pole early, since the leaf shape changes dramatically as the plant matures and climbs."
+      ]
+    },
+    "propagation": [
+      "Syngonium propagates very easily from stem cuttings, and it is one of the most reliable plants for a first attempt.",
+      "Take a cutting with at least one node and one or two leaves, cutting half an inch below the node. Nodes are the slightly swollen points where a leaf stem joins the main stem, often with a small aerial root. Strip the lowest leaf so the node is bare.",
+      "Root in water with the node submerged, changing the water weekly, and roots appear within one to two weeks. Or push cuttings straight into damp mix. Pot three or four rooted cuttings together for an immediately full plant. Because syngonium goes leggy and vining as it matures, taking cuttings from the tips and replanting them into the same pot is the standard way to keep a compact, bushy plant. Heavily variegated cuttings root more slowly and benefit from sphagnum moss rather than water."
+    ],
+    "problems": [
+      {
+        "symptom": "Plant becoming vining and leggy rather than compact",
+        "cause": "Natural maturation. Syngonium starts as a bushy rosette and becomes a climbing vine as it ages, with the leaf shape changing from simple arrowheads to lobed leaves.",
+        "fix": "Prune the vining stems back regularly to keep the bushy form, and root the cuttings back into the pot. Or embrace it and give the plant a moss pole to climb, which produces the larger mature leaf form."
+      },
+      {
+        "symptom": "Pink or white variegation fading to green",
+        "cause": "Insufficient light for that cultivar.",
+        "fix": "Move to brighter indirect light. Prune out fully green shoots to redirect energy into variegated growth. New leaves come in coloured; existing ones stay as they are."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity, inconsistent watering, or salt buildup from fertiliser.",
+        "fix": "Raise humidity above 50%, water more consistently, and flush the pot with plain water every few months."
+      },
+      {
+        "symptom": "Yellowing leaves with damp soil",
+        "cause": "Overwatering and the beginnings of root rot.",
+        "fix": "Let the top inch dry properly before watering and confirm drainage. Trim soft roots and repot into fresh airy mix if rot is present."
+      },
+      {
+        "symptom": "Leaves drooping",
+        "cause": "Usually thirst — syngonium wilts readily and recovers within hours. If the soil is wet, it is root rot instead.",
+        "fix": "Check the soil before acting. Dry means water; wet means investigate the roots."
+      },
+      {
+        "symptom": "Small leaves on long bare stems",
+        "cause": "Too little light combined with no pruning.",
+        "fix": "Increase light and cut the stems back hard. Syngonium branches readily from cut nodes and the trimmings root easily."
+      },
+      {
+        "symptom": "White cottony clusters in the leaf axils",
+        "cause": "Mealybugs, which hide where leaf stems meet the main stem.",
+        "fix": "Dab with rubbing alcohol on a cotton bud, then treat with insecticidal soap. Check weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring. Syngonium grows fast in good conditions, and the signs are roots through the drainage holes and rapid drying between waterings.",
+      "Move up one pot size only into fresh aroid mix. If you want a climbing plant, add a moss pole at this point while the root ball is out.",
+      "Loosen circling roots and trim any that are soft. This is the natural moment to cut back a plant that has gone leggy and to replant rooted cuttings around the parent to thicken it. Water well and wait a month before feeding."
+    ],
+    "varieties": [
+      "Syngonium podophyllum has many cultivars. 'White Butterfly' has pale green leaves with cream centres and is the most common. 'Neon Robusta' is a soft pink throughout, 'Pink Allusion' has pink veining on green, and 'Maria' is a deep bronze-green.",
+      "'Albo Variegatum' has bold white blocks and is slower and more demanding. 'Three Kings' and 'Mojito' have marbled patterning. Note that leaf shape changes with maturity — juvenile leaves are simple arrowheads while mature climbing plants produce deeply lobed leaves with several segments, which often confuses people into thinking they have a different plant. All Syngonium are toxic to cats and dogs."
+    ]
+  },
+  "rhaphidophora-tetrasperma": {
+    "care": {
+      "light": [
+        "Rhaphidophora tetrasperma wants bright indirect light. Good light is what produces the deeply split leaves that make this plant desirable, and it is the main factor in leaf size as well.",
+        "An east window is ideal, or a few feet back from a south or west window. Direct sun scorches the thin leaves. In insufficient light the vine produces small solid leaves with no splits and long bare stretches between them — the most common disappointment with this plant. Unlike Monstera deliciosa, tetrasperma splits from a young age given decent light, so solid leaves generally indicate a light problem."
+      ],
+      "water": [
+        "Water when the top inch of mix is dry, then water thoroughly and drain. In spring and summer that is usually every five to seven days — this is a fast grower that uses water quickly in good light.",
+        "Reduce to every ten to fourteen days in winter. The plant droops noticeably when thirsty and recovers within hours, making it easy to read, but avoid letting it reach that point routinely.",
+        "Humidity above 60% produces markedly better leaf quality and size. Dry air shows as brown crisping along the split edges. A humidifier makes a visible difference to this species. Empty the saucer after watering."
+      ],
+      "soil": [
+        "Use a chunky aroid mix — equal parts orchid bark, perlite and potting compost. The roots are vigorous and want air; dense compost that stays wet causes rot.",
+        "Feed monthly at half strength through spring and summer, stopping in winter. This is one of the faster-growing aroids and responds well to feeding. A moss pole or trellis is essentially required rather than optional: tetrasperma is a determined climber, and an unsupported plant produces progressively smaller leaves while a supported one produces larger, better-split ones."
+      ]
+    },
+    "propagation": [
+      "Rhaphidophora tetrasperma propagates very readily from stem cuttings, and the node rule applies as with all climbing aroids — no node, no roots.",
+      "Cut half an inch below a node, taking one or two leaves with it. The nodes on this plant are prominent and usually have a well-developed aerial root already, which speeds rooting considerably.",
+      "Root in water with the node submerged, in damp sphagnum moss, or directly in your usual aroid mix. Roots appear in one to three weeks, and this species is among the faster aroids to root. Pot several cuttings together for a full plant. Because tetrasperma grows so fast, an annual prune-and-replant cycle keeps a pot looking dense rather than letting it become a single long vine. Cuttings taken with an existing aerial root establish fastest of all."
+    ],
+    "problems": [
+      {
+        "symptom": "New leaves small and without splits",
+        "cause": "Insufficient light, or no support to climb. Both limit leaf development.",
+        "fix": "Move to brighter indirect light and provide a moss pole, tying the stem in so the aerial roots can grip. Leaf size and splitting both improve noticeably on supported plants."
+      },
+      {
+        "symptom": "Long bare vine between leaves",
+        "cause": "Too little light. The plant stretches searching for it.",
+        "fix": "Increase light and prune the leggy sections back to a node. The cuttings root easily and can be replanted into the same pot."
+      },
+      {
+        "symptom": "Brown crispy edges along the leaf splits",
+        "cause": "Low humidity. The thin tissue at the split margins dries first.",
+        "fix": "Raise humidity above 60%. This species shows dry air faster than most aroids."
+      },
+      {
+        "symptom": "Yellowing leaves with wet soil",
+        "cause": "Overwatering and root rot.",
+        "fix": "Let the top inch dry between waterings and confirm drainage. Repot into a chunkier mix if the medium stays soggy."
+      },
+      {
+        "symptom": "Leaves drooping though the soil is damp",
+        "cause": "Root rot preventing water uptake.",
+        "fix": "Take cuttings immediately as insurance, then unpot, trim soft roots, and repot into fresh airy mix."
+      },
+      {
+        "symptom": "New growth pale or deformed",
+        "cause": "Nutrient shortage in a fast-growing plant, or a pot-bound root system.",
+        "fix": "Feed regularly through the growing season and repot if roots have filled the container. This plant grows fast enough to exhaust its mix within a year."
+      },
+      {
+        "symptom": "Fine webbing under the leaves",
+        "cause": "Spider mites, encouraged by dry air.",
+        "fix": "Rinse thoroughly, treat with insecticidal soap every five days for three cycles, and raise humidity."
+      }
+    ],
+    "repotting": [
+      "Repot every year in spring while the plant is young, then every two years. Tetrasperma grows fast enough that it commonly outgrows its pot within a single season.",
+      "Move up one pot size into fresh chunky aroid mix. Add or replace the moss pole at this point while the root ball is out — a taller pole is often the real reason to repot.",
+      "Guide the aerial roots onto the pole rather than trimming them. Water thoroughly, keep humidity up, and wait a month before feeding. This is also the moment to prune the vine back and replant cuttings to keep the pot dense."
+    ],
+    "varieties": [
+      "Rhaphidophora tetrasperma is sold under several misleading names — mini monstera, Monstera minima, Philodendron Ginny — none of which are correct. It is neither a Monstera nor a Philodendron, though it belongs to the same aroid family and looks like a miniature Monstera deliciosa.",
+      "A variegated form with cream and white sections exists and is slow, expensive and more demanding. Related Rhaphidophora species include R. decursiva, with much larger deeply divided leaves, and R. hayi, a shingling plant that presses flat against surfaces. All Rhaphidophora are toxic to cats and dogs due to calcium oxalate crystals."
+    ]
+  },
+  "money-tree": {
+    "care": {
+      "light": [
+        "Money tree wants bright indirect light and tolerates medium light, where growth slows considerably. In its native Central American wetlands it grows as an understorey tree, so filtered light rather than full sun is what it expects.",
+        "An east window, or a few feet back from a south or west window, suits it well. Direct afternoon sun scorches the leaflets. Rotate the pot every few weeks — money trees lean toward light quite strongly, and since most are sold as braided trunks with a formal shape, an uneven crown spoils the look. Sudden changes in light cause leaf drop, so move it gradually if relocating."
+      ],
+      "water": [
+        "Water thoroughly when the top two inches of mix are dry, letting water run from the drainage holes, then let it dry down again. In spring and summer that is usually every seven to ten days; in winter, every two to three weeks.",
+        "Money tree stores water in its swollen trunk base and is more tolerant of drought than of saturation. Overwatering is the main cause of failure and shows as yellowing leaves and a soft trunk.",
+        "Humidity above 50% is preferred and dry air shows as browning leaflet tips. A pebble tray helps. This plant is often sold in a decorative outer pot with no drainage — check, because water collecting invisibly at the bottom is the single most common reason money trees die."
+      ],
+      "soil": [
+        "Use a well-draining potting mix with added perlite and a little sand — something closer to a cactus blend than a moisture-retentive compost. The trunk stores water, so the roots do not need the soil to.",
+        "Drainage holes are essential. Feed every four to six weeks at half strength through spring and summer, stopping in winter. Money trees are light feeders and over-fertilising causes leaf drop. A pot that is snug rather than roomy suits them; excess wet soil around the roots is the main risk."
+      ]
+    },
+    "propagation": [
+      "Money tree propagates from stem cuttings, though with lower success rates than most houseplants and with one important caveat about appearance.",
+      "Take a cutting six inches long with several leaves, from a healthy stem, cutting just below a node in spring or early summer. Remove the lower leaves, dip the cut end in rooting hormone, and insert into damp free-draining mix. Cover with a clear bag to maintain humidity and keep warm in bright indirect light. Roots take four to eight weeks and not every cutting succeeds.",
+      "The caveat: a cutting grows as a single straight stem and will never develop the swollen trunk base or the braided form of a shop-bought plant. Braiding is done by growers who plant several young seedlings together and weave the flexible green stems while they are still pliable, tightening the braid as they grow. You can braid your own if you have several young plants with green stems, but once the trunks lignify the shape is fixed. Seed propagation produces the characteristic swollen base but seed is rarely available."
+    ],
+    "problems": [
+      {
+        "symptom": "Yellowing leaves dropping steadily",
+        "cause": "Overwatering most commonly, particularly if the plant sits in a decorative pot with no drainage.",
+        "fix": "Check for standing water in the outer pot immediately. Let the top two inches dry before watering and make sure water can escape. This alone fixes most struggling money trees."
+      },
+      {
+        "symptom": "Sudden leaf drop after being moved",
+        "cause": "Shock from a change in light or temperature. Money trees are sensitive to relocation.",
+        "fix": "Settle it in one position away from draughts and keep care consistent. Recovery usually takes a few weeks. Avoid making further changes while it adjusts."
+      },
+      {
+        "symptom": "Trunk soft or squashy",
+        "cause": "Trunk rot from chronic overwatering. Serious, and often advanced by the time it is noticeable.",
+        "fix": "Unpot immediately, cut away soft tissue to firm material, let it dry for several days, and repot in dry free-draining mix. Take stem cuttings as insurance. If several braided trunks are affected, the others may still be saved."
+      },
+      {
+        "symptom": "Brown crispy leaflet tips",
+        "cause": "Low humidity, underwatering, or salts in tap water.",
+        "fix": "Raise humidity, water more consistently, and flush the pot with plain water every few months."
+      },
+      {
+        "symptom": "Leggy stems with leaves only at the top",
+        "cause": "Insufficient light combined with no pruning.",
+        "fix": "Increase light and prune the crown back in spring. Money tree branches readily from below a cut, which is how the rounded canopy is maintained."
+      },
+      {
+        "symptom": "One trunk in the braid dying while others are fine",
+        "cause": "Normal in braided specimens — the trunks compete and the weakest sometimes fails. Also a sign of localised rot.",
+        "fix": "Cut the dead trunk out at the base. The remaining trunks continue and the braid usually still looks acceptable. Check drainage in case rot is the cause."
+      },
+      {
+        "symptom": "Fine webbing or cottony white spots",
+        "cause": "Spider mites or mealybugs, both drawn to the dense canopy and dry air.",
+        "fix": "Rinse the plant, wipe leaflets on both sides, and treat with insecticidal soap weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Repot every two to three years in spring. Money trees are moderate growers and prefer being slightly snug, so there is no benefit to frequent repotting.",
+      "Move up one pot size only into free-draining mix. A pot that is too large holds wet soil around the roots, which is the main hazard for this species. Make sure the new pot drains, and if you use a decorative outer pot, either drill it or remove the inner pot to water.",
+      "Handle the braided trunks carefully and set the plant at the same depth. Water thoroughly and wait six weeks before feeding. Expect some leaf drop after repotting as a stress response."
+    ],
+    "varieties": [
+      "Pachira aquatica is the species, sold as money tree or Malabar chestnut. What varies commercially is the form: single-trunk plants, braided multi-stem specimens, and small bonsai-style plants with a pronounced swollen base.",
+      "A variegated form with cream-splashed leaflets exists and needs brighter light. The plant is closely associated with feng shui, where the five leaflets per stem and the braided trunk are said to be auspicious, which is why it is so commonly given as a gift. Pachira aquatica is non-toxic to cats and dogs, which together with its sculptural form makes it one of the better large statement plants for a pet household."
+    ]
+  },
+  "lucky-bamboo": {
+    "care": {
+      "light": [
+        "Lucky bamboo is not bamboo at all — it is Dracaena sanderiana, and it wants the same conditions as other dracaenas: bright indirect light, never direct sun.",
+        "It tolerates quite low light, which is why it survives on office desks, though growth slows and the leaves lose colour. Direct sun scorches the leaves and turns them yellow quickly. If your stalks are pale and the leaves yellowing at the tips, check for sun exposure before assuming it is a water problem. Rotate the container so the stalks grow straight rather than curving toward one side."
+      ],
+      "water": [
+        "Lucky bamboo is usually grown in water rather than soil, and the water is where almost every problem starts. Keep the roots covered by one to two inches of water — no more — and change it completely every one to two weeks. Stale water is what turns stalks yellow and causes the slimy root rot this plant is prone to.",
+        "The critical point is water quality. Dracaena sanderiana is highly sensitive to chlorine and especially fluoride, and ordinary tap water causes brown, burnt leaf tips within weeks. Use filtered, distilled or rainwater, or leave tap water standing uncovered for 24 hours to let chlorine dissipate — though this does not remove fluoride.",
+        "If grown in soil, keep the mix consistently moist but not waterlogged, watering when the surface feels barely dry. Soil-grown plants are generally longer-lived and more robust than water-grown ones. Humidity above 40% is appreciated."
+      ],
+      "soil": [
+        "In water culture, use clean pebbles or glass beads to hold the stalks upright, filling the container so the roots are submerged and the stalks are not. Rinse the pebbles when you change the water.",
+        "If growing in soil, use a well-draining potting mix with added perlite. Soil culture suits the plant better long term and produces stronger growth. Feed very sparingly either way — a single drop of liquid fertiliser diluted in the water every couple of months is plenty for water-grown plants, and a half-strength feed every two months for soil-grown ones. Over-feeding causes yellowing and algae."
+      ]
+    },
+    "propagation": [
+      "Lucky bamboo propagates readily from stem cuttings, and the technique differs slightly from other dracaenas because of how the stalks are grown.",
+      "Look for an offshoot — a side shoot growing from the main stalk. Cut it off where it joins, leaving a short stub, and stand it in clean water. Roots appear within three to five weeks. Alternatively, cut a main stalk into sections, each with at least one node, keeping track of which end was up; a section planted upside down will not root.",
+      "Seal the top cut of the parent stalk with wax or a little paraffin to prevent rot and moisture loss — this is standard practice with lucky bamboo and worth doing. Keep new cuttings in filtered water in bright indirect light, changing it weekly. Once roots are two inches long, the cutting can continue in water or be potted into soil. Note that the spiral shapes sold commercially are produced by rotating the plant beside a light source over months, not by any genetic trait, so cuttings grow straight."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown, burnt leaf tips",
+        "cause": "Fluoride and chlorine in tap water. This is the single most common lucky bamboo complaint.",
+        "fix": "Switch to filtered, distilled or rainwater immediately and change the water every one to two weeks. Trim the brown tips at an angle. New growth will be clean."
+      },
+      {
+        "symptom": "Stalk turning yellow from the bottom up",
+        "cause": "Stale water, too much fertiliser, or direct sun. Yellowing that starts at the base usually means rot.",
+        "fix": "Remove the affected stalk from the arrangement so it does not contaminate the others. If only the lower portion is yellow, cut above it into green tissue and re-root the healthy top."
+      },
+      {
+        "symptom": "Slimy roots and cloudy, smelly water",
+        "cause": "Bacterial rot from water left too long without changing.",
+        "fix": "Rinse the roots and pebbles thoroughly, trim any mushy roots, and refill with fresh filtered water. Change water every week thereafter. Discard badly affected stalks."
+      },
+      {
+        "symptom": "Yellow leaves while the stalk stays green",
+        "cause": "Over-fertilising, too much light, or fluoride in the water.",
+        "fix": "Stop feeding, move out of direct sun, and switch to filtered water. Remove yellow leaves cleanly."
+      },
+      {
+        "symptom": "Algae growing on the pebbles and container walls",
+        "cause": "Light reaching the water in a clear glass container, combined with nutrients from fertiliser.",
+        "fix": "Clean the container and pebbles thoroughly, reduce feeding, and consider an opaque container or one that keeps light off the water."
+      },
+      {
+        "symptom": "No new growth for a long period",
+        "cause": "Low light, or a plant grown in water for years that has exhausted what water culture can provide.",
+        "fix": "Move somewhere brighter and feed very lightly. Potting into soil often revitalises a plant that has stalled in water after several years."
+      },
+      {
+        "symptom": "Stalk soft and mushy",
+        "cause": "Rot, usually from stale water or from the stalk being submerged rather than just the roots.",
+        "fix": "Remove that stalk immediately. Keep water level below the stalk bases — only the roots should be submerged. Salvage healthy tops as cuttings."
+      }
+    ],
+    "repotting": [
+      "For water-grown plants, there is no repotting as such, but the container should be emptied, rinsed and refilled with fresh water every one to two weeks, and the pebbles washed occasionally. This is the maintenance that keeps the plant alive.",
+      "Move a water-grown plant into soil every few years if it has stalled — many lucky bamboos decline after two or three years in water alone, and potting into a well-draining mix often revives them. Do this in spring, keeping the soil consistently moist for the first month while the water roots adapt.",
+      "For soil-grown plants, repot every two to three years into a pot one size larger, handling the roots gently and setting the stalks at the same depth."
+    ],
+    "varieties": [
+      "Dracaena sanderiana is the species. What varies commercially is the arrangement rather than the plant: straight stalks, spirals, woven lattices and tiered towers are all produced by manipulating the growing plant next to a light source over months.",
+      "'Victory' has broader variegated leaves and 'Golden' has yellow-striped foliage. The number of stalks carries meaning in feng shui tradition — three for happiness, five for wealth, eight for growth — with four generally avoided. Important safety note: despite the name and its reputation as a gift plant, Dracaena sanderiana is toxic to cats and dogs, and cats are particularly affected. It is frequently assumed to be safe because true bamboo is; it is not."
+    ]
+  },
+  "alocasia-polly": {
+    "care": {
+      "light": [
+        "Alocasia Polly wants bright indirect light. It grows under rainforest canopy in Southeast Asia, so it is adapted to filtered brightness rather than either deep shade or full sun.",
+        "An east window is ideal, or a position near a south or west window behind a sheer curtain. Direct sun scorches the thin, glossy leaves within days, leaving brown papery patches that do not heal. In light that is too low the plant produces fewer, smaller leaves and is far more likely to go dormant. Rotate the pot every couple of weeks, since the leaves orient toward light."
+      ],
+      "water": [
+        "Keep the mix lightly and evenly moist, watering when the top inch is dry — usually every five to seven days in spring and summer. Alocasia wants consistent moisture but is very prone to root rot, so the balance is narrower than with most aroids.",
+        "Reduce substantially in autumn and winter. This is the critical seasonal point: alocasias naturally go dormant in winter, dropping some or even all of their leaves. A dormant plant uses almost no water, and continuing to water on a summer schedule rots the tuber. Water sparingly, keep the tuber just barely damp, and wait.",
+        "Humidity above 60% is genuinely required. Dry air produces brown crispy edges and is the main trigger for spider mites, which are the signature Alocasia pest. A humidifier is close to essential for good growth."
+      ],
+      "soil": [
+        "Use a very chunky, free-draining aroid mix — equal parts orchid bark, perlite and coco coir, with little or no ordinary compost. Alocasia roots need air more than most aroids and rot quickly in dense wet soil.",
+        "The pot should be snug; these plants grow from a tuber with a modest root system, and an oversized pot holds wet mix. Drainage holes are essential. Feed monthly at half strength through spring and summer only, and stop entirely once growth slows in autumn. Feeding a dormant plant does nothing useful and contributes to salt buildup."
+      ]
+    },
+    "propagation": [
+      "Alocasia Polly propagates by division of the tuber and by separating offsets, not by leaf or stem cuttings. A cut leaf will not root, because the growth points are all in the underground corm.",
+      "In spring, unpot the plant and wash the mix away from the roots so you can see what you are working with. You will find a main tuber with smaller offset corms attached — firm, brown, bulb-like structures, sometimes with their own small roots and shoots. Twist or cut these away cleanly.",
+      "Pot each offset just below the surface of damp chunky mix, or root them in damp sphagnum moss in a covered container, which many growers find more reliable. Keep warm — 24°C or above — and humid. Corms can take several weeks to months to sprout, and patience is required; a corm that has not sprouted is usually still viable as long as it is firm. Spring division is far more successful than autumn, when the plant is heading into dormancy."
+    ],
+    "problems": [
+      {
+        "symptom": "All leaves dying back in autumn or winter",
+        "cause": "Dormancy, which is normal for Alocasia and alarms most owners into over-caring for the plant.",
+        "fix": "Reduce watering to barely damp and stop feeding. Keep the pot somewhere warm and leave it alone. The tuber is alive and will resprout in spring. Do not discard the plant."
+      },
+      {
+        "symptom": "Fine webbing, stippled and dull leaves",
+        "cause": "Spider mites, the signature Alocasia pest, driven by dry air.",
+        "fix": "Rinse the plant thoroughly including leaf undersides, then treat with insecticidal soap every five days for at least three cycles. Raise humidity above 60% — without that they return immediately."
+      },
+      {
+        "symptom": "Yellowing leaves with wet soil",
+        "cause": "Overwatering and tuber rot, which is the main way Alocasia are killed.",
+        "fix": "Unpot and inspect the tuber. Firm and brown is healthy; soft and mushy is rot. Cut away rotten tissue, let it dry a day, and repot into fresh chunky mix. Water far more sparingly."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity, or salts and chlorine in tap water.",
+        "fix": "Raise humidity, switch to filtered or rainwater, and flush the pot with clean water every couple of months."
+      },
+      {
+        "symptom": "Water droplets forming at the leaf tips",
+        "cause": "Guttation — the plant releasing excess water through pores. Entirely normal, and often a sign of healthy root pressure, though it can indicate slight overwatering.",
+        "fix": "No action needed. If it happens constantly, ease back slightly on watering."
+      },
+      {
+        "symptom": "New leaf emerges then an old one dies",
+        "cause": "Normal for Alocasia, which maintains a limited number of leaves and sheds an old one for each new one, especially when conditions are less than ideal.",
+        "fix": "Improve light, humidity and feeding to encourage the plant to hold more leaves at once. A well-grown Polly carries five or six."
+      },
+      {
+        "symptom": "Brown papery patches on leaves",
+        "cause": "Sunburn from direct sun through glass.",
+        "fix": "Move out of direct light into filtered brightness. Damaged tissue does not recover."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring, as the plant comes out of dormancy and before active growth begins. Never repot a dormant plant in autumn.",
+      "Move up one small size only into fresh chunky aroid mix. Alocasia is prone to rot and an oversized pot makes that far more likely. Snug is better.",
+      "This is the natural moment to separate offset corms, which is easiest when the root ball is out and washed. Set the main tuber at the same depth, water lightly, and keep humidity high for a few weeks. Wait six weeks before feeding. Expect a pause before new growth appears."
+    ],
+    "varieties": [
+      "Alocasia × amazonica 'Polly' is a compact hybrid with arrow-shaped dark leaves and bold white veining and scalloped margins. Despite the name it is not from the Amazon — it is a nursery hybrid.",
+      "Alocasia 'Amazonica' is the larger form of the same cross. A. zebrina has plain leaves on striking striped stems, A. frydek is velvety dark green with white veins, and A. macrorrhiza is the giant elephant ear. All Alocasia are toxic to cats and dogs, and notably so: the calcium oxalate content is high, causing intense mouth burning, swelling and drooling. This is one of the more seriously toxic common houseplants and is worth keeping well out of reach."
+    ]
+  },
+  "calathea-orbifolia": {
+    "care": {
+      "light": [
+        "Calathea orbifolia wants medium to bright indirect light with no direct sun at all. The large round leaves scorch readily, and the silver banding bleaches out in strong light.",
+        "A north-facing window is often ideal, or a position well back from an east window. In light that is too low the leaves lose contrast, the plant stops producing new growth, and the stems stretch. Orbifolia is somewhat more forgiving about light than other calatheas — it is water and humidity that cause most of the trouble with this species."
+      ],
+      "water": [
+        "Keep the mix evenly moist — never soggy, never dry. Water when the top half-inch feels dry, which in spring and summer usually means every five to seven days. Reduce to every ten days or so in winter but never let the root ball dry out completely.",
+        "Water quality is the decisive factor with orbifolia, more so than with almost any other houseplant. It is extremely sensitive to fluoride, chlorine and dissolved salts, and hard tap water produces the brown crispy edges this plant is notorious for. Use filtered, distilled or rainwater from the start; switching after damage appears only prevents further browning rather than fixing existing leaves.",
+        "Humidity of 60% or higher is genuinely required. The large thin leaves lose moisture fast, and this is not a plant that will do well in a dry room whatever else you get right. A humidifier is the realistic answer."
+      ],
+      "soil": [
+        "Use a moisture-retentive but airy mix — two parts coir or peat-based compost to one part perlite, with a little fine bark. It should stay damp without compacting into a wet block.",
+        "Plastic or glazed ceramic pots hold moisture better than terracotta, which dries the root ball too fast. Drainage holes are still essential. Feed at quarter to half strength monthly through spring and summer only, and flush the pot with clean water every couple of months — orbifolia is as sensitive to fertiliser salts as it is to tap water."
+      ]
+    },
+    "propagation": [
+      "Calathea orbifolia is propagated by division only. Stem and leaf cuttings will not root, because the plant grows from a clumping rhizome rather than from nodes — a cut leaf simply rots.",
+      "Divide in spring, ideally while repotting, and only once the plant has formed a substantial clump. Slide it out of the pot and gently wash or tease away the mix so you can see where rhizome sections separate naturally. Work them apart by hand where possible, using a clean knife only where necessary.",
+      "Each division needs its own roots and at least two or three leaves — smaller pieces rarely survive, and orbifolia is less forgiving of division than most calatheas. Pot each into fresh moisture-retentive mix, water with filtered water, and keep warm, shaded and very humid for the first month, ideally under a clear cover. Expect the divisions to sulk, droop and possibly drop a leaf before new growth begins. If your orbifolia is thriving, think carefully before dividing it — this species resents disturbance."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "The defining orbifolia complaint. Minerals in tap water, low humidity, or fertiliser salt buildup — usually all three.",
+        "fix": "Switch to filtered, distilled or rainwater, raise humidity to 60% or more with a humidifier, and flush the pot with clean water every couple of months. Trim damaged edges following the leaf's curve."
+      },
+      {
+        "symptom": "Leaves curling inward along the midrib",
+        "cause": "Underwatering, low humidity, or too much light. Note that some folding at night is normal — calatheas raise their leaves in darkness.",
+        "fix": "Check the soil first. If dry, water. If moist and the curl persists in daylight, raise humidity and move out of direct light."
+      },
+      {
+        "symptom": "Yellowing leaves with constantly wet soil",
+        "cause": "Overwatering and root rot.",
+        "fix": "Confirm the pot drains and is not standing in water. Let the top half-inch dry before each watering. Trim soft roots and repot if rot is present."
+      },
+      {
+        "symptom": "Faded, washed-out silver banding",
+        "cause": "Too much light. Direct sun bleaches the pattern.",
+        "fix": "Move to a shadier position. Existing faded leaves stay as they are; new growth comes in properly marked."
+      },
+      {
+        "symptom": "New leaves emerging smaller than older ones",
+        "cause": "Insufficient light, nutrients or humidity, or a pot-bound root system.",
+        "fix": "Improve humidity first, then check light and feeding. Repot in spring if roots have filled the container."
+      },
+      {
+        "symptom": "Fine webbing under the leaves",
+        "cause": "Spider mites, which thrive in exactly the dry air that also causes brown edges.",
+        "fix": "Rinse thoroughly, paying attention to the undersides, then treat with insecticidal soap every five days for three cycles. Fixing humidity is what stops them returning."
+      },
+      {
+        "symptom": "Whole plant drooping",
+        "cause": "Either thirst or root rot — the two look identical in calatheas, which catches people out.",
+        "fix": "Feel the soil before acting. Dry means water; wet means stop and check the roots immediately."
+      }
+    ],
+    "repotting": [
+      "Calathea orbifolia dislikes root disturbance and should be repotted only every two years, or when roots have completely filled the pot and it dries out much faster than before.",
+      "Repot in spring into a plastic or glazed pot one size larger. Disturb the root ball as little as possible — loosen the outer roots and leave the core intact rather than washing the soil away, unless you are deliberately dividing.",
+      "Water with filtered water, keep humidity high, and expect a period of sulking. Do not feed for six to eight weeks. If the plant is otherwise healthy, leaving it alone is usually the better choice; orbifolia responds badly to routine disturbance."
+    ],
+    "varieties": [
+      "Calathea orbifolia, now formally Goeppertia orbifolia, has the largest and roundest leaves in the commonly sold group, with broad alternating silver and green bands. There are no cultivars — the species is grown as it is.",
+      "Within the genus, Calathea lancifolia (rattlesnake plant) is the most forgiving, C. makoyana (peacock plant) has fine translucent patterning, and C. 'White Fusion' is the most demanding of all with its unstable white variegation. All calatheas are non-toxic to cats and dogs, which is why they remain popular despite the care requirements — there are very few pet-safe plants with this kind of foliage."
+    ]
+  },
+  "peperomia-watermelon": {
+    "care": {
+      "light": [
+        "Watermelon peperomia wants bright indirect light to keep the silver striping crisp and the leaves compact. This is one of the more light-responsive peperomias.",
+        "An east window is ideal, or near a south or west window behind a sheer curtain. Direct sun scorches the leaves and fades the pattern to a washed-out grey. In low light the red petioles stretch dramatically, the leaves space out, and the plant loses its dense rosette form — the most common complaint with this species."
+      ],
+      "water": [
+        "The thick leaves store water, so treat this as a semi-succulent. Let the top inch or two of mix dry before watering, then water thoroughly and drain fully. In spring and summer that usually means every ten to fourteen days.",
+        "Reduce to every three weeks or so in winter. Overwatering is by far the main cause of failure, and peperomias fail suddenly rather than gradually — stems collapse at the base with little warning.",
+        "Water at soil level rather than over the leaves, since water sitting in the crown where the petioles meet causes rot. Bottom-watering suits this plant well. Average household humidity is fine; it does not need the levels a calathea demands, though above 50% produces slightly better growth."
+      ],
+      "soil": [
+        "Use a light, airy, fast-draining mix — two parts standard compost to one part perlite, with a little orchid bark. Peperomia roots are fine and sparse and rot quickly in dense wet soil.",
+        "Keep the pot small. This is the single most important practical point with peperomias: the root system is modest and an oversized pot holds a reservoir of wet mix the plant cannot use. Terracotta helps. Feed monthly at half strength through spring and summer only; over-feeding causes leaf drop."
+      ]
+    },
+    "propagation": [
+      "Watermelon peperomia propagates from leaf cuttings, and the technique is slightly unusual — it is one of the few houseplants where cutting the leaf in half actually improves results.",
+      "Take a healthy leaf with an inch of petiole attached. You can either insert the petiole into damp mix at an angle so the leaf blade sits just above the surface, or cut the leaf blade in half across the middle and stand the cut edge in damp mix. The cut-half method produces plantlets along the whole cut edge rather than just at the petiole base, so one leaf yields several plants.",
+      "Cover with a clear bag or propagator to maintain humidity, and keep warm in bright indirect light. Tiny plantlets emerge at the base after four to eight weeks — slower than stem cuttings on other plants, so patience is needed. Note that because this species grows as a rosette rather than a vine, there are no long stems to take conventional cuttings from; leaf propagation and division of a mature clump are the options."
+    ],
+    "problems": [
+      {
+        "symptom": "Stems suddenly collapsing at the base",
+        "cause": "Stem and root rot from overwatering. Peperomias fail abruptly, which is why this catches people out.",
+        "fix": "Take healthy leaves immediately for propagation as insurance. Unpot, cut away all soft tissue, and repot any healthy material into fresh airy mix in a smaller pot. Water far less often."
+      },
+      {
+        "symptom": "Long leggy petioles and a sparse, open rosette",
+        "cause": "Insufficient light. The leaf stalks stretch toward the source.",
+        "fix": "Move to a brighter position with indirect light. Stretched petioles stay as they are, but new growth comes in compact. Removing the longest stalks tidies the plant."
+      },
+      {
+        "symptom": "Silver striping fading to plain green or grey",
+        "cause": "Too little light fades the pattern; too much direct sun bleaches it.",
+        "fix": "Check the position. A plant in medium light should be moved brighter; one in direct sun should be filtered."
+      },
+      {
+        "symptom": "Leaves wrinkled and soft",
+        "cause": "Underwatering — the plant is drawing on the water stored in its leaves.",
+        "fix": "Water thoroughly until it drains. Leaves firm up within a few days."
+      },
+      {
+        "symptom": "Leaves dropping at a touch",
+        "cause": "Overwatering most commonly, sometimes a sudden cold draught.",
+        "fix": "Check the soil. Wet means stop watering and inspect the roots. Move away from draughty windows."
+      },
+      {
+        "symptom": "Corky brown bumps on leaf undersides",
+        "cause": "Oedema — cells rupturing after the plant took up water faster than it could transpire, typically from heavy watering in low light.",
+        "fix": "Water less and increase light. The marks are permanent but harmless, and new leaves come in clean."
+      },
+      {
+        "symptom": "Small flies around the pot",
+        "cause": "Fungus gnats in soil kept too damp, which for this plant is a clear signal the watering routine is wrong.",
+        "fix": "Let the mix dry out properly between waterings, use sticky traps, and repot into a grittier mix and a smaller pot if the problem persists."
+      }
+    ],
+    "repotting": [
+      "Peperomias have small root systems and like being snug, so repot only every two to three years, or when roots have genuinely filled the pot.",
+      "Move up one small size and no more. Overpotting is the commonest mistake with this genus and leads directly to rot. A small terracotta pot is ideal.",
+      "Repot in spring into fresh airy mix, handling the brittle petioles carefully. Water lightly afterwards and wait six weeks before feeding. This is the natural moment to divide a mature clump into two plants if it has become crowded."
+    ],
+    "varieties": [
+      "Peperomia argyreia is the watermelon peperomia, with rounded leaves striped silver and dark green on bright red petioles. There are no widely sold cultivars — the species is distinctive enough on its own.",
+      "The genus is large and varied: P. obtusifolia is the baby rubber plant with thick glossy oval leaves, P. caperata 'Rosso' has deeply corrugated dark leaves with red undersides, P. polybotrya is the raindrop peperomia with teardrop-shaped leaves, and P. prostrata is the string of turtles. Care is broadly similar across the genus — bright indirect light, dry out between waterings, small pot. All peperomias are non-toxic to cats and dogs, making this one of the safest and most varied groups for a pet household."
+    ]
+  },
+  "oxalis-triangularis": {
+    "care": {
+      "light": [
+        "Purple shamrock wants bright indirect light with a few hours of gentle direct sun. Light is what keeps the deep purple colour saturated and the plant compact.",
+        "An east or south window works well, filtered in the hottest part of summer. In insufficient light the stems stretch into long thin stalks that flop over, and the purple pales. One of this plant's charms is its nyctinasty — the triangular leaflets fold down like closed umbrellas at night and open again in the morning, a daily rhythm driven by light that is quite visible and happens reliably in a well-lit plant."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain. In spring and summer that is usually every five to seven days. Oxalis grows from small bulb-like rhizomes and rots if kept saturated.",
+        "The important seasonal point is dormancy. Oxalis triangularis naturally goes dormant once or twice a year, usually after a period of heavy growth or in response to heat. The foliage dies back completely and the plant looks dead. This is normal and expected — do not discard it.",
+        "When dormancy begins, stop watering, cut the dead foliage back to soil level, and put the pot somewhere cool and dark for four to six weeks. Then bring it back into the light and resume watering, and fresh growth appears within a couple of weeks. Humidity is not important; average household air suits it."
+      ],
+      "soil": [
+        "Use a standard well-draining potting mix with added perlite. The rhizomes want a medium that drains freely rather than staying wet.",
+        "Drainage holes are essential. Feed monthly at half strength through the active growing period and stop entirely during dormancy. Oxalis is not a heavy feeder. A pot that is wide rather than deep suits the shallow spreading rhizomes, and a crowded pot actually looks better since the foliage forms a dense mound."
+      ]
+    },
+    "propagation": [
+      "Oxalis triangularis is propagated by dividing the rhizomes, which is easy and very reliable — the plant multiplies readily on its own.",
+      "The best time is at the end of a dormant period, just before you bring the pot back into growth. Tip the pot out and sift through the mix: you will find small pale rhizomes that look like tiny pine cones or scaly bulbs, usually far more of them than you expected.",
+      "Separate them and pot them in groups of five or six, about an inch deep, in fresh well-draining mix. Water lightly and place in bright light. Shoots appear within one to three weeks. Because each rhizome produces a cluster of leaves, planting several together gives a full pot immediately rather than a sparse one. Handle them gently — they snap easily, though broken pieces often grow anyway. Individual rhizomes can also be shared or stored dry for a few weeks between plantings."
+    ],
+    "problems": [
+      {
+        "symptom": "All foliage dies back and the plant looks dead",
+        "cause": "Dormancy, which is a normal part of this plant's cycle and happens once or twice a year, often triggered by heat.",
+        "fix": "Stop watering, cut the dead growth back to soil level, and rest the pot somewhere cool and dark for four to six weeks. Then resume light and water. Do not throw the plant away — the rhizomes are alive."
+      },
+      {
+        "symptom": "Long floppy stems that cannot hold the leaves up",
+        "cause": "Insufficient light. The stalks stretch and weaken.",
+        "fix": "Move to a brighter position with some gentle direct sun. Cut the floppy growth back to soil level and the plant regrows compact from the rhizomes."
+      },
+      {
+        "symptom": "Purple colour fading toward green or bronze",
+        "cause": "Too little light. The purple pigment is a light response.",
+        "fix": "Increase light gradually. New growth comes in properly coloured."
+      },
+      {
+        "symptom": "Leaves not opening during the day",
+        "cause": "Too little light, or the plant entering dormancy.",
+        "fix": "Move somewhere brighter. If the leaves also begin yellowing and dying back, it is dormancy rather than a light problem, and should be allowed to run its course."
+      },
+      {
+        "symptom": "Mushy stems and rhizomes",
+        "cause": "Overwatering, particularly if it continued into dormancy when the plant needs none.",
+        "fix": "Stop watering, let the mix dry out, and sift out any firm healthy rhizomes to replant in fresh mix. Discard soft ones."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Underwatering, or scorch from harsh direct sun.",
+        "fix": "Water more consistently and filter the strongest midday light. Damaged leaves can be trimmed at the base; the plant replaces foliage rapidly."
+      },
+      {
+        "symptom": "Powdery white coating on the leaves",
+        "cause": "Powdery mildew, encouraged by crowded growth and poor air circulation.",
+        "fix": "Remove affected leaves, thin the clump, and improve airflow. Avoid wetting the foliage when watering."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years, ideally at the end of a dormant period when the rhizomes can be handled without disturbing active growth.",
+      "Choose a wide, shallow pot rather than a deep one, since the rhizomes spread sideways near the surface. Move up one size, or simply refresh the mix in the same pot and replant a selection of the best rhizomes.",
+      "Plant the rhizomes about an inch deep and several to a pot for a full look. Water lightly until growth appears, then resume normal care. This is also the easiest moment to divide and share the surplus, of which there is usually plenty."
+    ],
+    "varieties": [
+      "Oxalis triangularis is the purple shamrock, with deep burgundy triangular leaflets and small pale pink or white flowers. 'Atropurpurea' is the darkest form. A green-leaved form, Oxalis regnellii, has the same habit with plain green foliage and white flowers.",
+      "Oxalis tetraphylla, the iron cross plant, has green leaves with a dark purple marking at the centre of each leaflet. The plant is sometimes sold as false shamrock or love plant. Important safety note: Oxalis contains oxalic acid and is toxic to cats and dogs in quantity, causing drooling, vomiting and in serious cases kidney effects — despite its delicate appearance and common gift-plant status it is worth keeping out of reach."
+    ]
+  },
+  "staghorn-fern": {
+    "care": {
+      "light": [
+        "Staghorn fern wants bright indirect light. It grows epiphytically on tree trunks and branches in tropical forests, receiving filtered light through the canopy rather than direct sun or deep shade.",
+        "An east window is close to ideal, or bright light from a north window. Direct sun scorches the fronds, particularly the flat shield fronds at the base. In too little light the plant produces few new fronds and the growth is pale and weak. If mounted on a wall, remember that light falls off sharply with distance from the window — a staghorn on a shaded wall is often in much lower light than it appears."
+      ],
+      "water": [
+        "Staghorn fern has two distinct kinds of frond and understanding them is the key to watering it. The flat, round shield fronds at the base press against the mounting surface, collect debris, and turn brown and papery as they mature — this is completely normal and they should never be removed. The antler-shaped fronds are the growing, photosynthesising ones.",
+        "For a mounted plant, the usual method is soaking: submerge the mount or root ball in water for ten to twenty minutes, then let it drain thoroughly. Do this when the mount feels light and dry, typically every one to two weeks in summer and every two to three weeks in winter. A potted plant is watered conventionally when the top inch of medium is dry.",
+        "Humidity above 50% suits it well, and misting the antler fronds is genuinely useful for this epiphyte, unlike most houseplants. Avoid letting water sit in the centre of the crown."
+      ],
+      "soil": [
+        "Staghorn fern is not grown in soil in the conventional sense. Mounted plants sit on a board with sphagnum moss packed behind the shield fronds, which is the traditional and best-looking method. Potted plants need a very loose epiphytic mix — mostly orchid bark and sphagnum moss with some perlite.",
+        "Ordinary potting compost will kill this plant by suffocating the roots. Feed monthly at half strength through spring and summer, applying diluted liquid feed during a soak, or push a banana peel or slow-release pellets behind the shield fronds, which is a traditional approach that works well. Stop feeding in winter."
+      ]
+    },
+    "propagation": [
+      "Staghorn fern is propagated from pups — offsets that appear around the base of a mature plant — and this is the only practical home method. Spore propagation is possible but extremely slow.",
+      "Wait until a pup has developed its own shield frond and at least one antler frond, which usually means it is several inches across. Using a clean sharp knife, cut the pup away from the parent, taking a portion of the root mass and shield frond material with it. Cutting too close to the parent or taking a pup without roots usually fails.",
+      "Mount the pup by packing damp sphagnum moss around its roots against a board, and securing it with fishing line or soft wire wrapped over the moss — not over the shield frond, which needs to press flat against the mount. Keep it humid and shaded for the first month while it attaches itself. Over time the shield fronds grow over the fixings and anchor the plant naturally. A pup can also be potted in a loose bark mix while it establishes."
+    ],
+    "problems": [
+      {
+        "symptom": "Shield fronds turning brown and papery",
+        "cause": "Completely normal. The flat basal fronds are designed to brown, harden and form a protective layer over the roots.",
+        "fix": "Leave them alone. Removing them exposes the roots and damages the plant. This is the single most common mistake made with staghorn ferns."
+      },
+      {
+        "symptom": "Antler fronds turning brown at the tips",
+        "cause": "Underwatering, low humidity, or salts in the water.",
+        "fix": "Soak more regularly, raise humidity, and use filtered or rainwater. Trim brown tips if you wish, following the frond shape."
+      },
+      {
+        "symptom": "Black spots at the base of the antler fronds",
+        "cause": "Rot from overwatering, or water sitting in the crown where the fronds emerge.",
+        "fix": "Reduce watering frequency, let the mount dry properly between soaks, and improve air circulation. Remove badly affected fronds."
+      },
+      {
+        "symptom": "Fronds wilting and limp",
+        "cause": "Underwatering, which is common with mounted plants because it is hard to judge moisture.",
+        "fix": "Soak the mount thoroughly for twenty minutes. Learn the weight of the mount when freshly watered versus dry — lifting it is a more reliable gauge than looking at it."
+      },
+      {
+        "symptom": "Grey fuzzy coating on the fronds",
+        "cause": "Normal. Staghorn fronds are covered in fine hairs that reduce water loss and reflect light.",
+        "fix": "Do not wipe them off — this damages the plant's natural protection. Resist the urge to polish the leaves as you might with a rubber plant."
+      },
+      {
+        "symptom": "Brown circular patches with distinct edges",
+        "cause": "Rhizoctonia fungal infection, which spreads fast in wet, still conditions.",
+        "fix": "Remove affected fronds immediately, dry the plant out, and increase air circulation substantially. This can kill a staghorn quickly if left."
+      },
+      {
+        "symptom": "Small brown bumps on frond undersides",
+        "cause": "Either spores, which form in patches near the frond tips and are normal on mature plants, or scale insects, which are scattered irregularly.",
+        "fix": "Spores need no action. For scale, wipe off with a cotton bud and diluted rubbing alcohol — be cautious with chemical treatments, since ferns are sensitive to neem and soaps."
+      }
+    ],
+    "repotting": [
+      "Mounted staghorn ferns need remounting every three to five years, when the plant has outgrown its board or the sphagnum behind the shield fronds has broken down entirely.",
+      "Remount onto a larger board in spring. Do not attempt to remove the old shield fronds or clean the root mass — simply pack fresh damp sphagnum around and behind the existing root ball and secure the whole thing to the new board.",
+      "Potted plants should be moved up one size every two to three years into fresh loose bark mix. In both cases keep humidity high for a few weeks afterwards and hold off feeding for six weeks while the plant reattaches."
+    ],
+    "varieties": [
+      "Platycerium bifurcatum is the common staghorn fern, the hardiest and most forgiving, with drooping grey-green antler fronds. P. superbum is the giant staghorn, forming huge crown-shaped shield fronds, and P. veitchii has upright silvery fronds and tolerates more light and drier air.",
+      "P. grande and P. ridleyi are collector species needing higher humidity. Staghorn ferns are non-toxic to cats and dogs, and because they are usually mounted on a wall they are physically out of reach anyway — a practical advantage in a pet household. The mounting also makes them one of the few houseplants that genuinely work as wall decor."
+    ]
   }
 }
