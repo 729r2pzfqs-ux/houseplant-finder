@@ -3916,5 +3916,685 @@
       "Platycerium bifurcatum is the common staghorn fern, the hardiest and most forgiving, with drooping grey-green antler fronds. P. superbum is the giant staghorn, forming huge crown-shaped shield fronds, and P. veitchii has upright silvery fronds and tolerates more light and drier air.",
       "P. grande and P. ridleyi are collector species needing higher humidity. Staghorn ferns are non-toxic to cats and dogs, and because they are usually mounted on a wall they are physically out of reach anyway — a practical advantage in a pet household. The mounting also makes them one of the few houseplants that genuinely work as wall decor."
     ]
+  },
+  "kentia-palm": {
+    "care": {
+      "light": [
+        "Kentia palm is the most shade-tolerant of the large indoor palms and handles medium light comfortably, which is why Victorian drawing rooms were full of them long before electric lighting. Bright indirect light produces faster growth, but it does not decline in a moderately lit room the way areca or majesty palm does.",
+        "Keep it out of direct sun, which yellows and scorches the fronds. A position a few feet back from an east or north window suits it well. Rotate the pot every few weeks so the crown develops evenly rather than leaning toward the light."
+      ],
+      "water": [
+        "Water when the top two inches of mix are dry, then water thoroughly until it runs from the drainage holes. In spring and summer that is usually every ten to fourteen days; in winter, every three weeks or so.",
+        "Kentia is noticeably more drought-tolerant than areca or majesty palm and considerably more sensitive to overwatering. The thick fleshy roots rot in saturated soil, and yellowing lower fronds with damp mix is the classic warning. When in doubt, wait a few more days.",
+        "It also tolerates dry indoor air better than most palms, which is a large part of why it succeeds where others fail. Humidity above 40% is preferred but not critical. Like most palms it is sensitive to fluoride and salts, so filtered water and an occasional flush help prevent brown frond tips."
+      ],
+      "soil": [
+        "Use a well-draining potting mix with added perlite and a little coarse sand. Kentia wants a medium with structure that drains freely rather than one that stays damp.",
+        "Choose a heavy, stable pot — a mature kentia is tall and top-heavy. Feed only every six to eight weeks at half strength through spring and summer, and not at all in winter. Kentia is a slow grower and a light feeder; over-fertilising causes tip burn and accumulated salts. Flush the pot with clean water a couple of times a year."
+      ]
+    },
+    "propagation": [
+      "Kentia palm cannot be propagated by cuttings or by division of a single stem. Each stem grows from one terminal point, so cutting it kills that stem, and a severed frond will not root.",
+      "Propagation is from seed, which is genuinely difficult at home: kentia seed is slow and erratic, often taking two to twelve months to germinate and requiring consistent bottom heat around 27°C. Seedlings then take several years to reach any size, which is why kentia palms are relatively expensive.",
+      "What you can do is separate a multi-stemmed pot. Kentias are almost always sold with three to five seedlings planted together for a fuller look. In spring you can divide the root mass into smaller clumps, keeping at least two or three stems per division. Kentia roots are thick and brittle and resent disturbance, so expect a setback of several months and some frond browning. Most people are better off leaving the clump intact — it looks better and the plant is happier."
+    ],
+    "problems": [
+      {
+        "symptom": "Yellowing lower fronds",
+        "cause": "Overwatering if widespread with damp soil; normal ageing if it is the oldest frond alone as new ones emerge.",
+        "fix": "Let the top two inches dry before watering and confirm the pot drains freely. Cut spent fronds at the base — they will not green up again."
+      },
+      {
+        "symptom": "Brown frond tips",
+        "cause": "Fluoride and salts in tap water, dry air, or over-fertilising.",
+        "fix": "Switch to filtered or rainwater, reduce feeding, and flush the pot with clean water a couple of times a year. Trim the brown tip following the natural taper, leaving a sliver of dead tissue."
+      },
+      {
+        "symptom": "Fronds pale and washed out",
+        "cause": "Too much light, or a nutrient shortage in a plant that has been in the same mix for years.",
+        "fix": "Move out of direct sun. If light is already moderate, feed lightly through the growing season and repot into fresh mix."
+      },
+      {
+        "symptom": "Fine webbing and stippled fronds",
+        "cause": "Spider mites, though kentia is less prone than areca or majesty palm thanks to its tolerance of drier air.",
+        "fix": "Rinse the plant thoroughly including frond undersides, then treat with insecticidal soap every five days for three cycles."
+      },
+      {
+        "symptom": "No new fronds for a long period",
+        "cause": "Usually just the plant's pace — kentia is genuinely slow, producing only two or three new fronds a year even in good conditions.",
+        "fix": "Be patient. Ensure adequate light and light feeding in the growing season, but do not respond by watering more, which is the damaging mistake."
+      },
+      {
+        "symptom": "Stems soft and brown at soil level",
+        "cause": "Root rot from waterlogged mix or a pot standing in water.",
+        "fix": "Confirm drainage, empty the saucer, trim soft roots, and repot into fresh free-draining mix. Affected stems will not recover and should be cut at the base."
+      },
+      {
+        "symptom": "Small brown bumps along the fronds and stems",
+        "cause": "Scale insects, which are the most common kentia pest.",
+        "fix": "Scrape them off with a cotton bud dipped in rubbing alcohol and follow with neem oil weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Kentia palms are slow and strongly dislike root disturbance, so repot only every three to four years, or when roots are clearly emerging from the drainage holes and water runs straight through.",
+      "Repot in spring into a pot one size larger and heavy enough to keep a tall plant stable. Handle the thick brittle roots gently and avoid teasing the root ball apart — kentia sulks badly after disturbance.",
+      "Keep the clump of stems together rather than separating them. Water thoroughly afterwards, keep out of direct sun for a few weeks, and do not feed for two months. For a very large specimen, top-dressing with fresh compost each spring is far kinder than repotting."
+    ],
+    "varieties": [
+      "Howea forsteriana is the kentia palm, native only to Lord Howe Island off Australia, with gracefully arching dark green fronds. Howea belmoreana, the curly palm or sentry palm, is a related species from the same island with more upright, arching fronds and a slightly more compact habit.",
+      "There are no cultivars — what varies commercially is age and the number of stems per pot. Kentia is non-toxic to cats and dogs, and between that, its shade tolerance, its tolerance of dry air and its resistance to neglect, it is arguably the best large palm for an ordinary home. The only real drawbacks are its price and how slowly it grows."
+    ]
+  },
+  "bromeliad-guzmania": {
+    "care": {
+      "light": [
+        "Guzmania wants bright indirect light. It grows as an epiphyte on tree branches in Central and South American forests, receiving filtered light rather than direct sun.",
+        "An east window is ideal, or a position near a south or west window behind a sheer curtain. Direct sun scorches the strappy leaves and bleaches the colourful bract. In light that is too low the plant survives but the bract colour fades faster and pups are produced more slowly. Good light also helps the plant dry properly between waterings, which matters for rot prevention."
+      ],
+      "water": [
+        "Bromeliads are watered differently from every other houseplant, and getting this right is most of the battle. Guzmania takes up water through the central cup formed by its overlapping leaves, not primarily through its roots — the roots exist mainly to anchor it to a tree.",
+        "Keep the central cup filled with about an inch of water at all times, and flush it out completely every one to two weeks by tipping the plant to empty it before refilling. Stagnant water in the cup causes rot and smells. Keep the potting medium only lightly damp, watering it sparingly every week or two.",
+        "Water quality matters: use filtered, distilled or rainwater, since bromeliads are sensitive to salts and minerals which accumulate in the cup. Humidity above 50% is appreciated and misting the foliage is genuinely beneficial for an epiphyte."
+      ],
+      "soil": [
+        "Use a very free-draining epiphytic mix — orchid bark with some perlite and a little peat or coir. Ordinary potting compost holds far too much water around the small root system and causes rot.",
+        "The pot should be small; bromeliad roots are minimal and an oversized pot of wet medium is the main hazard. Feed very sparingly — a quarter-strength liquid feed poured into the cup or over the medium every couple of months during growth is ample. Over-feeding causes the leaves to lose colour and grow loose and floppy."
+      ]
+    },
+    "propagation": [
+      "This is the essential thing to understand about bromeliads: the plant you buy will flower once and then die. That is its natural life cycle, not a failure of care. The colourful central structure is a bract, not a flower, and it lasts for several months before slowly fading.",
+      "As the parent declines, it produces pups — offsets around its base. This is how the plant continues, and it is the only method of propagation available at home. Wait until a pup is at least one third to one half the size of the parent and has begun forming its own small roots; taking them too early is the commonest reason they fail.",
+      "Cut the pup away from the parent with a clean sharp knife, cutting as close to the parent as possible to include a little of its base. Pot into free-draining bark mix, using a small pot, and support the pup with stakes if it is unsteady — its roots will not anchor it for some weeks. Keep the cup filled and the medium barely damp. Pups typically take one to three years to reach flowering size."
+    ],
+    "problems": [
+      {
+        "symptom": "The colourful bract fades and the plant slowly dies",
+        "cause": "Normal life cycle. Guzmania is monocarpic — it flowers once, then dies over the following months.",
+        "fix": "Nothing to fix. Let the parent decline naturally while it feeds its pups, and separate the pups once they are a third to half the parent's size. Do not discard the pot when the bract fades."
+      },
+      {
+        "symptom": "Base of the plant rotting, leaves pulling away easily",
+        "cause": "Overwatering the potting medium, or a pot that holds too much water around the roots.",
+        "fix": "Keep the medium only lightly damp and water primarily into the cup. Repot into a smaller pot of pure bark mix if the medium stays wet."
+      },
+      {
+        "symptom": "Brown crispy leaf tips",
+        "cause": "Dry air, or minerals and salts in tap water accumulating in the cup.",
+        "fix": "Use filtered, distilled or rainwater, flush the cup every one to two weeks, and raise humidity. Trim tips following the leaf shape."
+      },
+      {
+        "symptom": "Water in the cup smelling stagnant",
+        "cause": "The cup has not been flushed and bacteria have built up.",
+        "fix": "Tip the plant to empty the cup completely, rinse it out, and refill with fresh water. Do this every one to two weeks as routine."
+      },
+      {
+        "symptom": "Leaves pale, loose and floppy",
+        "cause": "Over-feeding, or too little light.",
+        "fix": "Stop fertilising and move to brighter indirect light. Bromeliads need very little feed and respond badly to standard houseplant doses."
+      },
+      {
+        "symptom": "Bleached or scorched patches on leaves",
+        "cause": "Direct sun through glass.",
+        "fix": "Move back from the window or filter the light. Damaged tissue does not recover."
+      },
+      {
+        "symptom": "Pup wilting after separation",
+        "cause": "Taken too early, before it had roots of its own, or its cup is not being kept filled.",
+        "fix": "Keep the pup's cup topped up, maintain humidity, and support it upright. Take future pups only once they are at least a third the parent's size."
+      }
+    ],
+    "repotting": [
+      "Bromeliads rarely need repotting, because each plant lives only a few years and has a tiny root system. Repot only if the pot is unstable or the medium has broken down.",
+      "When you do, use a small pot with fresh free-draining bark mix. Set the plant at the same depth, and stake it if it will not stand on its own — the shallow roots take time to anchor.",
+      "The more relevant operation is potting up separated pups, which effectively replaces repotting in this plant's life cycle. Do that in spring or summer, keep the cup filled and the medium barely damp, and expect the pup to take a year or more to establish and eventually bloom."
+    ],
+    "varieties": [
+      "Guzmania lingulata is the most commonly sold, with a long-lasting bract in red, orange, yellow, pink or purple above a rosette of glossy green strappy leaves. Named cultivars are usually distinguished only by bract colour.",
+      "Related bromeliads include Vriesea, the flaming sword, with a flattened bright bract; Neoregelia, grown for coloured leaf centres rather than a bract; Aechmea fasciata, the urn plant, with silver-banded leaves and a pink bract; and Tillandsia, the air plants, which need no pot at all. All are monocarpic and pup in the same way. Guzmania and most bromeliads are non-toxic to cats and dogs, making them one of the few genuinely pet-safe sources of long-lasting indoor colour."
+    ]
+  },
+  "ficus-audrey": {
+    "care": {
+      "light": [
+        "Ficus Audrey wants bright indirect light and tolerates a little gentle direct sun, particularly morning light. It is noticeably more forgiving than the fiddle leaf fig, which is a large part of its appeal as an alternative.",
+        "Place it in front of an east window, or a few feet from a south or west window. In medium light it survives but grows slowly and may drop lower leaves. Rotate the pot a quarter turn every couple of weeks, since it leans toward light and develops a one-sided crown otherwise. It handles a change of position better than a fiddle leaf fig, but still prefers to be left where it is."
+      ],
+      "water": [
+        "Water when the top two inches of mix are dry, then water thoroughly until it drains. In spring and summer that is usually every seven to ten days; in winter, every two to three weeks.",
+        "Audrey is more drought-tolerant than the fiddle leaf fig and considerably less prone to dramatic leaf drop, but it still dislikes both extremes. The velvety leaves show underwatering as drooping and edge browning, and overwatering as yellowing lower leaves with damp soil.",
+        "Humidity above 40% is preferred and the plant appreciates a little extra in winter. Wipe the leaves with a damp cloth every few weeks — the soft matte surface collects dust readily, and a clean leaf photosynthesises noticeably better. Keep it away from cold draughts and heating vents."
+      ],
+      "soil": [
+        "Use a well-draining potting mix with plenty of structure — roughly two parts quality compost to one part perlite and one part bark. Ficus roots need air, and a dense peat-heavy mix that stays soggy leads to root rot.",
+        "The pot must drain freely. Feed every four weeks through spring and summer with a balanced fertiliser at half strength, and stop from autumn through winter. Audrey is a moderately vigorous grower in good light and responds well to feeding during the growing season."
+      ]
+    },
+    "propagation": [
+      "Ficus Audrey propagates from stem cuttings, with the same latex caveat as other figs — the cut bleeds a milky sap that irritates skin and stains, so wear gloves and rinse the cut end before potting.",
+      "Take a cutting six to eight inches long with two or three leaves, cutting just below a node in spring or early summer. Remove the lowest leaves and let the cut end stop bleeding. Dip in rooting hormone and pot into damp free-draining mix, or stand in water.",
+      "Cover a soil-potted cutting with a clear bag to maintain humidity and keep it warm in bright indirect light. Roots take four to eight weeks — slower than a pothos, so resist tugging at it. Air layering is the better technique for a tall plant that has gone bare at the base: wound the stem, pack damp sphagnum moss around it inside a plastic sleeve, and cut below the roots once they fill the moss. This gives you a substantial plant immediately and encourages the parent to branch below the cut."
+    ],
+    "problems": [
+      {
+        "symptom": "Lower leaves yellowing and dropping",
+        "cause": "Overwatering most commonly, particularly in winter. Losing an occasional oldest leaf is normal.",
+        "fix": "Let the top two inches dry properly before watering and confirm the pot drains. Reduce watering substantially from autumn."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Dry air, underwatering, or salt buildup from fertiliser and hard water.",
+        "fix": "Water more consistently, raise humidity slightly, and flush the pot with plain water every few months."
+      },
+      {
+        "symptom": "Leaf drop after being moved",
+        "cause": "Shock from a change in light or temperature. Less severe than with fiddle leaf fig, but Audrey still dislikes relocation.",
+        "fix": "Settle it in one position away from draughts and keep watering consistent. It usually stabilises within a few weeks."
+      },
+      {
+        "symptom": "Tall bare stem with leaves only at the top",
+        "cause": "Natural growth habit combined with low light and no pruning. Ficus grows as a single leader unless encouraged to branch.",
+        "fix": "Cut the main stem back by a third in spring. It branches from below the cut, and the removed section can be rooted or air-layered."
+      },
+      {
+        "symptom": "Dull, dusty-looking leaves",
+        "cause": "Dust on the soft matte leaf surface, which this species collects more readily than glossy-leaved figs.",
+        "fix": "Wipe both sides with a damp cloth every few weeks. This is genuine maintenance for Audrey rather than cosmetic."
+      },
+      {
+        "symptom": "Leaves drooping with damp soil",
+        "cause": "Root rot from prolonged overwatering.",
+        "fix": "Unpot, trim soft brown roots, and repot into fresh free-draining mix. Water sparingly until new growth appears."
+      },
+      {
+        "symptom": "Fine webbing or small brown bumps on leaf undersides",
+        "cause": "Spider mites or scale, both of which colonise the undersides unnoticed.",
+        "fix": "Wipe every leaf on both sides, then treat with insecticidal soap or neem weekly for three to four weeks."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years while young, then every two to three years once mature. Signs are roots through the drainage holes, water running straight through, and stalled growth in the growing season.",
+      "Repot in spring into a pot one size larger. Audrey becomes top-heavy as it grows, so choose a substantial pot that will not tip. Handle the root ball gently — ficus dislikes root disturbance and may drop a few leaves afterwards.",
+      "Water thoroughly, keep out of direct sun for a fortnight, and hold off fertiliser for six weeks. For a large specimen that cannot practically be repotted, top-dress by replacing the top two inches of mix each spring."
+    ],
+    "varieties": [
+      "Ficus benghalensis is the Indian banyan, sold as Ficus Audrey, with soft matte green leaves, pale veining and a light grey trunk. It is the national tree of India and grows to enormous size outdoors, though indoors it stays manageable.",
+      "There are few cultivars; 'Audrey' is the commonly sold selection. Within the genus, Ficus lyrata is the fiddle leaf fig, F. elastica the rubber plant, and F. benjamina the weeping fig — Audrey is generally regarded as the most forgiving of the large-leaved ones. All Ficus are toxic to cats and dogs, and the milky sap irritates skin on contact, so gloves are sensible when pruning."
+    ]
+  },
+  "begonia-angel-wing": {
+    "care": {
+      "light": [
+        "Angel wing begonia wants bright indirect light. Good light is what produces the silver spotting on the leaves, the red undersides and, importantly, the clusters of flowers that this group is grown for.",
+        "An east window is ideal, or near a south or west window behind a sheer curtain. Direct midday sun scorches the leaves and fades the spotting. In low light the canes stretch, the leaves space out, the spotting dulls and flowering stops entirely. This is a plant where more light, short of direct sun, almost always improves things."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain fully. In spring and summer that is usually every five to seven days; in winter, every ten to fourteen days.",
+        "Begonias are prone to both root rot and crown rot, so the balance matters. Water at soil level rather than over the foliage — water sitting on begonia leaves encourages powdery mildew and bacterial leaf spot, which are the most common diseases in this genus.",
+        "Humidity above 50% suits them, but do not achieve it by misting, for the reason just given. A pebble tray or humidifier is the right approach. Good air circulation is as important as humidity for begonias, because still damp air is what mildew needs."
+      ],
+      "soil": [
+        "Use a light, well-draining mix — two parts standard compost to one part perlite, with a little bark. Begonias have relatively fine roots and want a medium that drains freely.",
+        "Keep the pot snug; begonias flower better slightly pot-bound and rot in an oversized pot of wet mix. Drainage holes are essential. Feed every two to four weeks at half strength through spring and summer with a balanced fertiliser, switching to something higher in potassium if you want to push flowering. Stop in winter."
+      ]
+    },
+    "propagation": [
+      "Angel wing begonias are cane begonias, which makes them among the easiest in the genus to propagate — unlike rex begonias, which are propagated from leaves, these root readily from stem cuttings.",
+      "Take a cutting four to six inches long from a healthy cane, cutting just below a node, with two or three leaves. Remove the lowest leaf and any flower buds, which divert energy from rooting. Large leaves can be cut in half across to reduce water loss.",
+      "Root in water, changing it weekly, where roots appear in two to three weeks, or push directly into damp mix under a clear bag. Both work reliably. Pot several rooted cuttings together for a full plant. Because angel wings become tall and bare at the base over time, taking cuttings from the tips and replanting them is the standard way to keep a good-looking plant — treat it as routine renewal every couple of years rather than an occasional project."
+    ],
+    "problems": [
+      {
+        "symptom": "White powdery coating on leaves",
+        "cause": "Powdery mildew, the signature begonia disease, caused by damp still air and crowded growth.",
+        "fix": "Improve air circulation immediately, remove affected leaves, space plants apart, and stop misting. Water at soil level only. A fungicide helps but airflow is the real fix."
+      },
+      {
+        "symptom": "Tall bare canes with leaves only at the top",
+        "cause": "Natural habit accelerated by low light and a lack of pruning.",
+        "fix": "Cut the canes back by a third to a half in spring — begonias branch readily from below a cut. Root the removed sections and replant them into the same pot to thicken it. Pinching tips regularly prevents the problem."
+      },
+      {
+        "symptom": "No flowers",
+        "cause": "Insufficient light most commonly, then too large a pot or too much nitrogen fertiliser.",
+        "fix": "Move to a brighter position, keep the plant slightly pot-bound, and switch to a higher-potassium feed during the growing season."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity or inconsistent watering.",
+        "fix": "Raise humidity with a pebble tray or humidifier rather than misting, and water on a more regular schedule."
+      },
+      {
+        "symptom": "Stems collapsing and rotting at soil level",
+        "cause": "Overwatering, or water sitting against the stem bases.",
+        "fix": "Take tip cuttings immediately as insurance. Let the mix dry out more between waterings and repot into fresher, more open mix if needed."
+      },
+      {
+        "symptom": "Brown or black spots with yellow halos on leaves",
+        "cause": "Bacterial leaf spot, spread by water splashing on the foliage.",
+        "fix": "Remove affected leaves with sterile scissors, water at soil level only, and improve airflow. Isolate the plant if it spreads quickly."
+      },
+      {
+        "symptom": "Silver spotting fading and leaves turning plain green",
+        "cause": "Too little light. The spotting and red undersides are both light responses.",
+        "fix": "Move to a brighter position. New growth comes in properly marked."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring. Angel wings grow reasonably fast in good conditions, and the signs are roots through the drainage holes and rapid drying between waterings.",
+      "Move up one pot size only — begonias flower better slightly snug and rot in oversized pots. Choose a stable container, since tall canes make the plant top-heavy.",
+      "This is a good moment to prune the canes back and replant rooted cuttings around the parent, which is how you keep an angel wing looking full rather than bare-legged. Water thoroughly and wait a month before feeding."
+    ],
+    "varieties": [
+      "Angel wing begonias are cane begonias, typically Begonia coccinea hybrids, with asymmetrical wing-shaped leaves, silver spotting and red undersides, and drooping clusters of pink, red or white flowers. 'Lucerna' is a classic large-leaved form.",
+      "Other cane begonias include the dragon wing types, which are more compact and flower prolifically. Different groups within the genus need quite different care: rex begonias are grown for foliage and propagated from leaves, rhizomatous begonias spread from surface rhizomes, and tuberous begonias go dormant annually. All begonias are toxic to cats and dogs — the tubers and rhizomes most of all — causing mouth irritation and vomiting if chewed."
+    ]
+  },
+  "string-of-bananas": {
+    "care": {
+      "light": [
+        "String of bananas wants bright light with several hours of direct sun. It is noticeably tougher and more sun-tolerant than its relative string of pearls, which is why it is usually the better choice for a beginner.",
+        "A south or east-facing window suits it well. In insufficient light the strands stretch, the banana-shaped leaves space out along bare stems, and growth becomes thin and sparse. Good light produces dense strands packed with plump crescents. It handles more direct sun than string of pearls but can still scorch in intense unfiltered afternoon light in summer."
+      ],
+      "water": [
+        "Treat it as the succulent it is. Water thoroughly, then let the mix dry out almost completely before watering again — typically every two to three weeks in spring and summer, and once a month or less in winter.",
+        "The leaves are the gauge: plump and firm means well watered, slightly flattened and soft means it is time. Mushy translucent leaves mean serious overwatering, by which point root rot is usually underway.",
+        "Water at the soil surface rather than over the strands, and drain completely. The root system is shallow, so a deep soak followed by a long dry period suits it far better than frequent light watering. String of bananas is genuinely more forgiving of both drought and occasional overwatering than string of pearls. Humidity is irrelevant."
+      ],
+      "soil": [
+        "Use a gritty cactus or succulent mix, or two parts succulent compost to one part perlite or coarse sand. Fast drainage is essential.",
+        "A wide shallow pot suits the shallow spreading roots far better than a deep one, which holds a wet reservoir underneath them. Terracotta helps. Feed sparingly — a half-strength succulent feed twice during the growing season is ample, and none in winter. Hanging pots work well; check they actually drain rather than holding water in a sealed base."
+      ]
+    },
+    "propagation": [
+      "String of bananas is very easy to propagate and does so more readily than string of pearls, which is another reason it makes a better starting point.",
+      "Take a strand four to six inches long and strip the leaves from the last inch or two to expose bare stem. You can then either lay the strand flat on the surface of damp cactus mix and press the bare section into contact — roots form at each node where stem touches soil — or insert the bare end an inch into the mix.",
+      "The laying method is more productive, because a single strand roots at multiple points and produces a much fuller plant. Let cut ends callus for a day first. Keep the mix barely moist rather than wet, in bright indirect light; roots take two to three weeks. Planting several rooted strands around the edge of the parent pot is the standard way to thicken a plant that has gone sparse at the crown. Avoid water propagation, which tends to rot the strands."
+    ],
+    "problems": [
+      {
+        "symptom": "Leaves shrivelling and going flat",
+        "cause": "Underwatering, or root rot preventing uptake despite damp soil.",
+        "fix": "Check the soil. Dry means water thoroughly and the leaves plump up within days. Wet and still shrivelled means the roots have failed — take healthy strand cuttings and restart."
+      },
+      {
+        "symptom": "Leaves mushy and translucent",
+        "cause": "Overwatering. The leaves take up more water than they can hold.",
+        "fix": "Stop watering and let the mix dry out completely. Check the crown for rot and take cuttings from healthy strands as insurance."
+      },
+      {
+        "symptom": "Bare stems with leaves widely spaced",
+        "cause": "Insufficient light — the strands stretch toward the source.",
+        "fix": "Move to a much brighter position with some direct sun. Stretched sections will not fill in; trim them and lay the cuttings back onto the soil surface to root."
+      },
+      {
+        "symptom": "Plant thinning and dying back at the crown",
+        "cause": "Natural ageing of the centre, worsened by water collecting among the strands there.",
+        "fix": "Normal for mature plants. Lay cuttings from the healthy outer strands onto the surface to fill in, or start a fresh pot. Water at the pot edge rather than over the centre."
+      },
+      {
+        "symptom": "Reddish or purple tinge to the leaves",
+        "cause": "Sun stress, which is generally harmless and often considered attractive, though it can also indicate underwatering.",
+        "fix": "Check the soil. If watering is adequate, no action is needed — move slightly out of the strongest sun if you prefer green."
+      },
+      {
+        "symptom": "White cottony clusters among the strands",
+        "cause": "Mealybugs, which hide well in the dense tangle.",
+        "fix": "Dab each cluster with rubbing alcohol on a cotton bud and inspect weekly for a month."
+      },
+      {
+        "symptom": "Strands browning and drying from the base",
+        "cause": "Stem rot at soil level from overwatering or water sitting against the stems.",
+        "fix": "Cut affected strands away entirely, let the soil dry, and salvage healthy strands as cuttings. Improve drainage."
+      }
+    ],
+    "repotting": [
+      "String of bananas has a shallow root system and is happy pot-bound, so repot only every two to three years, or when the mix has broken down and stopped draining.",
+      "Choose a wide, shallow pot rather than a deep one, in terracotta or another breathable material. Spring is the right time.",
+      "Handle the strands carefully — they detach easily and every broken strand is a free cutting. Use dry mix, wait a week before the first watering, and skip fertiliser for a couple of months. Repotting is a good opportunity to lay cuttings onto the fresh surface to fill in bare areas."
+    ],
+    "varieties": [
+      "Curio radicans, formerly Senecio radicans, is the string of bananas, with crescent-shaped leaves along trailing stems. It grows faster and more robustly than string of pearls and tolerates a wider range of conditions.",
+      "Close relatives with near-identical care include string of pearls with spherical beads, string of dolphins with curved leaves resembling leaping dolphins, string of tears with teardrop beads, and string of fishhooks, a larger-leaved form. All these Curio species are toxic to cats and dogs, and because the trailing strands are so attractive to a playful cat, a high hanging position genuinely matters in a pet household."
+    ]
+  },
+  "rex-begonia": {
+    "care": {
+      "light": [
+        "Rex begonia wants bright indirect light with no direct sun. It is grown entirely for its foliage — the metallic silvers, purples, pinks and reds — and light level controls how vivid those colours are.",
+        "An east or north window is ideal. Direct sun scorches the thin textured leaves within hours and bleaches the metallic sheen. In light that is too low the colours dull toward green and the plant becomes leggy. Rex begonias also grow well under artificial light, which makes them a good option for a room with poor natural light."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain fully. In spring and summer that is usually every five to seven days; in winter, every ten to fourteen days.",
+        "Water at soil level and keep water off the leaves entirely. Rex begonias are more prone to powdery mildew and bacterial leaf spot than almost any other houseplant, and wet foliage in still air is exactly what those need. Bottom-watering suits them well.",
+        "They want humidity above 50%, but — crucially — not achieved by misting. Use a pebble tray or humidifier. Good air circulation is as important as the humidity itself: still, damp air is the combination that causes mildew, while moving humid air is what rex begonias actually want."
+      ],
+      "soil": [
+        "Use a light, airy, free-draining mix — two parts peat or coir-based compost to one part perlite, with a little bark. Rex begonias grow from a shallow surface rhizome with fine roots and rot easily in dense wet soil.",
+        "A shallow, wide pot suits the rhizome far better than a deep one. Keep the pot snug. Feed every three to four weeks at quarter to half strength through spring and summer only — rex begonias are light feeders and over-fertilising causes leaf edge burn. Stop entirely in winter when many go semi-dormant."
+      ]
+    },
+    "propagation": [
+      "Rex begonias are propagated from leaf cuttings, not stem cuttings, and this is one of the most satisfying propagations in houseplant growing — a single leaf can produce a dozen plants.",
+      "The classic method is leaf wedges. Take a healthy mature leaf and cut it into triangular wedges, each containing a section of a main vein running to the point of the wedge. Insert the pointed end into damp propagation mix so the vein is in contact with the surface. Plantlets emerge from the vein.",
+      "The alternative is vein cutting: lay a whole leaf face up on damp mix, slice across the main veins with a sharp blade in several places, and pin the leaf flat so the cuts touch the medium. A plantlet forms at each cut. Either way, cover with a clear lid or bag and keep warm in bright indirect light. Plantlets appear after four to eight weeks. Mature plants can also be divided by separating sections of the surface rhizome, each with roots and a leaf or two."
+    ],
+    "problems": [
+      {
+        "symptom": "White powdery coating on leaves",
+        "cause": "Powdery mildew, which rex begonias are exceptionally prone to. Caused by damp, still air and crowding.",
+        "fix": "Improve air circulation immediately — a small fan on low nearby makes a real difference. Remove affected leaves, space plants apart, stop misting entirely, and water at soil level only."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity, over-fertilising, or salts in tap water.",
+        "fix": "Raise humidity with a pebble tray or humidifier rather than misting, reduce feeding to quarter strength, and flush the pot occasionally with clean water."
+      },
+      {
+        "symptom": "Leaves losing their metallic colour and turning plain green",
+        "cause": "Insufficient light.",
+        "fix": "Move to a brighter position with indirect light, or add a grow light. New growth comes in properly coloured."
+      },
+      {
+        "symptom": "Plant dying back in autumn, losing most leaves",
+        "cause": "Semi-dormancy, which many rex begonias undergo in winter. Normal rather than terminal.",
+        "fix": "Reduce watering substantially and stop feeding. Keep the rhizome just barely damp and somewhere warm. Growth resumes in spring. Do not discard the pot."
+      },
+      {
+        "symptom": "Stems and rhizome going soft and mushy",
+        "cause": "Overwatering and rhizome rot, made worse by a deep pot or dense mix.",
+        "fix": "Take leaf cuttings immediately as insurance. Unpot, cut away soft rhizome, and repot healthy sections into fresh airy mix in a shallow pot."
+      },
+      {
+        "symptom": "Brown or black spots with yellow halos",
+        "cause": "Bacterial leaf spot, spread by water splashing onto leaves.",
+        "fix": "Remove affected leaves with sterile scissors, water at soil level only, and improve airflow. Isolate the plant if it spreads."
+      },
+      {
+        "symptom": "Leggy growth with long bare stretches of rhizome",
+        "cause": "Too little light.",
+        "fix": "Increase light. Cut the rhizome into sections and replant them to make a denser pot, which is standard renewal for this plant."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring, into a shallow, wide pot one size larger. Rex begonias grow from a surface rhizome that spreads sideways rather than rooting deeply, so pot shape matters more than depth.",
+      "Set the rhizome at or just below the surface — burying it causes rot. Use fresh airy mix and handle the brittle leaves and rhizome gently.",
+      "Water at soil level afterwards, keep humidity up but airflow good, and wait six weeks before feeding. This is the natural moment to divide a congested rhizome into several plants, and to take leaf cuttings from any leaves that come off in the process."
+    ],
+    "varieties": [
+      "Begonia rex-cultorum covers hundreds of named cultivars, bred entirely for leaf colour and texture. 'Escargot' has leaves that spiral into a snail shell shape, 'Fireworks' is silver with purple veining, and 'Red Kiss' is deep burgundy with a black centre.",
+      "Spiral, ruffled and pointed leaf forms are all available. Rex begonias do exceptionally well in terrariums, which solves the humidity problem — though airflow must still be adequate or mildew follows. Other begonia groups need quite different care: cane begonias root from stem cuttings, and tuberous ones go fully dormant. All begonias are toxic to cats and dogs, with the rhizome the most concentrated part."
+    ]
+  },
+  "ti-plant": {
+    "care": {
+      "light": [
+        "Ti plant needs bright indirect light with some gentle direct sun to develop and hold its pink, red and burgundy colouring. Light is the primary factor in whether the foliage stays vivid or fades.",
+        "An east window is ideal, or near a south or west window behind a sheer curtain. In insufficient light new leaves emerge green and the plant loses the colour it was bought for. Harsh unfiltered afternoon sun scorches the leaves, so the aim is bright but filtered. Rotate the pot regularly, since the canes lean toward light."
+      ],
+      "water": [
+        "Keep the mix evenly moist through spring and summer, watering when the top inch is dry — usually every five to seven days. Ti plant comes from tropical Pacific islands and does not tolerate drying out well.",
+        "Reduce to every ten to fourteen days in winter but do not let the root ball go dry. Drooping leaves and crisping edges follow quickly from drought.",
+        "The critical point for this species is water quality. Cordyline is among the most fluoride-sensitive houseplants there is, and fluoridated tap water produces the brown, burnt leaf tips that almost every specimen eventually develops. Use filtered, distilled or rainwater from the start. Humidity above 50% is also genuinely needed, and dry air compounds the tip-burn problem."
+      ],
+      "soil": [
+        "Use a well-draining potting mix with added perlite. Avoid mixes containing superphosphate or perlite-heavy blends that have been treated with fluoridated water, since both contribute to tip burn.",
+        "Drainage holes are essential. Feed monthly at half strength through spring and summer, and stop in winter. Ti plant is a moderate feeder, but salt accumulation worsens the tip-burn issue, so flush the pot thoroughly with clean water every couple of months."
+      ]
+    },
+    "propagation": [
+      "Ti plant propagates readily from cane cuttings, and this doubles as the remedy for a plant that has grown tall and bare — a very common outcome.",
+      "In spring, cut the cane wherever you want the plant to branch. The stump usually sprouts two or three new shoots from just below the cut, making the parent bushier. The removed section can be cut into pieces three to five inches long, each with at least one node, keeping track of orientation — a piece planted upside down will not root.",
+      "The leafy top roots directly in water or damp mix. Bare cane sections, traditionally called ti logs, can be laid horizontally half-buried in damp mix with the nodes facing up, or stood upright the right way round. Keep warm and humid in bright indirect light; shoots and roots appear in three to six weeks. Cordyline roots noticeably faster than most dracaenas, and a single tall cane can yield four or five new plants."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown, burnt leaf tips",
+        "cause": "Fluoride in tap water, which this genus is more sensitive to than almost any other houseplant. Dry air and salt buildup compound it.",
+        "fix": "Switch to filtered, distilled or rainwater immediately, raise humidity above 50%, and flush the pot with clean water every couple of months. Trim tips at an angle. New growth will be clean."
+      },
+      {
+        "symptom": "New leaves emerging plain green",
+        "cause": "Insufficient light. The pink and red pigments are a light response.",
+        "fix": "Move to a brighter position with filtered light. Existing green leaves stay as they are; new growth colours up."
+      },
+      {
+        "symptom": "Leaves dropping from the lower cane",
+        "cause": "Natural ageing as the cane lengthens, or a response to drought, cold or a sudden move.",
+        "fix": "Some bare lower cane is the normal habit. If shedding is rapid, check watering consistency and move away from draughts. Cut the cane back in spring to force branching."
+      },
+      {
+        "symptom": "Leaves drooping and crisping",
+        "cause": "Underwatering or low humidity.",
+        "fix": "Water more consistently and raise humidity. Ti plant is less drought-tolerant than the dracaenas it resembles."
+      },
+      {
+        "symptom": "Fine webbing and stippled leaves",
+        "cause": "Spider mites, drawn by dry air — the most common Cordyline pest.",
+        "fix": "Rinse the plant thoroughly including leaf undersides, treat with insecticidal soap every five days for three cycles, and raise humidity to prevent recurrence."
+      },
+      {
+        "symptom": "Soft, mushy cane at soil level",
+        "cause": "Stem rot from waterlogged soil.",
+        "fix": "Cut the cane above the rot into firm tissue and root the healthy top as a cutting. Repot into fresher, faster-draining mix."
+      },
+      {
+        "symptom": "Pale or bleached patches on leaves",
+        "cause": "Scorch from harsh direct sun.",
+        "fix": "Filter the strongest light while keeping overall brightness high. Damaged tissue does not recover."
+      }
+    ],
+    "repotting": [
+      "Repot every two years in spring. Ti plant grows moderately fast in good conditions, and the signs are roots through the drainage holes and water running straight through.",
+      "Move up one pot size into a stable container — tall canes make the plant top-heavy. Loosen circling roots and trim any that are soft.",
+      "Use this as the moment to cut a leggy plant back and propagate the removed cane, since the parent will branch from the cut as it recovers. Water with filtered water, keep humidity up, and wait six weeks before feeding."
+    ],
+    "varieties": [
+      "Cordyline fruticosa comes in many cultivars distinguished by leaf colour. 'Red Sister' has vivid pink-red new growth, 'Kiwi' is green striped with cream and edged in pink, and 'Black Magic' is a deep purple-bronze.",
+      "'Chocolate Queen' and 'Florica' offer further colour variations. The plant is sometimes sold as Hawaiian ti or good luck plant. Cordyline is frequently confused with Dracaena, and they are related, but Cordyline has more fluoride sensitivity and needs more humidity. Important: Cordyline fruticosa is toxic to cats and dogs, with saponins causing vomiting, drooling and, in cats especially, dilated pupils."
+    ]
+  },
+  "coffee-plant": {
+    "care": {
+      "light": [
+        "Coffee plant wants bright indirect light. In its native Ethiopian highlands it grows as an understorey shrub beneath taller trees, so it is adapted to filtered light rather than full exposure.",
+        "An east window is ideal, or a few feet back from a south or west window. Direct sun scorches the glossy leaves, producing brown patches and yellowing — this is the most common mistake, since people assume a tropical crop plant wants full sun. In low light it survives but grows slowly and will not flower. Rotate the pot regularly for even growth."
+      ],
+      "water": [
+        "Keep the mix consistently moist but never soggy, watering when the top inch is dry — usually every five to seven days in spring and summer. Coffee dislikes drying out and responds by dropping leaves.",
+        "Reduce to every ten to fourteen days in winter, but never let the root ball dry through. The balance is evenly damp; both drought and waterlogging cause leaf loss.",
+        "Humidity above 50% is important. Coffee comes from a misty highland climate and dry indoor air produces browning leaf edges and invites spider mites. A humidifier helps considerably. Use filtered or rainwater if your tap water is hard, since coffee prefers slightly acidic conditions and is sensitive to accumulated salts."
+      ],
+      "soil": [
+        "Use a slightly acidic, well-draining potting mix — a peat or coir-based compost with added perlite works well, and an ericaceous compost blended with perlite is even better. Coffee prefers a pH around 6 to 6.5.",
+        "Drainage holes are essential. Feed every two to four weeks through spring and summer with a balanced fertiliser at half strength, ideally one formulated for acid-loving plants. Coffee is a moderately hungry grower. Stop feeding in winter. Flush the pot with clean water every couple of months to prevent salt buildup."
+      ]
+    },
+    "propagation": [
+      "Coffee propagates from seed and from stem cuttings, with an important caveat about seed that catches people out.",
+      "Seed must be genuinely fresh — green, unroasted coffee beans still in their parchment. Roasted supermarket beans will never germinate, and even green beans lose viability within a few months. Fresh seed sown in damp mix at 25°C germinates in two to four months, which requires patience.",
+      "Stem cuttings are more practical. In spring or early summer, take a cutting six to eight inches long from a healthy upright stem — and specifically from a vertical shoot rather than a side branch, because cuttings from lateral branches grow permanently sideways and never form an upright plant. Remove the lower leaves, dip in rooting hormone, and pot into damp free-draining mix under a clear bag. Keep warm and humid in bright indirect light. Roots take two to three months, which is slower than most houseplants."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown patches and yellowing on leaves",
+        "cause": "Direct sun. Coffee is an understorey plant and scorches readily, contrary to what most people assume.",
+        "fix": "Move out of direct light into bright filtered conditions. Damaged leaves do not recover."
+      },
+      {
+        "symptom": "Leaves dropping suddenly",
+        "cause": "The soil dried out, a cold draught, or a sharp temperature change. Coffee is sensitive to temperatures below about 15°C.",
+        "fix": "Keep the mix evenly moist, move away from draughty windows and doors, and maintain a warm stable position."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity or salt buildup from fertiliser and hard water.",
+        "fix": "Raise humidity above 50%, flush the pot with clean water every couple of months, and use filtered water."
+      },
+      {
+        "symptom": "Yellowing leaves with green veins",
+        "cause": "Iron deficiency, common in coffee when the soil pH has drifted too alkaline — often from hard tap water.",
+        "fix": "Repot into an acidic mix, use filtered or rainwater, and feed with a fertiliser for acid-loving plants containing chelated iron."
+      },
+      {
+        "symptom": "No flowers or berries",
+        "cause": "The plant is too young — coffee needs three to five years before flowering — or light and humidity are insufficient.",
+        "fix": "Be patient, maintain bright indirect light and good humidity, and feed through the growing season. Indoor plants do flower and fruit, but it takes years."
+      },
+      {
+        "symptom": "Fine webbing and stippled leaves",
+        "cause": "Spider mites, encouraged by dry indoor air.",
+        "fix": "Rinse the plant thoroughly, treat with insecticidal soap every five days for three cycles, and raise humidity."
+      },
+      {
+        "symptom": "Leggy stem with leaves only at the top",
+        "cause": "Insufficient light and no pruning.",
+        "fix": "Increase light and prune the top back in spring to encourage branching. Prune vertical shoots rather than side branches if you plan to root the cuttings."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring while the plant is growing, then less often. Signs are roots through the drainage holes and rapid drying between waterings.",
+      "Move up one pot size into fresh slightly acidic, free-draining mix. Coffee has a deep taproot when young, so a pot with reasonable depth suits it better than a shallow one.",
+      "Handle the roots gently and water thoroughly afterwards. Keep humidity up and out of direct sun for a couple of weeks while it settles. Do not feed for six weeks. Prune to shape at the same time if the plant has grown leggy."
+    ],
+    "varieties": [
+      "Coffea arabica is the species grown as a houseplant, with glossy dark green leaves and, on mature plants, fragrant white flowers followed by red berries. 'Nana' is a dwarf cultivar better suited to indoor growing, staying around three feet.",
+      "Coffea canephora, robusta coffee, is occasionally sold but is larger and less ornamental. Two practical notes: harvesting usable coffee from a houseplant is possible but a mature indoor plant produces only a handful of beans a year, so grow it for the foliage rather than the crop. And all parts of the coffee plant except the ripe berry flesh are toxic to cats and dogs due to caffeine content, causing vomiting, rapid heartbeat and restlessness."
+    ]
+  },
+  "norfolk-island-pine": {
+    "care": {
+      "light": [
+        "Norfolk Island pine needs bright light, including several hours of direct sun, and this is where most of them fail. It is commonly sold as a Christmas decoration and placed in a dim corner, where it slowly thins and drops branches.",
+        "A south or west window is the right position, or directly in front of an east window. In insufficient light the branches space out widely, lower branches yellow and drop, and the plant becomes sparse and lopsided. Rotate the pot a quarter turn every week — this plant leans toward light noticeably, and an uneven specimen cannot be corrected because lost branches never regrow."
+      ],
+      "water": [
+        "Keep the mix evenly moist, watering when the top inch is dry — usually every five to seven days in spring and summer. Norfolk Island pine does not tolerate drying out, and branches that brown from drought are lost permanently.",
+        "Reduce to every ten to fourteen days in winter but never let the root ball dry through. Equally, do not let it stand in water; the roots rot in saturated soil.",
+        "Humidity above 50% is genuinely important. This is a subtropical island species used to moist ocean air, and dry winter heating is what causes the browning, dropping branches that so many indoor specimens suffer. A humidifier makes a real difference, and grouping it with other plants helps."
+      ],
+      "soil": [
+        "Use a well-draining, slightly acidic potting mix with added perlite and a little sand. Norfolk Island pine wants a medium that holds moisture while draining freely.",
+        "Choose a stable pot — the plant grows tall and its shallow root system makes it prone to tipping. Feed every four to six weeks at half strength through spring and summer, and stop in winter. It is a light feeder. Flush the pot occasionally with clean water, since salt buildup contributes to needle browning."
+      ]
+    },
+    "propagation": [
+      "Norfolk Island pine is very difficult to propagate at home, and it is worth knowing why before attempting it.",
+      "Cuttings taken from side branches will root, but they grow permanently sideways — producing a flat, sprawling plant that never develops the upright symmetrical form. This is called plagiotropic growth and it is a genuine, irreversible characteristic of the species. Only a cutting from the vertical leading shoot produces an upright plant, and taking that cutting destroys the parent's growing point, after which the parent cannot recover its shape.",
+      "Seed is the practical method, though seed is rarely available and germination is slow and erratic, needing warmth and fresh seed. Realistically, this is a plant to buy rather than propagate. If you do want to try, sow fresh seed in damp free-draining mix at around 20°C, keep humid, and expect germination over one to three months and years of growth to reach any size."
+    ],
+    "problems": [
+      {
+        "symptom": "Lower branches yellowing and dropping",
+        "cause": "Low humidity, insufficient light, or the soil drying out. Some loss of the lowest branches with age is natural, but rapid shedding is not.",
+        "fix": "Raise humidity above 50%, move to a much brighter position, and keep the soil evenly moist. Critically, lost branches never regrow — the bare section is permanent, so prevention is the only remedy."
+      },
+      {
+        "symptom": "Brown, crispy needle tips throughout",
+        "cause": "Dry air, most commonly from central heating in winter.",
+        "fix": "Run a humidifier nearby, move away from radiators and vents, and group with other plants. This is the single most common Norfolk Island pine complaint."
+      },
+      {
+        "symptom": "Branches spaced widely with a sparse, stretched look",
+        "cause": "Insufficient light.",
+        "fix": "Move to the brightest position available. The stretched growth stays as it is, but new growth comes in more compact."
+      },
+      {
+        "symptom": "Plant leaning permanently to one side",
+        "cause": "Growing toward a single light source without rotation.",
+        "fix": "Rotate a quarter turn every week from the start. An established lean cannot be corrected, since the plant grows from a single leader and the shape is fixed."
+      },
+      {
+        "symptom": "Whole plant browning from the bottom upward",
+        "cause": "Root rot from waterlogged soil, or severe drought at some point.",
+        "fix": "Check drainage and the roots. Trim soft roots and repot into fresh mix. If the root ball has shrunk from the pot sides, submerge the pot to rehydrate it."
+      },
+      {
+        "symptom": "Fine webbing between branches",
+        "cause": "Spider mites, which thrive in the dry air that also causes needle browning.",
+        "fix": "Rinse the plant thoroughly in the shower, treat with insecticidal soap every five days for three cycles, and fix the humidity."
+      },
+      {
+        "symptom": "No growth at the top, or a damaged leader",
+        "cause": "The vertical growing tip has been damaged or cut.",
+        "fix": "Unfortunately there is no fix. Norfolk Island pine grows from a single leader and cannot replace it, so the plant stops gaining height. Never prune the top."
+      }
+    ],
+    "repotting": [
+      "Repot every two to three years in spring. Norfolk Island pine grows slowly indoors and has a shallow root system, so it does not need frequent moves.",
+      "Choose a pot one size larger that is heavy and wide rather than deep — the shallow roots and tall form make it prone to tipping. Handle the root ball gently.",
+      "Water thoroughly afterwards, keep humidity high, and wait six weeks before feeding. Never prune the growing tip at any point; unlike most houseplants, this one cannot branch from a cut and pruning the leader permanently stops upward growth."
+    ],
+    "varieties": [
+      "Araucaria heterophylla is the Norfolk Island pine, from a single small island in the Pacific, with soft needle-like foliage in symmetrical tiers. There are no meaningful cultivars — what varies is size and age.",
+      "Related species include Araucaria araucana, the monkey puzzle tree, which is a hardy outdoor conifer, and Araucaria bidwillii, the bunya pine. Note that despite the name and appearance, this is not a true pine and is not frost-hardy — it must stay indoors above about 10°C. Norfolk Island pine is non-toxic to cats and dogs, which makes it a genuinely safe alternative to a real Christmas tree in a pet household."
+    ]
+  },
+  "stromanthe-triostar": {
+    "care": {
+      "light": [
+        "Stromanthe Triostar wants bright indirect light — more than most of its prayer plant relatives, because the cream and pink variegation contains little chlorophyll and the plant needs the extra light to compensate.",
+        "An east window is ideal, or near a south or west window behind a sheer curtain. Direct sun scorches the thin leaves and bleaches the pink, which burns before the green does. In light that is too low, new leaves emerge with less variegation and the pink undersides dull. Like other Marantaceae, the leaves fold upward at night and open again by morning."
+      ],
+      "water": [
+        "Keep the mix evenly moist — never soggy, never dry. Water when the top half-inch feels dry, usually every four to six days in spring and summer, and every seven to ten days in winter.",
+        "Water quality is critical. Stromanthe is as sensitive to fluoride, chlorine and dissolved salts as any calathea, and hard tap water produces the brown crispy edges this family is known for — damage that shows first and worst on the pale variegated sections. Use filtered, distilled or rainwater from the start.",
+        "Humidity of 60% or more is genuinely required rather than preferred. The thin variegated leaves lose moisture fast, and this plant will not look good in a dry room whatever else you get right. A humidifier is the realistic solution; misting is not."
+      ],
+      "soil": [
+        "Use a moisture-retentive but airy mix — two parts coir or peat-based compost to one part perlite, with a little fine bark. It should stay damp without compacting.",
+        "Plastic or glazed ceramic pots hold moisture better than terracotta, which dries too fast. Drainage holes are still essential. Feed at quarter to half strength monthly through spring and summer only, and flush the pot with clean water every couple of months — Stromanthe is as sensitive to fertiliser salts as it is to tap water."
+      ]
+    },
+    "propagation": [
+      "Stromanthe Triostar is propagated by division only. Stem and leaf cuttings will not root, because the plant grows from a clumping rhizome rather than from nodes along a stem — a cut leaf simply rots.",
+      "Divide in spring, ideally while repotting, and only once the plant has formed a decent clump. Slide it from the pot and gently tease or wash the mix away so you can see where rhizome sections separate. Pull them apart by hand where possible, using a clean knife only where necessary.",
+      "Each division needs its own roots and at least three or four leaves — small pieces struggle. Choose divisions with balanced variegation; a section that is almost entirely cream lacks the chlorophyll to establish. Pot into fresh moisture-retentive mix, water with filtered water, and keep warm, shaded and very humid for the first month, ideally under a clear cover. Expect the divisions to sulk and possibly drop a leaf before new growth begins."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Minerals in tap water, low humidity, or fertiliser salt buildup — usually all three, and most visible on the pale variegated areas.",
+        "fix": "Switch to filtered, distilled or rainwater, raise humidity above 60%, and flush the pot with clean water every couple of months. Trim damaged edges following the leaf shape."
+      },
+      {
+        "symptom": "Leaves curling inward and not opening flat in the day",
+        "cause": "Underwatering, low humidity, or too much light. Note that folding upward at night is normal and not a problem.",
+        "fix": "Check the soil first, then humidity, then position. Leaves usually resume their daily rhythm within a week of conditions improving."
+      },
+      {
+        "symptom": "New leaves emerging plain green",
+        "cause": "Insufficient light. The plant favours chlorophyll-rich tissue when short of energy.",
+        "fix": "Move to brighter indirect light. Prune out fully green shoots to redirect energy into variegated growth."
+      },
+      {
+        "symptom": "Pink and cream sections browning before the green does",
+        "cause": "Sunburn or low humidity. The unpigmented tissue is thinner and more vulnerable.",
+        "fix": "Move out of direct sun and raise humidity. This pattern of damage is characteristic of variegated Marantaceae."
+      },
+      {
+        "symptom": "Yellowing leaves with wet soil",
+        "cause": "Overwatering and root rot.",
+        "fix": "Confirm the pot drains and is not standing in water. Let the top half-inch dry before each watering. Trim soft roots and repot if needed."
+      },
+      {
+        "symptom": "Whole plant drooping",
+        "cause": "Either thirst or root rot — they look identical in this family.",
+        "fix": "Feel the soil before acting. Dry means water; wet means stop and check the roots."
+      },
+      {
+        "symptom": "Fine webbing under the leaves",
+        "cause": "Spider mites, which thrive in exactly the dry air that also causes brown edges.",
+        "fix": "Rinse thoroughly, treat with insecticidal soap every five days for three cycles, and fix the humidity to prevent recurrence."
+      }
+    ],
+    "repotting": [
+      "Stromanthe dislikes root disturbance and should be repotted only every two years, or when roots have filled the pot and it dries out much faster than before.",
+      "Repot in spring into a plastic or glazed pot one size larger. Disturb the root ball as little as possible — loosen the outer edge and leave the core intact unless you are deliberately dividing.",
+      "Water with filtered water, keep humidity high, and expect a period of sulking with some leaf loss. Do not feed for six to eight weeks. If the plant is thriving, leaving it alone is usually better than repotting on schedule."
+    ],
+    "varieties": [
+      "Stromanthe sanguinea 'Triostar', also sold as 'Tricolor', has long lance-shaped leaves splashed cream and green on top with deep magenta-pink undersides — the pink underside is the most striking feature and shows when the leaves fold up at night.",
+      "Within the wider prayer plant family, Calathea offers patterned foliage with similar demands, Maranta trails and roots from nodes making it much easier to propagate, and Ctenanthe has a more upright branching habit. All Marantaceae, including Stromanthe, are non-toxic to cats and dogs — which is the main reason this demanding group remains so popular in pet households."
+    ]
   }
 }
