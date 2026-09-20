@@ -27,6 +27,79 @@ except FileNotFoundError:
     PAGE_META = {}
 
 
+def json_escape(text):
+    """Escape a string for embedding in a JSON-LD literal."""
+    return json.dumps(str(text))[1:-1]
+
+
+def render_faq_schema(qa):
+    entities = ",\n".join(
+        '''        {
+            "@type": "Question",
+            "name": "%s",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "%s"
+            }
+        }''' % (json_escape(q), json_escape(a))
+        for q, a in qa
+    )
+    return '''    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+%s
+    ]
+}
+    </script>''' % entities
+
+# --- FAQ phrasing (Spanish) ---
+faq_light_phrases = {
+    1: "poca luz", 2: "luz baja a media", 3: "luz media",
+    4: "luz brillante indirecta", 5: "luz brillante o directa",
+}
+faq_water_phrases = {
+    1: "mínimas", 2: "bajas", 3: "moderadas", 4: "regulares", 5: "frecuentes",
+}
+faq_difficulty_phrases = {
+    "easy": "fácil de cuidar", "medium": "de cuidado moderado",
+    "moderate": "de cuidado moderado", "hard": "exigente",
+}
+faq_growth_phrases = {"slow": "lento", "moderate": "moderado", "fast": "rápido"}
+faq_pet_labels = {"cats": "gatos", "dogs": "perros"}
+
+
+def build_faq_schema(plant, name):
+    """FAQPage schema (luz, toxicidad, dificultad, riego)."""
+    light_phrase = faq_light_phrases.get(plant.get("light", 3), "luz media")
+    water_phrase = faq_water_phrases.get(plant.get("water", 3), "moderadas")
+    diff_phrase = faq_difficulty_phrases.get(plant.get("difficulty", "medium"), "de cuidado moderado")
+    growth_phrase = faq_growth_phrases.get(plant.get("growth_rate", "moderate"), "moderado")
+    care_tips = plant.get("care_tips", "")
+
+    if plant.get("pet_safe", False):
+        tox_q = f"¿Es {name} una planta segura para las mascotas?"
+        tox_a = f"Sí, {name} es una planta no tóxica y segura para gatos y perros."
+    else:
+        pets = " y ".join(faq_pet_labels.get(p, p) for p in plant.get("toxic_to", [])) or "las mascotas"
+        tox_q = f"¿Es {name} una planta tóxica para las mascotas?"
+        tox_a = (f"Sí, {name} es una planta tóxica para {pets}. "
+                 f"Mantén la planta fuera del alcance de las mascotas.")
+
+    return [
+        (f"¿Cuánta luz necesita {name}?",
+         f"{name} necesita {light_phrase}. {care_tips}".strip()),
+        (tox_q, tox_a),
+        (f"¿Es {name} fácil de cuidar?",
+         f"{name} se considera {diff_phrase}. Tiene necesidades de riego "
+         f"{water_phrase} y crece a un ritmo {growth_phrase}."),
+        (f"¿Con qué frecuencia debo regar {name}?",
+         f"{name} tiene necesidades de riego {water_phrase}. {care_tips}".strip()),
+    ]
+
+# Size to height mapping
 size_heights = {
     "small": "15-30 cm",
     "medium": "30-90 cm", 
@@ -223,6 +296,7 @@ def generate_plant_html(plant):
     )
     image_url = f"{BASE_URL_ROOT}/images/plants/{plant_id}.webp"
     page_url = f"{BASE_URL}/plants/{plant_id}/"
+    faq_schema = render_faq_schema(build_faq_schema(plant, name))
 
     html = f'''<!DOCTYPE html>
 <html lang="es">
@@ -319,6 +393,7 @@ def generate_plant_html(plant):
     ]
 }}
     </script>
+{faq_schema}
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
 </head>
 <body class="bg-slate-50 text-slate-800">
