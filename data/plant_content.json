@@ -4596,5 +4596,685 @@
       "Stromanthe sanguinea 'Triostar', also sold as 'Tricolor', has long lance-shaped leaves splashed cream and green on top with deep magenta-pink undersides — the pink underside is the most striking feature and shows when the leaves fold up at night.",
       "Within the wider prayer plant family, Calathea offers patterned foliage with similar demands, Maranta trails and roots from nodes making it much easier to propagate, and Ctenanthe has a more upright branching habit. All Marantaceae, including Stromanthe, are non-toxic to cats and dogs — which is the main reason this demanding group remains so popular in pet households."
     ]
+  },
+  "pothos-marble-queen": {
+    "care": {
+      "light": [
+        "Marble Queen needs brighter light than golden pothos, because the heavy white marbling contains little chlorophyll and the plant has less photosynthetic tissue to work with. Bright indirect light keeps the variegation crisp and the growth respectable.",
+        "In medium or low light new leaves emerge progressively greener until the marbling disappears entirely, and growth slows markedly — Marble Queen is naturally slower than golden pothos and becomes very slow in shade. Direct sun bleaches and scorches the white sections first, since they have no pigment protection. An east window, or filtered light near a brighter one, is the balance."
+      ],
+      "water": [
+        "Let the top one to two inches of mix dry before watering, then water thoroughly until it drains. In spring and summer that is usually every seven to twelve days — slightly less often than golden pothos, because slower growth means less water use.",
+        "Reduce to every two to three weeks in winter. The leaves go slightly limp when thirsty and recover within hours, which makes the plant easy to read.",
+        "Because Marble Queen grows more slowly, it is more vulnerable to overwatering than the plain green forms — the same watering schedule that suits a fast-growing golden pothos will keep a Marble Queen's mix wet for too long. When in doubt, wait. Average humidity is fine, though above 50% improves growth."
+      ],
+      "soil": [
+        "An ordinary well-draining houseplant mix with added perlite or orchid bark suits it. The extra aeration matters more here than for golden pothos, given the slower growth and greater rot risk.",
+        "Feed monthly at half strength through spring and summer and stop in winter. Adequate feeding supports the variegated growth, but a slow-growing plant cannot use much, and over-fertilising shows as brown tips and a white crust on the soil. Flush the pot with plain water every few months."
+      ]
+    },
+    "propagation": [
+      "Marble Queen propagates from stem cuttings as readily as any pothos, with one consideration specific to variegated plants: the cutting will broadly reflect the variegation of the stem it came from.",
+      "Find a node — the small brown nub where a leaf stem joins the vine, often with a stubby aerial root — and cut half an inch below it. Each cutting needs at least one node and one leaf.",
+      "Choose your material deliberately. A section with balanced green and white marbling produces a cutting that continues in that vein. A section that has reverted to mostly green will give a green plant, and a cutting that is almost entirely white lacks the chlorophyll to fuel rooting and usually fails or stalls indefinitely. Aim for cuttings with a good mix. Root in water with the node submerged, changing it weekly — roots appear in one to three weeks, a little slower than golden pothos. Pot several together for a full plant."
+    ],
+    "problems": [
+      {
+        "symptom": "New leaves emerging plain green with no marbling",
+        "cause": "Insufficient light. The plant favours chlorophyll-rich tissue when short of energy.",
+        "fix": "Move to brighter indirect light. Cut fully green vines back to a node where marbled leaves were produced, which redirects growth into variegated stems."
+      },
+      {
+        "symptom": "Leaves almost entirely white, then browning",
+        "cause": "Over-variegation on that stem. The leaf cannot photosynthesise enough to sustain itself.",
+        "fix": "Prune that vine back to a section with balanced marbling. Chasing maximum white weakens the plant."
+      },
+      {
+        "symptom": "Brown papery patches on the white sections only",
+        "cause": "Sunburn. Unpigmented tissue scorches long before green tissue.",
+        "fix": "Move out of direct sun into filtered brightness. Damaged tissue does not recover."
+      },
+      {
+        "symptom": "Yellow leaves, several at once",
+        "cause": "Overwatering — a particular risk with this slower-growing cultivar.",
+        "fix": "Let the top inches dry properly before watering, and water less often than you would a golden pothos in the same spot."
+      },
+      {
+        "symptom": "Very slow or no growth",
+        "cause": "Partly natural — Marble Queen is genuinely slower than green pothos — and partly low light.",
+        "fix": "Increase light and feed through the growing season. Adjust expectations: this cultivar will never match the pace of a golden pothos."
+      },
+      {
+        "symptom": "Long bare vines with widely spaced leaves",
+        "cause": "Too little light.",
+        "fix": "Move brighter and prune the bare vines back to a few inches from the soil. Pothos branches readily from cut nodes, and the cuttings root to fill the same pot."
+      },
+      {
+        "symptom": "Black stem bases and collapsing vines",
+        "cause": "Root rot from prolonged wet soil.",
+        "fix": "Take healthy cuttings immediately, then unpot, trim soft black roots, and repot into fresh well-draining mix in a smaller pot."
+      }
+    ],
+    "repotting": [
+      "Marble Queen grows more slowly than golden pothos, so repot every two years rather than annually, or when roots have genuinely filled the pot.",
+      "Move up one size only into fresh well-draining mix. A pot that is too large holds wet soil around a slow-growing root system, which is the main hazard for this cultivar.",
+      "Tease apart circling roots at the base. If the plant has gone bare at the top, repotting is the moment to cut it back and replant rooted cuttings around the parent. Water well and wait a month before feeding."
+    ],
+    "varieties": [
+      "Epipremnum aureum 'Marble Queen' is heavily streaked and splashed with creamy white over green, with the pattern varying leaf to leaf. 'Snow Queen' is similar but with even more white and correspondingly slower growth.",
+      "'Golden' is the familiar yellow-marked form and the fastest grower. 'N'Joy' and 'Pearls and Jade' are compact with cleaner white borders. 'Manjula' has broad wavy leaves with swirled cream. All are the same species and all are toxic to cats and dogs, causing mouth irritation if chewed — a hanging position is worth considering in a pet household."
+    ]
+  },
+  "cyclamen": {
+    "care": {
+      "light": [
+        "Cyclamen wants bright indirect light and, crucially, cool conditions. It is a Mediterranean plant that grows and flowers in winter and rests through summer — the reverse of most houseplants — and it is sold in flower during exactly the season when most homes are heated.",
+        "An east or north window in a cool room is ideal. Direct sun scorches the leaves. The temperature matters as much as the light: cyclamen flowers best between 10 and 16°C and declines rapidly above 20°C. A warm living room is the single most common reason a supermarket cyclamen collapses within weeks. A cool porch, unheated bedroom or windowsill away from radiators is much better."
+      ],
+      "water": [
+        "Water carefully and only into the soil at the edge of the pot, never over the crown. The tuber sits at the soil surface with the leaves and flower stems emerging from its top, and water settling there causes crown rot — the commonest way cyclamen are killed.",
+        "Bottom-watering is the safest method: stand the pot in a saucer of water for fifteen to twenty minutes, then pour away what remains. Water when the top inch feels dry, typically every five to seven days while in active growth.",
+        "The dormancy cycle is essential to understand. After flowering, usually in spring, the leaves yellow and die back. This is not failure. Stop watering, let the foliage wither, and rest the tuber somewhere cool and dry for two to three months. Resume watering in late summer and growth restarts. Humidity above 50% helps, but never mist the crown."
+      ],
+      "soil": [
+        "Use a well-draining potting mix with added perlite and a little grit. Cyclamen tubers rot in dense wet soil.",
+        "The pot should be snug — cyclamen flower better when slightly pot-bound. Plant the tuber so its top third sits proudly above the soil surface rather than buried; burying it is a direct route to rot. Feed every two to four weeks at half strength with a high-potassium fertiliser while in growth and flower, and stop entirely during summer dormancy."
+      ]
+    },
+    "propagation": [
+      "Cyclamen is propagated from seed. The tuber does not produce offsets, and although very large old tubers can sometimes be cut into sections each with a growth point, the success rate is poor and rot usually follows — it is not worth attempting on a plant you care about.",
+      "Seed is straightforward if slow. Collect seed from spent flowers once the pods coil down and split, or buy fresh seed. Soak the seed overnight, then sow about half an inch deep in damp free-draining mix. Cover the pot to exclude light — cyclamen seed germinates in darkness, which is unusual and often missed.",
+      "Keep at around 15°C, which is cooler than most seed needs. Germination takes four to eight weeks and can be erratic. Once seedlings appear, move them into bright indirect light and grow them on cool. Expect twelve to eighteen months from sowing to the first flowers, and grow them through their natural winter-growth cycle from the start."
+    ],
+    "problems": [
+      {
+        "symptom": "Leaves yellowing and the plant collapsing soon after purchase",
+        "cause": "Too warm. Cyclamen needs 10-16°C and declines fast in a heated room.",
+        "fix": "Move to the coolest bright spot you have — an unheated room, porch or windowsill away from radiators. This single change saves most struggling cyclamen."
+      },
+      {
+        "symptom": "Soft, mushy crown with collapsing stems",
+        "cause": "Crown rot from water poured over the top of the tuber.",
+        "fix": "Often fatal. Water only at the pot edge or from below, and set the tuber so its top sits above the soil line. Remove rotted tissue and hope the remaining tuber recovers."
+      },
+      {
+        "symptom": "All leaves yellow and die back in spring",
+        "cause": "Normal dormancy. Cyclamen rests through summer.",
+        "fix": "Stop watering, let the foliage die back completely, and keep the tuber cool and dry for two to three months. Resume watering in late summer. Do not discard the pot."
+      },
+      {
+        "symptom": "Flower buds forming but not opening",
+        "cause": "Too warm, too dry at the roots, or insufficient light.",
+        "fix": "Move somewhere cooler and brighter, and keep watering consistent. Cyclamen buds abort readily in warm dry air."
+      },
+      {
+        "symptom": "Leaves curling and distorted",
+        "cause": "Cyclamen mites, which are microscopic and attack the growing point, or aphids on new growth.",
+        "fix": "Isolate the plant immediately — cyclamen mites spread easily and are hard to treat. Discarding a badly affected plant is often the pragmatic choice. Aphids can be rinsed off and treated with insecticidal soap."
+      },
+      {
+        "symptom": "Grey fuzzy mould on leaves and flowers",
+        "cause": "Botrytis, encouraged by damp still air and dead material left on the plant.",
+        "fix": "Remove affected parts and all spent flowers and leaves immediately, improve air circulation, and avoid wetting the foliage."
+      },
+      {
+        "symptom": "Spent flowers and yellow leaves accumulating",
+        "cause": "Normal turnover, but leaving them invites botrytis.",
+        "fix": "Remove them by pulling with a sharp twist at the base rather than cutting — a cut stub left on the tuber rots and can infect the crown."
+      }
+    ],
+    "repotting": [
+      "Repot every year or two at the end of summer dormancy, just as new growth is about to begin. This is the only good moment; never repot a plant in flower.",
+      "Move up one small size only, or refresh the mix in the same pot — cyclamen flower better slightly snug. Use free-draining mix with added grit.",
+      "Set the tuber so its top third sits above the soil surface. This is the most important part of the operation: a buried tuber rots. Water lightly at the pot edge to start growth, and resume normal care once leaves appear."
+    ],
+    "varieties": [
+      "Cyclamen persicum is the florist's cyclamen sold as a houseplant, with large flowers in white, pink, red and purple above silver-marbled heart-shaped leaves. Miniature forms are more compact and often more strongly scented.",
+      "Cyclamen hederifolium and C. coum are hardy garden species that are much tougher but smaller-flowered, and are grown outdoors rather than indoors. Important safety note: all cyclamen are toxic to cats and dogs, with the tuber the most concentrated part — ingestion causes vomiting and, in quantity, heart rhythm problems. Given how often cyclamen is given as a winter gift, this is worth knowing in a pet household."
+    ]
+  },
+  "golden-barrel-cactus": {
+    "care": {
+      "light": [
+        "Golden barrel cactus needs as much direct sun as you can give it — six or more hours daily. It grows in exposed rocky sites in central Mexico and is adapted to intense light.",
+        "A south-facing window is really the only indoor position that works well. In insufficient light the growth becomes pale and the plant etiolates, losing its spherical shape and stretching into a narrow column with widely spaced spine clusters. This is permanent and disfiguring. Introduce strong sun gradually to a plant that has been in a shop or dim room, since cacti do sunburn — yellow or white bleached patches that never recover."
+      ],
+      "water": [
+        "Water thoroughly, then let the mix dry out completely before watering again. In spring and summer that usually means every two to three weeks.",
+        "In winter, water very little or not at all. Golden barrel benefits from a genuine dry rest at around 10-12°C from late autumn to early spring, which also encourages flowering in mature plants. Watering through a cool winter is the most reliable way to rot one.",
+        "Water at soil level and avoid letting water sit against the body of the plant, which causes basal rot. The plant is slow to show distress — a golden barrel that has been overwatered often looks fine until it suddenly goes soft at the base, by which point the damage is done. When in doubt, do not water. Humidity should be low."
+      ],
+      "soil": [
+        "Use a very gritty mineral mix — one part cactus compost to one part coarse sand, pumice or grit. Standard cactus compost alone is often too rich and water-retentive for barrel cacti.",
+        "Terracotta is strongly preferred for its breathability, in a pot only slightly wider than the plant. A layer of coarse grit on the surface keeps the base dry and looks appropriate. Feed at most once or twice during the growing season with a half-strength cactus fertiliser, and never in winter. Golden barrels grow very slowly and cannot use much."
+      ]
+    },
+    "propagation": [
+      "Golden barrel cactus is propagated from seed, and occasionally from offsets, though most plants never offset — a single barrel typically stays solitary for decades.",
+      "Seed is the standard method. Sow fresh seed on the surface of damp gritty mix, do not cover, and keep the container covered and warm at around 21-24°C in bright indirect light. Germination takes two to four weeks. Seedlings are tiny green spheres and must be kept lightly moist for the first several months — the opposite of adult care — then gradually weaned onto a dry regime over their first year.",
+      "Be realistic about the timescale: a golden barrel takes ten years or more to reach the size of a grapefruit, and mature plants in cultivation may be decades old. This is genuinely a plant for the long term. If your plant does produce offsets around its base, cut one away with a clean knife, let the wound callus for a week, and pot into dry gritty mix."
+    ],
+    "problems": [
+      {
+        "symptom": "Soft, brown or black patch at the base",
+        "cause": "Basal rot from overwatering, watering in winter, or water sitting against the body.",
+        "fix": "Often fatal by the time it shows. Unpot, cut away all soft tissue with a sterile blade until only firm green remains, dust with sulphur, and let it dry for a week or more before repotting in dry mix. Water only at soil level in future."
+      },
+      {
+        "symptom": "Stretching upward and losing the spherical shape",
+        "cause": "Insufficient light — etiolation.",
+        "fix": "Move to the sunniest window available or add a grow light. The stretched section is permanent and will not re-round, though new growth comes in correctly if light improves."
+      },
+      {
+        "symptom": "Yellow or white bleached patches on the sun-facing side",
+        "cause": "Sunburn, usually after an abrupt move into intense sun.",
+        "fix": "Increase sun exposure over two to three weeks rather than at once. Scarring is permanent."
+      },
+      {
+        "symptom": "Body shrivelling and wrinkling",
+        "cause": "Genuine underwatering, which takes a long time to reach in this species, or root loss preventing uptake.",
+        "fix": "Water thoroughly and check again in two weeks. If the plant does not plump up, unpot and inspect the roots for rot or root mealybugs."
+      },
+      {
+        "symptom": "No growth for a year or more",
+        "cause": "Usually just the plant's pace — golden barrels are extremely slow — or insufficient light.",
+        "fix": "Ensure maximum sun and feed lightly once in summer. Do not respond by watering more, which is the damaging mistake."
+      },
+      {
+        "symptom": "White cottony masses among the spines or on the roots",
+        "cause": "Mealybugs, including root mealybugs which are invisible until you unpot.",
+        "fix": "Dab visible clusters with rubbing alcohol on a cotton bud. For root mealybugs, unpot, wash the roots clean, and repot into fresh mix in a sterilised pot."
+      },
+      {
+        "symptom": "Corky brown patches on the lower body",
+        "cause": "Natural corking as the plant ages, which is normal on mature specimens.",
+        "fix": "No action needed if the tissue is firm and dry. Soft brown tissue is rot instead and requires immediate action."
+      }
+    ],
+    "repotting": [
+      "Golden barrel cactus is very slow and needs repotting only every three to five years, or when the plant has filled its pot entirely.",
+      "Repot in spring into a pot only slightly larger. The spines make handling difficult — use folded newspaper or thick cloth as a sling around the body, or heavy gloves, and work slowly.",
+      "Use completely dry mix and do not water for two weeks afterwards, so any damaged roots seal. Set the plant at the same depth — burying the base is a direct cause of rot. Inspect the roots for root mealybugs while you have it out, since this is the only opportunity to spot them."
+    ],
+    "varieties": [
+      "Echinocactus grusonii is the golden barrel, with dense golden spines over a ribbed green sphere. It is critically endangered in the wild, with the natural population largely lost to a dam project, though it is abundant in cultivation. A short-spined form and a variegated form exist.",
+      "Related barrel cacti include Ferocactus species, the fishhook barrels, with hooked and often red spines, and Echinocactus platyacanthus, the giant barrel. Golden barrel is non-toxic to cats and dogs — the hazard is entirely mechanical, since the spines are genuinely sharp and a curious pet or child can be injured. Placement matters more than toxicity with this plant."
+    ]
+  },
+  "blue-star-fern": {
+    "care": {
+      "light": [
+        "Blue star fern wants medium indirect light and, unusually for a fern, tolerates lower light well. It grows as an epiphyte on tree trunks in South American rainforests, so it is adapted to dappled shade.",
+        "A north or east window suits it well. Direct sun scorches the fronds and bleaches the distinctive blue-green colour. In deep shade it survives but produces fewer new fronds. This is one of the more forgiving ferns about light, and light problems are far less common with it than with maidenhair."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain fully. In spring and summer that is usually every seven to ten days; in winter, every two weeks or so.",
+        "Blue star fern is noticeably more drought-tolerant than most ferns thanks to its fleshy creeping rhizome, which stores some water. It is also considerably more prone to root rot than to drying out, so err on the dry side — this is the opposite of the advice for Boston and maidenhair ferns.",
+        "Humidity above 50% is preferred but not critical, which is the main reason this fern succeeds in ordinary rooms where others fail. It is sensitive to salts and chlorine in tap water, showing brown frond tips, so filtered or rainwater is worth using."
+      ],
+      "soil": [
+        "As an epiphyte, blue star fern wants a loose, airy, bark-based medium rather than ordinary compost — a mix of orchid bark, perlite and some coir or sphagnum works well. Dense potting soil suffocates the rhizome and causes rot.",
+        "The pot should be shallow and wide, since the rhizome creeps across the surface rather than rooting deeply. Feed at quarter to half strength monthly through spring and summer only. Ferns are sensitive to fertiliser salts, and this one shows excess as browned frond edges."
+      ]
+    },
+    "propagation": [
+      "Blue star fern is propagated by dividing the rhizome, which is straightforward and reliable — considerably easier than most ferns.",
+      "The rhizome is the distinctive furry, silver-blue creeping stem that runs across the surface of the medium, with fronds emerging from it at intervals. It is one of the plant's most attractive features and should sit on top of the mix, not be buried.",
+      "In spring, slide the plant out and cut the rhizome into sections with a clean knife, making sure each piece has at least two or three fronds and some roots beneath it. Lay each section on top of fresh bark-based mix, pressing it lightly into contact but not burying it, and pin it down with a bent wire if it will not stay put. Water lightly, keep humidity up for a few weeks, and new fronds appear within a month or two. Spore propagation is possible but slow and unnecessary given how well division works."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown frond tips",
+        "cause": "Salts or chlorine in tap water, low humidity, or over-fertilising.",
+        "fix": "Switch to filtered or rainwater, flush the pot with clean water every couple of months, and reduce feeding to quarter strength. Trim tips following the frond shape."
+      },
+      {
+        "symptom": "Fronds yellowing with the medium staying wet",
+        "cause": "Overwatering and rhizome rot — the main way this fern is killed, since people water it like a Boston fern.",
+        "fix": "Let the top inch dry properly between waterings. Check the rhizome: firm and furry is healthy, soft and brown is rot. Repot into a chunkier bark mix if the medium holds water."
+      },
+      {
+        "symptom": "Rhizome buried under the medium and rotting",
+        "cause": "Planted too deep. The creeping rhizome must sit on the surface.",
+        "fix": "Repot with the rhizome exposed on top of the mix. This is the most common potting error with this species."
+      },
+      {
+        "symptom": "Fronds pale and bleached",
+        "cause": "Too much light, usually direct sun.",
+        "fix": "Move to a shadier position. The blue-green colouring returns on new growth."
+      },
+      {
+        "symptom": "Brown dots in rows on frond undersides",
+        "cause": "Spores, which are entirely normal on a mature fern and a sign of health.",
+        "fix": "No action needed. Irregularly scattered bumps that scrape off are scale instead."
+      },
+      {
+        "symptom": "New fronds emerging small or deformed",
+        "cause": "Low humidity, over-fertilising, or physical damage to the delicate unfurling fronds.",
+        "fix": "Raise humidity slightly, reduce feeding, and avoid brushing past new growth."
+      },
+      {
+        "symptom": "Whole fronds browning and dying back",
+        "cause": "Severe drought, or rhizome rot at the other extreme.",
+        "fix": "Check the rhizome and medium. Dry and shrunken means soak the pot; wet and soft means cut away rot and repot into an airier mix."
+      }
+    ],
+    "repotting": [
+      "Repot every two to three years in spring, or when the rhizome has crept across the whole surface and over the pot edge.",
+      "Choose a shallow, wide pot — depth is wasted on a surface-creeping rhizome and simply holds wet medium. Use fresh bark-based epiphytic mix.",
+      "The critical point: lay the rhizome on top of the mix rather than burying it, with only the roots below the surface. Water lightly, keep humidity up for a few weeks, and wait six weeks before feeding. This is the natural moment to divide a plant that has outgrown its pot."
+    ],
+    "varieties": [
+      "Phlebodium aureum is the blue star fern, with wavy-edged blue-green fronds on a furry silver rhizome. 'Mandaianum' has strongly ruffled frond margins and 'Davana' is a compact form.",
+      "The plant is also sold as golden polypody or hare's foot fern — though that last name more properly belongs to Davallia, a related epiphyte with similar furry rhizomes. Compared with other ferns, blue star is the most tolerant of dry air and irregular watering, making it the sensible choice for someone who has killed a maidenhair. All Phlebodium are non-toxic to cats and dogs."
+    ]
+  },
+  "whale-fin-snake-plant": {
+    "care": {
+      "light": [
+        "Whale fin snake plant tolerates low light like other sansevierias but grows meaningfully faster and holds better colour in bright indirect light. Given how slowly it grows and how expensive a large specimen is, giving it good light is worthwhile.",
+        "It handles a few hours of gentle direct sun if introduced gradually. The broad paddle-shaped leaf shows scorching more visibly than the narrow-leaved forms, so avoid moving it abruptly into strong sun. In deep shade expect perhaps one new leaf every year or two, which is the usual reason owners think the plant has stalled."
+      ],
+      "water": [
+        "This is a succulent and stores water in its enormous leaf. Water thoroughly, then let the mix dry out completely before watering again — typically every two to three weeks in spring and summer, and once every four to six weeks in winter.",
+        "Water into the mix at the pot edge, never down into the base of the leaf where it meets the rhizome. Water trapped there causes the basal rot that kills most whale fins.",
+        "Overwatering is essentially the only way to kill this plant, and because it grows so slowly it uses water very slowly too — a watering schedule that suits a fast-growing plant will keep the mix wet far too long. When in doubt, wait. Humidity is irrelevant; dry household air is fine."
+      ],
+      "soil": [
+        "Use a free-draining cactus or succulent mix, or two parts potting mix to one part coarse sand or perlite. The rhizome rots in anything that holds moisture.",
+        "Terracotta suits it well, and the pot must be heavy enough to support a single tall leaf that can reach three or four feet — a whale fin in a light plastic pot tips over constantly. Drainage holes are essential. Feed lightly, two or three times across spring and summer at half strength, and never in winter."
+      ]
+    },
+    "propagation": [
+      "Whale fin propagates by division and by leaf cuttings, and the choice between them matters more than with most plants because of how this cultivar is sold.",
+      "Division is the preferred method when the plant has produced a pup from its rhizome. Unpot, locate where the pup joins, cut through the rhizome with a clean knife leaving each piece with roots, and pot into dry mix. Wait a week before watering.",
+      "Leaf cuttings work but are extremely slow — a cut section of that thick leaf takes many months to root and a year or more to produce a pup. Cut a healthy leaf into sections several inches tall, keeping track of orientation, let them callus for several days, and stand them bottom-end down in barely moist gritty mix. Be aware that a whale fin sold as a single leaf in a pot is usually a rooted leaf cutting rather than a rhizome division, which is why it may sit there for a year doing nothing before producing its first pup. That is normal, not failure."
+    ],
+    "problems": [
+      {
+        "symptom": "Leaf soft and mushy at the base",
+        "cause": "Rot from overwatering, or from water poured into the base of the leaf.",
+        "fix": "Unpot immediately, cut away every soft section of leaf and rhizome until only firm tissue remains, let it dry for a day or two, and repot into dry gritty mix. Water at the pot edge only in future."
+      },
+      {
+        "symptom": "No new growth for a year or more",
+        "cause": "Usually normal, especially for a rooted single-leaf cutting, which must build a rhizome before it can pup. Low light slows it further.",
+        "fix": "Move to brighter indirect light and be patient. Do not water more in response — that is the damaging mistake."
+      },
+      {
+        "symptom": "Leaf wrinkled or creased lengthwise",
+        "cause": "Underwatering. The plant draws down its reserves before showing any distress.",
+        "fix": "Water thoroughly and check again in a week. The leaf firms up over several days."
+      },
+      {
+        "symptom": "Leaf leaning or falling over",
+        "cause": "A pot too light or too large for the plant, or weak growth from insufficient light.",
+        "fix": "Repot into a heavy, snug pot — terracotta or ceramic. Increase light. Staking is acceptable while the rhizome establishes."
+      },
+      {
+        "symptom": "Brown dry tip on the leaf",
+        "cause": "Inconsistent watering, or fluoride and salts in tap water.",
+        "fix": "Water more evenly and try filtered water. Trim the brown tip at an angle following the leaf shape; it will not regrow but will stop advancing."
+      },
+      {
+        "symptom": "Pale or bleached patches on the leaf face",
+        "cause": "Sunburn from an abrupt move into direct sun.",
+        "fix": "Increase sun exposure gradually over two to three weeks. Scarring on such a prominent single leaf is permanent and very visible, so caution is worthwhile."
+      },
+      {
+        "symptom": "Small brown bumps on the leaf surface",
+        "cause": "Scale insects.",
+        "fix": "Scrape off with a fingernail or a cotton bud dipped in rubbing alcohol, then treat with neem oil weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Whale fin is extremely slow and happy pot-bound, so repot only every three to five years, or when the rhizome has genuinely filled the container.",
+      "Repot in spring into a pot one size larger, prioritising weight and stability over volume — a tall single leaf needs a base that will not tip. Terracotta or heavy ceramic is ideal.",
+      "Handle the rhizome carefully; it bruises, and a damaged rhizome is an entry point for rot. Use dry mix and wait a week before watering. Divide off any pups at this point, and skip fertiliser for a couple of months."
+    ],
+    "varieties": [
+      "Sansevieria masoniana, now formally Dracaena masoniana, is the whale fin or shark fin snake plant — a single enormous paddle-shaped leaf, mottled dark green, that can reach four feet on a mature plant. A variegated form with cream margins exists and is slower and considerably more expensive.",
+      "Within the genus, S. trifasciata 'Laurentii' is the classic yellow-edged form, 'Zeylanica' has silver banding, 'Moonshine' is pale silver-green, and 'Hahnii' is the compact bird's nest form. All snake plants are toxic to cats and dogs, causing vomiting and drooling if chewed — and the broad flat leaf of a whale fin is unfortunately rather inviting to a cat."
+    ]
+  },
+  "dracaena-corn-plant": {
+    "care": {
+      "light": [
+        "Corn plant tolerates medium and even fairly low light, which is why it is such a common office plant, but it grows best in bright indirect light. In dim conditions growth is very slow and the yellow-green central stripe on 'Massangeana' fades toward plain green.",
+        "Keep it out of direct sun, which scorches the broad strappy leaves and leaves bleached patches. Rotate the pot every few weeks — the canes lean toward light and a mature plant develops a permanent bend otherwise. The leaf rosettes sit at the top of bare canes, so the crown is what needs the light."
+      ],
+      "water": [
+        "Let the top two inches of mix dry before watering, then water thoroughly and drain. In spring and summer that is usually every ten to fourteen days; in winter, every three to four weeks.",
+        "Corn plant stores water in its thick canes and is far more drought-tolerant than its size suggests. Overwatering is the dominant cause of failure, showing as yellowing lower leaves and eventually a soft cane base.",
+        "Water quality is the other critical factor. Dracaenas are among the most fluoride-sensitive houseplants, and fluoridated tap water produces the dead brown leaf tips that nearly every corn plant eventually develops. Use filtered, distilled or rainwater and the problem largely disappears. Humidity above 40% is preferred."
+      ],
+      "soil": [
+        "Use a well-draining potting mix with added perlite. Avoid mixes containing superphosphate, which is a fluoride source and worsens tip burn.",
+        "Choose a heavy, stable pot — a mature corn plant is tall and top-heavy. Feed only every two months at half strength through spring and summer, and not at all in winter. Dracaenas are light feeders and sensitive to salt accumulation. Flush the pot thoroughly with clean water two or three times a year."
+      ]
+    },
+    "propagation": [
+      "Corn plant propagates easily from cane cuttings, and this doubles as the way to deal with a plant that has grown too tall for its space — a very common situation, since they reach ceiling height readily.",
+      "In spring, cut the cane at whatever height you want. The stump sprouts two or three new shoots from just below the cut within four to eight weeks, making the remaining plant bushier than before. The removed section is your propagation material.",
+      "Cut it into pieces four to six inches long, keeping careful track of which end was up — a cane section planted upside down will never root. The leafy top can be rooted directly in water or damp mix. Bare cane sections can be stood upright in damp mix or laid horizontally and half-buried. Keep warm and humid in bright indirect light; roots and shoots take four to eight weeks. Corn plant is one of the more reliable dracaenas to propagate this way."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown, dry leaf tips on almost every leaf",
+        "cause": "Fluoride in tap water — the classic complaint for this genus — with salt buildup and dry air contributing.",
+        "fix": "Switch to filtered, distilled or rainwater and flush the pot a few times a year. Trim the brown section at an angle, leaving a thin margin of dead tissue so you do not cut into living leaf."
+      },
+      {
+        "symptom": "Yellowing lower leaves dropping steadily",
+        "cause": "Overwatering if widespread with damp soil. Losing the occasional lowest leaf as the cane grows taller is entirely normal.",
+        "fix": "Extend the watering interval substantially and confirm drainage. A bare lower cane with a rosette on top is the natural habit rather than a fault."
+      },
+      {
+        "symptom": "Soft, mushy cane at soil level",
+        "cause": "Stem rot from waterlogged soil, often after a winter of unchanged watering.",
+        "fix": "Cut the cane above the rot into firm white tissue and root the healthy top as a cutting. The lower section is rarely salvageable. Repot into fresh, faster-draining mix."
+      },
+      {
+        "symptom": "Yellow-green central stripe fading to plain green",
+        "cause": "Insufficient light for the variegated cultivar.",
+        "fix": "Move to brighter indirect light. New growth comes in properly marked; existing leaves stay as they are."
+      },
+      {
+        "symptom": "Bleached or scorched patches on leaves",
+        "cause": "Direct sun through glass.",
+        "fix": "Move back from the window or filter the light. Damaged tissue does not recover."
+      },
+      {
+        "symptom": "Canes leaning heavily to one side",
+        "cause": "Growing toward light without being rotated.",
+        "fix": "Rotate a quarter turn every couple of weeks. An established bend will not straighten, but cutting the cane back lets it regrow upright."
+      },
+      {
+        "symptom": "Fine webbing in the leaf rosette",
+        "cause": "Spider mites, which favour the tight crown at the top of each cane.",
+        "fix": "Rinse the crown thoroughly in the shower and treat with insecticidal soap every five days for three cycles."
+      }
+    ],
+    "repotting": [
+      "Corn plants grow slowly and are happy pot-bound, so repot only every two to three years. Signs are roots circling the surface or through the drainage holes, and water running straight through.",
+      "Repot in spring into a pot one size larger, choosing something heavy — a tall corn plant is genuinely top-heavy and light plastic tips easily. Loosen circling roots and trim any that are soft.",
+      "For a large specimen that has outgrown practical repotting, top-dress instead: replace the top two or three inches of mix with fresh compost each spring. Water well and hold off fertiliser for two months. Cutting the canes back at repotting time keeps the plant at a manageable height."
+    ],
+    "varieties": [
+      "Dracaena fragrans 'Massangeana' is the classic corn plant, with a broad yellow-green stripe down the centre of each arching leaf. 'Lindenii' reverses that with yellow margins, and the plain species has solid deep green foliage.",
+      "'Janet Craig' is a solid dark green form with glossier leaves, 'Lemon Lime' has bright chartreuse and green striping, and 'Warneckii' is grey-green with white stripes. All are the same species. Every Dracaena is toxic to cats and dogs, and cats are particularly affected — ingestion causes vomiting, drooling and dilated pupils. The arching strappy leaves are unfortunately attractive to cats."
+    ]
+  },
+  "satin-pothos": {
+    "care": {
+      "light": [
+        "Satin pothos wants bright indirect light to develop its silver speckling clearly. Light is the main factor in how pronounced the silver markings are and how large the leaves grow.",
+        "An east window is ideal, or a few feet back from a south or west window. Direct sun scorches the thin leaves and fades the silver to a dull grey. In low light the plant survives but produces small leaves with muted markings on long bare stretches of vine. Given that the silver is the whole point of this plant, erring toward brighter light within the indirect range is worthwhile."
+      ],
+      "water": [
+        "Let the top inch of mix dry before watering, then water thoroughly and drain. In spring and summer that is usually every seven to ten days; in winter, every two weeks or so.",
+        "Scindapsus has slightly thicker, more succulent leaves than true pothos and is correspondingly more drought-tolerant. It shows thirst by the leaves curling slightly inward and going a little limp, recovering within hours of watering.",
+        "It is considerably more prone to root rot than to drought, so when unsure, wait. Humidity above 50% produces larger leaves and better silver definition, and dry air shows as crispy edges. A pebble tray or humidifier helps, though this plant tolerates average household air better than a calathea."
+      ],
+      "soil": [
+        "Use a well-draining aroid-style mix — potting compost with added perlite and orchid bark. The roots want air as well as moisture.",
+        "Drainage holes are essential and the pot should be snug rather than roomy. Feed monthly at half strength through spring and summer, stopping in winter. A moss pole or trellis is worth providing: Scindapsus is a climber, and a supported plant produces noticeably larger, better-marked leaves than one left to trail, where the leaves stay small."
+      ]
+    },
+    "propagation": [
+      "Satin pothos propagates from stem cuttings exactly as true pothos does, and the node rule applies just the same — a leaf without a node will sit in water indefinitely and never root.",
+      "Find a node, the small nub where a leaf stem meets the vine, often with a stubby aerial root already showing, and cut half an inch below it. Each cutting needs at least one node and one leaf.",
+      "Root in water with the node submerged and the leaf clear of the surface, changing the water weekly. Roots appear within two to three weeks — a little slower than golden pothos. Sphagnum moss tends to produce sturdier roots for this species and is worth trying. Once roots are two to three inches long, pot several cuttings together for an immediately full plant. Keep newly potted cuttings slightly moister than an established plant for the first fortnight while they transition."
+    ],
+    "problems": [
+      {
+        "symptom": "Silver markings dull or barely visible on new leaves",
+        "cause": "Insufficient light. The silver patterning develops in response to light levels.",
+        "fix": "Move to brighter indirect light. New growth comes in better marked; existing dull leaves stay as they are."
+      },
+      {
+        "symptom": "Leaves staying small on a long vine",
+        "cause": "No support to climb, and often low light. Scindapsus produces progressively larger leaves as it climbs.",
+        "fix": "Add a moss pole and tie the vine in so aerial roots can grip. Leaf size increases noticeably on supported plants."
+      },
+      {
+        "symptom": "Yellowing leaves with damp soil",
+        "cause": "Overwatering and the beginnings of root rot.",
+        "fix": "Let the top inch dry properly before watering and confirm the pot is not sitting in water. Repot into a chunkier mix if the medium stays soggy."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity, erratic watering, or salt buildup from fertiliser.",
+        "fix": "Raise humidity, water more consistently, and flush the pot with plain water every few months."
+      },
+      {
+        "symptom": "Leaves curling inward",
+        "cause": "Usually thirst — the leaves curl before drooping. Occasionally too much light.",
+        "fix": "Check the soil. Dry means water, after which the leaves flatten out within hours."
+      },
+      {
+        "symptom": "Long bare vine with widely spaced leaves",
+        "cause": "Too little light.",
+        "fix": "Increase light and prune the bare sections back to a node. The cuttings root easily and can be replanted into the same pot to fill it out."
+      },
+      {
+        "symptom": "Black stem bases and collapsing vines",
+        "cause": "Root rot from prolonged wet soil.",
+        "fix": "Take healthy cuttings immediately as insurance, then unpot, trim soft roots, and repot into fresh airy mix."
+      }
+    ],
+    "repotting": [
+      "Repot every two years in spring. Scindapsus grows more slowly than golden pothos, so it does not need annual repotting, and the signs are roots through the drainage holes and rapid drying.",
+      "Move up one pot size only into fresh aroid mix. If adding a moss pole, do it now while the root ball is out and you can position it against the vine.",
+      "Guide the aerial roots onto the pole rather than trimming them. Water thoroughly and wait a month before feeding. This is also the moment to prune a leggy plant and replant rooted cuttings to thicken it."
+    ],
+    "varieties": [
+      "Scindapsus pictus 'Argyraeus' is the common satin pothos, with small heart-shaped leaves finely spotted in silver. 'Exotica' has larger leaves with bigger silver patches and is the more dramatic choice. 'Silvery Ann' is heavily silvered, sometimes almost entirely.",
+      "'Treubii Moonlight' is a near-solid silver form from a related species. Note that despite the name, Scindapsus is not a true pothos — Epipremnum is the pothos genus — though care is very similar. The practical difference is that Scindapsus leaves are thicker and more velvety, and the plant is slower. All Scindapsus are toxic to cats and dogs."
+    ]
+  },
+  "lipstick-plant": {
+    "care": {
+      "light": [
+        "Lipstick plant needs bright indirect light to flower, and light is almost always the reason one produces foliage but no blooms. It grows as an epiphyte in Southeast Asian trees, receiving filtered light through the canopy.",
+        "An east window is ideal, or near a south or west window behind a sheer curtain. Some gentle direct morning sun is beneficial and encourages flowering. Harsh afternoon sun scorches the waxy leaves. In medium or low light the plant survives and trails happily but rarely blooms, which for most people defeats the purpose of growing it."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain fully. In spring and summer that is usually every five to seven days; in winter, every ten to fourteen days.",
+        "The leaves are semi-succulent and store some water, so the plant tolerates a missed watering better than constant damp. Overwatering shows as yellowing leaves and leaf drop, which is the most common complaint.",
+        "Humidity above 50% is important, and dry air causes both leaf drop and bud drop. A pebble tray or humidifier helps. Aeschynanthus is also sensitive to cold water and cold draughts — use room-temperature water and keep it away from draughty windows, since sudden chills trigger leaf drop."
+      ],
+      "soil": [
+        "As an epiphyte, lipstick plant wants a light, airy, free-draining mix — two parts peat or coir-based compost to one part perlite, with some orchid bark. Dense compost holds too much water around the fine roots.",
+        "Keep the pot snug; this plant flowers better slightly pot-bound and rots in an oversized pot. Hanging baskets suit the trailing habit well, provided they drain. Feed every two to four weeks at half strength through spring and summer, using a higher-phosphorus fertiliser if you want to encourage flowering. Stop in winter."
+      ]
+    },
+    "propagation": [
+      "Lipstick plant propagates very easily from stem cuttings, and doing so regularly is worthwhile because plants become bare and woody at the base over time.",
+      "Take a cutting four to six inches long from a healthy stem, cutting just below a node, with several pairs of leaves. Remove the lowest pair and any flower buds, which divert energy from rooting.",
+      "Root in water, changing it weekly, where roots appear in two to three weeks, or push directly into damp mix under a clear bag. Both work well. Pot four or five rooted cuttings together for a full plant, which is much faster than growing one on alone. Because lipstick plants go leggy, the standard practice is to take cuttings from the tips each spring and replant them into the same pot, keeping the basket dense. Pinching the growing tips also forces branching and delays the bare-stem problem."
+    ],
+    "problems": [
+      {
+        "symptom": "No flowers despite healthy foliage",
+        "cause": "Insufficient light most commonly, then too large a pot or too much nitrogen fertiliser.",
+        "fix": "Move to bright indirect light with some gentle morning sun, keep the plant slightly pot-bound, and switch to a higher-phosphorus feed. A cool, drier rest in winter also helps trigger spring flowering."
+      },
+      {
+        "symptom": "Leaves dropping suddenly",
+        "cause": "Cold draughts, cold water, a sharp temperature change, or overwatering. Aeschynanthus is notably sensitive to chills.",
+        "fix": "Move away from draughty windows and doors, use room-temperature water, and check the soil is not staying wet."
+      },
+      {
+        "symptom": "Flower buds forming then dropping before opening",
+        "cause": "Inconsistent watering, low humidity, or the plant being moved while in bud.",
+        "fix": "Do not move the plant once buds appear, keep watering steady, and raise humidity above 50%."
+      },
+      {
+        "symptom": "Long bare stems with leaves only at the tips",
+        "cause": "Natural habit accelerated by low light and no pinching.",
+        "fix": "Pinch the growing tips regularly, and cut the stems back by a third in spring. Root the trimmings and replant them into the same pot."
+      },
+      {
+        "symptom": "Yellowing leaves with wet soil",
+        "cause": "Overwatering and root rot in the fine epiphytic root system.",
+        "fix": "Let the top inch dry properly before watering, confirm drainage, and repot into a lighter, airier mix if the medium holds water."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity or salt buildup from fertiliser.",
+        "fix": "Raise humidity and flush the pot with plain water every couple of months."
+      },
+      {
+        "symptom": "White cottony clusters in leaf joints",
+        "cause": "Mealybugs, which shelter among the dense trailing stems.",
+        "fix": "Dab each with rubbing alcohol on a cotton bud and inspect weekly for a month. The tangled growth gives them good cover."
+      }
+    ],
+    "repotting": [
+      "Lipstick plants flower better pot-bound, so repot only every two to three years, or when the mix has broken down and stopped draining.",
+      "Move up one small size only into fresh airy mix, in spring after flowering has finished. Hanging baskets should drain freely rather than holding water in a sealed base.",
+      "Handle the trailing stems carefully; any that break off are cuttings worth rooting. Water lightly afterwards and wait a month before feeding. This is the natural moment to cut the plant back and replant rooted cuttings to restore density."
+    ],
+    "varieties": [
+      "Aeschynanthus radicans is the common lipstick plant, named for the way the red tubular flower emerges from a dark maroon calyx like a lipstick from its tube. 'Mona Lisa' has bright red flowers and is free-flowering, and 'Curly' or 'Rasta' has twisted, curling leaves.",
+      "'Black Pagoda' has mottled dark green leaves with purple undersides and orange-yellow flowers. Aeschynanthus is related to the African violet family, which shows in its preference for warmth, humidity and bright indirect light. All Aeschynanthus are non-toxic to cats and dogs, which makes this one of the few genuinely pet-safe flowering trailing plants."
+    ]
+  },
+  "prickly-pear-cactus": {
+    "care": {
+      "light": [
+        "Prickly pear needs full sun — six or more hours of direct light daily. It grows in open desert and scrubland across the Americas and is adapted to intense exposure.",
+        "A south-facing window is the only indoor position that really works, and even then a grow light may help through northern winters. In insufficient light the pads grow thin, pale and elongated instead of flat and plump, and the plant leans badly. Introduce strong sun gradually to a plant from a shop or dim room; prickly pears do sunburn, showing as yellow or white bleached patches that never recover."
+      ],
+      "water": [
+        "Water thoroughly, then let the mix dry out completely before watering again. In spring and summer that is usually every two to three weeks; in winter, very little or nothing at all.",
+        "A cool, dry winter rest at around 5-10°C is genuinely beneficial and is what triggers flowering in mature plants. Watering through a cool winter is the most reliable way to rot one.",
+        "The pads are the gauge: plump and firm means well watered, slightly wrinkled and soft means it is time. Water at soil level and never let water sit against the base of the plant. Humidity should be low; prickly pear resents damp, still air."
+      ],
+      "soil": [
+        "Use a very gritty mineral mix — one part cactus compost to one part coarse sand, pumice or grit. Ordinary cactus compost alone is often too rich and water-retentive.",
+        "Terracotta is strongly preferred for breathability, in a pot only slightly wider than the plant and heavy enough to balance a top-heavy pad structure. A layer of coarse grit on the surface keeps the base dry. Feed at most once or twice during the growing season with a half-strength cactus fertiliser, and never in winter."
+      ]
+    },
+    "propagation": [
+      "Prickly pear is one of the easiest cacti to propagate, and pad cuttings root reliably — with one important safety consideration.",
+      "The plant carries glochids: tiny, barbed, hair-like spines clustered around each areole. They detach at the lightest touch, lodge in skin and are extremely difficult to remove, and they are far more of a practical hazard than the large obvious spines. Always wear thick leather gloves and handle pads with tongs or folded newspaper.",
+      "In spring or summer, twist or cut a healthy pad away at the joint. Let it callus in a dry shaded spot for one to two weeks — longer than most succulents, because the cut surface is large. Then stand the pad upright with the bottom inch in dry gritty mix, supporting it with stones if it will not stand. Do not water for two to three weeks, then water sparingly. Roots form in four to six weeks. A pad laid flat on the surface will also root but produces a sprawling plant."
+    ],
+    "problems": [
+      {
+        "symptom": "Soft, brown or black patch at the base",
+        "cause": "Basal rot from overwatering or from watering during winter dormancy.",
+        "fix": "Cut away all soft tissue with a sterile blade until only firm green remains, and let it dry for a week or more. Often the best course is to take a healthy pad as a cutting and restart. Water only at soil level in future."
+      },
+      {
+        "symptom": "Pads thin, pale and elongated",
+        "cause": "Insufficient light — etiolation.",
+        "fix": "Move to the sunniest position available or add a grow light. Stretched pads are permanent; new growth comes in correctly if light improves."
+      },
+      {
+        "symptom": "Pads wrinkled and floppy",
+        "cause": "Underwatering, which takes a long time to reach, or root loss preventing uptake.",
+        "fix": "Water thoroughly and check again in two weeks. If the pads do not plump up, unpot and inspect the roots for rot or root mealybugs."
+      },
+      {
+        "symptom": "Yellow or white bleached patches on the sun-facing side",
+        "cause": "Sunburn after an abrupt move into intense sun.",
+        "fix": "Increase exposure over two to three weeks rather than at once. Scarring is permanent."
+      },
+      {
+        "symptom": "Plant leaning or toppling over",
+        "cause": "Top-heavy pad growth in a pot that is too light, or weak stretched growth from low light.",
+        "fix": "Repot into a heavy terracotta or ceramic pot. Increase light. Remove some upper pads to reduce weight if needed — they root as cuttings."
+      },
+      {
+        "symptom": "Tiny hair-like spines stuck in skin",
+        "cause": "Glochids, which detach at the slightest contact and are the main practical hazard of this plant.",
+        "fix": "Remove with sticky tape or a thin layer of PVA glue peeled off once dry; tweezers rarely work. Always handle with thick gloves and site the plant away from walkways and where children or pets pass."
+      },
+      {
+        "symptom": "White cottony masses on pads or roots",
+        "cause": "Mealybugs, including root mealybugs.",
+        "fix": "Dab visible clusters with rubbing alcohol. For root mealybugs, unpot, wash the roots, and repot into fresh mix in a sterilised pot."
+      }
+    ],
+    "repotting": [
+      "Prickly pear grows moderately fast for a cactus and needs repotting every two to three years, or when it has become unstable in its pot.",
+      "Repot in spring into a pot one size larger, prioritising weight and stability. Handle with thick leather gloves and use folded newspaper or tongs as a sling — the glochids make this the most awkward common houseplant to repot.",
+      "Use completely dry mix and do not water for two weeks afterwards so damaged roots can seal. Set the plant at the same depth; burying the base causes rot. Inspect the roots for root mealybugs while the plant is out."
+    ],
+    "varieties": [
+      "Opuntia microdasys is the bunny ears cactus, a compact spineless-looking form covered in dense glochid clusters in white, yellow or red — the absence of large spines makes it deceptively approachable. Opuntia ficus-indica is the edible prickly pear, growing large with yellow flowers and red fruit.",
+      "Opuntia monacantha 'Variegata' has cream-marbled pads. Note that species described as spineless still carry glochids, which are the real hazard. Opuntia is non-toxic to cats and dogs, but the mechanical risk is genuine — glochids in a pet's mouth or paws are painful and difficult to remove, so placement well out of reach matters more than toxicity here."
+    ]
+  },
+  "peperomia-obtusifolia": {
+    "care": {
+      "light": [
+        "Baby rubber plant does well in medium to bright indirect light. It is one of the more shade-tolerant peperomias and copes with a moderately lit room better than the watermelon or raindrop forms.",
+        "Variegated cultivars need more light than the plain green to hold their cream and yellow markings and revert toward green in shade. Direct sun scorches the thick glossy leaves and bleaches the variegation. An east window, or a spot near a brighter window behind a sheer curtain, suits it well. In low light the stems stretch and the plant becomes floppy and open."
+      ],
+      "water": [
+        "The thick leaves store water, so treat this as a semi-succulent. Let the top inch or two of mix dry before watering, then water thoroughly and drain fully. In spring and summer that is usually every ten to fourteen days.",
+        "Reduce to every three weeks or so in winter. Overwatering is by far the main cause of failure, and peperomias fail suddenly rather than gradually — stems collapse at the base with little warning, which catches people out.",
+        "The leaves are a reliable gauge: firm and plump means watered, slightly soft and wrinkled means it is time. Average household humidity is fine; this plant does not need the levels a calathea demands. Empty the saucer after watering."
+      ],
+      "soil": [
+        "Use a light, airy, fast-draining mix — two parts standard compost to one part perlite with a little orchid bark. Peperomia roots are fine and sparse and rot quickly in dense wet soil.",
+        "Keep the pot small. This is the single most important practical point with peperomias: the root system is modest and an oversized pot holds a reservoir of wet mix the plant cannot use. Terracotta helps. Feed monthly at half strength through spring and summer only; over-feeding causes leaf drop and brown edges."
+      ]
+    },
+    "propagation": [
+      "Baby rubber plant propagates very easily from stem cuttings, and unlike the rosette-forming peperomias it has proper stems to work with, which makes it one of the simplest in the genus.",
+      "Take a stem cutting three to four inches long with two or three pairs of leaves, cutting just below a node. Strip the lowest pair so the node is bare. Root in water, changing it weekly, or push directly into damp mix — soil propagation tends to be more reliable for peperomias, whose stems can rot if left in water too long.",
+      "Roots appear within two to three weeks. Pot several rooted cuttings together for a full plant, and tuck extras back into the parent pot to thicken a plant that has gone open and leggy. Leaf cuttings also work: take a leaf with a short piece of petiole and insert the petiole into damp mix, where a plantlet forms at the base after a month or two, though stem cuttings are faster."
+    ],
+    "problems": [
+      {
+        "symptom": "Stems suddenly collapsing at the base",
+        "cause": "Stem and root rot from overwatering. Peperomias fail abruptly, which is why this catches people out.",
+        "fix": "Take healthy tip cuttings immediately as insurance. Unpot, cut away all soft tissue, and repot healthy material into fresh airy mix in a smaller pot. Water far less often."
+      },
+      {
+        "symptom": "Leaves dropping at a touch",
+        "cause": "Overwatering most commonly, occasionally severe drought or a cold draught.",
+        "fix": "Check the soil. Wet means stop watering and inspect the roots; bone dry means water thoroughly."
+      },
+      {
+        "symptom": "Leaves wrinkled and soft",
+        "cause": "Underwatering — the plant is drawing on the water stored in its leaves.",
+        "fix": "Water thoroughly until it drains. Leaves firm up within a few days."
+      },
+      {
+        "symptom": "Long floppy stems with widely spaced leaves",
+        "cause": "Insufficient light.",
+        "fix": "Move to a brighter position and pinch the stems back to force branching. The trimmings root easily and can be replanted into the same pot."
+      },
+      {
+        "symptom": "Variegation fading toward plain green",
+        "cause": "Too little light for the variegated cultivar.",
+        "fix": "Move brighter and prune out fully green shoots to redirect growth into variegated stems."
+      },
+      {
+        "symptom": "Corky brown bumps on leaf undersides",
+        "cause": "Oedema — cells rupturing after the plant took up water faster than it could transpire, typically from heavy watering in low light.",
+        "fix": "Water less and increase light. The marks are permanent but harmless; new leaves come in clean."
+      },
+      {
+        "symptom": "Small flies around the pot",
+        "cause": "Fungus gnats in soil kept too damp, which for a semi-succulent is a clear signal the watering is wrong.",
+        "fix": "Let the mix dry properly between waterings, use sticky traps, and consider repotting into grittier mix in a smaller pot."
+      }
+    ],
+    "repotting": [
+      "Peperomias have small root systems and like being snug, so repot only every two to three years, or when roots have genuinely filled the pot.",
+      "Move up one small size and no more. Overpotting is the commonest mistake with this genus and leads directly to rot. A small terracotta pot is ideal.",
+      "Repot in spring into fresh airy mix, handling the brittle stems carefully. Water lightly afterwards and wait six weeks before feeding. This is a good moment to tuck rooted cuttings around the parent to thicken a plant that has gone open."
+    ],
+    "varieties": [
+      "Peperomia obtusifolia is the baby rubber plant, with thick glossy oval leaves on upright stems. 'Variegata' has cream and green marbling, and 'Golden Gate' has broad yellow margins — both need brighter light than the plain green form.",
+      "The genus is large: P. argyreia is the watermelon peperomia, P. caperata 'Rosso' has corrugated dark leaves with red undersides, P. polybotrya is the raindrop peperomia, and P. prostrata is the string of turtles. Care is broadly similar across all of them. All peperomias are non-toxic to cats and dogs, making this one of the safest and most varied groups for a pet household."
+    ]
   }
 }
