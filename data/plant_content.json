@@ -2556,5 +2556,685 @@
       "There are dozens of Lithops species, distinguished by the patterning on the top window. Lithops lesliei has brown-grey tops with fine markings, L. olivacea is olive green with translucent windows, L. karasmontana has rust-coloured ridged patterning, and L. optica 'Rubra' is an unusual purple-pink.",
       "Related living stones worth knowing are Conophytum, Pleiospilos nelii the split rock, and Fenestraria the baby toes — all with similar cycle-driven watering. Lithops are non-toxic to cats and dogs. The real hazard is to the plant rather than from it: they are frequently sold in ordinary compost in shallow pots, and repotting into a proper gritty mineral mix soon after purchase substantially improves their chances."
     ]
+  },
+  "string-of-hearts": {
+    "care": {
+      "light": [
+        "String of hearts wants bright indirect light with a few hours of gentle direct sun. Light is what determines whether the strands stay dense with closely spaced leaves and strong silver marbling, or stretch into long bare threads.",
+        "An east window is close to ideal, or a south or west window with the plant set back slightly. In low light the internodes lengthen dramatically, leaves shrink, and the purple undersides fade. In too much harsh sun the leaves bleach and crisp. A well-lit plant develops noticeably pinker stems and deeper silver patterning."
+      ],
+      "water": [
+        "The thick leaves and the tubers along the stems store water, so treat this as a semi-succulent. Let the mix dry out almost completely before watering, then water thoroughly and drain. In spring and summer that is usually every two weeks; in winter, every three to four weeks.",
+        "Overwatering is the main cause of failure and shows as yellowing leaves and stems rotting at soil level. The leaves are a reliable gauge — firm and plump means well watered, slightly soft and dimpled means it is time.",
+        "Water at the soil rather than over the strands, and avoid letting water collect at the crown. Humidity is not important; average household air suits it well. This is a considerably more drought-tolerant plant than its delicate appearance suggests."
+      ],
+      "soil": [
+        "Use a gritty, fast-draining mix — cactus compost with added perlite, or two parts succulent mix to one part coarse sand. The fine roots rot quickly in anything that holds water.",
+        "Keep the pot small and shallow; the root system is modest relative to the length of the strands, and excess soil stays wet. Hanging pots suit the plant well but check they drain and are not collecting water in a hidden reservoir. Feed at half strength once a month through spring and summer only."
+      ]
+    },
+    "propagation": [
+      "String of hearts is one of the most satisfying plants to propagate because it offers three distinct methods, including one unique to this species.",
+      "The tuber method is the most reliable. Look along the strands for small round grey-brown tubers, sometimes called aerial tubers or bulbils, growing at the nodes. Press one onto the surface of damp mix while it is still attached to the parent strand, and it will root within a few weeks, after which you can sever the connection. A tuber that has already fallen off can be half-buried the same way.",
+      "The butterfly method uses leaf pairs: cut the strand into segments each containing one pair of leaves and the node between them, lay them on damp mix with the node in contact, and each roots into a new plant. Ordinary strand cuttings also work — coil a length of strand on top of damp mix so several nodes touch the surface, which produces a full pot faster than a single cutting. Water propagation works but the transition to soil is often poor, so soil or moss is the better route."
+    ],
+    "problems": [
+      {
+        "symptom": "Long bare strands with widely spaced leaves",
+        "cause": "Insufficient light. The strands stretch searching for it.",
+        "fix": "Move to a brighter position. The stretched sections will not fill in, so trim them and coil the cuttings back onto the soil surface to root and thicken the pot."
+      },
+      {
+        "symptom": "Leaves losing their silver marbling, turning plain green",
+        "cause": "Too little light. The patterning and purple undersides are both light-dependent.",
+        "fix": "Increase light gradually. New growth comes in properly marked; existing leaves stay as they are."
+      },
+      {
+        "symptom": "Yellowing leaves and strands rotting at soil level",
+        "cause": "Overwatering. The fine roots and crown rot readily in wet mix.",
+        "fix": "Stop watering, let the mix dry completely, and take healthy strand cuttings as insurance. Repot into a grittier mix in a smaller pot if the medium holds water too long."
+      },
+      {
+        "symptom": "Leaves thin, dimpled and soft",
+        "cause": "Underwatering, which this plant tolerates well but not indefinitely.",
+        "fix": "Water thoroughly until it drains. Leaves plump up within a few days."
+      },
+      {
+        "symptom": "Plant bare and sparse at the top of the pot",
+        "cause": "Natural ageing at the crown, combined with all the growth energy going into the long trailing strands.",
+        "fix": "Coil some of the existing strands back onto the soil surface so they root at the nodes, or add rooted cuttings. This is routine maintenance for a mature plant rather than a fault."
+      },
+      {
+        "symptom": "White cottony clusters among the strands",
+        "cause": "Mealybugs, which hide extremely well in the tangle of fine stems and leaf pairs.",
+        "fix": "Dab each cluster with rubbing alcohol on a cotton bud. Inspect very thoroughly and weekly for a month — the dense strands make this one of the harder plants to clear."
+      },
+      {
+        "symptom": "Small flies around the pot",
+        "cause": "Fungus gnats in soil kept too damp for this semi-succulent.",
+        "fix": "Let the mix dry out fully, add a grit top-dressing, and extend the watering interval substantially."
+      }
+    ],
+    "repotting": [
+      "String of hearts has a small root system and is happy snug, so repot only every two to three years, or when the tubers have filled the pot.",
+      "Choose a small, shallow pot with good drainage. Spring is the right time. The strands tangle and snap easily, so gather them loosely and lift them aside before working, and treat any that break off as free cuttings.",
+      "Use dry gritty mix, wait a week before the first watering, and skip fertiliser for a couple of months. Repotting is a good opportunity to coil some strands onto the fresh surface so they root and thicken a plant that has gone bare at the crown."
+    ],
+    "varieties": [
+      "Ceropegia woodii is the standard, with small heart-shaped leaves marbled silver over dark green and purple undersides. 'Variegata' adds cream and pink to the leaves and is slower, more delicate and noticeably more light-hungry.",
+      "Ceropegia linearis is a related species with narrower leaves. The plant is sometimes sold as rosary vine or chain of hearts. Ceropegia woodii is non-toxic to cats and dogs, which is a genuine advantage over most trailing plants — though the dangling strands are irresistible to cats and a high hanging position protects the plant more than the pet."
+    ]
+  },
+  "tradescantia-zebrina": {
+    "care": {
+      "light": [
+        "Tradescantia zebrina needs bright indirect light with some direct sun to develop the vivid purple and silver striping it is grown for. This is one of the most light-responsive common houseplants.",
+        "In medium or low light the colours fade toward plain green, the internodes stretch and the plant becomes thin and sparse. In bright light with a few hours of gentle direct sun the purple intensifies and growth stays compact. Harsh unfiltered afternoon sun can scorch the thin leaves, so an east window or a filtered south window is the sweet spot. Rotate regularly for even growth."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain. In spring and summer that is usually every five to seven days — this is a fast grower that uses water quickly in good light.",
+        "Reduce to every ten to fourteen days in winter. Tradescantia wilts visibly and quickly when thirsty and recovers within hours of watering, which makes it easy to read, though repeated wilting causes leaf drop along the stems.",
+        "It dislikes both soggy soil and prolonged drought. The stems are succulent enough to rot at soil level in wet mix. Average household humidity is fine, though above 50% produces better growth. Avoid watering over the foliage, which can cause spotting on the leaves."
+      ],
+      "soil": [
+        "A standard well-draining potting mix with added perlite works well. Tradescantia is not remotely fussy about medium — it is among the easiest houseplants to grow — but it does want drainage.",
+        "Feed monthly at half strength through spring and summer. This is a vigorous grower and responds visibly to feeding, but over-fertilising produces soft green growth at the expense of the purple colouring. Stop feeding in winter. Hanging baskets suit it well; make sure they drain rather than holding water in a sealed base."
+      ]
+    },
+    "propagation": [
+      "Tradescantia zebrina is arguably the easiest houseplant in existence to propagate — a broken stem left on damp soil will usually root itself without any intervention.",
+      "Take a cutting three to four inches long with several leaves, cutting just below a node, and strip the lowest leaves. Stand it in water and roots appear within days, often visibly within a week. Or push cuttings straight into damp mix, where they root just as fast.",
+      "The practical technique for a good-looking plant is to propagate constantly. Tradescantia goes bare and leggy at the crown within a year or two no matter how well you grow it, so the standard approach is to take cuttings from the healthy tips and plant six or eight of them back into the same pot. This keeps the plant dense indefinitely. Pinching the growing tips regularly also forces branching and delays the legginess in the first place."
+    ],
+    "problems": [
+      {
+        "symptom": "Purple and silver colouring fading to plain green",
+        "cause": "Insufficient light. The pigmentation is a direct light response.",
+        "fix": "Move to a much brighter position with some gentle direct sun. New growth comes in coloured; existing faded leaves stay green."
+      },
+      {
+        "symptom": "Long bare stems with leaves only at the tips",
+        "cause": "Natural habit accelerated by low light. Tradescantia goes leggy as it matures regardless.",
+        "fix": "Pinch the growing tips regularly to force branching, and take cuttings from the healthy ends to replant into the same pot. Treat this as routine renewal rather than a problem to solve."
+      },
+      {
+        "symptom": "Crispy brown leaf tips",
+        "cause": "Dry air, underwatering, or salt buildup from fertiliser.",
+        "fix": "Water more consistently, raise humidity slightly, and flush the pot with plain water occasionally."
+      },
+      {
+        "symptom": "Stems collapsing and rotting at soil level",
+        "cause": "Overwatering. The succulent stems rot readily in saturated mix.",
+        "fix": "Take tip cuttings immediately as insurance, let the mix dry out, and repot into fresh well-draining medium. Water less frequently afterwards."
+      },
+      {
+        "symptom": "Leaves dropping from the lower stems",
+        "cause": "Repeated severe wilting from underwatering, or too little light.",
+        "fix": "Water before the plant wilts dramatically rather than using the wilt as your cue. Increase light. Bare stems will not releaf, so cut them back and propagate."
+      },
+      {
+        "symptom": "Fine webbing and stippled leaves",
+        "cause": "Spider mites, which favour the dense tangled growth.",
+        "fix": "Rinse thoroughly in the shower and treat with insecticidal soap every five days for three cycles. Dense growth makes it worth cutting the plant back hard and restarting from clean cuttings if infestation is severe."
+      },
+      {
+        "symptom": "Pale bleached patches on leaves",
+        "cause": "Scorch from harsh unfiltered direct sun.",
+        "fix": "Filter the strongest midday light while keeping brightness high. Damaged leaves do not recover."
+      }
+    ],
+    "repotting": [
+      "Tradescantia grows fast and fills a pot within a year, but it is often more practical to restart from cuttings than to repot an ageing plant, since the crown goes bare regardless.",
+      "If repotting, do it in spring into a pot one size larger with fresh mix. Hanging baskets suit the trailing habit; check drainage. Loosen the root mass and trim dead roots.",
+      "The better long-term approach is renewal: every year or two, take eight to ten healthy tip cuttings, discard the tired parent, and plant the cuttings together in fresh mix. You get a dense, well-coloured plant in weeks rather than nursing a leggy one."
+    ],
+    "varieties": [
+      "Tradescantia zebrina is the classic inch plant, with purple leaves striped silver and a deep magenta underside. 'Quadricolor' adds pink and cream to the mix. Tradescantia fluminensis is the plain green or white-variegated species and is considerably less colourful but even tougher.",
+      "'Nanouk' is a newer cultivar with thick pink, cream and green striped leaves and a sturdier, more upright habit. Tradescantia pallida 'Purple Heart' is solid deep purple. All Tradescantia are toxic to cats and dogs, causing mild stomach upset, and the sap causes contact dermatitis in some people — worth wearing gloves if you are taking a lot of cuttings at once."
+    ]
+  },
+  "maidenhair-fern": {
+    "care": {
+      "light": [
+        "Maidenhair fern wants medium indirect light and no direct sun whatsoever. The fronds are only one cell thick in places and scorch faster than almost any other houseplant — even an hour of direct morning sun through glass can brown them.",
+        "A north-facing window is ideal, or a spot several feet back from an east window. In deep shade the plant survives but produces sparse, weak growth. This is genuinely a plant for a gentle, evenly lit position rather than a bright one, which is unusual and worth respecting."
+      ],
+      "water": [
+        "This is the demanding part, and the reason maidenhair has a reputation as a difficult plant. The soil must never dry out, not even briefly. A maidenhair that dries out completely will crisp its entire canopy within a day, and while the rhizome often survives to regrow, you lose everything above ground.",
+        "Check the soil daily and water as soon as the surface feels less than damp — in a warm room that can mean every two or three days. Water from below by standing the pot in a saucer for twenty minutes, which wets the root ball evenly without compacting the surface.",
+        "Humidity above 60% is genuinely required, not merely preferred. A bathroom, a closed terrarium or a humidifier running constantly are the realistic options. Maidenhair is also sensitive to chlorine and fluoride, so use filtered or rainwater. Dry air plus tap water is the combination that kills most of them."
+      ],
+      "soil": [
+        "Use a light, moisture-retentive mix with good structure — a peat or coir-based compost with added perlite and a little fine bark. It needs to hold water without compacting into a dense wet block.",
+        "A plastic or glazed pot conserves moisture far better than terracotta, which dries the root ball too quickly for this species. Feed very sparingly — quarter strength monthly through spring and summer only. Maidenhair is among the most fertiliser-sensitive houseplants and responds to excess with browned, shrivelled fronds."
+      ]
+    },
+    "propagation": [
+      "Maidenhair fern is propagated by division, which is straightforward and the practical home method.",
+      "Divide in spring. Slide the plant out of its pot and examine the root mass: you will see a creeping rhizome with fronds emerging along it. Cut or pull the clump into sections, each with several fronds and a good share of rhizome and roots. Divisions that are too small struggle, so aim for substantial pieces rather than many little ones.",
+      "Pot each into fresh moisture-retentive mix at the same depth, water thoroughly with filtered water, and — this part matters — keep them under a clear cover or bag for three to four weeks while they re-establish. Maidenhair divisions dry out very easily before their roots recover, and the humidity dome is often the difference between success and failure. Expect some frond loss after division; new growth follows once roots take hold. Spore propagation is possible but slow and demanding."
+    ],
+    "problems": [
+      {
+        "symptom": "Entire plant crisps brown within a day or two",
+        "cause": "The root ball dried out completely. This is the signature maidenhair failure and it happens fast.",
+        "fix": "Do not discard it. Cut all the dead fronds off at soil level, keep the rhizome consistently damp and humid, and new fronds usually emerge within a few weeks. Fix the watering routine — daily checking is not excessive for this plant."
+      },
+      {
+        "symptom": "Brown, crispy frond edges",
+        "cause": "Low humidity, chlorine or fluoride in tap water, or fertiliser salt buildup.",
+        "fix": "Raise humidity above 60%, switch to filtered or rainwater, reduce feeding to quarter strength, and flush the pot occasionally. Trim damaged fronds at the base."
+      },
+      {
+        "symptom": "Pale, bleached or scorched fronds",
+        "cause": "Direct sunlight, which this fern tolerates less well than almost any houseplant.",
+        "fix": "Move to a shadier position immediately. Damaged fronds do not recover; cut them out at the base."
+      },
+      {
+        "symptom": "Fronds yellowing and the soil staying wet",
+        "cause": "Overwatering with poor drainage — consistently moist is not the same as waterlogged.",
+        "fix": "Confirm the pot drains freely and is not sitting in standing water. Water from below and let excess drain away rather than leaving the saucer full."
+      },
+      {
+        "symptom": "Sparse, thin growth with few new fronds",
+        "cause": "Too little light, an exhausted potting mix, or a plant that needs dividing after several years.",
+        "fix": "Move somewhere with slightly more indirect light, repot into fresh mix in spring, and divide if the clump is congested."
+      },
+      {
+        "symptom": "Black stems at soil level",
+        "cause": "Normal — maidenhair naturally has wiry black stems, which is where the name comes from.",
+        "fix": "No action needed. Soft, mushy black stems are different and indicate rot; firm wiry black stems are healthy."
+      },
+      {
+        "symptom": "Fine webbing between fronds",
+        "cause": "Spider mites, which colonise when humidity drops.",
+        "fix": "Rinse gently with filtered water. Be cautious with treatments — maidenhair is sensitive to neem and insecticidal soaps, so test on one frond first and dilute more than the label suggests."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring, or when the rhizome has filled the pot. Maidenhair grows steadily in good conditions and benefits from fresh mix.",
+      "Move up one size into a plastic or glazed pot that conserves moisture. Handle the fine roots and brittle fronds gently, and set the rhizome at the same depth — burying it causes rot.",
+      "Water thoroughly with filtered water and keep the plant covered or in high humidity for a few weeks while it settles. Do not feed for six to eight weeks. This is the natural moment to divide a congested clump, which also rejuvenates a plant that has thinned in the centre."
+    ],
+    "varieties": [
+      "Adiantum raddianum is the most commonly sold maidenhair, with delicate fan-shaped leaflets on wiry black stems. 'Fragrans' is a vigorous form. Adiantum capillus-veneris, the southern maidenhair, is slightly more tolerant of dry air, and Adiantum tenerum 'Ghost' has pale new growth.",
+      "If maidenhair's humidity demands do not suit your home, blue star fern and bird's nest fern are far more forgiving alternatives with a similar feel. Maidenhair does exceptionally well in a closed terrarium, which solves the humidity problem permanently and is worth considering. All Adiantum are non-toxic to cats and dogs."
+    ]
+  },
+  "areca-palm": {
+    "care": {
+      "light": [
+        "Areca palm wants bright indirect light, ideally with a few hours of gentle direct sun. It needs more light than parlor palm or kentia and declines slowly in a dim corner, thinning out and producing no new fronds.",
+        "A position directly in front of an east window, or a few feet back from a south or west window, suits it well. Harsh unfiltered afternoon sun yellows the fronds, so filter the strongest light in summer. Rotate the pot every few weeks, since areca grows toward the light and becomes one-sided otherwise. A well-lit areca produces new canes from the base, which is how it stays full."
+      ],
+      "water": [
+        "Keep the mix evenly moist through spring and summer, watering when the top inch is dry — usually every five to seven days. Areca uses a lot of water in good light and dislikes drying out, which causes permanent frond browning.",
+        "Reduce to every ten to fourteen days in winter, but do not let the root ball dry through. The balance is consistent moisture without saturation; areca roots rot in standing water just as readily as they suffer from drought.",
+        "Humidity above 50% matters. Dry indoor air, especially in winter, produces brown frond tips and invites spider mites — the two most common areca complaints, both traceable to the same cause. Areca is also notably sensitive to fluoride and salts, so filtered or rainwater makes a visible difference."
+      ],
+      "soil": [
+        "Use a well-draining, slightly acidic potting mix with added perlite and a little sand — or a palm-specific compost. The mix should hold moisture while draining freely.",
+        "Areca palms are prone to nutrient deficiencies, particularly magnesium and potassium, which show as yellowing or spotting on older fronds. Feed monthly through spring and summer with a palm fertiliser containing micronutrients, at half strength, and stop in winter. Flush the pot with clean water every couple of months, since areca is simultaneously hungry and salt-sensitive."
+      ]
+    },
+    "propagation": [
+      "Areca palm is propagated by division, not by cuttings. Like all palms it grows from a terminal point on each cane, so a cut cane will not regrow and a severed frond will not root.",
+      "What makes areca divisible, unlike parlor or kentia palm, is that it is genuinely clumping — mature plants produce new canes from the base, forming a true multi-stemmed clump with a shared but separable root mass.",
+      "Divide in spring. Slide the plant out, and look for groups of canes with their own roots. The root mass is dense, so a clean serrated knife is usually needed. Keep at least three or four canes per division so each still looks substantial, and take as much root as possible with each. Pot into fresh palm mix, water thoroughly, and keep warm, humid and out of direct sun for a month while they recover. Expect a setback — areca resents root disturbance and will likely brown some fronds before resuming growth. Seed propagation is possible but slow and rarely practical at home."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown frond tips",
+        "cause": "The most common areca complaint. Dry air, fluoride and salts in tap water, or inconsistent watering.",
+        "fix": "Raise humidity above 50%, switch to filtered or rainwater, and flush the pot with clean water every couple of months. Trim the brown tip following the natural taper, leaving a sliver of dead tissue so you do not cut into living frond."
+      },
+      {
+        "symptom": "Fine webbing, stippled and dusty-looking fronds",
+        "cause": "Spider mites. Areca is among the most mite-prone houseplants and dry air is the trigger.",
+        "fix": "Rinse the entire plant in the shower including frond undersides, then treat with insecticidal soap every five days for at least three cycles. Without fixing humidity they return."
+      },
+      {
+        "symptom": "Yellowing older fronds with spotting",
+        "cause": "Magnesium or potassium deficiency, which this species is particularly prone to.",
+        "fix": "Feed with a palm fertiliser containing micronutrients through the growing season and repot into fresh mix if the plant has been in the same soil for years. Affected fronds will not green up."
+      },
+      {
+        "symptom": "Whole fronds browning from the bottom of the plant",
+        "cause": "The root ball dried out, or natural shedding of the oldest fronds as new ones emerge.",
+        "fix": "Check whether water runs down the gap at the pot edge rather than soaking in; if so, submerge the pot to rehydrate. Cut dead fronds at the base. Losing the occasional oldest frond is normal."
+      },
+      {
+        "symptom": "No new growth for months",
+        "cause": "Insufficient light, cold, or an exhausted potting mix.",
+        "fix": "Move to a brighter position, keep above 18°C, feed through the growing season, and repot every two to three years."
+      },
+      {
+        "symptom": "Canes soft and browning at soil level",
+        "cause": "Root rot from waterlogged soil or a pot left standing in water.",
+        "fix": "Confirm drainage and empty the saucer. Cut affected canes at the base — they will not recover — trim soft roots, and repot into fresh mix."
+      },
+      {
+        "symptom": "Fronds pale and washed out",
+        "cause": "Too much harsh direct sun, or a nutrient shortage.",
+        "fix": "Filter the strongest midday light. If light is already moderate, feed with a palm fertiliser."
+      }
+    ],
+    "repotting": [
+      "Repot every two to three years in spring. Areca fills a pot with dense roots and exhausts its mix, so refreshing the medium matters as much as extra space.",
+      "Move up one pot size into a heavy, stable container — a mature areca is tall and top-heavy. Palm roots are brittle and resent disturbance, so handle the root ball gently and avoid teasing it apart unless dividing deliberately.",
+      "Keep the clump of canes together. Water thoroughly afterwards, keep humidity high, and expect some frond browning as a stress response. Do not feed for six weeks. For a very large specimen, top-dress with fresh compost each spring instead of repotting."
+    ],
+    "varieties": [
+      "Dypsis lutescens is sold as areca palm, butterfly palm or golden cane palm — all the same plant. The yellow-green canes and arching feathery fronds are distinctive. There are no meaningful cultivars; what varies is the number of canes per pot and the plant's age.",
+      "If areca's humidity and light demands do not fit your home, kentia palm is considerably more forgiving of dry air and lower light, and parlor palm handles genuine shade. Areca is non-toxic to cats and dogs and is frequently cited as an effective air-humidifying plant, which is one reason it remains popular despite being somewhat demanding."
+    ]
+  },
+  "african-violet": {
+    "care": {
+      "light": [
+        "African violet needs bright indirect light to flower, and light is almost always the reason one stops blooming. Twelve to fourteen hours of bright indirect light daily is what produces continuous flowering — which is why they do so well under grow lights.",
+        "An east or north window is ideal. A south or west window needs a sheer curtain, since direct sun scorches the fuzzy leaves and leaves pale bleached patches. The leaves indicate the light level: healthy plants have flat leaves held horizontally. Leaves reaching upward mean too little light; leaves curling down over the pot rim mean too much."
+      ],
+      "water": [
+        "The single most important rule is to keep water off the leaves. The fine hairs trap water, and droplets sitting on the foliage in cool conditions cause the pale ring-shaped spots that disfigure so many African violets. Water from below by standing the pot in a saucer of tepid water for twenty to thirty minutes, then pouring away what is left.",
+        "Water when the surface feels barely dry, usually every five to seven days. Never let the plant wilt, and never leave it standing in water. Use tepid rather than cold water — cold water on the roots also causes leaf spotting.",
+        "Humidity of 50% or more suits them. A pebble tray works well; misting does not, for the obvious reason that it puts water on the leaves. Self-watering African violet pots, which wick moisture up from a reservoir, solve most of these problems at once and are worth using."
+      ],
+      "soil": [
+        "Use a light, airy African violet mix, or make your own from equal parts peat or coir, perlite and vermiculite. Standard potting compost is too dense and holds too much water around the fine roots.",
+        "Use a small, shallow pot. African violets have shallow root systems and flower best when slightly pot-bound — the general rule is a pot about one third the diameter of the leaf spread. Feed with a balanced or high-phosphorus African violet fertiliser at quarter strength with most waterings, which suits continuous flowering better than occasional heavy feeding."
+      ]
+    },
+    "propagation": [
+      "African violets propagate reliably from leaf cuttings, and this is one of the most rewarding propagations available — a single leaf produces a cluster of plantlets.",
+      "Choose a healthy leaf from the middle rows of the rosette rather than the oldest outer ones or the newest centre ones. Cut the petiole to about an inch long, at a 45-degree angle. Insert the petiole into damp, light propagation mix at a shallow angle so the leaf blade sits just above the surface, and cover with a clear bag or propagator to hold humidity.",
+      "Keep warm in bright indirect light. Roots form in three to four weeks, and a cluster of tiny plantlets emerges at the base of the petiole after two to three months. Once they have several leaves each, separate them carefully and pot individually. One leaf typically yields three to six plants. Note that variegated cultivars may not come true from leaf cuttings, and chimera varieties with striped flowers never do — those must be propagated from suckers instead."
+    ],
+    "problems": [
+      {
+        "symptom": "Pale rings or blotches on the leaves",
+        "cause": "Water droplets sitting on the fuzzy leaves, particularly cold water, causing cell damage where the sun hits them.",
+        "fix": "Water from below only and use tepid water. The marks are permanent on affected leaves; remove the worst and new growth will be clean."
+      },
+      {
+        "symptom": "No flowers for months",
+        "cause": "Insufficient light most commonly, then too large a pot, too much nitrogen, or a plant that needs repotting.",
+        "fix": "Give twelve to fourteen hours of bright indirect light daily, or use a grow light. Keep the pot small, and feed with a higher-phosphorus fertiliser."
+      },
+      {
+        "symptom": "Leaf stalks reaching upward, leaves stacked vertically",
+        "cause": "Too little light. The plant is stretching toward the source.",
+        "fix": "Move to a brighter position or add a grow light. Rotate the pot weekly so the rosette stays symmetrical."
+      },
+      {
+        "symptom": "Leaves curling downward over the pot rim",
+        "cause": "Too much light, or cold temperatures.",
+        "fix": "Filter the light with a sheer curtain and keep the plant above 18°C, away from cold windowsills."
+      },
+      {
+        "symptom": "Crown rotting, centre leaves mushy",
+        "cause": "Water sitting in the crown, or the plant being buried too deep at repotting.",
+        "fix": "Usually fatal once the growing point goes. Take leaf cuttings immediately from healthy outer leaves. Always water from below, and set the crown at the surface when repotting."
+      },
+      {
+        "symptom": "A bare woody stem lifting the rosette above the pot",
+        "cause": "Normal ageing — African violets develop a neck as lower leaves are removed over time.",
+        "fix": "Repot deeper: remove the lower leaves, scrape the neck lightly, and bury it so the rosette sits at soil level. The buried neck produces new roots."
+      },
+      {
+        "symptom": "Distorted, tightly bunched centre growth",
+        "cause": "Cyclamen mites, which are microscopic and attack the growing point.",
+        "fix": "Difficult to treat and highly contagious. Isolate the plant immediately. Taking clean leaf cuttings from unaffected outer leaves and discarding the parent is usually the most practical course."
+      }
+    ],
+    "repotting": [
+      "Repot every six to twelve months, which is more often than most houseplants. African violets exhaust their mix quickly and the soil compacts around the fine roots, which reduces flowering.",
+      "Use the same size pot or only slightly larger — the rule of thumb is a pot about one third the diameter of the leaf spread. Refreshing the mix matters more than adding space.",
+      "Remove the lower row of leaves, scrape the exposed neck gently, and set the plant deeper so the crown sits at soil level. Water from below and keep humidity up for a week. Remove any suckers — side rosettes that form in the leaf axils — since they divert energy from flowering, though they can be potted separately."
+    ],
+    "varieties": [
+      "Saintpaulia, now reclassified as Streptocarpus sect. Saintpaulia, comes in thousands of registered cultivars. Standard varieties spread eight to sixteen inches, semi-miniatures six to eight, and miniatures under six — the small ones are particularly well suited to windowsills.",
+      "Flowers range from single to double, in purple, pink, white, blue and bicolours, with ruffled and edged forms. Chimera varieties have pinwheel stripes and can only be propagated from suckers, never leaves. Trailing varieties have multiple crowns rather than a single rosette. All African violets are non-toxic to cats and dogs, making them one of the safest flowering houseplants."
+    ]
+  },
+  "christmas-cactus": {
+    "care": {
+      "light": [
+        "Christmas cactus is a Brazilian forest epiphyte, not a desert cactus, and this distinction drives everything about its care. It grows in the crooks of trees in filtered shade, so it wants bright indirect light rather than direct sun.",
+        "An east or north window suits it well. Direct summer sun scorches the flat stem segments and turns them a reddish-purple. Some reddening in bright light is a stress response rather than a disease, but scorch marks are permanent. Light also matters for flowering, though day length matters more — see the watering and flowering notes below."
+      ],
+      "water": [
+        "Unlike desert cacti, Christmas cactus wants regular watering. Let the top inch of mix dry, then water thoroughly and drain — usually every seven to ten days in spring and summer. It should never be left to dry out completely for long periods the way an echeveria would.",
+        "Reduce watering noticeably in autumn as part of the flowering trigger, then resume normal watering once buds have formed and through the flowering period. After flowering, give it a rest with sparser watering for a month or so.",
+        "The flowering trigger is the key piece of knowledge for this plant. Buds form in response to long nights and cool temperatures: around six weeks of thirteen or more hours of complete darkness each night, with temperatures around 12-15°C. A spare room or a cool windowsill away from artificial light in autumn does it. Humidity above 50% is appreciated."
+      ],
+      "soil": [
+        "Use a free-draining but organic mix — roughly two parts standard potting compost to one part perlite and one part orchid bark. Straight cactus compost is usually too lean and dries too fast for this epiphyte.",
+        "Keep the pot snug; Christmas cactus flowers better slightly pot-bound and rots in an oversized pot of wet mix. Drainage holes are essential. Feed monthly at half strength from spring through late summer with a balanced fertiliser, switching to something higher in potassium in late summer to support bud formation. Stop feeding once buds appear."
+      ]
+    },
+    "propagation": [
+      "Christmas cactus is very easy to propagate from stem segment cuttings, and doing so is worthwhile because plants become woody and less floriferous at the base with age.",
+      "In spring or early summer, twist off a section of two to four joined segments where they meet naturally — twisting is better than cutting, since it separates cleanly at the joint. Let the cutting callus for two to three days in a dry shaded spot. This step matters: a fresh wound pushed into damp mix usually rots.",
+      "Then insert the base of the cutting about half an inch into damp, free-draining mix, or lay it on the surface with the cut end in contact. Keep the mix barely moist, not wet, in bright indirect light. Roots form in three to four weeks. Pot three or four rooted cuttings together for a full plant. They typically flower in their second or third year. Water propagation works but tends to produce weaker roots than soil."
+    ],
+    "problems": [
+      {
+        "symptom": "Buds forming then dropping before opening",
+        "cause": "The classic Christmas cactus complaint. Caused by moving the plant while in bud, a sudden temperature change, a draught, or erratic watering.",
+        "fix": "Do not move or rotate the plant once buds appear — it is unusually sensitive to this. Keep watering steady and the position stable until flowering finishes."
+      },
+      {
+        "symptom": "No flowers at all",
+        "cause": "Insufficient dark period in autumn. The plant needs around six weeks of thirteen-plus hours of complete darkness nightly, plus cool temperatures, to set buds.",
+        "fix": "From about October, put it somewhere genuinely dark at night — a spare room, or covered with a box — and keep it cool. Artificial light from a lamp or street light is enough to prevent budding."
+      },
+      {
+        "symptom": "Segments wrinkled and limp",
+        "cause": "Underwatering, or root loss from overwatering preventing uptake.",
+        "fix": "Check the soil. Dry means water thoroughly. Wet and still limp means root rot — unpot, trim soft roots, and take cuttings as insurance."
+      },
+      {
+        "symptom": "Segments turning reddish-purple",
+        "cause": "Too much direct light, or cold stress, or being pot-bound and short of nutrients.",
+        "fix": "Move out of direct sun. If light is already indirect, feed through the growing season and consider repotting. Mild reddening is not harmful."
+      },
+      {
+        "symptom": "Base of the plant going woody and brown",
+        "cause": "Normal ageing — mature Christmas cacti develop a woody main stem.",
+        "fix": "No action needed if firm. Soft, mushy brown tissue is rot instead and requires cutting back to healthy segments and taking cuttings."
+      },
+      {
+        "symptom": "Segments dropping off easily",
+        "cause": "Overwatering and rot at the joints, or severe drought, or a sudden cold draught.",
+        "fix": "Check the soil and the base for soft tissue. Adjust watering and move away from draughts. Dropped healthy segments can be rooted as cuttings."
+      },
+      {
+        "symptom": "White cottony spots at the segment joints",
+        "cause": "Mealybugs, which shelter where the flat segments meet.",
+        "fix": "Dab with rubbing alcohol on a cotton bud, working into each joint. Check weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Christmas cactus flowers best when pot-bound, so repot only every three to four years, or when the mix has broken down and stopped draining.",
+      "The right time is late winter or early spring, after flowering has finished — never while in bud or bloom. Move up one small size only, into fresh organic free-draining mix.",
+      "Handle the brittle segments carefully; any that break off are cuttings worth rooting. Water lightly for the first couple of weeks while roots settle, then resume normal care. Do not feed for six weeks. If your plant is flowering well, leaving it alone is the better choice."
+    ],
+    "varieties": [
+      "The plant sold as Christmas cactus is usually Schlumbergera truncata, which is strictly a Thanksgiving cactus — its segments have pointed, claw-like teeth along the edges. True Schlumbergera bridgesii, the Christmas cactus, has rounded, scalloped segments and flowers a few weeks later.",
+      "Easter cactus, Rhipsalidopsis gaertneri, has rounded segments with small bristles and star-shaped rather than tubular flowers, blooming in spring. Flower colours include red, pink, white, orange and yellow. All Schlumbergera are non-toxic to cats and dogs, which makes them one of the few genuinely pet-safe flowering plants for the winter season — unlike poinsettia, amaryllis and mistletoe."
+    ]
+  },
+  "kalanchoe": {
+    "care": {
+      "light": [
+        "Kalanchoe blossfeldiana needs bright light including several hours of direct sun to flower well and keep its compact shape. A south or west-facing windowsill is the right position.",
+        "In insufficient light the stems stretch, leaves space out, and the plant stops flowering entirely. This is the main reason a supermarket kalanchoe looks wonderful for a month and then declines — they are grown under intense commercial light and then placed on a dim shelf at home. Introduce strong sun gradually to a newly bought plant to avoid scorching."
+      ],
+      "water": [
+        "Kalanchoe is a true succulent with thick fleshy leaves that store water. Water deeply, then let the mix dry out completely before watering again — typically every two to three weeks in spring and summer, and once a month or less in winter.",
+        "Water at soil level rather than over the plant, and never leave it standing in water. Overwatering is the main cause of failure and shows as yellowing leaves and soft, blackening stem bases. The leaves are a reliable gauge: firm means watered, slightly soft and wrinkled means it is time.",
+        "Reflowering, like Christmas cactus, is triggered by day length. Kalanchoe is a short-day plant and needs around six weeks of fourteen hours of complete darkness each night to set buds. Without that treatment, most plants flower once after purchase and then produce only leaves. Humidity should be low; these plants dislike damp air."
+      ],
+      "soil": [
+        "Use a cactus and succulent mix, or two parts potting compost to one part perlite or coarse sand. Fast drainage is essential.",
+        "Terracotta helps, in a pot only slightly larger than the root ball. Kalanchoe has a modest root system and rots in an oversized pot. Feed sparingly — a half-strength balanced feed monthly during the growing season, switching to a higher-potassium fertiliser in late summer if you are trying to encourage flowering. Stop feeding entirely once buds form and through winter."
+      ]
+    },
+    "propagation": [
+      "Kalanchoe propagates very easily from both stem and leaf cuttings, and the deciding factor is callusing.",
+      "For stem cuttings, take a three to four inch tip with several leaves, removing the lowest pair. For leaf cuttings, remove a healthy leaf cleanly at the stem. Either way, leave the cutting on a dry surface out of direct sun for two to three days until the cut end has dried and sealed. Pushing a fresh wound into damp mix is the usual cause of failure.",
+      "Then insert stem cuttings an inch into dry cactus mix, or lay leaves flat on the surface. Do not water for a week, then water sparingly. Roots form in two to three weeks and new growth follows. Taking cuttings in spring after flowering is a good habit, because the parent plant becomes leggy over time and the cuttings give you a compact replacement. Some Kalanchoe species, notably the mother of thousands, produce plantlets along their leaf margins that root wherever they fall."
+    ],
+    "problems": [
+      {
+        "symptom": "Flowers finish and never return",
+        "cause": "No short-day treatment. Kalanchoe needs around six weeks of fourteen hours of nightly darkness to set buds, and ordinary household lighting prevents it.",
+        "fix": "From autumn, cover the plant with a box each evening or move it to a genuinely dark room overnight for six weeks. Deadhead spent flowers and cut the stalks back first."
+      },
+      {
+        "symptom": "Stems stretching, leaves widely spaced",
+        "cause": "Insufficient light.",
+        "fix": "Move to the sunniest window available. Prune the stretched growth back hard after flowering — kalanchoe responds well and the cuttings root easily."
+      },
+      {
+        "symptom": "Leaves yellow, soft and mushy",
+        "cause": "Overwatering. The succulent leaves take up more water than they can hold.",
+        "fix": "Stop watering and let the mix dry out completely. Remove mushy leaves and check the stem base and roots for soft tissue."
+      },
+      {
+        "symptom": "Black or brown soft patches at the stem base",
+        "cause": "Stem rot from wet soil, often in cool conditions.",
+        "fix": "Take healthy tip cuttings immediately as insurance. Cut the plant back to firm tissue, let it dry, and repot in dry gritty mix. Advanced stem rot is often fatal."
+      },
+      {
+        "symptom": "Leaves wrinkled and thin",
+        "cause": "Underwatering over an extended period.",
+        "fix": "Water thoroughly and repeat in a week. Leaves plump back up within days."
+      },
+      {
+        "symptom": "White powdery coating on leaves",
+        "cause": "Powdery mildew, encouraged by damp still air and crowded conditions.",
+        "fix": "Improve air circulation, remove affected leaves, and avoid wetting the foliage. Space plants further apart."
+      },
+      {
+        "symptom": "Leaves dropping after purchase",
+        "cause": "Shock from the change between greenhouse and home conditions — light, humidity and temperature all drop sharply.",
+        "fix": "Settle it in the brightest spot available and water sparingly. Some drop is normal; the plant usually stabilises within a few weeks."
+      }
+    ],
+    "repotting": [
+      "Kalanchoe has a modest root system and only needs repotting every two years, or when roots have genuinely filled the pot.",
+      "Repot in spring after flowering has finished, into a pot only slightly larger. Overpotting causes rot, so resist a big jump. Terracotta with good drainage is ideal.",
+      "Use dry mix and wait a week before watering so any damaged roots seal. This is the natural moment to prune a leggy plant back into shape and take cuttings from the removed material. Skip fertiliser for a month afterwards."
+    ],
+    "varieties": [
+      "Kalanchoe blossfeldiana is the flowering kalanchoe sold in supermarkets, with clusters of small flowers in red, pink, orange, yellow or white above scalloped dark green leaves. Double-flowered 'Calandiva' types have rose-like blooms.",
+      "Other kalanchoes are grown for foliage: Kalanchoe tomentosa, the panda plant, has furry silver leaves with brown edges; K. daigremontiana, mother of thousands, produces plantlets along its leaf margins and is notably invasive; and K. luciae, the paddle plant, has flat round leaves that flush red in sun. All Kalanchoe are toxic to cats and dogs — they contain cardiac glycosides, which makes them more seriously toxic than many houseplants, so keep them well out of reach."
+    ]
+  },
+  "pilea-peperomioides": {
+    "care": {
+      "light": [
+        "Chinese money plant wants bright indirect light. It is one of the more light-responsive houseplants in terms of shape: good light produces a compact plant with leaves held on short stalks, while insufficient light produces long leggy petioles and a sparse, reaching appearance.",
+        "An east window is ideal, or a position near a south or west window behind a sheer curtain. Direct sun scorches the round leaves, leaving brown papery patches. Rotate the pot a quarter turn every week — pilea leans toward light more visibly than almost any other houseplant, and regular rotation is what keeps the classic symmetrical dome shape."
+      ],
+      "water": [
+        "Water when the top inch or two of mix has dried, then water thoroughly and drain fully. In spring and summer that is usually every seven to ten days; in winter, every two weeks or so.",
+        "Pilea has slightly succulent leaves and stems and is more tolerant of drought than of wet soil. It signals thirst clearly: the leaves droop noticeably and recover within hours of watering, which makes it an easy plant to read.",
+        "Overwatering shows as yellowing lower leaves and a soft stem base. Average household humidity is fine — this plant does not need the 60% that calatheas demand. Empty the saucer after watering."
+      ],
+      "soil": [
+        "Use a well-draining potting mix with added perlite — roughly three parts compost to one part perlite. The roots want air and rot in dense saturated soil.",
+        "Keep the pot modest in size; pilea has a compact root system and an oversized pot holds wet mix. Drainage holes are essential. Feed monthly at half strength through spring and summer and stop in winter. This is a moderately vigorous grower that responds well to feeding during the growing season."
+      ]
+    },
+    "propagation": [
+      "Chinese money plant is famous for being easy to share, and that reputation is deserved — it produces offsets prolifically, which is how it spread hand to hand long before it was commercially available.",
+      "Two kinds of pup appear. Soil pups emerge from the roots and push up through the mix beside the parent. Stem pups grow directly from the main stem above soil level.",
+      "For a soil pup, wait until it is two to three inches tall with several leaves, then dig down beside it with a clean knife and cut it away from the parent's root system, taking some roots with it. Pot it straight into your usual mix and keep it lightly moist for a couple of weeks. For a stem pup, cut it flush against the main stem, then root it in water or damp mix — water works well here and roots appear within two to three weeks. The parent plant is unharmed by removing pups and generally produces more afterwards. A plant in good light and a slightly snug pot pups most freely."
+    ],
+    "problems": [
+      {
+        "symptom": "Long leggy leaf stalks and a sparse, reaching shape",
+        "cause": "Insufficient light. The petioles elongate toward the light source.",
+        "fix": "Move to a brighter position and rotate the pot weekly. The stretched stalks stay as they are, but new growth comes in compact. Removing the lowest leaves tidies the appearance."
+      },
+      {
+        "symptom": "Leaves curling or cupping",
+        "cause": "Cupping upward usually means too much light; curling downward or inward often means underwatering or a temperature issue.",
+        "fix": "Check the position and soil. Move out of direct sun, and water if the top two inches are dry. Some leaf movement is normal as the plant tracks light."
+      },
+      {
+        "symptom": "Yellowing lower leaves that drop",
+        "cause": "Overwatering most commonly, or natural ageing as the stem lengthens and lower leaves are shed.",
+        "fix": "Let the top inches dry properly before watering. A bare lower stem on a mature plant is natural rather than a fault, and gives the tree-like look many people prefer."
+      },
+      {
+        "symptom": "Brown papery patches on leaves",
+        "cause": "Sunburn from direct sun through glass.",
+        "fix": "Move back from the window or filter the light. Damaged leaves do not recover."
+      },
+      {
+        "symptom": "White chalky spots on leaf undersides",
+        "cause": "Mineral deposits excreted by the plant through specialised structures — entirely normal and harmless for this species.",
+        "fix": "No action needed. They wipe off with a damp cloth if you find them unsightly. They are often mistaken for pests or disease."
+      },
+      {
+        "symptom": "Stem soft and dark at soil level, plant collapsing",
+        "cause": "Root or stem rot from overwatering.",
+        "fix": "Take any healthy stem pups immediately as insurance. Unpot, cut away soft tissue, and repot healthy material into fresh well-draining mix."
+      },
+      {
+        "symptom": "Leaves small and pale with slow growth",
+        "cause": "Too little light, a shortage of nutrients, or a plant that has outgrown its pot.",
+        "fix": "Increase light, feed through the growing season, and repot if roots have filled the container."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring. Pilea grows steadily and produces pups that crowd the pot, which is usually the trigger rather than the parent outgrowing it.",
+      "Move up one size only, into fresh well-draining mix. A snug pot encourages pupping, so there is no advantage in going large. Loosen the root ball and remove pups at this point if you want more plants.",
+      "If the parent has developed a long bare stem, you can set it deeper when repotting to cover some of it, which also encourages new roots. Water thoroughly and wait a month before feeding."
+    ],
+    "varieties": [
+      "Pilea peperomioides is the species and has few cultivars. 'Mojito' is a variegated form with cream splashes, and 'White Splash' is similar — both are slower-growing and need brighter light. The species itself varies little.",
+      "The plant carries an unusual number of common names — Chinese money plant, pancake plant, UFO plant, missionary plant — reflecting how it spread through cuttings rather than the nursery trade. Other pileas worth knowing are Pilea cadierei, the aluminium plant, and Pilea involucrata, the friendship plant. All Pilea are non-toxic to cats and dogs, making this an excellent choice for a pet household."
+    ]
+  },
+  "nerve-plant": {
+    "care": {
+      "light": [
+        "Nerve plant grows on the rainforest floor in Peru and wants medium indirect light with no direct sun. It is genuinely a low-to-medium light plant, which sets it apart from most brightly patterned foliage.",
+        "A north-facing window suits it, or a position well back from an east window. Direct sun scorches the thin leaves and bleaches the vein pattern. In light that is too low the leaves lose contrast and the plant becomes leggy, but this is a far less common problem than too much light. Fittonia also does well under artificial light, which makes it a good desk plant."
+      ],
+      "water": [
+        "This is the demanding part. Fittonia wants consistently moist soil and is famous for collapsing dramatically the moment it dries out — the entire plant goes limp and flat within hours, earning it the nickname drama queen.",
+        "Water when the surface feels barely dry, which in a warm room can be every two to three days. Use tepid water and avoid letting the plant wilt, because although it usually recovers within an hour of watering, repeated collapses damage the leaves permanently.",
+        "Humidity above 60% is genuinely needed rather than merely preferred. Dry air produces brown crispy edges and is the main reason nerve plants fail in ordinary rooms. A terrarium, a closed glass container or a bathroom solves this permanently, and Fittonia is one of the best terrarium plants available for exactly this reason."
+      ],
+      "soil": [
+        "Use a light, moisture-retentive mix — peat or coir-based compost with added perlite. It needs to hold water consistently without compacting.",
+        "A shallow, wide pot suits the shallow spreading root system better than a deep one. Plastic or glazed ceramic conserves moisture better than terracotta, which dries far too fast for this species. Feed at quarter to half strength monthly through spring and summer only; fittonia is small and easily over-fertilised, which shows as browned leaf edges."
+      ]
+    },
+    "propagation": [
+      "Nerve plant propagates very easily from stem cuttings, and it is worth doing regularly because plants go leggy and bare at the base within a year or two.",
+      "Take a cutting two to three inches long with several pairs of leaves, cutting just below a node, and strip the lowest pair. Root in water, where roots appear within one to two weeks, or push directly into damp mix.",
+      "Humidity is what determines success. Cover soil-rooted cuttings with a clear bag or propagator, or root them in a terrarium where conditions are already right. Pot several rooted cuttings together for a full plant — a single cutting takes a long time to look like anything. Division also works well on a mature clump: pull the plant apart into sections each with roots and several stems, and pot separately. Pinching the growing tips regularly encourages branching and delays the legginess."
+    ],
+    "problems": [
+      {
+        "symptom": "Whole plant collapses flat, then recovers after watering",
+        "cause": "The signature fittonia behaviour — the soil dried out. It is dramatic but usually not fatal.",
+        "fix": "Water immediately with tepid water and the plant typically revives within an hour. Water before this point rather than using the collapse as your cue; repeated wilting causes permanent leaf damage."
+      },
+      {
+        "symptom": "Brown, crispy leaf edges",
+        "cause": "Low humidity, which is the fundamental problem with growing this plant in an ordinary room.",
+        "fix": "Raise humidity above 60% with a humidifier, or move the plant into a terrarium or closed container. A pebble tray alone is rarely enough for fittonia."
+      },
+      {
+        "symptom": "Leaves yellowing with wet soil",
+        "cause": "Overwatering — consistently moist is not the same as waterlogged, and the fine roots rot easily.",
+        "fix": "Confirm the pot drains and is not standing in water. Aim for damp rather than soggy, and check the surface before each watering."
+      },
+      {
+        "symptom": "Leggy stems with bare stretches and few leaves",
+        "cause": "Natural habit accelerated by low light, and a lack of pinching.",
+        "fix": "Pinch the growing tips regularly to force branching, and take cuttings from the healthy ends to replant into the same pot. Treat renewal as routine."
+      },
+      {
+        "symptom": "Faded vein pattern and washed-out leaves",
+        "cause": "Too much light, usually direct sun.",
+        "fix": "Move to a shadier position. Faded leaves stay as they are, but new growth comes in properly marked."
+      },
+      {
+        "symptom": "Leaves dropping from the lower stems",
+        "cause": "Repeated drying out, low humidity, or cold exposure. Fittonia dislikes temperatures below about 16°C.",
+        "fix": "Keep the soil consistently damp, raise humidity, and move away from draughty windows."
+      },
+      {
+        "symptom": "Small flies around the pot",
+        "cause": "Fungus gnats breeding in permanently damp topsoil — an occupational hazard with a plant that must stay moist.",
+        "fix": "Use yellow sticky traps for the adults and a thin layer of horticultural grit or sand on the surface, which prevents egg-laying without letting the soil dry out."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring, or when roots fill the pot. Fittonia has a shallow spreading root system that fills sideways rather than downwards.",
+      "Choose a wide, shallow pot one size larger, in plastic or glazed ceramic to conserve moisture. Handle the fine roots gently.",
+      "Water with tepid water afterwards and keep humidity high for a few weeks. Do not feed for six weeks. This is the natural moment to divide a congested clump, and to take cuttings if the plant has gone bare in the middle — replanting cuttings around the parent thickens it quickly."
+    ],
+    "varieties": [
+      "Fittonia albivenis comes in two main groups. The Verschaffeltii group has pink or red veining on deep green leaves; 'Red Anne' and 'Pink Star' are typical. The Argyroneura group has white or silver veining; 'White Anne' and the large-leaved 'Argyroneura' are common.",
+      "'Mini White' and other miniature forms are particularly well suited to terrariums and bottle gardens. Fittonia is non-toxic to cats and dogs, and combined with its small size and shade tolerance, it is a good choice for a desk or bathroom in a pet household — provided you can meet the humidity requirement."
+    ]
+  },
+  "polka-dot-plant": {
+    "care": {
+      "light": [
+        "Polka dot plant needs bright indirect light to keep its spotting vivid. This is the main variable that determines whether the plant looks striking or disappointing.",
+        "In low light the pink, white or red speckling fades toward green and the stems stretch badly. In direct sun the leaves scorch and the colours bleach. An east window, or a spot near a south or west window behind a sheer curtain, is the balance to aim for. Plants under artificial light also colour well, which makes this a reasonable desk plant."
+      ],
+      "water": [
+        "Keep the mix consistently moist but not soggy, watering when the top half-inch feels dry — usually every three to five days in spring and summer. Hypoestes wilts quickly and visibly when dry, recovering within an hour or two of watering.",
+        "Reduce somewhat in winter but do not let the root ball dry out completely. Like fittonia, this plant uses wilting as its main communication, but repeated collapses cause leaf loss along the stems.",
+        "Humidity above 50% produces better growth and reduces the brown leaf edges that are the most common complaint. A pebble tray or humidifier helps. Water at soil level rather than over the leaves, which can mark the fine spotting."
+      ],
+      "soil": [
+        "A standard well-draining potting mix with added perlite works well. The plant wants a medium that holds moisture while still draining freely.",
+        "Feed monthly at half strength through spring and summer to support the fast growth, and stop in winter. Hypoestes is a vigorous but short-lived plant, so feeding supports the rapid growth rather than building a long-term specimen. A pot with drainage is essential."
+      ]
+    },
+    "propagation": [
+      "Polka dot plant propagates extremely easily from stem cuttings, and propagating regularly is essential rather than optional with this species, because individual plants are genuinely short-lived.",
+      "Take a cutting three to four inches long with several pairs of leaves, cutting just below a node, and strip the lowest pair. Stand it in water — roots appear within one to two weeks — or push it directly into damp mix. Success rates are very high either way.",
+      "The important context is the plant's life cycle. Hypoestes is naturally short-lived and flowers after a year or two, after which it becomes leggy and often dies back. The standard practice is to pinch out flower spikes as they appear, which prolongs the plant, and to take fresh cuttings every year so you always have a young replacement coming on. Pinching the growing tips regularly also forces branching and keeps the plant dense, which is the difference between a full mound and a handful of bare stems."
+    ],
+    "problems": [
+      {
+        "symptom": "Spotting fading toward plain green",
+        "cause": "Insufficient light. The variegation is strongly light-dependent.",
+        "fix": "Move to a brighter position with indirect light. New growth comes in properly spotted; existing faded leaves stay as they are."
+      },
+      {
+        "symptom": "Leggy stems with widely spaced leaves",
+        "cause": "Too little light, and no pinching. Hypoestes stretches readily.",
+        "fix": "Increase light and pinch the growing tips regularly to force branching. Take cuttings from the tips and replant them into the same pot to thicken it."
+      },
+      {
+        "symptom": "Plant flowers then declines",
+        "cause": "Natural life cycle. Hypoestes flowers after a year or two and often dies back afterwards.",
+        "fix": "Pinch out flower spikes as soon as they appear to prolong the plant, and take cuttings annually so you always have a replacement. This is a plant to renew rather than preserve."
+      },
+      {
+        "symptom": "Whole plant wilting flat",
+        "cause": "The soil dried out. Hypoestes collapses quickly and dramatically.",
+        "fix": "Water immediately and it usually recovers within an hour or two. Water before this point; repeated wilting causes leaf drop."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity or inconsistent watering.",
+        "fix": "Raise humidity above 50%, and keep the soil evenly moist rather than swinging between wet and dry."
+      },
+      {
+        "symptom": "Leaves pale and scorched",
+        "cause": "Direct sun, which bleaches both the green and the spotting.",
+        "fix": "Move back from the glass or filter the light."
+      },
+      {
+        "symptom": "Small white flies rising from the plant when disturbed",
+        "cause": "Whitefly, which favour soft fast-growing foliage like this.",
+        "fix": "Use yellow sticky traps, rinse the plant, and treat with insecticidal soap every five days for three cycles. Given how easily the plant propagates, taking clean cuttings and discarding a badly infested parent is often the pragmatic choice."
+      }
+    ],
+    "repotting": [
+      "Given the short natural lifespan, repotting matters less for this plant than regular propagation. Repot every year in spring if you are keeping a specimen going, into a pot one size larger with fresh mix.",
+      "The more practical approach for most people is renewal: every year or so, take six to eight healthy cuttings, root them, and plant them together in fresh mix, discarding the tired parent. This gives a dense, well-coloured plant in a few weeks.",
+      "If you do repot, loosen the root ball, water thoroughly afterwards, and wait a month before feeding. Pinch the tips at the same time to encourage branching."
+    ],
+    "varieties": [
+      "Hypoestes phyllostachya comes in three main colour groups — pink, white and red spotting on green. The 'Confetti' series offers compact plants in all three, and the 'Splash' series has larger, bolder areas of colour, sometimes covering most of the leaf.",
+      "'Carmina' is a deep red form and 'Pink Brocade' has fine mottled pink speckling. The plant is sometimes sold as freckle face or measles plant. Hypoestes is non-toxic to cats and dogs, and its small size, easy propagation and shade tolerance make it a good choice for a terrarium or a pet household — with the caveat that it should be treated as a plant to refresh annually rather than a long-term specimen."
+    ]
   }
 }
