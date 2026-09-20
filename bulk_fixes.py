@@ -358,12 +358,10 @@ def create_404_redirects():
     created_count = 0
     redirects = []
 
-    # Template slug redirects
-    redirects.append((BASE_DIR / 'plants' / '${p.slug}' / 'index.html', '/'))
-    redirects.append((BASE_DIR / 'es' / 'plants' / '${p.slug}' / 'index.html', '/es/'))
-    redirects.append((BASE_DIR / 'de' / 'plants' / '${plant.id}' / 'index.html', '/de/'))
-    redirects.append((BASE_DIR / 'de' / 'plants' / '${p.slug}' / 'index.html', '/de/'))
-    redirects.append((BASE_DIR / 'plants' / '${plant.id}' / 'index.html', '/'))
+    # NOTE: template-slug stub pages (plants/${p.slug}/, plants/${plant.id}/ and
+    # their de/es equivalents) are deliberately NOT created. They were artifacts of
+    # an unrendered template, are disallowed in robots.txt, and should 404 instead
+    # of existing as meta-refresh stubs.
 
     # Generic dracaena redirects (find closest existing dracaena page)
     dracaena_target = '/plants/dracaena-marginata/'
