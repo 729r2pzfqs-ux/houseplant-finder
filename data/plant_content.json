@@ -1876,5 +1876,685 @@
       "Anthurium andraeanum is the flamingo flower, with glossy heart-shaped leaves and the familiar waxy red, pink, white or coral spathes. Anthurium scherzerianum, the pigtail anthurium, has a curled spadix and narrower leaves.",
       "Foliage anthuriums are a different proposition entirely: Anthurium clarinervium has velvety dark leaves with striking white veining, and A. crystallinum is similar — both are grown for leaves rather than flowers and want higher humidity still. All anthuriums are toxic to cats and dogs, with calcium oxalate crystals causing mouth and throat irritation, so keep them out of reach in a pet household."
     ]
+  },
+  "majesty-palm": {
+    "care": {
+      "light": [
+        "Majesty palm is widely sold as a low-light plant and it is not one. It comes from riverbanks in Madagascar and needs bright indirect light, ideally with a few hours of gentle direct sun. This mismatch between how it is marketed and what it needs is the reason so many decline within months of purchase.",
+        "Place it directly in front of a south or west window, filtered slightly in the hottest months, or an unobstructed east window. In medium light it holds on but produces no new fronds and gradually thins. Rotate the pot regularly so it grows evenly rather than leaning."
+      ],
+      "water": [
+        "This palm wants considerably more water than most houseplants. In its native habitat it grows in damp riverside soil, and it will not tolerate drying out. Keep the mix consistently moist, watering when the top inch is dry — often twice a week in a warm bright spot in summer.",
+        "Reduce somewhat in winter but never let the root ball dry through. A majesty palm that dries out develops brown fronds that do not recover, and repeated drying is the second most common cause of failure after inadequate light.",
+        "It also needs humidity above 50%, and dry winter air produces brown frond tips and invites spider mites. Standing the pot on a wide pebble tray and running a humidifier nearby both help. It is sensitive to fluoride, so filtered or rainwater is preferable."
+      ],
+      "soil": [
+        "Use a rich, moisture-retentive mix that still drains — a good potting compost with added perlite, or a palm-specific mix. The balance here is unusual: this plant wants consistent moisture without waterlogging, which means a medium with body rather than a free-draining cactus-style blend.",
+        "Majesty palms are hungry compared to most palms and prone to magnesium and iron deficiency, which shows as yellowing between the veins on older fronds. Feed monthly through spring and summer with a balanced fertiliser, and consider a palm feed containing magnesium. Stop in winter."
+      ]
+    },
+    "propagation": [
+      "Majesty palm cannot be propagated from cuttings. Like most palms it grows from a single terminal growing point on each stem, so there is nothing to cut that will regrow, and a severed frond will not root. This is the most common misconception about palms.",
+      "Propagation is from seed, which is slow and demanding — germination takes two to three months at consistently high temperatures and humidity, and seedlings take years to reach saleable size. It is not a practical home project.",
+      "What you can do is separate a multi-stemmed plant. Majesty palms are almost always sold with several seedlings potted together to look full. In spring you can divide the root mass into two or three clumps, keeping several stems per division so each still looks substantial. Disturb the brittle roots as little as possible, pot into rich moist mix, and keep them warm, humid and shaded for a month. Each division will look noticeably thinner than the original, so this multiplies pots rather than creating new plants."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown frond tips spreading down the leaflets",
+        "cause": "Dry air, underwatering, or fluoride and salts in tap water — usually all three together.",
+        "fix": "Raise humidity above 50%, keep the mix consistently moist, switch to filtered or rainwater, and flush the pot with clean water every couple of months. Trim brown tips following the natural taper."
+      },
+      {
+        "symptom": "Whole fronds going brown from the bottom up",
+        "cause": "The root ball has dried out completely at some point, or the plant is in light too low to sustain itself.",
+        "fix": "Check whether water runs straight down the gap at the pot edge — if so, submerge the pot in a basin for twenty minutes to rehydrate. Move to a genuinely bright position. Dead fronds do not recover; cut them at the base."
+      },
+      {
+        "symptom": "Yellowing between the veins on older fronds",
+        "cause": "Magnesium or iron deficiency, which this species is particularly prone to.",
+        "fix": "Feed with a palm fertiliser containing magnesium through the growing season, and repot into fresh mix if the plant has been in the same soil for several years."
+      },
+      {
+        "symptom": "Fine webbing and stippled, dusty-looking fronds",
+        "cause": "Spider mites. Majesty palm is one of the most mite-prone houseplants, and dry air is the trigger.",
+        "fix": "Rinse the entire plant in the shower including frond undersides, then treat with insecticidal soap every five days for at least three cycles. Without fixing the humidity they will return."
+      },
+      {
+        "symptom": "No new fronds for months",
+        "cause": "Insufficient light, cold, or an exhausted potting mix.",
+        "fix": "Move to the brightest position available, keep it above 18°C, and feed regularly in the growing season. Repot every two years to refresh the medium."
+      },
+      {
+        "symptom": "Stems soft and browning at soil level",
+        "cause": "Root rot — which can happen even in a moisture-loving palm if the pot does not drain or stands in water.",
+        "fix": "Confirm the pot has working drainage and empty the saucer. Trim soft roots and repot into fresh mix. Moisture-loving is not the same as waterlogged."
+      },
+      {
+        "symptom": "Pale, bleached fronds",
+        "cause": "Too much harsh direct sun, particularly through unfiltered south-facing glass in summer.",
+        "fix": "Filter the strongest midday light while keeping overall brightness high. Bleached tissue does not recover."
+      }
+    ],
+    "repotting": [
+      "Repot every two to three years in spring. Majesty palms grow reasonably fast in good conditions and exhaust their potting mix, so refreshing the medium matters as much as extra room.",
+      "Move up one pot size into a heavy, stable container — these plants get tall and top-heavy. Palm roots are brittle and resent disturbance, so handle the root ball gently and avoid teasing it apart unless you are deliberately dividing.",
+      "Keep the clump of stems together rather than separating them. Water thoroughly afterwards, keep humidity high, and hold off feeding for six weeks. For a very large specimen, top-dressing with fresh compost each spring is more practical than repotting."
+    ],
+    "varieties": [
+      "Ravenea rivularis is sold as majesty palm and there are no meaningful cultivars — what varies is size and the number of stems per pot. Be aware that small specimens are heavily produced and often sold underlit and rootbound.",
+      "If majesty palm's demands do not suit your conditions, kentia palm tolerates lower light and drier air far better and is a much more forgiving large palm, while parlor palm handles genuine shade. Areca palm sits between them. Majesty palm is non-toxic to cats and dogs, which is one genuine advantage it has over many large statement plants."
+    ]
+  },
+  "birds-nest-fern": {
+    "care": {
+      "light": [
+        "Bird's nest fern grows as an epiphyte in the crooks of rainforest trees, in dappled shade. It wants medium indirect light and tolerates fairly low light, which makes it one of the more shade-tolerant ferns.",
+        "Direct sun is the thing to avoid — the broad, glossy fronds scorch and yellow quickly. A north or east-facing window suits it well. In very low light the fronds grow narrower and paler and the characteristic rosette loosens, so medium light gives the best form."
+      ],
+      "water": [
+        "Keep the mix consistently moist but never waterlogged, watering when the top inch feels dry. In spring and summer that is usually every five to seven days; in winter, every ten days or so.",
+        "The critical point is where you water. This fern grows as a rosette with a nest-like crown at the centre, and water poured into that crown sits there and causes rot, which is the most common way bird's nest ferns are killed. Always water the soil around the edge of the rosette, never into the middle.",
+        "Humidity of 50% or more is important and dry air shows as brown, crisping frond edges. A bathroom is often an excellent position. The plant is also sensitive to salts, so flush the pot occasionally and consider filtered water if edges keep browning."
+      ],
+      "soil": [
+        "Use a loose, organic, moisture-retentive mix — a peat or coir-based compost with added orchid bark and perlite works well. As an epiphyte it wants air around the roots along with steady moisture, so avoid dense compacted soil.",
+        "The root system is small relative to the size of the fronds, so keep the pot modest. Feed sparingly — a balanced fertiliser at quarter to half strength monthly through spring and summer only. Ferns are sensitive to fertiliser salts, and too much shows as brown frond edges and deformed new growth."
+      ]
+    },
+    "propagation": [
+      "Bird's nest fern cannot be divided in the way most ferns can. It grows as a single rosette from one central growing point, so cutting it apart destroys the plant. This is the key difference from Boston fern and catches many people out.",
+      "The only genuine propagation method is from spores, which form as brown lines on the undersides of mature fronds. Collect them by placing a frond spore-side-down on paper for a few days, then scatter the dust onto damp sterile compost, cover with a clear lid and keep warm and humid in indirect light. What appears first is not a fern but a prothallus — a tiny green heart-shaped structure — and only after fertilisation, which needs a film of moisture, does a recognisable fern emerge. The process takes several months to over a year and demands consistent sterility and humidity.",
+      "For most people the practical answer is that this is a plant you buy rather than propagate. Occasionally a mature specimen produces a genuine offset beside the main rosette, which can be separated with its own roots once it is a decent size."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown mushy centre of the rosette",
+        "cause": "Crown rot from water poured into the nest at the centre of the plant.",
+        "fix": "Often fatal once the growing point is affected. Tip out any standing water immediately and dry the crown. Water only at the soil around the edge from now on."
+      },
+      {
+        "symptom": "Brown, crispy frond edges",
+        "cause": "Low humidity, underwatering, or salt buildup from fertiliser and hard water.",
+        "fix": "Raise humidity above 50%, water more consistently, and flush the pot with clean water every couple of months. Trim damaged edges following the frond shape."
+      },
+      {
+        "symptom": "Yellowing fronds",
+        "cause": "Overwatering if the mix is soggy, or too much light if the yellowing is pale and widespread.",
+        "fix": "Check the soil and the position. Let the top inch dry between waterings, and move out of any direct sun."
+      },
+      {
+        "symptom": "New fronds emerging small, wrinkled or deformed",
+        "cause": "Over-fertilising, low humidity, or physical damage to the delicate unfurling fronds.",
+        "fix": "Reduce feeding to quarter strength, raise humidity, and avoid touching or brushing past new fronds, which are extremely fragile as they unfurl."
+      },
+      {
+        "symptom": "Brown lines in neat rows on frond undersides",
+        "cause": "Spores, which are completely normal on a mature fern and a sign of health.",
+        "fix": "No action needed. If the marks are irregular and scrape off, they are scale insects instead."
+      },
+      {
+        "symptom": "Small brown bumps scattered on fronds",
+        "cause": "Scale insects, which are common on this fern and hide along the midrib.",
+        "fix": "Wipe them off with a cotton bud dipped in diluted rubbing alcohol. Be cautious with chemical treatments — ferns are sensitive to neem and insecticidal soaps, so test on one frond first."
+      },
+      {
+        "symptom": "Fronds pale, flopping outward and losing the rosette shape",
+        "cause": "Too little light, or a root system that has outgrown its pot.",
+        "fix": "Move to brighter indirect light and repot if roots have filled the container."
+      }
+    ],
+    "repotting": [
+      "Bird's nest ferns grow slowly and have small root systems, so repot only every two to three years, in spring, when roots have genuinely filled the pot.",
+      "Move up one size into loose, organic mix. Handle the crown with care — it is the single growing point and damage to it is not recoverable. Set the plant at exactly the depth it was growing; burying the crown causes rot.",
+      "Water around the edge afterwards, keep humidity high for a few weeks, and wait six weeks before feeding. Because the fronds are brittle and mark easily, it is worth working slowly and supporting the rosette from underneath."
+    ],
+    "varieties": [
+      "Asplenium nidus is the standard, with broad, flat, apple-green fronds. 'Crispy Wave' has strongly rippled, wavy-edged fronds and is the most widely sold cultivar. 'Osaka' has narrower fronds with undulating margins, and 'Victoria' is longer and more strap-like.",
+      "'Crissie' has forked tips to the fronds for a distinctive antler-like look. All Asplenium are non-toxic to cats and dogs, which together with their shade tolerance makes them one of the better fern choices for a pet household — and unlike Boston fern, they do not shed constantly."
+    ]
+  },
+  "philodendron-brasil": {
+    "care": {
+      "light": [
+        "Philodendron 'Brasil' needs more light than the plain heartleaf philodendron it was bred from, because the chartreuse variegation contains less chlorophyll. Bright indirect light keeps the stripe vivid and well defined.",
+        "In medium or low light the plant survives happily but new leaves emerge mostly green, and over time the variegation can disappear entirely. If your Brasil is reverting, light is the reason and moving it brighter is the fix. Direct sun scorches the leaves and fades the colour to a washed-out cream, so filtered brightness rather than full sun is the target."
+      ],
+      "water": [
+        "Let the top inch of mix dry before watering, then water thoroughly until it drains. In spring and summer that is usually every seven to ten days; in winter or in lower light, every two weeks or more.",
+        "Brasil signals thirst clearly with slightly limp leaves that recover within hours of watering. It is far more tolerant of an occasional missed watering than of soil that stays permanently wet, so when unsure, wait.",
+        "Average household humidity is fine, though growth is faster above 50%. Crispy brown tips usually indicate dry air or erratic watering rather than anything serious. Empty the saucer after watering — standing water is the usual route to root rot in this genus."
+      ],
+      "soil": [
+        "A well-draining houseplant mix with added perlite or orchid bark suits it. As a climbing aroid it wants air around the roots, so lighten anything dense and peat-heavy.",
+        "Feed monthly at half strength through spring and summer and stop over winter. Adequate feeding supports strong variegation, but over-fertilising shows as brown leaf tips and a white crust on the soil surface. Flush the pot with plain water every few months if you feed regularly."
+      ]
+    },
+    "propagation": [
+      "Philodendron 'Brasil' propagates as easily as its plain green parent, with one important consideration: variegation varies between stems, and your cutting will broadly reflect the stem it came from.",
+      "Take a four to six inch section with two or three leaves, cutting half an inch below a node, and strip the lowest leaf so the node is bare. Root in water with the node submerged, changing it weekly, or push directly into damp mix. Roots appear within one to two weeks.",
+      "Choose your cutting material deliberately. A stem with good balanced variegation produces a cutting that continues in that vein; a stem that has reverted to all-green will give you a plain green plant, and a stem with almost entirely yellow leaves lacks the chlorophyll to sustain itself and usually fails. Aim for cuttings with a healthy mix of green and chartreuse. Pot three or four together for an immediately full plant, and tuck rooted cuttings back into the parent pot to thicken it."
+    ],
+    "problems": [
+      {
+        "symptom": "New leaves emerging plain green",
+        "cause": "Insufficient light. The plant favours chlorophyll-rich tissue when short of energy.",
+        "fix": "Move to brighter indirect light. Prune fully green vines back to a node where variegated growth was present, which redirects energy into the variegated stems."
+      },
+      {
+        "symptom": "Leaves almost entirely yellow with little green",
+        "cause": "Excessive variegation on that stem, which cannot photosynthesise enough to sustain itself.",
+        "fix": "Prune that stem back to a section with balanced colouring. Highly variegated growth looks striking but is a liability for the plant."
+      },
+      {
+        "symptom": "Long bare vines with small, widely spaced leaves",
+        "cause": "Too little light, and no pruning to encourage branching.",
+        "fix": "Increase light and cut the bare vines back to a few inches from the soil. Philodendron branches readily from cut nodes, and the trimmings root to fill the same pot."
+      },
+      {
+        "symptom": "Yellow leaves, several at once",
+        "cause": "Overwatering, especially if the mix is still damp and the yellowing starts low on the plant.",
+        "fix": "Let the top inch dry properly and confirm the pot is not sitting in water inside a cachepot."
+      },
+      {
+        "symptom": "Brown crispy leaf tips",
+        "cause": "Dry air, erratic watering, or salt buildup from fertiliser and hard tap water.",
+        "fix": "Water on a more consistent schedule, raise humidity slightly, and flush the pot with plain water every few months."
+      },
+      {
+        "symptom": "Leaves drooping despite wet soil",
+        "cause": "Root rot — damaged roots cannot take up water.",
+        "fix": "Take cuttings immediately as insurance, then unpot, trim soft brown roots, and repot into fresh airy mix."
+      },
+      {
+        "symptom": "White cottony clusters in leaf joints",
+        "cause": "Mealybugs, which shelter where leaf stems meet the vine.",
+        "fix": "Dab with rubbing alcohol on a cotton bud, then treat with insecticidal soap. Check weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring. Brasil grows quickly in good light, and the signs are roots through the drainage holes, water running straight through, and growth slowing in the growing season.",
+      "Move up one pot size only. As a trailing plant it suits hanging pots and shelves, so consider balance when choosing a container — an oversized pot both holds excess wet soil and makes hanging awkward.",
+      "Loosen circling roots so they grow outward. If the plant has gone bare at the crown, repotting is the moment to cut it back hard and plant rooted cuttings around the parent. Water well and wait a month before feeding."
+    ],
+    "varieties": [
+      "Philodendron hederaceum 'Brasil' has deep green leaves with a chartreuse central stripe, and the pattern varies leaf to leaf. 'Rio' is a rarer, more stable sport with a silvery-cream centre and darker margins. 'Lemon Lime' is uniformly chartreuse with no green.",
+      "'Micans' is the velvet-leaved form of the same species, bronze-green with a soft sheen. Brasil is often confused with variegated pothos, but the philodendron has thinner, softer leaves with a pronounced drip tip, and new growth emerges from a papery sheath rather than unfurling from the previous leaf. All philodendrons are toxic to cats and dogs, so a hanging position out of reach is worth considering."
+    ]
+  },
+  "dieffenbachia": {
+    "care": {
+      "light": [
+        "Dieffenbachia does well in medium to bright indirect light and tolerates lower light better than most large-leaved tropicals, which is why it is a staple office plant. Good light produces compact growth with well-marked leaves.",
+        "Keep it out of direct sun, which scorches and bleaches the variegation. In low light the stem stretches, the leaves space out and the plant leans toward the window — rotate the pot every couple of weeks to keep it growing evenly. Heavily variegated cultivars need more light than the darker green ones to hold their pattern."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain. In spring and summer that usually means every seven to ten days; in winter, every two to three weeks.",
+        "Dieffenbachia has thick, water-storing stems and copes with an occasional missed watering, but it rots readily in soil that stays saturated. Soft, mushy stem bases are the classic overwatering signature and are difficult to reverse.",
+        "It prefers humidity above 50% and shows dry air as browning leaf edges. It is also sensitive to cold — below about 15°C the leaves develop greasy grey patches — so keep it away from draughty windows and doors in winter."
+      ],
+      "soil": [
+        "Use a standard well-draining potting mix with added perlite. The plant is not fussy about medium, but it needs the mix to dry slightly between waterings rather than staying wet.",
+        "Feed monthly at half strength through spring and summer, stopping in winter. Dieffenbachia is a moderately vigorous grower and responds well to feeding, but over-fertilising causes leaf-tip burn. Make sure the pot drains and is not standing in a cachepot collecting water."
+      ]
+    },
+    "propagation": [
+      "Dieffenbachia propagates readily from stem cuttings, and this doubles as the remedy for a plant that has grown tall and bare at the base — a very common outcome with this species.",
+      "Wear gloves. The sap contains calcium oxalate crystals that cause intense burning and swelling of the mouth and throat if ingested, and irritate skin and eyes on contact. This is the plant sometimes called dumb cane for exactly that reason, and it is the one genuine hazard of working with it.",
+      "Cut the main stem into sections three to four inches long, each with at least one node, keeping track of orientation. The leafy top can be rooted directly in water or damp mix. Bare cane sections can be laid horizontally on damp mix with the nodes facing up, half-buried, or stood upright the right way round. Keep warm and humid in bright indirect light; roots and shoots appear in three to six weeks. The parent stump usually resprouts from below the cut, often with two or three new shoots, which makes the remaining plant bushier than before."
+    ],
+    "problems": [
+      {
+        "symptom": "Soft, mushy stem at soil level",
+        "cause": "Stem rot from overwatering, especially in winter or low light.",
+        "fix": "Cut the stem above the rot into firm tissue and root the healthy top as a cutting. The base is rarely salvageable once soft. Repot into fresh mix and water far less."
+      },
+      {
+        "symptom": "Yellowing lower leaves",
+        "cause": "Overwatering if several go at once with damp soil; normal ageing if it is the oldest leaf alone as the stem grows taller.",
+        "fix": "Extend the watering interval and confirm drainage. Some bare lower stem is the natural habit of a maturing plant."
+      },
+      {
+        "symptom": "Brown, crispy leaf edges",
+        "cause": "Low humidity, salts in tap water, or over-fertilising.",
+        "fix": "Raise humidity, flush the pot with plain water every few months, and reduce feeding. Filtered water helps if your supply is hard."
+      },
+      {
+        "symptom": "Tall, leggy stem with leaves only at the top",
+        "cause": "Normal growth habit accelerated by low light, with no pruning.",
+        "fix": "Cut the stem back by half in spring. It resprouts from below the cut, and the removed section makes cuttings. Increase light to slow the stretching."
+      },
+      {
+        "symptom": "Greasy grey or translucent patches on leaves",
+        "cause": "Cold damage from a draught or from sitting against a cold window.",
+        "fix": "Move to a warmer spot away from glass and doors. Damaged leaves do not recover and should be removed."
+      },
+      {
+        "symptom": "Variegation fading to plain green",
+        "cause": "Insufficient light for that cultivar.",
+        "fix": "Move to brighter indirect light. New growth will come in properly marked; existing leaves stay as they are."
+      },
+      {
+        "symptom": "Fine webbing or small brown bumps on leaves",
+        "cause": "Spider mites in dry air, or scale insects along the stems and leaf undersides.",
+        "fix": "Rinse the plant, wearing gloves, then treat with insecticidal soap weekly for three to four weeks. Wipe scale off with rubbing alcohol first."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years in spring while the plant is growing actively. Signs are roots through the drainage holes and water running straight through the pot.",
+      "Move up one size into a stable pot — a tall dieffenbachia becomes top-heavy. Wear gloves while handling, since broken stems and roots release the irritant sap.",
+      "Loosen circling roots and trim any that are soft. Water thoroughly afterwards and hold off feeding for six weeks. If the plant has grown leggy, repotting is the natural moment to cut it back hard and propagate the removed sections."
+    ],
+    "varieties": [
+      "Dieffenbachia seguine 'Tropic Snow' has large leaves with broad cream centres. 'Camille' is compact with pale yellow-white centres and thin green margins, and is the most widely sold. 'Compacta' stays smaller and bushier.",
+      "'Reflector' has an unusual dark green leaf speckled with lime, and 'Tropic Marianne' is almost entirely cream with a thin green edge. All Dieffenbachia are seriously toxic to cats, dogs and humans — the calcium oxalate crystals cause immediate burning, swelling and temporary loss of speech if chewed, which is where the common name dumb cane comes from. This is genuinely not a plant for a home with small children or pets that chew."
+    ]
+  },
+  "haworthia-zebra": {
+    "care": {
+      "light": [
+        "Zebra haworthia wants bright indirect light, and this is where it differs usefully from most succulents. In habitat it grows in the shade of rocks and shrubs in South Africa rather than fully exposed, so it tolerates less light than an echeveria or aloe and actually scorches in intense direct sun.",
+        "An east-facing windowsill is close to ideal. A south or west window works with a sheer curtain. In too much sun the leaves turn red-brown or bleach white; in too little they stretch upward, the rosette opens out and the white banding dulls. The compact, tightly stacked rosette is the sign light levels are right."
+      ],
+      "water": [
+        "Water deeply, then let the mix dry out completely before watering again — typically every two to three weeks in spring and summer, and once a month or less in winter.",
+        "Water at soil level, never into the rosette. Water trapped between the tightly packed leaves causes rot at the crown, which is the fastest way to lose a haworthia. Bottom-watering works well for this species.",
+        "The leaves are the gauge. Plump and firm means well watered; slightly soft with a faint wrinkle means it is ready. Translucent, squashy leaves mean serious overwatering and rot is probably already underway at the roots. Humidity should be low; these plants dislike damp, stagnant air."
+      ],
+      "soil": [
+        "Use a gritty cactus and succulent mix, or one part potting compost to one part coarse sand or pumice with added perlite. Fast drainage is the entire requirement.",
+        "Choose a small, shallow pot — haworthia roots are fine and relatively sparse, and an oversized pot holds wet soil the plant cannot use. Terracotta is ideal. A layer of grit on the surface keeps the lower leaves dry. Feed at most once or twice during the growing season with a half-strength succulent feed, and not at all in winter."
+      ]
+    },
+    "propagation": [
+      "Zebra haworthia propagates by offsets, which is both the easiest and the only reliable method. Unlike echeveria, haworthia leaves do not root well — a detached leaf usually just shrivels — so do not waste time on leaf propagation.",
+      "Mature plants produce pups around the base of the rosette, often several at a time. Wait until an offset is at least an inch across and has begun forming its own roots. In spring, unpot the parent, brush the soil away and locate where the pup joins. Separate it with a clean knife, taking as much root as you can. Let the cut surfaces dry and callus for two to three days in a shaded spot before potting — skipping this step is the usual cause of failure.",
+      "Pot each offset into dry gritty mix in a small pot and wait a week before the first light watering. Keep them in bright indirect light rather than sun while they establish. Growth is slow but steady, and a pup typically reaches parent size in two to three years."
+    ],
+    "problems": [
+      {
+        "symptom": "Leaves turning red, brown or bleached white",
+        "cause": "Too much direct sun. Haworthia is a shade-dwelling succulent and burns more readily than most.",
+        "fix": "Move to bright indirect light, or filter the window with a sheer curtain. Mild colouring recovers over weeks; bleached tissue does not."
+      },
+      {
+        "symptom": "Rosette stretching upward, leaves pointing up and spaced out",
+        "cause": "Insufficient light. The plant is etiolating.",
+        "fix": "Move somewhere brighter but still out of harsh sun. Stretched growth is permanent, though new growth from the centre comes in compact."
+      },
+      {
+        "symptom": "Leaves soft, translucent and mushy",
+        "cause": "Overwatering. The leaves have taken up more water than they can hold and the cells are failing.",
+        "fix": "Stop watering and let the mix dry completely. Check the roots and the base of the rosette for rot, cut away soft tissue, and repot into dry gritty mix if needed."
+      },
+      {
+        "symptom": "Leaves thin, wrinkled and curling inward",
+        "cause": "Underwatering over an extended period.",
+        "fix": "Water thoroughly until it drains, then again a week later. Leaves plump up over a week or two."
+      },
+      {
+        "symptom": "Brown mushy centre of the rosette",
+        "cause": "Crown rot from water sitting between the leaves.",
+        "fix": "Usually fatal once the growing point goes. Salvage any healthy offsets immediately. Water at soil level only, or bottom-water."
+      },
+      {
+        "symptom": "Lower leaves drying and browning",
+        "cause": "Normal ageing if it is only the oldest outer leaves; underwatering or root loss if widespread.",
+        "fix": "Gently pull away dried leaves. If many leaves are affecting, check the roots — root mealybugs are a common hidden cause in this genus."
+      },
+      {
+        "symptom": "White cottony spots at the leaf bases or among the roots",
+        "cause": "Mealybugs, including root mealybugs which are easy to miss.",
+        "fix": "Dab foliage clusters with rubbing alcohol. For root mealybugs, unpot, wash the roots clean, and repot into fresh mix in a sterilised pot."
+      }
+    ],
+    "repotting": [
+      "Haworthias are slow and like being snug, so repot every two to three years, or sooner if offsets have filled the pot.",
+      "Repot in spring into a small, shallow pot only slightly larger, in terracotta if possible. Use completely dry mix and do not water for a week afterwards so any damaged roots seal.",
+      "This is the natural moment to separate offsets and to inspect the roots for root mealybugs, which affect this genus disproportionately and are invisible until you unpot. Set the plant at the same depth — burying the lower leaves causes rot. Skip fertiliser for a couple of months."
+    ],
+    "varieties": [
+      "Haworthiopsis fasciata and Haworthiopsis attenuata are both sold as zebra plant and are hard to tell apart; attenuata has white tubercles on both leaf surfaces while fasciata has them only underneath. Both are grown identically.",
+      "Haworthia cooperi is a completely different look — plump translucent leaves with windowed tips that let light into the plant body. Haworthia truncata, the horse's teeth, has flat-topped leaves in a row. Note the genus was split, so you may see these as Haworthia, Haworthiopsis or Tulista. All are non-toxic to cats and dogs, making them one of the safest succulent choices for a pet household."
+    ]
+  },
+  "philodendron-birkin": {
+    "care": {
+      "light": [
+        "Philodendron Birkin needs bright indirect light to produce its white pinstripes. The variegation is unstable — Birkin is a sport of 'Rojo Congo' and has a genuine tendency to revert — and light is the main lever you have over which way it goes.",
+        "In medium or low light new leaves emerge with fewer, fainter stripes and eventually come out plain dark green. Direct sun burns the white sections first, since they have no chlorophyll to protect them, leaving brown papery patches. An east window, or a spot near a south or west window behind a sheer curtain, gives the balance it needs."
+      ],
+      "water": [
+        "Water when the top inch of mix is dry, then water thoroughly until it drains. In spring and summer that is usually every seven to ten days; in winter, every two weeks or so.",
+        "Birkin is a self-heading philodendron with a compact root system and is quite prone to root rot, so let the surface dry properly rather than keeping it damp. Yellowing lower leaves with wet soil is the early warning.",
+        "It prefers humidity above 50% and shows dry air as brown crispy edges, which are particularly obvious on the white striping. A humidifier or pebble tray helps. It is moderately sensitive to salts in tap water, so flushing the pot occasionally is worthwhile."
+      ],
+      "soil": [
+        "Use a chunky aroid mix — roughly equal parts potting compost, orchid bark and perlite. Birkin roots want air as well as moisture, and a dense peat-based mix that stays wet is the usual cause of trouble.",
+        "Keep the pot modest in size; this is a slow, compact grower and an oversized pot holds wet mix around a small root system. Feed monthly at half strength through spring and summer to support the variegated growth, and stop in winter. Drainage holes are essential."
+      ]
+    },
+    "propagation": [
+      "Birkin is a self-heading philodendron rather than a vining one, which changes how propagation works. There are no long trailing stems full of nodes to cut, so the methods used for heartleaf philodendron do not apply directly.",
+      "The practical approaches are division and stem cuttings from a mature plant. Over time Birkin develops a short thick stem with visible nodes and may produce basal offshoots. If your plant has pups at the base, unpot in spring, separate an offshoot with its own roots using a clean knife, and pot it into fresh aroid mix.",
+      "For a taller plant with an exposed stem, cut a section containing at least one node and an aerial root, and root it in damp sphagnum moss or perlite under high humidity. This is slower than vining philodendrons — expect four to eight weeks. When choosing material, favour stems with balanced striping; a heavily white shoot lacks the chlorophyll to sustain itself, and a fully green one will stay green."
+    ],
+    "problems": [
+      {
+        "symptom": "New leaves emerging plain green with no stripes",
+        "cause": "Reversion, driven mainly by insufficient light. Birkin is an unstable sport and reverts readily.",
+        "fix": "Move to brighter indirect light. Prune off fully reverted green growth back to a node where striped leaves were produced, which pushes the plant to grow from variegated tissue."
+      },
+      {
+        "symptom": "New leaves emerging almost entirely white or pink",
+        "cause": "The opposite reversion, toward the highly variegated extreme. Attractive but unsustainable.",
+        "fix": "These leaves cannot photosynthesise and will eventually brown. Prune back to balanced growth. Some pink flecking on new leaves is normal and desirable."
+      },
+      {
+        "symptom": "Brown papery patches on the white striping",
+        "cause": "Sunburn. The unpigmented tissue burns before the green does.",
+        "fix": "Move out of direct sun into filtered light. Damaged tissue does not recover; remove badly affected leaves."
+      },
+      {
+        "symptom": "Yellowing lower leaves with damp soil",
+        "cause": "Overwatering and the start of root rot.",
+        "fix": "Let the top inch dry properly between waterings, confirm the pot drains, and repot into a chunkier aroid mix if the medium stays soggy."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity or salt buildup from fertiliser and hard water.",
+        "fix": "Raise humidity above 50% and flush the pot with clean water every couple of months. Trim damaged edges."
+      },
+      {
+        "symptom": "Leaves drooping though the soil is wet",
+        "cause": "Root rot preventing water uptake.",
+        "fix": "Unpot, cut away soft brown roots, and repot into fresh airy mix in a smaller pot. Water sparingly until new growth appears."
+      },
+      {
+        "symptom": "White cottony clusters in the leaf axils",
+        "cause": "Mealybugs, which favour the tight crown of a self-heading philodendron.",
+        "fix": "Dab each cluster with rubbing alcohol on a cotton bud, working into the crown. Check weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Birkin is slow-growing and only needs repotting every two years, or when roots have genuinely filled the pot. Look for roots at the drainage holes and water running straight through.",
+      "Move up one small size only into fresh chunky aroid mix. Overpotting is a common mistake with this plant and leads directly to root rot given its modest root system.",
+      "Repot in spring, handling the crown carefully since the growing point sits at the centre. Water lightly afterwards, keep humidity up for a few weeks, and wait six weeks before feeding. Separate any basal offsets at this point if you want more plants."
+    ],
+    "varieties": [
+      "Philodendron 'Birkin' arose as a spontaneous mutation of 'Rojo Congo' and is propagated by tissue culture. Because it is unstable, individual plants vary: some produce fine even pinstripes, others broader bands, and new leaves often emerge with a pink flush that fades.",
+      "Related self-heading philodendrons include 'Rojo Congo' itself, with deep burgundy new growth, 'Prince of Orange', whose leaves emerge bright copper-orange and mature to green, and 'White Knight' and 'White Wizard', both with bold white blocks on vining stems. All philodendrons are toxic to cats and dogs due to calcium oxalate crystals, causing mouth irritation and drooling if chewed."
+    ]
+  },
+  "philodendron-pink-princess": {
+    "care": {
+      "light": [
+        "Pink Princess needs bright indirect light, and more of it than most philodendrons, because the pink sections contain no chlorophyll at all. Light is the single biggest factor in how much pink a new leaf carries.",
+        "In medium or low light the plant produces mostly dark green leaves with little or no variegation. In direct sun the pink burns to brown papery patches within days, since it has no pigment protection. The target is a bright spot with filtered light — an east window, or near a south window behind a sheer curtain. Several hours of bright but indirect light daily is what keeps the variegation coming."
+      ],
+      "water": [
+        "Water when the top inch of mix is dry, then water thoroughly and drain fully. In spring and summer that is usually every seven to ten days; in winter, every two weeks.",
+        "Pink Princess is somewhat more prone to root problems than plain philodendrons, partly because variegated plants grow more slowly and use less water. Do not water on the same schedule you would use for a heartleaf philodendron in the same conditions.",
+        "Humidity above 60% produces noticeably better growth and larger leaves. Dry air shows as brown crisping, and it shows first and worst on the pink sections. A humidifier is worth it for this plant specifically, given what it costs to buy."
+      ],
+      "soil": [
+        "Use a chunky, fast-draining aroid mix — roughly equal parts orchid bark, perlite and potting compost, or a commercial aroid blend. The roots want air, and this plant is too slow-growing to cope with a soggy medium.",
+        "Keep the pot snug. Feed monthly at half strength through spring and summer; adequate nutrition supports the variegated growth, but do not over-feed a slow plant. A moss pole is genuinely useful here — Pink Princess is a climber, and given support it produces substantially larger leaves with better variegation."
+      ]
+    },
+    "propagation": [
+      "Pink Princess propagates from stem cuttings like other vining philodendrons, but the choice of cutting matters more than with any other common houseplant, because variegation is carried in the stem tissue.",
+      "Take a cutting with at least one node and one or two leaves, cutting half an inch below the node. The rule to follow: look at the stem itself, not just the leaves. A node on a section of stem showing both green and pink will produce variegated growth. A node on a fully green section produces a green plant, and a node on an almost entirely pink section will usually fail, because there is not enough chlorophyll to fuel root production.",
+      "Root in damp sphagnum moss or perlite under high humidity rather than plain water, which tends to work better for this species. Keep warm and bright; roots take three to six weeks. If your plant has reverted to all green, cut back to the last node that produced a variegated leaf — growth from that point often resumes with pink."
+    ],
+    "problems": [
+      {
+        "symptom": "New leaves emerging entirely green",
+        "cause": "Reversion, usually from insufficient light, though it also happens spontaneously.",
+        "fix": "Move to brighter indirect light. Prune back to the last node that produced a variegated leaf; new growth from there often returns to pink. Waiting and hoping rarely works."
+      },
+      {
+        "symptom": "A leaf emerges almost entirely pink",
+        "cause": "Over-variegation. Striking, but the leaf has no chlorophyll and cannot sustain itself.",
+        "fix": "It will brown and die back over weeks. Prune that stem back to balanced growth. Chasing maximum pink weakens the plant."
+      },
+      {
+        "symptom": "Brown papery patches on the pink areas only",
+        "cause": "Sunburn. Unpigmented tissue scorches long before green tissue does.",
+        "fix": "Move out of any direct sun into filtered brightness. Damaged sections do not heal, so remove badly burnt leaves."
+      },
+      {
+        "symptom": "Brown crispy edges on the pink sections",
+        "cause": "Low humidity. The variegated tissue is thinner and dries faster.",
+        "fix": "Raise humidity to 60% or more with a humidifier. This is the difference between clean pink variegation and permanently marked leaves."
+      },
+      {
+        "symptom": "Small leaves on a spindly stem",
+        "cause": "Insufficient light, and no support. Pink Princess is a climber and produces much larger leaves when it can climb.",
+        "fix": "Increase light and add a moss pole, tying the stem in so aerial roots can grip. Leaf size increases noticeably with support."
+      },
+      {
+        "symptom": "Yellowing lower leaves with damp soil",
+        "cause": "Overwatering, which this slow-growing plant is particularly vulnerable to.",
+        "fix": "Let the top inch dry properly and repot into a chunkier mix if the medium holds water too long."
+      },
+      {
+        "symptom": "White cottony clusters along the stem",
+        "cause": "Mealybugs, which hide in the leaf sheaths and around the nodes.",
+        "fix": "Dab each with rubbing alcohol on a cotton bud and inspect weekly for a month. Given the value of these plants, catching an infestation early matters."
+      }
+    ],
+    "repotting": [
+      "Pink Princess grows slowly and should be repotted only every two years, or when roots genuinely fill the pot. Overpotting is a real risk with a slow plant.",
+      "Move up one small size into fresh chunky aroid mix in spring. If you are adding a moss pole, do it at this point while the root ball is out and you can position the pole against the stem.",
+      "Handle carefully and keep the aerial roots intact, guiding them onto the pole. Water lightly, keep humidity high, and wait six weeks before feeding. Repotting is also the moment to take cuttings if the plant has grown tall and bare at the base."
+    ],
+    "varieties": [
+      "Philodendron erubescens 'Pink Princess' has dark green to near-black leaves with irregular bubblegum-pink variegation, and no two plants are alike. Variegation is genuinely random, which is why prices vary so much by specimen.",
+      "Be aware of two things when buying. 'Pink Congo' is a different plant whose pink leaves were chemically induced and revert permanently to green within months — it is not the same as Pink Princess and was widely mis-sold. And a half-moon leaf, entirely pink on one side, looks spectacular but indicates the stem is drifting toward unsustainable variegation. All philodendrons are toxic to cats and dogs."
+    ]
+  },
+  "philodendron-selloum": {
+    "care": {
+      "light": [
+        "Philodendron selloum wants bright indirect light and tolerates medium light, where it grows more slowly and produces smaller, less deeply cut leaves. The dramatic lobing that makes this plant worth growing develops with maturity and adequate light.",
+        "It handles a few hours of gentle direct sun, more than most philodendrons, but harsh afternoon sun scorches the large leaves. This is a big plant — mature specimens spread four to six feet across indoors — so the practical constraint is usually finding a bright spot with enough floor space. Rotate the pot regularly, since it grows toward the light and becomes lopsided otherwise."
+      ],
+      "water": [
+        "Water when the top two inches of mix are dry, then water thoroughly until it drains. In spring and summer that is usually every seven to ten days for a large plant in good light.",
+        "Reduce to every two to three weeks in winter. Selloum is more drought-tolerant than its size suggests and copes with a missed watering better than with permanently wet soil.",
+        "It prefers humidity above 50% and shows dry air as browning leaf edges, though it tolerates average household air better than most large-leaved tropicals. Empty the saucer after watering — a plant this size in a large pot holds a lot of water and root rot is the main risk."
+      ],
+      "soil": [
+        "Use a rich, well-draining mix with plenty of structure — two parts quality potting compost to one part perlite and one part bark. A large plant needs a medium with body to anchor it, but the roots still want air.",
+        "Choose a heavy, wide pot; a mature selloum is substantial and top-heavy, and the root system is vigorous. Feed every four weeks through spring and summer with a balanced fertiliser at half strength. This is a fast, hungry grower in good conditions. Stop feeding over winter."
+      ]
+    },
+    "propagation": [
+      "Philodendron selloum is a self-heading philodendron that forms a thick trunk over time rather than long vining stems, so propagation works differently from heartleaf or Brasil.",
+      "The easiest method is to remove basal offsets. Mature plants produce pups around the base of the trunk; in spring, unpot the parent, locate where an offset joins, and cut it away with its own roots using a clean sharp knife. Pot into rich, free-draining mix, water lightly, and keep warm and humid for a month while it establishes.",
+      "Stem cuttings are also possible once the plant has developed a visible trunk with aerial roots along it. Cut a section containing at least one node and an aerial root, and root it in damp sphagnum moss under high humidity. Air layering works well on a tall plant: wound the trunk below a node with aerial roots, pack damp moss around it inside a plastic sleeve, and sever below the roots once they fill the moss. Wear gloves — the sap irritates skin."
+    ],
+    "problems": [
+      {
+        "symptom": "New leaves smaller and less deeply lobed than older ones",
+        "cause": "Insufficient light, or a plant that has outgrown its pot and nutrients. Deep lobing develops with maturity and good conditions.",
+        "fix": "Move to brighter indirect light, feed through the growing season, and repot if roots have filled the container."
+      },
+      {
+        "symptom": "Yellowing lower leaves",
+        "cause": "Overwatering if several go at once with wet soil; natural ageing if it is the lowest leaf as the trunk lengthens.",
+        "fix": "Let the top two inches dry between waterings and confirm the pot drains. Cut spent leaves off at the trunk."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Low humidity, inconsistent watering, or salt buildup from fertiliser.",
+        "fix": "Raise humidity, water more regularly, and flush the pot with plain water every few months."
+      },
+      {
+        "symptom": "Thick aerial roots growing out of the pot and across the floor",
+        "cause": "Entirely normal. Selloum produces substantial aerial roots as it matures, which anchor and feed the plant in the wild.",
+        "fix": "Direct them into the pot where they will root into the mix, or trim them back if they are a nuisance — trimming does no harm. Do not be alarmed by them."
+      },
+      {
+        "symptom": "Plant leaning heavily to one side",
+        "cause": "Growing toward a single light source without being rotated, combined with the natural sprawling habit.",
+        "fix": "Rotate the pot a quarter turn every couple of weeks. A heavy pot prevents toppling. Mature plants naturally spread rather than growing strictly upright."
+      },
+      {
+        "symptom": "Leaves drooping with damp soil",
+        "cause": "Root rot from overwatering, which a large pot makes easier.",
+        "fix": "Unpot if practical, trim soft brown roots, and repot into fresh free-draining mix. For a very large plant, at minimum improve drainage and water far less."
+      },
+      {
+        "symptom": "Fine webbing or cottony white spots on leaf undersides",
+        "cause": "Spider mites or mealybugs, which colonise the broad undersides unnoticed.",
+        "fix": "Wipe both sides of each leaf, rinse the plant if you can move it, and treat with insecticidal soap weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Repot every two to three years in spring while the plant is building size. Signs are roots circling the surface or through the drainage holes, and rapid drying between waterings.",
+      "Move up one size into a heavy, wide, stable pot. A mature selloum is genuinely heavy and needs a container that will not tip. Loosen circling roots and trim any that are soft.",
+      "For a very large specimen, top-dressing is more practical than repotting: remove the top three inches of mix and replace with fresh compost each spring. Water thoroughly after repotting and wait six weeks before feeding. Wear gloves throughout — damaged roots and stems release irritant sap."
+    ],
+    "varieties": [
+      "Philodendron bipinnatifidum is the correct current name, though it is still widely sold as selloum or as split-leaf philodendron. 'Hope' is the most common compact cultivar, staying around three to four feet — far more practical indoors than the species.",
+      "'Xanadu' is smaller still, with tighter, more finely divided leaves, and is often the better choice for an average room. Do not confuse any of these with Monstera deliciosa, which is frequently mislabelled split-leaf philodendron but is a different genus with holes rather than lobes. All are toxic to cats and dogs, and the sap irritates skin."
+    ]
+  },
+  "schefflera-arboricola": {
+    "care": {
+      "light": [
+        "Dwarf umbrella tree wants bright indirect light and tolerates medium light, where it grows more slowly and stretches. Good light is what keeps it dense and bushy rather than thin and leggy — the most common complaint about this plant.",
+        "It handles a few hours of gentle direct sun. Variegated forms need brighter conditions than the plain green to hold their yellow markings, and revert to green in shade. Rotate the pot every few weeks; schefflera leans noticeably toward its light source and develops a permanent lopsided shape if left facing one way."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly and drain fully. In spring and summer that usually means every seven to ten days; in winter, every two to three weeks.",
+        "Schefflera is quite sensitive to overwatering and responds by dropping leaves — often suddenly and in quantity. Soggy soil is the most common cause of a schefflera shedding. It also drops leaves when severely underwatered, so consistency matters.",
+        "Average household humidity is acceptable, though above 40% is better and dry air encourages spider mites, which are the main pest of this plant. Brown leaf tips usually indicate dry air or salt buildup rather than a watering fault."
+      ],
+      "soil": [
+        "A standard well-draining potting mix with added perlite works well. The plant is not fussy about medium but needs the mix to dry slightly between waterings.",
+        "Feed monthly at half strength through spring and summer, stopping in winter. Schefflera is a vigorous grower in good light and responds well to feeding. Make sure the pot drains and is not standing in water; this is a plant that will drop its leaves within days of being left in a full saucer."
+      ]
+    },
+    "propagation": [
+      "Schefflera arboricola propagates from stem cuttings, and spring or early summer cuttings root most reliably.",
+      "Take a tip cutting four to six inches long with two or three sets of leaves, cutting just below a node. Remove the lowest leaves and dip the cut end in rooting hormone, which noticeably improves the strike rate for this species. Insert into damp, free-draining mix and cover with a clear bag or propagator to maintain humidity.",
+      "Keep warm in bright indirect light. Roots take four to eight weeks — slower than pothos or philodendron, so resist the urge to tug at the cutting. Water propagation also works but tends to be less reliable here than soil. Air layering is the better option for a tall, bare-stemmed plant: wound the stem, wrap in damp sphagnum moss inside a plastic sleeve, and cut below the roots once they fill the moss. The parent branches from below any cut, so pruning and propagating are the same operation."
+    ],
+    "problems": [
+      {
+        "symptom": "Sudden dropping of many leaves",
+        "cause": "Overwatering most commonly, but also underwatering, a cold draught, or the shock of being moved. Schefflera sheds readily in response to almost any stress.",
+        "fix": "Check the soil first. Settle it in a stable position away from draughts and keep watering consistent. Some drop after a move home is normal."
+      },
+      {
+        "symptom": "Long bare stems with leaves only at the tips",
+        "cause": "Insufficient light combined with no pruning. Schefflera naturally grows upward rather than branching.",
+        "fix": "Increase light and prune the stems back by a third in spring. It branches readily from below each cut, which is how you get a dense plant. The removed sections can be rooted."
+      },
+      {
+        "symptom": "Fine webbing, stippled dull leaves",
+        "cause": "Spider mites, the signature schefflera pest, driven by dry air.",
+        "fix": "Rinse the plant thoroughly including leaf undersides, then treat with insecticidal soap every five days for three cycles. Raise humidity to prevent recurrence."
+      },
+      {
+        "symptom": "Black or dark spots on leaves",
+        "cause": "Usually a fungal or bacterial leaf spot following overwatering and poor air circulation. Sometimes oedema from water uptake exceeding transpiration.",
+        "fix": "Remove affected leaves, improve airflow, and water less. Water the soil rather than the foliage."
+      },
+      {
+        "symptom": "Variegated leaves reverting to plain green",
+        "cause": "Too little light for the variegated cultivar.",
+        "fix": "Move to brighter indirect light and prune out fully green shoots to redirect growth into variegated stems."
+      },
+      {
+        "symptom": "Sticky residue on leaves and surfaces below",
+        "cause": "Scale insects or aphids excreting honeydew. Scale is common on schefflera stems.",
+        "fix": "Scrape scale off with a cotton bud dipped in rubbing alcohol, wash the residue away with soapy water, and treat with neem oil weekly for a month."
+      },
+      {
+        "symptom": "Yellowing leaves from the bottom of the plant upward",
+        "cause": "Overwatering and the beginnings of root rot.",
+        "fix": "Extend the watering interval, confirm drainage, and repot into fresh mix if roots are soft and brown."
+      }
+    ],
+    "repotting": [
+      "Repot every two years in spring while the plant is growing actively, then less often. Signs are roots through the drainage holes and water running straight through.",
+      "Move up one pot size into a stable container — schefflera grows tall and becomes top-heavy. Loosen circling roots and trim anything soft.",
+      "This is a good moment to prune the plant into shape, since it will branch from the cuts as it recovers. Water thoroughly afterwards and expect some leaf drop as a stress response; keep conditions stable rather than intervening further. Hold off fertiliser for six weeks."
+    ],
+    "varieties": [
+      "Schefflera arboricola is the dwarf umbrella tree, reaching four to six feet indoors with clusters of small glossy leaflets. 'Gold Capella' has bright yellow variegation, and 'Trinette' carries creamier markings — both need more light than the plain green form.",
+      "Schefflera actinophylla, the larger umbrella tree also sold as Amate, has much bigger leaflets and reaches ceiling height quickly. Schefflera arboricola is commonly used for bonsai because it tolerates hard pruning and root reduction. All Schefflera are toxic to cats and dogs, with calcium oxalate crystals causing mouth irritation, vomiting and drooling if chewed."
+    ]
+  },
+  "lithops": {
+    "care": {
+      "light": [
+        "Lithops need more direct sun than almost any other houseplant — four to six hours daily, on the sunniest windowsill you have. A south-facing window is really the only position that works, and even then a grow light may be needed through winter in northern latitudes.",
+        "Insufficient light is the most common reason lithops fail. They respond by elongating upward, losing the flat pebble shape that defines them, and the stretched growth is permanent. In good light they stay squat and flush against the grit, with well-defined patterning on the top window. Introduce strong sun gradually to a plant bought from a dim shop, since sudden exposure scorches them."
+      ],
+      "water": [
+        "This is where lithops differ from every other plant you own, and where almost all of them are killed. They follow a strict annual cycle and watering at the wrong point in it is fatal.",
+        "From spring through summer, water very sparingly — a small amount every three to four weeks at most, and nothing at all during the hottest part of summer when the plant is dormant. In autumn, when the flower appears, water lightly every two to three weeks. Then stop completely from midwinter through spring while the new pair of leaves forms.",
+        "The critical rule: do not water at all while the old leaves are shrivelling and the new pair is emerging from between them, usually late winter into spring. The new leaves draw their water entirely from the old ones, and watering during this period causes the plant to split, burst or rot. This single mistake accounts for most lithops deaths."
+      ],
+      "soil": [
+        "Use an extremely gritty mineral mix — at least half and preferably more coarse sand, pumice, grit or perlite, with only a small proportion of potting compost. Standard cactus compost is usually too rich and holds too much water for lithops.",
+        "Use a deep, narrow pot. Lithops have a surprisingly long taproot relative to the tiny body above ground, and a shallow pot cramps it. Top-dress with coarse grit so the body sits against mineral rather than damp compost. Do not feed; lithops need essentially no fertiliser and feeding causes them to bloat and split."
+      ]
+    },
+    "propagation": [
+      "Lithops are propagated from seed or, less commonly, by division of a clump. Leaf cuttings do not work — a single leaf from the pair will not root, since the growing point sits between them.",
+      "Seed is the standard method. Sow on the surface of damp gritty mix in spring, do not cover, and keep in a covered container in bright light at around 20°C. Germination takes one to three weeks. Seedlings are tiny and must be kept lightly moist for the first few months — the opposite of adult care — then gradually weaned onto the adult watering cycle over their first year. They take three to five years to reach flowering size, so this is a project measured in years.",
+      "Division applies to established clumps, which form as a plant produces multiple heads over time. In spring, before the new growth cycle, unpot and cut a head away with a portion of the taproot. Let the cut callus for a week before potting into dry gritty mix, and do not water for several weeks."
+    ],
+    "problems": [
+      {
+        "symptom": "Plant splits open or bursts",
+        "cause": "Watering during the leaf-renewal period, or overwatering generally. The body takes up more water than it can contain.",
+        "fix": "Stop watering entirely and let it dry out. Damage is permanent for that pair of leaves but the plant often survives to produce a normal new pair next cycle. Learn the cycle and water accordingly."
+      },
+      {
+        "symptom": "Stretching upward and losing the flat shape",
+        "cause": "Insufficient light — etiolation.",
+        "fix": "Move to the sunniest position available or add a grow light. The stretched body will not shorten, but the next pair of leaves will come in compact if the light is right."
+      },
+      {
+        "symptom": "Old leaves not shrivelling away as new ones emerge",
+        "cause": "Watering during the renewal period, which keeps the old leaves plump instead of letting them be absorbed.",
+        "fix": "Stop watering completely. Let the old pair dry out naturally — it should become papery and can eventually be peeled away. Do not pull it off while still fleshy."
+      },
+      {
+        "symptom": "Body soft, mushy or collapsing",
+        "cause": "Rot from overwatering, usually terminal.",
+        "fix": "Unpot and check the taproot. If any firm tissue remains, cut away the rot, let it dry for a week, and repot in dry mineral mix. Prevention is the only real answer with this species."
+      },
+      {
+        "symptom": "Wrinkled, shrunken body outside the renewal period",
+        "cause": "Genuine underwatering, which is rare but does happen during the autumn growth period.",
+        "fix": "Water lightly and check again in a week. Make sure you are not confusing this with normal shrivelling during leaf renewal, when wrinkling is expected and correct."
+      },
+      {
+        "symptom": "More than two leaves per head",
+        "cause": "Over-watering or over-feeding, which causes the plant to produce extra leaf pairs and lose its characteristic form.",
+        "fix": "Stop feeding entirely and cut watering right back. The plant will usually return to a normal single pair over subsequent cycles."
+      },
+      {
+        "symptom": "Brown scorched patch on the top surface",
+        "cause": "Sunburn after a sudden move into intense sun, particularly on a plant recently bought from a poorly lit shop.",
+        "fix": "Increase sun exposure over two to three weeks rather than at once. Damaged tissue does not heal but is replaced at the next leaf renewal."
+      }
+    ],
+    "repotting": [
+      "Lithops need repotting rarely — every three to five years, or when a clump has outgrown its pot. They dislike disturbance and have a long fragile taproot that is easily damaged.",
+      "Repot in spring after the new leaf pair has fully emerged and the old one has dried away, which is the point of least stress. Choose a deep, narrow pot with excellent drainage.",
+      "Handle the taproot carefully and set the plant so the body sits just above the surface with the grit top-dressing around it, not buried. Do not water for two to three weeks afterwards. Never repot during the leaf-renewal period."
+    ],
+    "varieties": [
+      "There are dozens of Lithops species, distinguished by the patterning on the top window. Lithops lesliei has brown-grey tops with fine markings, L. olivacea is olive green with translucent windows, L. karasmontana has rust-coloured ridged patterning, and L. optica 'Rubra' is an unusual purple-pink.",
+      "Related living stones worth knowing are Conophytum, Pleiospilos nelii the split rock, and Fenestraria the baby toes — all with similar cycle-driven watering. Lithops are non-toxic to cats and dogs. The real hazard is to the plant rather than from it: they are frequently sold in ordinary compost in shallow pots, and repotting into a proper gritty mineral mix soon after purchase substantially improves their chances."
+    ]
   }
 }
