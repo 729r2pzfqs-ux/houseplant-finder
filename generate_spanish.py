@@ -29,7 +29,7 @@ except FileNotFoundError:
 
 def json_escape(text):
     """Escape a string for embedding in a JSON-LD literal."""
-    return json.dumps(str(text))[1:-1]
+    return json.dumps(str(text), ensure_ascii=False)[1:-1]
 
 
 def render_faq_schema(qa):
