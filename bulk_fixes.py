@@ -114,12 +114,14 @@ CONSENT_BANNER = '''
 </script>
 '''
 
+SITE_URL = 'https://plantfinder.org'
+
 REDIRECT_TEMPLATE = '''<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<meta http-equiv="refresh" content="0;url={target}">
-<link rel="canonical" href="{target}">
+<meta http-equiv="refresh" content="0;url={site}{target}">
+<link rel="canonical" href="{site}{target}">
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
 </head>
 <body></body>
@@ -234,7 +236,9 @@ def add_hreflang_de(html_content, slug):
 def create_redirect(source_path, target):
     """Create a redirect page."""
     source_path.parent.mkdir(parents=True, exist_ok=True)
-    redirect_content = REDIRECT_TEMPLATE.format(target=target)
+    # Canonicals and refresh targets must be absolute: a relative canonical on a
+    # redirect stub resolves against the stub's own URL, not the destination.
+    redirect_content = REDIRECT_TEMPLATE.format(site=SITE_URL, target=target)
     source_path.write_text(redirect_content)
 
 def fix_search_action(html_content):
