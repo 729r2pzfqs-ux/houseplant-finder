@@ -256,7 +256,7 @@
                     ${selectedPlants.map(plant => {
                         const hasImage = true;
                         const imgHtml = hasImage 
-                            ? `<img src="/images/plants/${plant.id}.webp" alt="${getPlantNameES(plant.id, plant.name)}" class="w-full h-full object-cover rounded-xl">`
+                            ? `<img src="/images/plants/${plant.id}.webp" alt="${getPlantNameES(plant.id, plant.name)}" width="64" height="64" class="w-full h-full object-cover rounded-xl">`
                             : `<span class="text-3xl">🪴</span>`;
                         return `
                         <th class="p-4 text-center">

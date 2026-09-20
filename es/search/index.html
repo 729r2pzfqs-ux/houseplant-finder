@@ -376,7 +376,7 @@
             const hasImage = true;
             const esName = getPlantNameES(plant.id, plant.name);
             const imageHtml = hasImage
-                ? `<img src="/images/plants/${plant.id}.webp" alt="${esName}" class="w-full h-full object-cover" loading="lazy">`
+                ? `<img src="/images/plants/${plant.id}.webp" alt="${esName}" width="800" height="800" class="w-full h-full object-cover" loading="lazy">`
                 : `<span class="text-7xl">🪴</span>`;
 
             var cardHref = '/es/plants/' + plant.id + '/';
