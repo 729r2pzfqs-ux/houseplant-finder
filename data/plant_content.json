@@ -869,5 +869,340 @@
       "'Maria' and 'Emerald Beauty' are the dark green, silver-marked forms and the most shade-tolerant. 'Silver Bay' has broad silver centres and is a reliable medium-light plant. 'Siam Aurora' and 'Red Valentine' carry pink or red midribs and margins and need noticeably more light to hold that colour.",
       "'Cutlass' has narrow, lance-shaped leaves for a more architectural look. All Aglaonema are toxic to cats and dogs — the calcium oxalate crystals cause mouth and throat irritation if chewed — so despite their reputation as easy office plants, they are not a good choice within reach of a pet that nibbles."
     ]
+  },
+  "calathea-medallion": {
+    "care": {
+      "light": [
+        "Calathea medallion grows on the forest floor in Brazilian rainforest, in light that has already been filtered through a canopy. Indoors it wants medium to bright indirect light and absolutely no direct sun, which bleaches the patterning and scorches the thin leaves within days.",
+        "A north-facing window is often ideal. An east window works if the plant sits back from the glass. In light that is too low the leaves lose contrast and the purple undersides dull, and the plant stops producing new growth — but low light is a far less common cause of calathea problems than water quality."
+      ],
+      "water": [
+        "Keep the mix evenly moist — never soggy, never dried out. Water when the top half-inch feels dry, which in spring and summer is usually every five to seven days. Reduce to every ten days or so in winter, but do not let the root ball dry out completely at any point.",
+        "Water quality matters more for calatheas than for almost any other houseplant. They are highly sensitive to fluoride, chlorine and dissolved salts, and hard tap water produces the crispy brown edges this genus is notorious for. Use filtered, distilled or rainwater, and the single most common calathea complaint largely disappears.",
+        "Humidity is the other non-negotiable. Calathea medallion wants 60% or more. A humidifier is the reliable answer; pebble trays and grouping help at the margins. Misting raises humidity for only minutes and wet leaves in still air invite fungal spotting, so it is not a substitute."
+      ],
+      "soil": [
+        "Use a moisture-retentive but airy mix: roughly two parts peat or coir-based compost to one part perlite, with a little orchid bark. The aim is a medium that stays damp without compacting into a waterlogged block.",
+        "Plastic or glazed ceramic pots suit calatheas better than terracotta, which dries the root ball too quickly for a plant that wants consistent moisture. Drainage holes are still essential. Feed at quarter to half strength monthly through spring and summer only — calatheas are sensitive to fertiliser salts, and flushing the pot with clean water every couple of months prevents buildup."
+      ]
+    },
+    "propagation": [
+      "Calathea medallion is propagated by division only. Stem and leaf cuttings will not root, because the plant grows from a clumping rhizome rather than from nodes along a stem — a cut leaf simply rots.",
+      "Divide in spring, ideally while repotting, and only once the plant has formed a decent clump. Slide it from the pot and gently wash or tease the soil away so you can see where the rhizomes separate naturally. Pull the clump apart with your hands where possible, using a clean knife only where roots are too dense. Each division needs its own roots and at least two or three leaves; smaller pieces rarely establish. Pot each into fresh moisture-retentive mix, water with filtered water, and keep them warm, shaded and humid for the first three to four weeks — a clear bag loosely over the pot helps enormously. Expect the divisions to sulk and possibly drop a leaf before new growth begins."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown, crispy leaf edges",
+        "cause": "The classic calathea complaint. Usually minerals in tap water, low humidity, or both. Fertiliser salt buildup contributes.",
+        "fix": "Switch to filtered, distilled or rainwater, raise humidity to 60% with a humidifier, and flush the pot with clean water every couple of months. Trim damaged edges following the leaf's natural shape."
+      },
+      {
+        "symptom": "Leaves curling inward along the midrib",
+        "cause": "Underwatering, low humidity, or the plant reacting to too much light. Some curling at night is normal — calatheas fold their leaves up in darkness, which is where the name prayer plant comes from.",
+        "fix": "Check the soil first. If dry, water. If moist and the curl persists during the day, raise humidity and move out of any direct light."
+      },
+      {
+        "symptom": "Yellowing leaves, soil constantly wet",
+        "cause": "Overwatering and the beginnings of root rot.",
+        "fix": "Confirm the pot drains freely and is not sitting in water. Let the top half-inch dry before watering. If roots are brown and soft rather than firm, trim and repot into fresh mix."
+      },
+      {
+        "symptom": "Faded, washed-out patterning",
+        "cause": "Too much light. Direct sun bleaches the markings and flattens the contrast that makes this plant worth growing.",
+        "fix": "Move to a shadier position with indirect light only. Faded leaves will not recover their pattern, but new growth will come in correctly marked."
+      },
+      {
+        "symptom": "Fine webbing and stippled, dull leaves",
+        "cause": "Spider mites, which are the single most common calathea pest precisely because they thrive in the dry air that also causes brown edges.",
+        "fix": "Rinse the plant thoroughly, paying attention to leaf undersides, then treat with insecticidal soap every five days for three cycles. Fixing the humidity is what stops them returning."
+      },
+      {
+        "symptom": "Leaves drooping dramatically",
+        "cause": "Either thirst or root rot — the symptom looks the same both ways, which catches people out.",
+        "fix": "Feel the soil before doing anything. Dry means water; wet means stop watering and check the roots immediately."
+      },
+      {
+        "symptom": "Brown or black spots with yellow halos",
+        "cause": "Fungal leaf spot, usually after misting or water sitting on foliage in cool, still air.",
+        "fix": "Remove affected leaves, improve air circulation, stop misting, and water the soil rather than the leaves."
+      }
+    ],
+    "repotting": [
+      "Calatheas dislike root disturbance and are best repotted only every two years, or when roots fill the pot entirely and the plant dries out much faster than it used to. Spring is the right time, when the plant has the growing season ahead to recover.",
+      "Move up one size only, into a plastic or glazed pot that will hold moisture. Disturb the root ball as little as possible — loosen the outer roots and leave the core intact rather than washing the soil away, unless you are dividing.",
+      "Water with filtered water afterwards, keep humidity high, and expect a period of sulking. Do not fertilise for six to eight weeks. If your calathea is otherwise healthy, leaving it alone is usually better than repotting on schedule; this is not a plant that appreciates routine disturbance."
+    ],
+    "varieties": [
+      "Calathea veitchiana 'Medallion' has large rounded leaves with feathered green patterning and deep burgundy undersides. Calathea orbifolia is bigger, with broad silver-striped leaves and a reputation for being fussier still. Calathea lancifolia, the rattlesnake plant, has wavy lance-shaped leaves with dark blotches and is among the most forgiving in the genus.",
+      "Calathea 'White Fusion' is the most demanding of the commonly sold forms, with white variegation that browns readily if humidity drops. Note that many calatheas have been reclassified as Goeppertia, so you may see either name on a label. All calatheas are non-toxic to cats and dogs, which makes them a popular pet-household choice despite the care demands."
+    ]
+  },
+  "parlor-palm": {
+    "care": {
+      "light": [
+        "Parlor palm is the classic Victorian parlour plant precisely because it copes with the dim interiors of the period. It handles low light better than almost any other palm and does well in medium indirect light, where growth is faster and fuller.",
+        "Keep it out of direct sun, which yellows and scorches the delicate fronds. An east or north window suits it, or a position a few feet back from a brighter one. In very low light expect slow growth and a somewhat sparse plant, but it will not decline the way most palms do in shade."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, then water thoroughly until it drains. In spring and summer that is usually every seven to ten days; in winter, every two weeks or so.",
+        "Parlor palms are more sensitive to overwatering than underwatering. The root system is fine and relatively small for the size of the plant, and it rots readily in soil that stays saturated. Empty the saucer after every watering.",
+        "They prefer humidity above 50% and show dry air as browning frond tips, which is the most common complaint. A pebble tray, a humidifier or grouping with other plants all help. They are also sensitive to fluoride in tap water, so filtered or rainwater is worth trying if tips keep browning."
+      ],
+      "soil": [
+        "A standard peat-based potting mix with a handful of perlite works well. The mix should hold some moisture while draining freely — palms dislike both drought and waterlogging.",
+        "Note that parlor palms are almost always sold as several seedlings planted together in one pot to look full. That is normal and they should be left that way; separating them produces thin, sparse individual plants. Feed every six to eight weeks at half strength through spring and summer only, since palms are light feeders and prone to tip burn from excess fertiliser salts."
+      ]
+    },
+    "propagation": [
+      "Parlor palm cannot be propagated from cuttings. It grows from a single growing point at the top of each stem, so a cut stem will not regrow and a severed frond will not root. This is true of most palms and is the thing most people get wrong.",
+      "The only genuine method is from seed, which is slow and difficult at home — germination takes months and requires consistent warmth and humidity, which is why almost all parlor palms are commercially grown. What you can do is separate the clump: since a shop plant is usually several individual seedlings potted together, you can carefully divide the root mass into two or three smaller clumps in spring. Keep at least three or four stems per division so the result still looks full, disturb the roots as little as possible, and keep the new pots warm and humid for a month. This multiplies your pots but does not produce new plants, and each division will be noticeably thinner than the original."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown frond tips",
+        "cause": "The most common parlor palm complaint. Dry air, fluoride or salts in tap water, or inconsistent watering.",
+        "fix": "Raise humidity, switch to filtered or rainwater, and flush the pot with plain water every few months. Trim the brown tip only, following the frond's natural taper, and leave the green tissue intact."
+      },
+      {
+        "symptom": "Whole fronds yellowing from the bottom up",
+        "cause": "Overwatering if the mix is wet, or natural ageing if it is only the oldest lower fronds one at a time.",
+        "fix": "Check the soil. Let the top inch dry before watering and confirm drainage. Cut spent fronds off at the base — they will not green up again."
+      },
+      {
+        "symptom": "Fronds pale and washed-out",
+        "cause": "Too much light, or a nutrient shortage in a plant that has not been fed or repotted for several years.",
+        "fix": "Move out of direct sun. If light is already indirect, feed at half strength through the growing season and refresh the potting mix in spring."
+      },
+      {
+        "symptom": "Fine webbing between fronds, stippled grey foliage",
+        "cause": "Spider mites, which are the signature parlor palm pest and thrive in dry indoor air.",
+        "fix": "Rinse the whole plant in the shower, including frond undersides, then treat with insecticidal soap every five days for three cycles. Raising humidity is what prevents recurrence."
+      },
+      {
+        "symptom": "Stems browning at soil level, plant collapsing",
+        "cause": "Root rot from prolonged wet soil.",
+        "fix": "Unpot, cut away soft brown roots and any collapsed stems at the base, and repot into fresh free-draining mix. Water sparingly until new growth appears. Individual stems that have rotted will not recover."
+      },
+      {
+        "symptom": "No new growth for a long period",
+        "cause": "Low light, cold, or an exhausted potting mix. Parlor palms are naturally slow, so some patience is warranted.",
+        "fix": "Move somewhere a little brighter and warmer, feed lightly through spring and summer, and repot every two to three years to refresh the mix."
+      },
+      {
+        "symptom": "Small brown bumps on stems and frond undersides",
+        "cause": "Scale insects, which hide along the thin stems where they are easily missed.",
+        "fix": "Wipe them off with a cotton bud dipped in rubbing alcohol and follow with neem oil weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Parlor palms grow slowly and dislike root disturbance, so repot only every two to three years, or when roots are clearly emerging from the drainage holes. Spring is the best time.",
+      "Move up one pot size only. Keep the clump intact rather than separating the stems — the full appearance depends on them growing together. Handle the root ball gently; palm roots are brittle and damaged roots are slow to replace.",
+      "Set the plant at the same depth, water thoroughly, and keep it out of direct light and in decent humidity for a few weeks. Do not feed for six weeks. If the plant is large and repotting is impractical, top-dress instead by replacing the top two inches of mix each spring."
+    ],
+    "varieties": [
+      "Chamaedorea elegans is the species sold as parlor palm and there are few named cultivars — 'Bella' is a compact form sometimes offered. Related species are worth knowing: Chamaedorea seifrizii is the bamboo palm, taller with narrower canes, and Chamaedorea metallica has broad blue-green leaves with a metallic sheen.",
+      "For a similar look with more height, the cat palm and kentia palm are both good choices, though kentia needs more light. Parlor palm is non-toxic to cats and dogs and appears on most pet-safe lists, which together with its shade tolerance makes it one of the most practical palms for an ordinary home."
+    ]
+  },
+  "string-of-pearls": {
+    "care": {
+      "light": [
+        "String of pearls needs bright light — more than most people give it. Several hours of direct morning sun plus bright indirect light for the rest of the day is close to ideal. A south or east-facing window is usually right.",
+        "In insufficient light the strands stretch, the pearls space out widely along bare stems, and the plant looks sparse rather than dense. This is the single most common reason string of pearls disappoints. Harsh afternoon sun through glass can scorch the beads, so filter the strongest midday light in summer while keeping overall levels high."
+      ],
+      "water": [
+        "Treat it as the succulent it is. Water thoroughly, then let the mix dry out almost completely before watering again — typically every two to three weeks in spring and summer, and once a month or less in winter.",
+        "The pearls themselves are the gauge. Plump and firm means well watered; slightly flattened or shrivelled means it is time. Mushy, translucent pearls that burst at a touch mean serious overwatering, and by then root rot is usually established.",
+        "Water at the soil surface rather than over the strands, and drain completely. The shallow root system sits near the surface, so a deep soak followed by a long dry period suits it far better than frequent light watering. Humidity is irrelevant; dry household air is fine."
+      ],
+      "soil": [
+        "Use a gritty cactus or succulent mix, or two parts succulent compost to one part perlite or coarse sand. Fast drainage is essential — this plant rots faster than almost any other common houseplant in soil that stays damp.",
+        "String of pearls has a shallow, fine root system, so a wide shallow pot suits it much better than a deep one, which holds a reservoir of wet soil below the roots. Terracotta helps. Feed sparingly: a half-strength succulent fertiliser twice during the growing season is ample, none in winter."
+      ]
+    },
+    "propagation": [
+      "String of pearls is very easy to propagate, which is fortunate because plants tend to thin at the crown over time and benefit from being refreshed with new cuttings.",
+      "Take a strand four to six inches long and remove the pearls from the last inch or two to expose the bare stem. You can then either lay the strand flat on the surface of damp cactus mix and press the bare section lightly into contact — roots form at each node where stem touches soil — or insert the bare end an inch into the mix. The laying method is more productive, because a single strand roots at multiple points and produces a fuller plant. Let cut ends callus for a day first. Keep the mix barely moist, not wet, and in bright indirect light; roots take two to three weeks. Planting several rooted cuttings around the edge of the parent pot is the standard way to thicken a plant that has gone bare in the middle. Avoid water propagation, which works poorly and often rots the strands."
+    ],
+    "problems": [
+      {
+        "symptom": "Pearls shrivelling and going flat",
+        "cause": "Underwatering, or occasionally root rot preventing water uptake despite damp soil.",
+        "fix": "Check the soil. If dry, water thoroughly and the pearls plump up within days. If the soil is wet and the pearls are still shrivelled, the roots have failed — take healthy cuttings and restart."
+      },
+      {
+        "symptom": "Pearls turning mushy and bursting",
+        "cause": "Overwatering. The pearls take up more water than they can hold and the cells rupture.",
+        "fix": "Stop watering and let the mix dry out completely. Check for rot at the crown and take cuttings from healthy strands as insurance. Repot into grittier mix if the soil holds water too long."
+      },
+      {
+        "symptom": "Bare stems with pearls far apart",
+        "cause": "Not enough light. The strands stretch toward the light source instead of producing dense growth.",
+        "fix": "Move to a much brighter position. Stretched sections will not fill in, so trim them and use the cuttings to replant into the same pot."
+      },
+      {
+        "symptom": "Plant thinning and dying back in the middle",
+        "cause": "Natural ageing of the crown, worsened by water collecting among the strands at the centre.",
+        "fix": "This is normal for mature plants. Take cuttings from the healthy outer strands and replant them around the crown, or start a fresh pot. Water at the soil edge rather than over the centre."
+      },
+      {
+        "symptom": "Brown or scorched patches on individual pearls",
+        "cause": "Sunburn from intense direct afternoon sun, especially through glass.",
+        "fix": "Filter the strongest midday light while keeping overall brightness high. Damaged pearls do not recover and can be trimmed away."
+      },
+      {
+        "symptom": "White cottony clusters among the strands",
+        "cause": "Mealybugs, which hide among the dense pearls and are hard to spot until numerous.",
+        "fix": "Dab each cluster with rubbing alcohol on a cotton bud. Check thoroughly every week for a month — the tangled strands give them excellent cover."
+      },
+      {
+        "symptom": "Whole strands going brown and dry from the base",
+        "cause": "Crown or stem rot at soil level, usually from overwatering or water sitting against the stems.",
+        "fix": "Cut away affected strands entirely, let the soil dry, and salvage healthy strands as cuttings. Improve drainage and water only at the pot edge."
+      }
+    ],
+    "repotting": [
+      "String of pearls has a small, shallow root system and is happy pot-bound, so repot only every two to three years, or when the mix has broken down and stopped draining.",
+      "Choose a wide, shallow pot rather than a deep one — excess soil below the shallow roots simply stays wet. Terracotta or another breathable material helps. Spring is the right time.",
+      "Handle the strands carefully; they detach easily and every broken strand is a cutting worth saving. Use dry mix, wait a week before the first watering, and skip fertiliser for a couple of months. Repotting is a good moment to tuck rooted cuttings into any bare areas of the pot."
+    ],
+    "varieties": [
+      "Curio rowleyanus, formerly Senecio rowleyanus, is the true string of pearls with spherical beads. A variegated form with cream-marbled pearls exists and is slower, more delicate and needs strong light.",
+      "Close relatives with identical care include string of bananas, with crescent-shaped leaves and a reputation for being noticeably tougher, string of dolphins, whose leaves curve into little dolphin shapes, and string of tears, with more teardrop-shaped beads. All of these Curio species are toxic to cats and dogs, and because the trailing strands are so attractive to a playful cat, a high shelf or hanging position well out of reach is genuinely important."
+    ]
+  },
+  "english-ivy": {
+    "care": {
+      "light": [
+        "English ivy prefers bright indirect light and tolerates medium light, though variegated forms lose their cream and white markings in anything too dim. It handles more shade than most variegated plants but at the cost of leaf colour and density.",
+        "Keep it out of hot direct sun, which scorches the leaves and dries the plant out quickly. An east or north window is well suited. If a variegated ivy is reverting to plain green, insufficient light is the cause — move it brighter and trim out the green shoots."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, keeping the soil lightly moist but never saturated. In spring and summer that is usually every five to seven days; in winter, every ten to fourteen days.",
+        "Ivy dislikes both extremes. Dry soil causes crisp brown leaves that drop, while soggy soil leads to root rot and the sudden collapse of whole stems. The plant also prefers cooler conditions than most houseplants — around 15 to 21°C — and struggles in hot, dry rooms.",
+        "Humidity above 40% helps considerably, and low humidity is the primary reason indoor ivy attracts spider mites. This is the pest that kills more indoor ivy than any cultural problem, and it is essentially a symptom of dry air."
+      ],
+      "soil": [
+        "A standard well-draining potting mix with added perlite works well. Ivy is not fussy about medium but does want drainage; it grows in ordinary garden soil outdoors but rots in a pot that stays wet.",
+        "Feed monthly at half strength through spring and summer, stopping in winter. Ivy is a vigorous grower and responds well to feeding during the growing season, but over-fertilising produces soft growth that is more attractive to pests. Flush the pot with plain water occasionally to clear accumulated salts."
+      ]
+    },
+    "propagation": [
+      "English ivy roots very readily from stem cuttings, and spring or summer cuttings establish fastest. Take a four to six inch section from a healthy vine, cutting just below a node, and strip the leaves from the lowest inch or two.",
+      "Stand the cuttings in water with the bare nodes submerged, in bright indirect light, changing the water weekly. Roots usually appear within two to three weeks. Alternatively, push cuttings directly into damp potting mix — dipping the cut end in rooting hormone first improves the strike rate for soil propagation, though it is not essential. Pot several rooted cuttings together for a full plant rather than growing them on singly. Ivy also layers naturally: pin a trailing stem down onto the surface of an adjacent pot and it will root where the nodes touch damp soil, after which you can sever it from the parent. Keep new cuttings out of direct sun and lightly moist until growth resumes."
+    ],
+    "problems": [
+      {
+        "symptom": "Fine webbing, stippled and dusty-looking leaves",
+        "cause": "Spider mites. This is by far the most common problem with indoor English ivy and is driven by dry, warm air.",
+        "fix": "Rinse the entire plant thoroughly in the shower, paying particular attention to leaf undersides, then treat with insecticidal soap or neem every five days for at least three cycles. Raise humidity and lower the temperature if you can — without that, they come straight back."
+      },
+      {
+        "symptom": "Brown, crispy leaves, especially at the edges",
+        "cause": "Dry air, underwatering, or a position too close to a radiator.",
+        "fix": "Water more consistently, raise humidity, and move it to a cooler spot. Ivy is happier at 15-21°C than in a warm living room."
+      },
+      {
+        "symptom": "Yellowing leaves, soil wet",
+        "cause": "Overwatering and poor drainage, leading to root rot.",
+        "fix": "Let the top inch dry properly between waterings and confirm the pot drains. Trim any soft brown roots and repot into fresh mix if rot has set in."
+      },
+      {
+        "symptom": "Variegated leaves turning plain green",
+        "cause": "Too little light. The plant favours chlorophyll-rich tissue when energy is short.",
+        "fix": "Move to brighter indirect light and prune out fully green shoots to encourage variegated growth."
+      },
+      {
+        "symptom": "Long bare vines with leaves only at the tips",
+        "cause": "Low light combined with a lack of pruning. Ivy naturally runs rather than branching unless cut back.",
+        "fix": "Prune the vines back hard in spring — ivy tolerates this well and branches from the cut nodes. Root the removed sections and add them to the pot to thicken the plant."
+      },
+      {
+        "symptom": "Sudden collapse of a whole stem",
+        "cause": "Stem or root rot at soil level, usually from overwatering.",
+        "fix": "Cut the affected stem back to healthy tissue, let the mix dry out, and take cuttings from unaffected vines as insurance."
+      },
+      {
+        "symptom": "Small brown bumps along stems and leaf veins",
+        "cause": "Scale insects, which are common on ivy and easy to miss against the woody stems.",
+        "fix": "Scrape them off with a cotton bud dipped in rubbing alcohol and follow with neem oil weekly for a month."
+      }
+    ],
+    "repotting": [
+      "English ivy grows vigorously and usually needs repotting every one to two years, in spring. The signs are roots emerging from the drainage holes, water running straight through, and rapid drying between waterings.",
+      "Move up one pot size. Ivy suits hanging baskets and shelf positions where the vines can trail, so consider weight and balance when choosing a container. Loosen circling roots before replanting.",
+      "This is the right moment to prune hard if the plant has gone bare and leggy, and to root the trimmings back into the same pot. Water thoroughly afterwards and hold off fertiliser for a month. A congested root ball can also be divided into two plants at this stage."
+    ],
+    "varieties": [
+      "Hedera helix has hundreds of named cultivars. 'Glacier' has grey-green leaves with white margins, 'Gold Child' carries yellow edging, and 'Needlepoint' has narrow, sharply lobed leaves. 'Duckfoot' and 'Teardrop' are small-leaved forms well suited to pots and terrariums.",
+      "Hedera canariensis, Algerian ivy, has larger leaves and is a related species with the same care needs. Two practical warnings: English ivy is toxic to cats and dogs, causing vomiting and drooling if eaten, and the sap irritates human skin for some people — gloves are sensible when pruning. It is also highly invasive outdoors in much of North America, so dispose of trimmings in household waste rather than composting them or planting them out."
+    ]
+  },
+  "bird-of-paradise": {
+    "care": {
+      "light": [
+        "Bird of paradise is a full-sun plant in its native South Africa and needs the brightest position you can offer indoors. Several hours of direct sun daily, ideally from a south or west-facing window, is what produces strong upright growth and the large paddle leaves.",
+        "This is not a low-light plant, despite sometimes being sold as one. In insufficient light it produces small leaves on long weak stems and will never flower. Indoor flowering requires a mature plant — typically four to five years old — in excellent light, and many indoor specimens never bloom at all, which is worth knowing before you buy one for the flowers."
+      ],
+      "water": [
+        "Water thoroughly when the top two inches of mix have dried, letting water run from the drainage holes. In spring and summer, in a bright spot, that is usually every seven to ten days. These are large plants that transpire a lot of water in good light.",
+        "Reduce substantially in autumn and winter, to every two to three weeks. The combination of lower light and cooler temperatures means the mix stays wet far longer, and winter overwatering is the most common cause of root problems.",
+        "Bird of paradise appreciates humidity above 50% and shows dry air as browning leaf edges. It is also sensitive to salts and fluoride in tap water, which contribute to the same symptom, so filtered or rainwater is worth trying if edges keep browning despite good humidity."
+      ],
+      "soil": [
+        "Use a rich, well-draining mix: roughly two parts quality potting compost to one part perlite and one part bark. The plant is a heavy feeder with vigorous thick roots and wants a medium with both substance and drainage.",
+        "Choose a sturdy, heavy pot — a mature bird of paradise is tall and top-heavy, and the root system is powerful enough to crack thin plastic. Feed every two to four weeks through spring and summer with a balanced fertiliser; this is one of the hungrier houseplants and responds visibly to regular feeding. Stop over winter."
+      ]
+    },
+    "propagation": [
+      "Bird of paradise is propagated by division, which is the only practical home method. Seed is possible but germination is slow and erratic, and a seed-grown plant takes four to five years to reach flowering size.",
+      "Divide in spring, ideally while repotting a mature clump. Slide the plant out and look for natural divisions where a fan of leaves has its own rhizome and root mass. The roots are thick, fleshy and densely packed, so a clean sharp knife or even a saw is usually needed rather than teasing them apart. Each division needs at least a fan or two of leaves and a substantial share of roots. Pot into fresh rich mix, water well, and keep in bright indirect light rather than full sun for the first month while the cut roots heal. Expect the division to sulk for several weeks and possibly lose a leaf. Note that dividing sets back flowering considerably, so if your plant blooms, think twice before splitting it."
+    ],
+    "problems": [
+      {
+        "symptom": "Leaves splitting along their length",
+        "cause": "Entirely normal. The splits are an adaptation that lets wind pass through the large leaves in the wild, and indoor plants split as the leaves mature and are brushed against.",
+        "fix": "No action needed. Excessive splitting on young leaves can indicate low humidity or a plant in a high-traffic spot, so move it somewhere less brushed past if it bothers you."
+      },
+      {
+        "symptom": "Brown, crispy leaf edges",
+        "cause": "Low humidity, salts and fluoride in tap water, or inconsistent watering.",
+        "fix": "Raise humidity, switch to filtered or rainwater, and flush the pot with plain water every few months. Water on a more regular schedule."
+      },
+      {
+        "symptom": "Yellowing lower leaves",
+        "cause": "Overwatering if widespread and the mix is wet; normal ageing if it is the oldest leaf one at a time.",
+        "fix": "Let the top two inches dry between waterings, particularly in winter. Cut spent leaves off at the base."
+      },
+      {
+        "symptom": "No flowers on a mature plant",
+        "cause": "Insufficient light is the usual reason, followed by insufficient feeding, too large a pot, or a plant that is simply not old enough.",
+        "fix": "Move it to the brightest available position and feed regularly through the growing season. Keep it slightly pot-bound, which encourages flowering. Be realistic: many indoor plants never flower."
+      },
+      {
+        "symptom": "New leaves emerging small and pale",
+        "cause": "Too little light, a shortage of nutrients, or a root system that has outgrown its pot.",
+        "fix": "Increase light, feed through spring and summer, and repot if roots have filled the container."
+      },
+      {
+        "symptom": "Fine webbing under leaves, stippled surfaces",
+        "cause": "Spider mites, which colonise the broad undersides where they go unnoticed for weeks.",
+        "fix": "Wipe both sides of every leaf, rinse the plant, and treat with insecticidal soap every five days for three cycles. Raising humidity discourages them."
+      },
+      {
+        "symptom": "Leaves curling and drooping with wet soil",
+        "cause": "Root rot from overwatering, which prevents the roots taking up water even though the mix is saturated.",
+        "fix": "Unpot and inspect. Trim every soft brown root, repot into fresh free-draining mix, and water sparingly until new growth appears."
+      }
+    ],
+    "repotting": [
+      "Repot every two to three years while the plant is building size, then less often. Bird of paradise has thick, vigorous roots that will visibly deform or split a plastic pot when it is genuinely ready.",
+      "Repot in spring into a pot one size larger, choosing something heavy and stable — a large specimen is top-heavy and a light pot will tip. Ceramic or a weighted planter is worth the investment.",
+      "There is a trade-off worth understanding: this plant flowers best when slightly pot-bound, so if flowering is your goal, resist moving it up too eagerly and top-dress with fresh compost instead. Water well after repotting and wait six weeks before feeding. For very large plants, replacing the top few inches of mix each spring is more practical than repotting at all."
+    ],
+    "varieties": [
+      "Strelitzia reginae is the orange bird of paradise, reaching four to six feet indoors with the familiar orange and blue flowers. Strelitzia nicolai, the giant white bird of paradise, is much larger — easily reaching the ceiling — with white and blue flowers and broader leaves; it is the one most often sold as a large architectural houseplant and it very rarely flowers indoors.",
+      "Strelitzia juncea has narrow, almost reed-like leaves and a sculptural habit. All Strelitzia are toxic to cats and dogs, with the flowers and seeds being the most hazardous parts. Given the size these plants reach, the practical constraint indoors is usually ceiling height and light, not care difficulty."
+    ]
   }
 }
