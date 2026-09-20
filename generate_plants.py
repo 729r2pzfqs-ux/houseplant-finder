@@ -19,6 +19,90 @@ PLANTS_DIR = os.path.join(BASE_DIR, "plants")
 DATA_FILE = os.path.join(BASE_DIR, "data/plants.json")
 SITEMAP_FILE = os.path.join(BASE_DIR, "sitemap.xml")
 BASE_URL = "https://plantfinder.org"
+GA_ID = "G-J2JW25BZPF"
+PAGE_META_FILE = os.path.join(BASE_DIR, "data/page_meta.json")
+DATE_PUBLISHED = "2026-02-22"
+DATE_MODIFIED = "2026-07-06"
+
+# Per-plant meta description and publish date, authored separately from the page
+# template. Both fall back to a derived value for any plant without an entry.
+try:
+    with open(PAGE_META_FILE, encoding="utf-8") as _f:
+        PAGE_META = json.load(_f).get("en", {})
+except FileNotFoundError:
+    PAGE_META = {}
+
+# FAQ phrasing, keyed off the plant's numeric care ratings.
+faq_light_phrases = {
+    1: "low light", 2: "low-medium light", 3: "medium light",
+    4: "bright indirect", 5: "bright/direct",
+}
+faq_water_phrases = {
+    1: "very low", 2: "low", 3: "moderate", 4: "regular", 5: "frequent",
+}
+faq_difficulty_phrases = {
+    "easy": "easy", "medium": "medium", "moderate": "moderate", "hard": "hard",
+}
+
+
+def json_escape(text):
+    """Escape a string for embedding in a JSON-LD literal."""
+    return json.dumps(str(text))[1:-1]
+
+
+def build_faq_schema(plant, name, page_url):
+    """FAQPage schema: light, toxicity, difficulty and watering."""
+    light = plant.get("light", 3)
+    water = plant.get("water", 3)
+    difficulty = plant.get("difficulty", "medium")
+    growth_rate = plant.get("growth_rate", "moderate")
+    pet_safe = plant.get("pet_safe", False)
+    toxic_to = plant.get("toxic_to", [])
+    care_tips = plant.get("care_tips", "")
+
+    light_phrase = faq_light_phrases.get(light, "medium light")
+    water_phrase = faq_water_phrases.get(water, "moderate")
+    diff_phrase = faq_difficulty_phrases.get(difficulty, difficulty)
+
+    if pet_safe:
+        tox_q = f"Is {name} safe for pets?"
+        tox_a = f"Yes, the {name} is non-toxic and safe for cats and dogs."
+    else:
+        pets = ", ".join(toxic_to) if toxic_to else "pets"
+        tox_q = f"Is {name} toxic to pets?"
+        tox_a = f"Yes, the {name} is toxic to {pets}. Keep it out of reach of pets."
+
+    qa = [
+        (f"How much light does a {name} need?",
+         f"The {name} needs {light_phrase} conditions. {care_tips}".strip()),
+        (tox_q, tox_a),
+        (f"Is {name} easy to care for?",
+         f"The {name} is considered {diff_phrase} to care for. "
+         f"It has {water_phrase} watering needs and grows at a {growth_rate} rate."),
+        (f"How often should I water my {name}?",
+         f"The {name} has {water_phrase} watering needs. {care_tips}".strip()),
+    ]
+    entities = ",\n".join(
+        '''        {
+            "@type": "Question",
+            "name": "%s",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "%s"
+            }
+        }''' % (json_escape(q), json_escape(a))
+        for q, a in qa
+    )
+    return '''    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+%s
+    ]
+}
+    </script>''' % entities
 
 def get_light_label(level):
     labels = {1: "Very Low", 2: "Low", 3: "Medium (Indirect)", 4: "Bright Indirect", 5: "Direct Sun"}
@@ -182,40 +266,38 @@ def generate_plant_html(plant):
     growth_rate_val = get_growth_rate_value(growth_rate)
     air_purifying_val = 4 if air_purifying else 1
 
+    page_meta = PAGE_META.get(plant_id, {})
+    date_published = page_meta.get("date_published", DATE_PUBLISHED)
+    meta_description = page_meta.get(
+        "description",
+        f"Complete care guide for {name}{' (' + common_names[0] + ')' if common_names else ''}. "
+        f"Learn about light, water, humidity needs, and how to keep your {name} thriving."
+    )
+    image_url = f"{BASE_URL}/images/plants/{plant_id}.webp"
+    page_url = f"{BASE_URL}/plants/{plant_id}/"
+    faq_schema = build_faq_schema(plant, name, page_url)
+
     html = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Analytics placeholder -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){{dataLayer.push(arguments);}}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-    </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","{GA_ID}");</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{name} Care Guide | PlantFinder</title>
-    <meta name="description" content="Complete care guide for {name}{' (' + common_names[0] + ')' if common_names else ''}. Learn about light, water, humidity needs, and how to keep your {name} thriving.">
-    <link rel="canonical" href="{BASE_URL}/plants/{plant_id}/">
+    <meta name="description" content="{meta_description}">
+    <link rel="canonical" href="{page_url}">
     <meta property="og:title" content="{name} Care Guide | PlantFinder">
     <meta property="og:description" content="{description}">
-    <meta property="og:url" content="{BASE_URL}/plants/{plant_id}/">
+    <meta property="og:url" content="{page_url}">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="PlantFinder">
+    <meta property="og:image" content="{image_url}">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1536">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/tailwind.css">
     <script defer src="https://unpkg.com/lucide@1.47.0/dist/umd/lucide.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {{
-            theme: {{
-                extend: {{
-                    fontFamily: {{ sans: ['Plus Jakarta Sans', 'sans-serif'] }}
-                }}
-            }}
-        }}
-    </script>
     <style>
         .rating-bar {{ height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }}
         .rating-bar::after {{ content: ''; display: block; height: 100%; border-radius: 4px; background: linear-gradient(90deg, #10b981, #14b8a6); }}
@@ -230,46 +312,78 @@ def generate_plant_html(plant):
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{name} Care Guide">
     <meta name="twitter:description" content="{description}">
+    <meta name="twitter:image" content="{image_url}">
 
     <!-- Schema.org Markup -->
     <script type="application/ld+json">
     {{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "mainEntityOfPage": {{
-            "@type": "WebPage",
-            "@id": "{BASE_URL}/plants/{plant_id}/"
-        }},
-        "headline": "{name}: Complete Care Guide, Light & Water Needs",
-        "description": "{description}",
-        "author": {{
-            "@type": "Organization",
-            "name": "PlantFinder"
-        }},
-        "publisher": {{
-            "@type": "Organization",
-            "name": "PlantFinder",
-            "logo": {{
-                "@type": "ImageObject",
-                "url": "{BASE_URL}/favicon.svg"
-            }}
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {{
+        "@type": "WebPage",
+        "@id": "{page_url}"
+    }},
+    "headline": "{name}: Complete Care Guide, Light & Water Needs",
+    "description": "{description}",
+    "author": {{
+        "@type": "Organization",
+        "name": "PlantFinder",
+        "url": "{BASE_URL}/"
+    }},
+    "publisher": {{
+        "@type": "Organization",
+        "name": "PlantFinder",
+        "logo": {{
+            "@type": "ImageObject",
+            "url": "{BASE_URL}/logos/logo-icon-512x512.png"
         }}
+    }},
+    "image": [
+        "{image_url}"
+    ],
+    "inLanguage": "en",
+    "datePublished": "{date_published}",
+    "dateModified": "{DATE_MODIFIED}",
+    "about": {{
+        "@type": "Thing",
+        "name": "{name}"
     }}
+}}
     </script>
 
     <!-- Breadcrumb Schema -->
     <script type="application/ld+json">
     {{
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {{"@type": "ListItem", "position": 1, "name": "Home", "item": "{BASE_URL}/"}},
-            {{"@type": "ListItem", "position": 2, "name": "Plants", "item": "{BASE_URL}/search/"}},
-            {{"@type": "ListItem", "position": 3, "name": "{name}"}}
-        ]
-    }}
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "{BASE_URL}/"
+        }},
+        {{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Plants",
+            "item": "{BASE_URL}/search/"
+        }},
+        {{
+            "@type": "ListItem",
+            "position": 3,
+            "name": "{name}"
+        }}
+    ]
+}}
     </script>
-    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
+    <link rel="alternate" hreflang="en" href="{BASE_URL}/plants/{plant_id}/" />
+    <link rel="alternate" hreflang="es" href="{BASE_URL}/es/plants/{plant_id}/" />
+    <link rel="alternate" hreflang="de" href="{BASE_URL}/de/plants/{plant_id}/" />
+    <link rel="alternate" hreflang="x-default" href="{BASE_URL}/plants/{plant_id}/" />
+
+{faq_schema}
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
 </head>
 <body class="bg-slate-50 text-slate-800">
     <nav class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
@@ -468,6 +582,7 @@ def generate_plant_html(plant):
                     <a href="/quiz/" class="hover:text-white">Quiz</a>
                     <a href="/compare/" class="hover:text-white">Compare</a>
                     <a href="/faq/" class="hover:text-white">FAQ</a>
+                    <a href="/privacy/" class="hover:text-white">Privacy</a>
                 </div>
                 <p class="text-sm">&copy; 2026 PlantFinder</p>
             </div>
@@ -534,6 +649,31 @@ def generate_sitemap(plants):
     return sitemap
 
 
+# Blocks appended to plant pages by later passes (generate_comparisons.py, and the
+# "Related Plants" cards). They live between the template's last section and
+# </main>. Regenerating must not drop them, so they are carried across.
+INJECTED_ANCHORS = (
+    "    <!-- COMPARISONS:START",
+    "    <!-- Related Plants Section -->",
+)
+
+
+def extract_injected_blocks(path):
+    """Return the post-generation blocks in an existing page, or ''."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            existing = f.read()
+    except FileNotFoundError:
+        return ""
+    starts = [existing.index(a) for a in INJECTED_ANCHORS if a in existing]
+    if not starts:
+        return ""
+    end = existing.rfind("</main>")
+    if end == -1 or end <= min(starts):
+        return ""
+    return existing[min(starts):end]
+
+
 def main():
     # Load plant data
     print(f"Loading plant data from {DATA_FILE}...")
@@ -554,8 +694,11 @@ def main():
         # Create directory if needed
         os.makedirs(plant_dir, exist_ok=True)
         
-        # Generate HTML
+        # Generate HTML, carrying over any blocks added by later passes
+        preserved = extract_injected_blocks(plant_file)
         html = generate_plant_html(plant)
+        if preserved:
+            html = html.replace("</main>", preserved + "</main>", 1)
         
         # Write file
         with open(plant_file, 'w') as f:

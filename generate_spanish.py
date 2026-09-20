@@ -12,8 +12,21 @@ DATA_FILE = os.path.join(BASE_DIR, "data/plants.json")
 TRANSLATIONS_FILE = os.path.join(BASE_DIR, "data/plants_es.json")
 BASE_URL = "https://plantfinder.org/es"
 GA_ID = "G-J2JW25BZPF"
+BASE_URL_ROOT = "https://plantfinder.org"
 
-# Size to height mapping
+PAGE_META_FILE = os.path.join(BASE_DIR, "data/page_meta.json")
+DATE_PUBLISHED = "2026-02-23"
+DATE_MODIFIED = "2026-07-06"
+
+# Per-plant meta description and publish date, authored separately from the page
+# template. Both fall back to a derived value for any plant without an entry.
+try:
+    with open(PAGE_META_FILE, encoding="utf-8") as _f:
+        PAGE_META = json.load(_f).get("es", {})
+except FileNotFoundError:
+    PAGE_META = {}
+
+
 size_heights = {
     "small": "15-30 cm",
     "medium": "30-90 cm", 
@@ -202,28 +215,45 @@ def generate_plant_html(plant):
     growth_rate_val = get_growth_rate_value(growth_rate)
     air_purifying_val = 4 if air_purifying else 1
 
+    page_meta = PAGE_META.get(plant_id, {})
+    date_published = page_meta.get("date_published", DATE_PUBLISHED)
+    meta_description = page_meta.get(
+        "description",
+        "Guía completa de cuidado para {name}. Aprende sobre luz, agua, humedad, y cómo mantener tu {name} saludable."
+    )
+    image_url = f"{BASE_URL_ROOT}/images/plants/{plant_id}.webp"
+    page_url = f"{BASE_URL}/plants/{plant_id}/"
+
     html = f'''<!DOCTYPE html>
 <html lang="es">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","{GA_ID}");</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","{GA_ID}");</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{name} - Guía de Cuidado | PlantFinder</title>
-    <meta name="description" content="Guía completa de cuidado para {name}. Aprende sobre luz, agua, humedad, y cómo mantener tu {name} saludable.">
-    <link rel="canonical" href="{BASE_URL}/plants/{plant_id}/">
-    <link rel="alternate" hreflang="en" href="https://plantfinder.org/plants/{plant_id}/">
-    <link rel="alternate" hreflang="es" href="https://plantfinder.org/es/plants/{plant_id}/">
-    <link rel="alternate" hreflang="de" href="https://plantfinder.org/de/plants/{plant_id}/">
+    <meta name="description" content="{meta_description}">
+    <link rel="canonical" href="{page_url}">
+    <link rel="alternate" hreflang="en" href="{BASE_URL_ROOT}/plants/{plant_id}/">
+    <link rel="alternate" hreflang="es" href="{BASE_URL_ROOT}/es/plants/{plant_id}/">
+    <link rel="alternate" hreflang="de" href="{BASE_URL_ROOT}/de/plants/{plant_id}/">
+    <link rel="alternate" hreflang="x-default" href="{BASE_URL_ROOT}/plants/{plant_id}/">
     <meta property="og:title" content="{name} - Guía de Cuidado | PlantFinder">
     <meta property="og:description" content="{description}">
-    <meta property="og:url" content="{BASE_URL}/plants/{plant_id}/">
+    <meta property="og:url" content="{page_url}">
     <meta property="og:type" content="article">
+    <meta property="og:image" content="{image_url}">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1536">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{name} - Guía de Cuidado | PlantFinder">
+    <meta name="twitter:description" content="Guía completa de cuidado para {name}. Aprende sobre luz, agua, humedad, y cómo mantener tu {name} saludable.">
+    <meta name="twitter:image" content="{image_url}">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/assets/tailwind.css">
     <script defer src="https://unpkg.com/lucide@1.47.0/dist/umd/lucide.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script>tailwind.config={{theme:{{extend:{{fontFamily:{{sans:['Plus Jakarta Sans','sans-serif']}}}}}}}}</script>
     <style>
         .rating-bar {{ height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }}
         .rating-bar::after {{ content: ''; display: block; height: 100%; border-radius: 4px; background: linear-gradient(90deg, #10b981, #14b8a6); }}
@@ -231,15 +261,65 @@ def generate_plant_html(plant):
     </style>
     <script type="application/ld+json">
     {{
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "{name}: Guía Completa de Cuidado",
-        "description": "{description}",
-        "author": {{"@type": "Organization", "name": "PlantFinder"}},
-        "publisher": {{"@type": "Organization", "name": "PlantFinder"}}
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{name}: Guía Completa de Cuidado",
+    "description": "{description}",
+    "author": {{
+        "@type": "Organization",
+        "name": "PlantFinder",
+        "url": "{BASE_URL_ROOT}/"
+    }},
+    "publisher": {{
+        "@type": "Organization",
+        "name": "PlantFinder",
+        "logo": {{
+            "@type": "ImageObject",
+            "url": "{BASE_URL_ROOT}/logos/logo-icon-512x512.png"
+        }}
+    }},
+    "mainEntityOfPage": {{
+        "@type": "WebPage",
+        "@id": "{page_url}"
+    }},
+    "image": [
+        "{image_url}"
+    ],
+    "inLanguage": "es",
+    "datePublished": "{date_published}",
+    "dateModified": "{DATE_MODIFIED}",
+    "about": {{
+        "@type": "Thing",
+        "name": "{name}"
     }}
+}}
     </script>
-    <script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
+    <script type="application/ld+json">
+    {{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "{BASE_URL}/"
+        }},
+        {{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Plantas",
+            "item": "{BASE_URL}/search/"
+        }},
+        {{
+            "@type": "ListItem",
+            "position": 3,
+            "name": "{name}"
+        }}
+    ]
+}}
+    </script>
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="qlbhxGtUr2oyQ7ePI+y0Qg" async></script>
 </head>
 <body class="bg-slate-50 text-slate-800">
     <nav class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
@@ -428,6 +508,7 @@ def generate_plant_html(plant):
                     <a href="/es/compare/" class="hover:text-white">Comparar</a>
                     <a href="/es/articles/" class="hover:text-white">Guías</a>
                     <a href="/es/about/" class="hover:text-white">Acerca de</a>
+                <a href="/es/privacy/" class="hover:text-white">Privacidad</a>
                 </div>
                 <p class="text-sm">&copy; 2026 PlantFinder</p>
             </div>

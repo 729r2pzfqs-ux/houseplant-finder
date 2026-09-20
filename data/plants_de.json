@@ -1,6 +1,6 @@
 {
   "monstera-deliciosa": {
-    "name": "Monstera Deliciosa",
+    "name": "Fensterblatt",
     "description": "Die Monstera Deliciosa ist berühmt für ihre atemberaubenden geschlitzten Blätter und einfache Pflege. Eine Statement-Pflanze, die ziemlich groß werden kann.",
     "care_tips": "Helles indirektes Licht, gießen wenn der obere Zentimeter trocken ist, gelegentlich besprühen."
   },
@@ -75,7 +75,7 @@
     "care_tips": "Wenig bis mittleres Licht, gleichmäßig feucht halten, gelegentlich besprühen."
   },
   "calathea-medallion": {
-    "name": "Calathea Medallion",
+    "name": "Korbmarante",
     "description": "Atemberaubend gemusterte Blätter die sich nachts zusammenfalten. Schön aber anspruchsvoll.",
     "care_tips": "Indirektes Licht, konstante Feuchtigkeit, hohe Luftfeuchtigkeit, gefiltertes Wasser."
   },
@@ -495,7 +495,7 @@
     "care_tips": "Wenig bis helles Licht, sehr sparsam gießen, sehr langsam."
   },
   "yucca": {
-    "name": "Yucca",
+    "name": "Yucca-Palme",
     "description": "Steife schwertförmige Blätter an dickem Stamm. Robust und architektonisch.",
     "care_tips": "Helles Licht bis volle Sonne, sparsam gießen, sehr widerstandsfähig."
   },
