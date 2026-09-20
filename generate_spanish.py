@@ -221,7 +221,7 @@ def generate_plant_html(plant):
     <meta property="og:type" content="article">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="https://unpkg.com/lucide@1.47.0/dist/umd/lucide.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script>tailwind.config={{theme:{{extend:{{fontFamily:{{sans:['Plus Jakarta Sans','sans-serif']}}}}}}}}</script>
     <style>
@@ -434,7 +434,7 @@ def generate_plant_html(plant):
         </div>
     </footer>
     
-    <script>lucide.createIcons();</script>
+    <script>document.addEventListener('DOMContentLoaded', () => lucide.createIcons());</script>
 </body>
 </html>'''
     

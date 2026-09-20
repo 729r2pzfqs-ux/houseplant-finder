@@ -33,7 +33,7 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/assets/tailwind.css">
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="https://unpkg.com/lucide@1.47.0/dist/umd/lucide.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -291,7 +291,7 @@
     </footer>
 
     <script>
-        lucide.createIcons();
+        document.addEventListener('DOMContentLoaded', () => lucide.createIcons());
         
         // State
         let allPlants = [];
@@ -484,7 +484,7 @@
             // Update clear button visibility
             document.getElementById('clearSearch').classList.toggle('hidden', !searchQuery);
             
-            lucide.createIcons();
+            if (window.lucide) lucide.createIcons();
         }
 
         // Reset filters

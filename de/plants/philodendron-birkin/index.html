@@ -28,7 +28,7 @@
     <meta name="twitter:image" content="https://plantfinder.org/images/plants/philodendron-birkin.webp">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/assets/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="https://unpkg.com/lucide@1.47.0/dist/umd/lucide.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         .rating-bar { height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }
@@ -319,7 +319,7 @@
         </div>
     </footer>
     
-    <script>lucide.createIcons();</script>
+    <script>document.addEventListener('DOMContentLoaded', () => lucide.createIcons());</script>
 
 </body>
 </html>

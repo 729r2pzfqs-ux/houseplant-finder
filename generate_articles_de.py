@@ -69,8 +69,8 @@ def get_footer():
             </div>
         </div>
     </footer>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>lucide.createIcons();</script>
+    <script defer src="https://unpkg.com/lucide@1.47.0/dist/umd/lucide.min.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', () => lucide.createIcons());</script>
 </body>
 </html>'''
 

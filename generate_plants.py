@@ -205,7 +205,7 @@ def generate_plant_html(plant):
     <meta property="og:site_name" content="PlantFinder">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="https://unpkg.com/lucide@1.47.0/dist/umd/lucide.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {{
@@ -475,7 +475,7 @@ def generate_plant_html(plant):
     </footer>
     
     <script>
-        lucide.createIcons();
+        document.addEventListener('DOMContentLoaded', () => lucide.createIcons());
     </script>
 </body>
 </html>'''

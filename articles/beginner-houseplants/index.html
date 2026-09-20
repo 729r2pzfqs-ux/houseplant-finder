@@ -31,7 +31,7 @@
     <link rel="alternate" hreflang="x-default" href="https://plantfinder.org/articles/beginner-houseplants/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/assets/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="https://unpkg.com/lucide@1.47.0/dist/umd/lucide.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>.prose h2{scroll-margin-top:80px}</style>
 
@@ -366,7 +366,7 @@
         </div>
     </footer>
 
-    <script>lucide.createIcons();</script>
+    <script>document.addEventListener('DOMContentLoaded', () => lucide.createIcons());</script>
 
 </body>
 </html>
