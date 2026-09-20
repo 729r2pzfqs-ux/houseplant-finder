@@ -199,5 +199,340 @@
       "'Golden' is the familiar green-and-yellow form. 'Marble Queen' is heavily streaked with white and grows more slowly, since it carries less chlorophyll. 'Neon' is a uniform chartreuse with no variegation at all and keeps its colour best in bright indirect light.",
       "'N'Joy' and 'Pearls and Jade' are compact, with distinct white-bordered leaves. 'Satin pothos' is sold alongside these but is actually Scindapsus pictus, a different genus with velvety, silver-spotted leaves — care is very similar. Note that all pothos varieties are toxic to cats and dogs if chewed, so a hanging position is worth considering in a pet household."
     ]
+  },
+  "peace-lily": {
+    "care": {
+      "light": [
+        "Peace lily is one of the few genuinely flowering plants that tolerates low light, which is why it ends up in office lobbies. It survives in dim corners, but it will not bloom there. The white spathes need medium to bright indirect light to form, so if yours has produced only leaves for a year, light is almost certainly the reason.",
+        "Keep it out of direct sun, which scorches the thin leaves within days. A north or east window, or a few feet back from a brighter one, gives the balance of enough light to flower without burning."
+      ],
+      "water": [
+        "Peace lily likes evenly moist soil and, unusually among houseplants, tells you clearly when it is thirsty: the whole plant droops dramatically, then recovers within hours of watering. Tempting as it is to use that as a schedule, repeated wilting stresses the plant and causes leaf-edge browning over time. Water when the top inch is dry rather than waiting for the collapse.",
+        "In spring and summer that is usually once a week; in winter, every ten to fourteen days. Water thoroughly until it drains and never leave the pot standing in a full saucer.",
+        "This is a plant that genuinely benefits from humidity. It comes from tropical forest floors and appreciates 50% or more — a pebble tray, a humidifier or a bathroom position all help. It is also sensitive to chlorine and fluoride, so if you see brown tips despite good watering, switch to filtered or rainwater."
+      ],
+      "soil": [
+        "Use a standard peat-based potting mix with a handful of perlite for drainage. Peace lily wants a medium that holds moisture without becoming waterlogged, so avoid heavy garden soil and avoid pure bark mixes, which dry out far too fast for this species.",
+        "Feed every six to eight weeks during spring and summer with a balanced liquid fertiliser at half strength. Peace lilies are light feeders and over-fertilising is a common cause of brown leaf tips. Stop feeding completely in autumn and winter."
+      ]
+    },
+    "propagation": [
+      "Peace lily is propagated by division, not by cuttings. A leaf or stem cutting will not root, because the plant grows as a clump of crowns rising from a shared root mass rather than from nodes along a stem.",
+      "The best time is spring, ideally while repotting. Slide the plant out and look at the base: you will see distinct crowns, each with its own leaves and roots. Work them apart with your fingers where you can, and use a clean knife where the root mass is too dense. Each division needs at least two or three leaves and a decent share of roots to establish. Pot each one into fresh mix in a pot only slightly larger than its roots, water well, and keep out of direct light for a few weeks while it settles. Expect a sulk — some drooping and perhaps a lost leaf — before new growth appears."
+    ],
+    "problems": [
+      {
+        "symptom": "Plant wilts dramatically, then recovers after watering",
+        "cause": "Underwatering. Peace lily collapses visibly when the mix dries out and bounces back quickly once watered.",
+        "fix": "Water more regularly, aiming to water when the top inch is dry rather than waiting for the wilt. Repeated wilting damages leaf tissue even though the plant recovers each time."
+      },
+      {
+        "symptom": "Brown, crispy leaf tips",
+        "cause": "Chlorine or fluoride in tap water, over-fertilising, or dry air — often a combination.",
+        "fix": "Switch to filtered, distilled or rainwater, halve your fertiliser, flush the pot with plain water every few months, and raise humidity. Trim brown tips at an angle with clean scissors."
+      },
+      {
+        "symptom": "No flowers for a year or more",
+        "cause": "Not enough light. Peace lily survives in low light but only blooms in medium to bright indirect light. A very young plant may also simply be too immature.",
+        "fix": "Move to a brighter spot out of direct sun and feed lightly through the growing season. Blooming usually follows within a few months."
+      },
+      {
+        "symptom": "Flowers emerging green instead of white, or turning green as they age",
+        "cause": "Green-ageing is normal — spathes turn green then brown as they finish. Flowers that open green usually mean too much fertiliser or too much light.",
+        "fix": "Cut spent flower stalks to the base. If new blooms open green, reduce feeding and check the plant is not in harsh light."
+      },
+      {
+        "symptom": "Yellowing leaves, especially lower ones",
+        "cause": "Overwatering if the mix stays wet, natural ageing if it is one or two older leaves at a time, or too much direct light if the yellowing is widespread and pale.",
+        "fix": "Check the soil first. If it is soggy, extend the watering interval and confirm the pot drains. Remove yellow leaves at the base."
+      },
+      {
+        "symptom": "Black or dark brown leaf bases, mushy stems",
+        "cause": "Root rot from waterlogged soil or a pot left standing in water.",
+        "fix": "Unpot, cut away every soft brown root, and repot into fresh mix in a pot with working drainage. Water sparingly until new growth appears."
+      },
+      {
+        "symptom": "Sticky residue on leaves and fine webbing",
+        "cause": "Spider mites or mealybugs, both encouraged by dry indoor air.",
+        "fix": "Wipe the leaves down, rinse the plant in the shower, and treat with insecticidal soap every five to seven days for three cycles. Raising humidity discourages spider mites specifically."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years, in spring. Peace lily grows into its pot quickly and the signs are clear: roots circling the surface or emerging from drainage holes, water running straight through, and much faster wilting between waterings than before.",
+      "Go up only one pot size. Peace lily flowers more freely when slightly snug, and an oversized pot holds wet soil around the roots. Loosen the root ball, remove any dark soft roots, and set the plant at the same depth in fresh mix.",
+      "If the clump has become congested, repotting is the natural moment to divide it into two or three plants. Water thoroughly afterwards and hold off fertiliser for six weeks while the roots recover."
+    ],
+    "varieties": [
+      "'Mauna Loa' is the common large form, reaching around three feet with big spathes. 'Domino' carries irregular white variegation across the leaves and needs a little more light to keep the pattern. 'Sensation' is the giant of the group, capable of four to six feet with broad, deeply ribbed leaves — a genuine floor plant.",
+      "For smaller spaces, 'Petite' stays under a foot. Whichever you choose, all Spathiphyllum are toxic to cats and dogs: the calcium oxalate crystals cause mouth and throat irritation if chewed, so this is not a plant for a household with a nibbling pet."
+    ]
+  },
+  "zz-plant": {
+    "care": {
+      "light": [
+        "ZZ plant tolerates lower light than almost anything else sold as a houseplant, including windowless offices lit only by fluorescent tubes. It genuinely survives there, thanks to the potato-like rhizomes under the soil that store water and energy.",
+        "That said, it grows faster and more upright in bright indirect light. In very low light expect perhaps one or two new stems a year, and those stems may lean toward the light source. Direct afternoon sun scorches the glossy leaflets, so filtered light is the target if you want actual growth rather than mere survival."
+      ],
+      "water": [
+        "This is the most drought-tolerant common houseplant, and almost every ZZ that dies is drowned rather than starved. The rhizomes hold weeks of water in reserve. Let the mix dry out completely — all the way through, not just the top inch — before watering again.",
+        "In practice that means every two to three weeks in a bright spot during summer, and as little as once every four to six weeks in winter or in low light. Water thoroughly when you do, letting it run from the drainage holes, then leave it alone entirely.",
+        "If you are ever unsure, wait. A ZZ that has gone too long shows wrinkled stems and drooping leaflets and recovers completely from a good soak. A ZZ that has been kept wet develops rhizome rot, which is usually fatal by the time it shows above the soil. Humidity is irrelevant to this plant."
+      ],
+      "soil": [
+        "Use a fast-draining mix — cactus and succulent compost, or ordinary potting mix cut with a third perlite or coarse sand. The rhizomes need air around them and rot in dense, water-retentive media.",
+        "Drainage holes are non-negotiable. Terracotta helps if you are a generous waterer. Feed very lightly: a balanced fertiliser at half strength two or three times across spring and summer is plenty, and none in winter. ZZ plants grow slowly and cannot use much."
+      ]
+    },
+    "propagation": [
+      "ZZ plants propagate three ways, and all of them are slow. Division is the quickest: unpot a mature plant, separate the rhizome clusters by hand or with a clean knife making sure each piece has at least one stem and some roots, and pot each into dry cactus mix. Wait a week before the first watering so the cut surfaces callus.",
+      "Stem cuttings also work — take a whole stem at soil level, cut it into sections, and stand them in water or damp mix. Leaf cuttings are the slowest but most reproducible method: pull individual leaflets off with a small piece of the stem attached, lay them on barely moist mix, and wait. A pea-sized rhizome forms at the base after two to three months, and the first new shoot may take six months to a year. This is a propagation project for the patient; there is no way to speed it up, and warmth and bright indirect light are the only levers that help."
+    ],
+    "problems": [
+      {
+        "symptom": "Yellowing leaves and stems going soft at the base",
+        "cause": "Overwatering and rhizome rot. This is the classic ZZ failure and it is usually well advanced before anything shows above the soil.",
+        "fix": "Unpot immediately. Healthy rhizomes are firm and pale; rotted ones are brown, soft and smell sour. Cut away everything soft, let the remaining pieces dry for a day, and repot into dry cactus mix. Do not water for at least a week."
+      },
+      {
+        "symptom": "Wrinkled stems, leaflets curling or drooping",
+        "cause": "Genuine underwatering — the plant has used up its stored reserves. This takes months to reach and is rare.",
+        "fix": "Water thoroughly until it drains, and repeat in a week. The stems plump back out over a couple of weeks. This is far easier to fix than the opposite problem."
+      },
+      {
+        "symptom": "Stems flopping outward from the centre",
+        "cause": "Too little light causing weak, stretched growth, or a plant that has grown top-heavy and needs repotting.",
+        "fix": "Move to brighter indirect light. A snug, heavy pot helps keep tall stems upright. Stems that have flopped will not straighten, so prune them at soil level if they bother you."
+      },
+      {
+        "symptom": "Brown tips on the leaflets",
+        "cause": "Fluoride and salts in tap water, over-fertilising, or occasionally very dry air combined with irregular watering.",
+        "fix": "Flush the pot thoroughly with plain water every few months, reduce fertiliser, and try filtered water if your supply is hard."
+      },
+      {
+        "symptom": "Leaflets dropping from otherwise healthy stems",
+        "cause": "Sudden change in conditions — a move, a cold draught, or a dramatic shift in watering. ZZ plants shed leaflets as a stress response.",
+        "fix": "Settle it in one position, keep it away from doors and heating vents, and resume consistent care. New leaflets will not regrow on bare sections of stem, so prune those out once the plant has stabilised."
+      },
+      {
+        "symptom": "Pale, washed-out or scorched patches on leaflets",
+        "cause": "Direct sun, particularly through an unshaded south or west window in summer.",
+        "fix": "Move it back from the glass or filter the light with a sheer curtain. Damaged leaflets will not recover; remove the worst and let new growth replace them."
+      },
+      {
+        "symptom": "Small brown bumps along stems and leaflet undersides",
+        "cause": "Scale insects. The glossy foliage makes them relatively easy to spot once you look.",
+        "fix": "Scrape them off with a cotton bud dipped in rubbing alcohol and follow with neem oil, repeating weekly for a month to catch the crawlers."
+      }
+    ],
+    "repotting": [
+      "ZZ plants are slow and happy being snug, so repotting every two to three years is plenty. The usual prompt is unmistakable: the rhizomes swell until they visibly distort or crack a plastic pot, or push the whole plant upward out of the soil.",
+      "Repot in spring into a pot one size larger, choosing something sturdy — a mature ZZ is heavy and top-heavy. Handle the rhizomes carefully; they bruise, and a damaged rhizome is an entry point for rot.",
+      "Use dry mix and wait a week before watering, which gives any roots damaged during the move a chance to seal. Skip fertiliser for a couple of months. Division into new pots is easiest at this point if the clump has become crowded."
+    ],
+    "varieties": [
+      "The standard Zamioculcas zamiifolia has glossy mid-green leaflets. 'Raven' is the striking dark cultivar: new growth emerges bright lime green and matures to a near-black purple, and it needs decent indirect light to develop that colour fully.",
+      "'Zenzi' and 'Zamicro' are dwarf forms with shorter stems and tightly packed leaflets, useful for shelves and desks. A variegated form exists with cream and green marbling but is slow, expensive and more prone to scorching. All ZZ plants are toxic to cats and dogs, and the sap can irritate skin — worth wearing gloves when dividing rhizomes."
+    ]
+  },
+  "spider-plant": {
+    "care": {
+      "light": [
+        "Spider plant does best in bright indirect light, which keeps the variegation crisp and encourages the arching flower stems that carry the plantlets. It tolerates medium light and even fairly dim corners, but growth slows and the white stripes fade toward green.",
+        "Keep it out of direct midday sun, which bleaches and scorches the narrow leaves. An east-facing window is close to perfect; a west or south window works if the plant sits back from the glass or behind a sheer curtain. If you want babies, err on the brighter side — plantlets are produced far more freely in good light."
+      ],
+      "water": [
+        "Water when the top inch of mix has dried, keeping the soil lightly moist but never soggy. Through spring and summer that is typically once a week. Spider plants store water in thick, tuberous roots, so they cope with an occasional missed watering better than most.",
+        "Reduce to every ten to fourteen days in winter when growth slows. Water thoroughly until it drains and discard what collects in the saucer.",
+        "Spider plants are notoriously sensitive to fluoride and chlorine in tap water — this is the single most common cause of the brown tips they are famous for. If your water is heavily treated, use filtered, distilled or rainwater, or leave tap water standing uncovered overnight. Average household humidity is fine, though they appreciate a little extra."
+      ],
+      "soil": [
+        "A standard well-draining potting mix with a handful of perlite suits them well. The thick storage roots want air as well as moisture, so avoid dense, compacted media.",
+        "Feed every four weeks through spring and summer with a balanced liquid fertiliser at half strength, and stop over winter. Go easy: over-fertilising is the second most common cause of brown leaf tips after tap water, because salts accumulate in the mix. Flushing the pot with plain water every few months clears them out."
+      ]
+    },
+    "propagation": [
+      "Spider plants are the easiest houseplant of all to propagate, because they do most of the work themselves. A mature plant sends out long arching stems carrying plantlets — miniature spider plants, often with stubby roots already forming at the base.",
+      "You have three options. Leave the plantlet attached to the parent and pin it down into a small pot of moist mix beside it; once it has rooted in a few weeks, snip the connecting stem. Or cut the plantlet off and stand it in water until roots are an inch or two long, then pot it up. Or plant the cut plantlet straight into damp soil and keep it moist while it establishes. All three work reliably; the attached method is the most foolproof because the parent keeps feeding the baby while it roots. Mature clumps can also be divided at repotting, which is the quickest way to make two full-sized plants."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown tips on the leaves",
+        "cause": "The signature spider plant complaint. Usually fluoride or chlorine in tap water, salt buildup from fertiliser, or dry air — often all three.",
+        "fix": "Switch to filtered, distilled or rainwater, flush the pot with plain water every few months, and cut back on feeding. Trim the brown tip at an angle following the leaf's natural point; it will not regrow green but it will stop spreading."
+      },
+      {
+        "symptom": "No plantlets being produced",
+        "cause": "Insufficient light, a plant too young to flower, or too much root room. Spider plants tend to produce babies once they are comfortably pot-bound.",
+        "fix": "Move to brighter indirect light and resist repotting into a much larger container. A plant that is slightly snug flowers and produces plantlets far more readily."
+      },
+      {
+        "symptom": "Pale, washed-out leaves losing their stripes",
+        "cause": "Either too little light, which fades variegation toward green, or too much direct sun, which bleaches the whole leaf.",
+        "fix": "Check the position. Faded-to-green usually means move brighter; bleached and papery means move back from the glass."
+      },
+      {
+        "symptom": "Leaves yellowing and limp, mix constantly damp",
+        "cause": "Overwatering and the beginnings of root rot in the fleshy storage roots.",
+        "fix": "Let the top inch dry fully between waterings and confirm the pot drains freely. If the roots are brown and soft rather than firm and white, trim them and repot into fresh mix."
+      },
+      {
+        "symptom": "Whole plant looks limp and the pot feels very light",
+        "cause": "Underwatering, or a root system so congested that there is barely any soil left to hold water.",
+        "fix": "Water thoroughly and check whether roots have filled the pot. A plant that dries out within two or three days of watering needs repotting regardless of the calendar."
+      },
+      {
+        "symptom": "Fine webbing between leaves, stippled grey-green foliage",
+        "cause": "Spider mites, which favour the dry air around radiators.",
+        "fix": "Rinse the plant thoroughly in the shower, then treat with insecticidal soap every five to seven days for three cycles. Raising humidity makes recurrence much less likely."
+      },
+      {
+        "symptom": "Brown mushy patches at the base of the leaf clump",
+        "cause": "Crown rot from water sitting in the centre of the rosette, or from soil kept saturated.",
+        "fix": "Water into the mix rather than over the crown, improve drainage, and remove affected leaves at the base. Divide out any healthy sections if the centre is badly affected."
+      }
+    ],
+    "repotting": [
+      "Spider plants grow vigorously and typically need repotting every one to two years. The thick white storage roots fill a pot quickly and will eventually lift the whole plant above the rim or crack a plastic container outright.",
+      "Repot in spring, moving up one pot size. Do not be tempted by a much larger container — a slightly snug spider plant produces far more plantlets, and extra soil just stays wet. Loosen the dense root mass, trim any brown or mushy roots, and set the plant at its previous depth.",
+      "This is the natural moment to divide. A congested clump pulls apart into two or three plants, each with roots and a good fan of leaves. Water well afterwards and wait a month before feeding."
+    ],
+    "varieties": [
+      "'Vittatum' is the classic, with a broad white central stripe and green margins. 'Variegatum' reverses that, with green centres and white edges. Both are equally easy and equally prolific with plantlets.",
+      "'Bonnie' is the curly form, with leaves that spiral tightly — the same plant behaviourally, just more compact and better suited to a shelf. 'Hawaiian' has a pale champagne-coloured flush on new growth that fades to green as leaves mature. All spider plants are non-toxic to cats and dogs, which is why they are one of the most recommended plants for pet households — though cats are notoriously drawn to chewing the dangling leaves, so expect some nibbling."
+    ]
+  },
+  "fiddle-leaf-fig": {
+    "care": {
+      "light": [
+        "Fiddle leaf fig needs more light than most people give it, and this is the root of its difficult reputation. It wants bright indirect light for most of the day — directly in front of an east window, or a few feet from a south or west window. In a dim corner it drops leaves steadily and never recovers properly.",
+        "A few hours of gentle direct morning sun is beneficial; harsh afternoon sun through unshaded glass will scorch the large leaves. Rotate the pot a quarter turn every week or two, because the plant leans hard toward its light source and develops a one-sided crown if left alone."
+      ],
+      "water": [
+        "Water when the top two inches of mix are dry, then water thoroughly until it runs from the drainage holes. In a bright spot during spring and summer that is usually every seven to ten days. This plant hates both extremes — it will drop leaves from drought and rot from constant wet.",
+        "Cut back substantially in autumn and winter, often to every two to three weeks. The combination of low winter light and unchanged watering is what kills most fiddle leaf figs in their first year.",
+        "Consistency matters more than frequency here. Fiddle leaf figs respond badly to erratic care, so pick a checking routine and stick to it. They prefer humidity above 40% and dislike cold draughts intensely — keep them away from doors, single-glazed windows and air conditioning vents."
+      ],
+      "soil": [
+        "Use a well-draining potting mix with plenty of structure: roughly two parts quality potting compost to one part perlite and one part orchid bark. Ficus lyrata roots need air, and a dense peat-heavy mix that stays soggy is a direct route to root rot.",
+        "The pot must drain freely. Feed every four weeks through spring and summer with a balanced liquid fertiliser at half strength, or use a fertiliser formulated for foliage plants with a higher nitrogen ratio. Stop feeding entirely from October to March."
+      ]
+    },
+    "propagation": [
+      "Fiddle leaf figs propagate from stem cuttings taken in spring or early summer. Choose a section of stem six to twelve inches long with one or two healthy leaves, and cut just below a node with clean, sharp secateurs. The plant bleeds a milky white latex when cut — it irritates skin and is toxic if ingested, so wear gloves and rinse the cut end before proceeding.",
+      "Stand the cutting in water in a bright spot out of direct sun, changing the water weekly, or pot it straight into damp, free-draining mix. Rooting is slower than for most houseplants, typically four to eight weeks, and warmth makes a real difference. A clear bag loosely over a soil-potted cutting raises humidity and improves the odds. Once roots are two to three inches long, pot into your usual mix and keep it slightly moister than an established plant for the first few weeks. Air layering is the more reliable method for a tall, bare-stemmed plant, and has the advantage of producing a large plant immediately rather than a single-stem cutting."
+    ],
+    "problems": [
+      {
+        "symptom": "Brown spots in the middle of leaves with dark edges",
+        "cause": "Root rot from overwatering. On fiddle leaf figs the damage often shows in the leaf centre rather than the edges, and spreads outward.",
+        "fix": "Check the roots. Trim anything brown and soft, repot into fresh free-draining mix, and reduce watering. Affected leaves will not recover and can be removed."
+      },
+      {
+        "symptom": "Brown, dry patches starting at the leaf edges",
+        "cause": "Underwatering or very low humidity, sometimes combined with a plant sitting near a radiator.",
+        "fix": "Water more consistently and move it away from heat sources. Raising humidity to 40-50% helps noticeably."
+      },
+      {
+        "symptom": "Sudden leaf drop",
+        "cause": "Stress from change — a new position, a cold draught, a sharp temperature swing, or an abrupt shift in watering. Fiddle leaf figs are unusually sensitive to being moved.",
+        "fix": "Settle it in one spot with stable conditions and stop adjusting things. Some drop after a move home is normal; give it a month to acclimatise before intervening further."
+      },
+      {
+        "symptom": "Leaves pale, small, and widely spaced up a leggy stem",
+        "cause": "Not enough light. The plant stretches toward the window and cannot support full-sized foliage.",
+        "fix": "Move it into genuinely bright indirect light. Prune the top back to encourage branching, and rotate the pot regularly so it grows evenly."
+      },
+      {
+        "symptom": "Red or brown speckling on new leaves",
+        "cause": "Oedema — cells rupturing because the plant took up water faster than it could transpire it, usually after heavy watering in low light.",
+        "fix": "Water less and increase light. The spotting is cosmetic and does not spread; new leaves will come out clean once conditions are right."
+      },
+      {
+        "symptom": "White fuzzy spots or fine webbing on leaf undersides",
+        "cause": "Mealybugs or spider mites, both of which shelter under the broad leaves where they go unnoticed.",
+        "fix": "Wipe every leaf on both sides with a damp cloth, then treat with insecticidal soap or neem oil weekly for three to four weeks. Inspect the undersides regularly — this is the spot people forget."
+      },
+      {
+        "symptom": "Dusty leaves looking dull",
+        "cause": "Simple dust accumulation. The large flat leaves collect it quickly, and a heavy layer measurably reduces the light reaching the leaf.",
+        "fix": "Wipe both sides with a damp cloth every few weeks. This is genuine maintenance for this species rather than cosmetic."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years while young, then every two to three years once mature. Signs are roots circling the surface or emerging from the drainage holes, water running straight through, and growth stalling during the growing season.",
+      "Spring is the right time. Move up one pot size only — typically two inches wider. Fiddle leaf figs are top-heavy, so choose a substantial pot that will not tip; a wide, heavy ceramic container is safer than a tall narrow one.",
+      "Handle the root ball gently and disturb it as little as possible, because this species resents root disturbance and often sulks for a few weeks afterwards. Water thoroughly, keep it out of direct sun for a fortnight, and do not fertilise for six weeks. For very large specimens that cannot practically be repotted, top-dress instead: scrape off the top two inches of mix and replace with fresh compost each spring."
+    ],
+    "varieties": [
+      "'Bambino' is the dwarf cultivar, reaching three to four feet with smaller, rounder leaves — a far more practical choice for an average room than the species, which can reach ten feet indoors. 'Compacta' is similar, with tightly spaced leaves on a bushier frame.",
+      "'Variegata' carries cream and green marbling, is considerably harder to keep and needs bright light to avoid the white sections browning. Whichever form you choose, Ficus lyrata is toxic to cats and dogs, and the milky sap irritates skin on contact — worth knowing before you prune."
+    ]
+  },
+  "rubber-plant": {
+    "care": {
+      "light": [
+        "Rubber plant is more forgiving than its relative the fiddle leaf fig, tolerating medium light while preferring bright indirect. In good light it produces large, glossy, well-spaced leaves; in dim conditions the stem stretches and the leaves come out smaller and further apart.",
+        "Variegated forms such as 'Tineke' and 'Ruby' need noticeably more light than the plain dark green species, because the cream and pink tissue contains little chlorophyll. If a variegated rubber plant is reverting to green, the light level is the reason. Avoid harsh direct sun, which scorches, though gentle morning sun is fine."
+      ],
+      "water": [
+        "Let the top one to two inches dry out before watering, then water thoroughly until it drains. In spring and summer that usually works out at every seven to ten days. Rubber plants are moderately drought-tolerant thanks to their thick, waxy leaves and dislike sitting wet.",
+        "Cut back sharply in winter to every two to three weeks, or longer in a cool room. Overwatering in winter is the most common cause of the sudden lower-leaf drop that alarms new owners.",
+        "Wipe the leaves with a damp cloth every few weeks. The broad glossy surfaces collect dust quickly, and clean leaves photosynthesise better and look dramatically better. Average household humidity is adequate, though the plant appreciates a little extra."
+      ],
+      "soil": [
+        "Use a well-draining potting mix with added perlite or bark — roughly three parts compost to one part perlite. The aim is a medium that holds some moisture but drains freely, since Ficus elastica roots rot in dense, waterlogged soil.",
+        "Feed monthly through spring and summer with a balanced liquid fertiliser at half strength. Rubber plants are moderately hungry and respond well to feeding during active growth, but stop completely in autumn and winter, when unused fertiliser salts accumulate and burn the roots."
+      ]
+    },
+    "propagation": [
+      "Rubber plants root readily from stem cuttings taken in spring or early summer. Cut a six-inch section of stem with two or three leaves, just below a node. The cut bleeds copious milky latex, which irritates skin and stains — wear gloves and dab the wound with a damp cloth until it stops before potting.",
+      "Reduce water loss by rolling the remaining leaves into a loose cylinder and securing them with an elastic band. Pot the cutting into damp, free-draining mix, or stand it in water, and keep it warm in bright indirect light. A clear bag over a soil-potted cutting maintains humidity and improves success. Roots take four to six weeks. Air layering is the better technique for a tall, leggy plant: wound the stem, wrap it in damp sphagnum moss inside a plastic sleeve, and wait six to eight weeks for roots to form before cutting below them — you get a substantial new plant immediately and the parent branches from the cut."
+    ],
+    "problems": [
+      {
+        "symptom": "Lower leaves yellowing then dropping",
+        "cause": "Overwatering is the usual cause. Losing the occasional oldest leaf is normal, but several at once with damp soil is a warning.",
+        "fix": "Let the top two inches dry before watering and confirm the pot drains. In winter, extend the interval substantially."
+      },
+      {
+        "symptom": "Sudden leaf drop after a move",
+        "cause": "Shock from a change in light, temperature or humidity. Rubber plants dislike cold draughts in particular.",
+        "fix": "Settle it in one position away from doors and vents, and maintain steady watering. It usually stabilises within a few weeks; avoid making further changes while it adjusts."
+      },
+      {
+        "symptom": "Brown crispy leaf edges",
+        "cause": "Dry air, underwatering, or salt buildup from fertiliser and hard water.",
+        "fix": "Water more consistently, flush the pot with plain water every few months, and raise humidity slightly. Reduce feeding if you have been generous."
+      },
+      {
+        "symptom": "Variegated leaves reverting to solid green",
+        "cause": "Insufficient light. The plant favours chlorophyll-rich green tissue when it is short of energy.",
+        "fix": "Move to brighter indirect light and prune out fully green shoots to redirect growth into variegated stems."
+      },
+      {
+        "symptom": "Tall bare stem with leaves only at the top",
+        "cause": "Natural growth habit combined with low light and no pruning. Rubber plants grow as single stems unless encouraged to branch.",
+        "fix": "Cut the main stem back by a third in spring. The plant branches from below the cut, and the section you removed can be air-layered or rooted as a cutting."
+      },
+      {
+        "symptom": "Black spots or soft dark patches on leaves",
+        "cause": "Fungal leaf spot or advanced root rot, typically following prolonged overwatering combined with poor air circulation.",
+        "fix": "Remove affected leaves, improve airflow, and inspect the roots. Trim soft brown roots and repot into fresh mix if rot is present."
+      },
+      {
+        "symptom": "Sticky leaves and small brown bumps on stems",
+        "cause": "Scale insects excreting honeydew, which in turn attracts sooty mould.",
+        "fix": "Scrape the scale off with a cotton bud dipped in rubbing alcohol, wash the sticky residue off with soapy water, and treat with neem oil weekly for a month."
+      }
+    ],
+    "repotting": [
+      "Repot every one to two years while the plant is young and growing quickly, then every two to three years. The signals are roots through the drainage holes, water running straight through, or a plant that has stopped growing in spring.",
+      "Repot in spring into a pot one size larger. Rubber plants grow tall and become top-heavy, so weight and width in the pot matter more than depth. Loosen circling roots and trim any that are dark and soft.",
+      "A mature rubber plant that has reached the ceiling can be kept at a manageable size by pruning the top and root-pruning at repotting: trim the outer inch of the root ball and return it to the same container with fresh mix. Water well and hold off fertiliser for six weeks."
+    ],
+    "varieties": [
+      "The plain species has deep green leaves; 'Robusta' is the common commercial form with especially broad, thick foliage. 'Burgundy' and 'Abidjan' have near-black leaves with red midribs and hold that colour best in bright light.",
+      "'Tineke' carries cream and grey-green variegation, and 'Ruby' adds pink flushing to the margins — both need more light than the green forms to keep their colour. All Ficus elastica are toxic to cats and dogs, and the milky sap causes skin irritation and stains fabric, so gloves and a dust sheet are worth having when pruning."
+    ]
   }
 }
